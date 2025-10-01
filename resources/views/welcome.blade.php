@@ -3,59 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nucleo Dental - Bootstrap</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Nucleo Dental</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-sans">
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-white shadow-sm">
-  <div class="container">
-    <a class="navbar-brand fw-bold text-primary" href="#">NÚCLEO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
-        <li class="nav-item"><a class="btn btn-primary ms-2 px-4" href="#">Contact</a></li>
-      </ul>
-    </div>
+<nav class="bg-white shadow-md">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <!-- Logo -->
+    <a href="#" class="text-xl font-bold text-indigo-700">NÚCLEO DENTAL</a>
+    
+    <!-- Links -->
+    <ul class="hidden md:flex space-x-6 items-center">
+      <li><a href="#" class="text-gray-700 hover:text-indigo-600">Home</a></li>
+      <li><a href="#" class="text-gray-700 hover:text-indigo-600">Services</a></li>
+      <li><a href="#" class="text-gray-700 hover:text-indigo-600">About us</a></li>
+      <li><a href="#" class="text-gray-700 hover:text-indigo-600">Technology</a></li>
+      <li><a href="#" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800">Contact</a></li>
+      
+      <!-- Language Dropdown -->
+      <li class="relative">
+        <button id="langBtn" class="flex items-center gap-2 border px-3 py-1 rounded hover:bg-gray-100">
+          <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4">
+          <span>EN</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <!-- Dropdown -->
+        <ul id="langMenu" class="absolute hidden bg-white border rounded mt-2 w-28 shadow-lg z-50">
+          <li>
+            <a href="#" class="flex items-center gap-2 px-3 py-2 hover:bg-gray-100">
+              <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4"> EN
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center gap-2 px-3 py-2 hover:bg-gray-100">
+              <img src="https://flagcdn.com/w20/mx.png" alt="ES" class="w-5 h-4"> ES
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </nav>
 
 <!-- Hero -->
-<section class="position-relative text-white">
-  <img src="https://as2.ftcdn.net/v2/jpg/02/46/18/79/1000_F_246187932_EeRX8hXcEH5Ba9KJar0mhgu11YWpY6lc.jpg" class="w-100" style="height:500px;object-fit:cover;">
-  <div class="container position-absolute top-50 start-0 translate-middle-y text-start">
-    <h2 class="fw-bold">Creating vibrant smiles<br>for healthy lifestyles</h2>
-    <p class="lead">With over 25 years of experience we can give you<br>the beautiful healthy smile you deserve.</p>
-    <a href="#" class="btn btn-primary btn-lg">Check our services</a>
-    <div class="mt-3">
-      <button class="btn btn-outline-light me-2">📞 +1 (915) 308 - 0101</button>
-      <button class="btn btn-outline-light">📞 +52 (656) 625 - 9250</button>
-    </div>
+<section class="relative">
+  <img src="https://as1.ftcdn.net/v2/jpg/02/46/18/78/1000_F_246187812_D7A1GzXLISKxcKr24TpH095qPeumMv6Q.jpg" class="w-full h-[500px] object-cover">
+  <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+  <div class="absolute top-1/2 left-10 transform -translate-y-1/2 text-white max-w-xl">
+    <h2 class="text-4xl font-bold leading-tight">Creating vibrant smiles<br>for healthy lifestyles</h2>
+    <p class="mt-4 text-lg">With over 25 years of experience we can give you<br>the beautiful healthy smile you deserve.</p>
+<a href="#" class="mt-6 inline-block bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-full shadow-lg">
+  Check our services
+</a>
+<div class="mt-6 inline-flex items-center rounded-full border border-white bg-white bg-opacity-10 px-5 py-2 text-white">
+  <!-- Icono de teléfono -->
+  <i class="fa-solid fa-phone mr-3 text-white text-lg"></i>
+  
+  <!-- Números en columna -->
+  <div class="flex flex-col leading-tight text-white">
+    <span>+1 (915) 308 - 0101</span>
+    <span>+52 (656) 625 - 9250</span>
+  </div>
+</div>
+
+
   </div>
 </section>
 
 <!-- Financing -->
-<section class="bg-light text-center py-5">
-  <div class="container">
-    <h3><span class="text-dark">Smile now...</span><span class="text-primary fw-bold">Pay later!</span></h3>
-    <p class="text-muted">We now offer finance in our treatments</p>
-    <a href="#" class="btn btn-outline-secondary">Call us about financing.</a>
-  </div>
+<section class="bg-gray-100 text-center py-12">
+  <h3 class="text-3xl">Smile now... <span class="text-indigo-700 font-bold">Pay later!</span></h3>
+  <p class="mt-2 text-gray-600">We now offer finance in our treatments</p>
+  <a href="#" class="mt-5 inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-gray-200">Call us about financing.</a>
 </section>
 
 <!-- Footer -->
-<footer class="bg-primary text-white text-center p-4">
-  <p class="mb-0">Find Your Perfect Smile, <strong>Today!</strong></p>
-  <small>Nucleo Dental is located in <strong>Juarez, Chihuahua</strong>, but patients visit us from the United States, Mexico and El Paso, TX.</small>
+<footer class="bg-indigo-700 text-white text-center p-6">
+  <p class="text-xl">Find Your Perfect Smile, <span class="font-bold">Today!</span></p>
+  <small class="block mt-2">Nucleo Dental is located in <strong>Juarez, Chihuahua</strong>, but patients visit us from the United States, Mexico and El Paso, TX.</small>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Script dropdown -->
+<script>
+  const btn = document.getElementById('langBtn');
+  const menu = document.getElementById('langMenu');
+
+  // Abrir/cerrar dropdown
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation(); // evita que el click cierre el menú
+    menu.classList.toggle('hidden');
+  });
+
+  // Evitar que clic en el menú cierre el dropdown
+  menu.addEventListener('click', (e) => e.stopPropagation());
+
+  // Cerrar si clickea afuera
+  window.addEventListener('click', () => {
+    menu.classList.add('hidden');
+  });
+</script>
+
 </body>
 </html>
