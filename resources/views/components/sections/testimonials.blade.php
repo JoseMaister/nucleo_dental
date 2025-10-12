@@ -11,7 +11,7 @@
             </div>
             <div class="text-left">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                   This is an addendum to the review i recently posted. On the same day the review was published (very  helpful liaison with gringos) called and affirmed that they wanted to make me happy with the upper. She advised i could return for a full replacement. 
                 </p>                
             </div>
 

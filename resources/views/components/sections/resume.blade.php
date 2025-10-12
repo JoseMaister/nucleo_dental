@@ -9,7 +9,7 @@
             Nucleo Dental provides high-quality oral health services in one convenient location.
         </div>
         <div class="text-gray-600 leading-relaxed">
-            Our experienced team uses cutting-edge technology to deliver personalized treatments for every level of dental need. We accept new patients, American insurance (with direct reimbursement), and all major credit cards. Located for easy access, we aim to make your visit comfortable and effective.
+            Our experienced team uses cutting-edge technology to deliver personalized treatments for every level of dental need. We accept new patients, American insurance (with direct reimbursement), and all major credit cards. Located for easy access, we aim to make your visit comfortable and effective so you can achieve the perfect smile with confidence.
         </div>
     </div>
     <div class="relative w-[80%] md:w-[300px] h-[500px] max-w-md mx-auto bg-gray-200 rounded-lg overflow-hidden">
