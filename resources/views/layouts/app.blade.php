@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Nucleo Dental')</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans flex flex-col min-h-screen">
+    @if(session()->has('locale'))
+        <script>
+            // Force a page reload to ensure all translations are loaded
+            if (localStorage.getItem('currentLocale') !== '{{ session('locale') }}') {
+                localStorage.setItem('currentLocale', '{{ session('locale') }}');
+                window.location.reload();
+            }
+        </script>
+    @endif
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <a href="{{ route('home') }}" class="flex items-center">
+                <img src="{{ asset('images/logo.png') }}" alt="Núcleo Dental" class="h-12">
+            </a>
+            
+            <!-- Mobile menu button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-700 hover:text-indigo-600">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Desktop Links -->
+            <div class="hidden md:block">
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">Home</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">Services</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">About us</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">Technology</a></li>
+                    <li><a href="#" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800">Contact</a></li>
+                    
+                    <!-- Language Dropdown -->
+                    <li class="relative">
+                        <button id="langBtn" class="flex items-center gap-2 border px-3 py-1 rounded hover:bg-gray-100">
+                            <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4">
+                            <span>EN</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <!-- Dropdown -->
+                        <ul id="langMenu" class="absolute hidden bg-white border rounded mt-2 w-28 shadow-lg z-50">
+                            <li>
+                                <a href="{{ route('language.switch', 'en') }}" class="flex items-center gap-2 px-3 py-2 hover:bg-gray-100">
+                                    <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4"> EN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ route('language.switch', 'es') }}" class="flex items-center gap-2 px-3 py-2 hover:bg-gray-100">
+                                    <img src="https://flagcdn.com/w20/mx.png" alt="EN" class="w-5 h-4"> ES
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            {{-- <div style="position: fixed; bottom: 0; left: 0; background: black; color: white; padding: 10px; z-index: 9999; font-family: monospace; font-size: 12px;">
+                <div>App Locale: {{ app()->getLocale() }}</div>
+                <div>Session Locale: {{ session('locale', 'not set') }}</div>
+                <div>Config Locale: {{ config('app.locale') }}</div>
+                <div>Current URL: {{ url()->current() }}</div>
+                <div>Previous URL: {{ url()->previous() }}</div>
+                <div>Session ID: {{ session()->getId() }}</div>
+                <div>All Routes: 
+                    @foreach(Route::getRoutes() as $route)
+                        {{ $route->uri() }}<br>
+                    @endforeach
+                </div>
+            </div> --}}
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">Home</a>
+                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">Services</a>
+                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">About us</a>
+                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">Technology</a>
+                <a href="#" class="block px-3 py-2 text-indigo-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="flex-1">
+        @yield('content')
+    </main>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Language dropdown toggle
+        const langBtn = document.getElementById('langBtn');
+        const langMenu = document.getElementById('langMenu');
+        
+        if (langBtn && langMenu) {
+            langBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                langMenu.classList.toggle('hidden');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!langMenu.contains(e.target) && e.target !== langBtn) {
+                    langMenu.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
