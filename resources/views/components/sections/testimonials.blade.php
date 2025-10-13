@@ -84,10 +84,9 @@
         console.log('Pagination element:', paginationEl);
         
          const swiper = new Swiper('.testimonials-swiper', {
-            spaceBetween: 30,
+            spaceBetween: 20,
             loop: false,
-            slidesPerView: 2,
-            spaceBetween: 3,
+            slidesPerView: 1,
             initialSlide: 1,
             watchSlidesProgress: true,
             slideToClickedSlide: true,
@@ -98,6 +97,16 @@
                 clickable: false,
                 renderBullet: function (index, className) {
                     return '<span class="' + className + '" style="background: #4f46e5; width: 12px; height: 12px; display: inline-block; border-radius: 50%; margin: 0 5px; opacity: 0.5; cursor: pointer;"></span>';
+                },
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
                 },
             },
                     //     // Update pagination when slides change
