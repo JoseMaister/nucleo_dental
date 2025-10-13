@@ -24,7 +24,7 @@
                 <!-- Service 1 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 bg-white rounded-full flex items-center justify-center p-2">
+                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/implants.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">Dental Implants</p>
@@ -35,7 +35,7 @@
                 <!-- Service 2 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64  max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 bg-white rounded-full flex items-center justify-center p-2">
+                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">Porcelain Veneers</p>
@@ -46,8 +46,8 @@
                 <!-- Service 3 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 bg-white rounded-full flex items-center justify-center p-2">
-                            <img src="{{ asset('images/teeth-whitening.png') }}" alt="Teeth Whitening" class="w-full h-full object-contain">
+                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 flex items-center justify-center p-2">
+                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">Teeth Whitening</p>
                         <span class="text-sm text-center mt-2">Brighten your smile with our professional teeth whitening.</span>
@@ -57,8 +57,8 @@
                 <!-- Service 4 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 bg-white rounded-full flex items-center justify-center p-2">
-                            <img src="{{ asset('images/braces.png') }}" alt="Orthodontics" class="w-full h-full object-contain">
+                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24  flex items-center justify-center p-2">
+                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">Orthodontics</p>
                         <span class="text-sm text-center mt-2">Straighten your teeth with our orthodontic treatments.</span>
@@ -86,8 +86,9 @@
     document.addEventListener('DOMContentLoaded', function() {
         const swiper = new Swiper('.services-swiper', {
             slidesPerView: 1,
-            spaceBetween: 30,
-            loop: false,
+            spaceBetween: 10,
+
+            loop: true,
             navigation: {
                 nextEl: '.services-next',
                 prevEl: '.services-prev',
@@ -95,12 +96,12 @@
             },
             breakpoints: {
                 640: {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
+                    slidesPerView: 2,
+                    spaceBetween: 10,
                 },
                 768: {
-                    slidesPerView: 2,
-                    spaceBetween: 30,
+                    slidesPerView: 3,
+                    spaceBetween: 10,
                 },
             },
             on: {
