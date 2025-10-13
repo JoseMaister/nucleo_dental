@@ -1,6 +1,6 @@
 <div class="bg-gray-500 text-white pt-10 pb-16">
-    <div class="w-full ml-6">
-        <p class="text-5xl md:text-6xl ml-16">
+    <div class="w-full">
+        <p class="text-5xl md:text-6xl pl-16">
             {!! __('messages.services.title') !!}
         </p>
     </div>

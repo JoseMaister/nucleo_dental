@@ -10,14 +10,14 @@
         <div class="md:hidden mb-8 flex justify-center">
             <img src="{{ asset('images/doctor.png') }}" alt="Dr. Ernesto Moran" class="max-w-[250px] md:max-w-[300px] w-auto h-auto">
         </div>
-        <div class="about-swiper swiper  h-auto p-10 py-0">
-            <div class="swiper-wrapper  mx-auto px-14 md:px-14 pt-5 py-0 md:py-0">
+        <div class="about-swiper swiper  md:h-[300px] h-auto p-10 py-0">
+            <div class="swiper-wrapper  mx-auto pt-5 py-0 md:py-0">
                 <div class="swiper-slide">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center w-[95%] justify-center">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-0 items-center w-[100%] justify-center align-center h-[100%]">
                         <!-- Text Content -->
-                        <div class="space-y-4 md:space-y-6">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">Dr. Ernesto Moran</h2>
-                            <p class="text-left text-sm md:text-base lg:text-lg">
+                        <div class="space-y-4 md:space-y-6 h-[100%] justify-center align-center w-[80%] m-auto">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left">Dr. Ernesto Moran</h2>
+                            <p class="text-center md:text-left text-sm md:text-base lg:text-lg">
                                 Practicing since 1979 in Periodontal and Oral Implantology, he is a professor and program coordinator at U.A.C.J. and ITAV. He advises implant companies, lectures nationally and internationally, and is an active member of major dental associations.
                             </p>
                             <div class="flex justify-center lg:justify-start pt-2">
@@ -29,7 +29,7 @@
                         
                         <!-- Doctor's Image - Hidden on mobile/tablet, shows on desktop -->
                         <div class="hidden md:flex justify-center lg:justify-end items-end">
-                            <img src="{{ asset('images/doctor.png') }}" alt="Dr. Ernesto Moran" class="max-w-[250px] lg:max-w-[350px] w-full h-auto">
+                            <img src="{{ asset('images/doctor.png') }}" alt="Dr. Ernesto Moran" class="max-w-[250px] lg:max-w-[350px] w-[35vw] h-auto">
                         </div>
                     </div>
                 </div>
