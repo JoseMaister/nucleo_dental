@@ -37,11 +37,12 @@
             <!-- Desktop Links -->
             <div class="hidden md:block">
                 <ul class="flex space-x-6 items-center">
-                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">Home</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">Services</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">About us</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-indigo-600">Technology</a></li>
-                    <li><a href="#" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800">Contact</a></li>
+                    <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Home</a></li>
+                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Services</a></li>
+                    <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">About us</a></li>
+                    <li><a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Technology</a></li>
+                    <li><a href="{{ route('financing') }}" class="{{ request()->routeIs('financing') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Financing</a></li>
+                    <li><a href="{{ route('contact') }}" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800 transition-colors {{ request()->routeIs('contact') ? 'bg-indigo-800' : '' }}">Contact</a></li>
                     
                     <!-- Language Dropdown -->
                     <li class="relative">
@@ -86,11 +87,12 @@
         <!-- Mobile menu -->
         <div id="mobile-menu" class="md:hidden hidden">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">Home</a>
-                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">Services</a>
-                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">About us</a>
-                <a href="#" class="block px-3 py-2 text-gray-700 hover:text-indigo-600">Technology</a>
-                <a href="#" class="block px-3 py-2 text-indigo-700">Contact</a>
+                <a href="{{ route('home') }}" class="block px-3 py-2 {{ request()->routeIs('home') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Home</a>
+                <a href="{{ route('services') }}" class="block px-3 py-2 {{ request()->routeIs('services') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Services</a>
+                <a href="{{ route('about') }}" class="block px-3 py-2 {{ request()->routeIs('about') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">About us</a>
+                <a href="{{ route('technology') }}" class="block px-3 py-2 {{ request()->routeIs('technology') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Technology</a>
+                <a href="{{ route('financing') }}" class="block px-3 py-2 {{ request()->routeIs('financing') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Financing</a>
+                <a href="{{ route('contact') }}" class="block px-3 py-2 {{ request()->routeIs('contact') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Contact</a>
             </div>
         </div>
     </nav>
