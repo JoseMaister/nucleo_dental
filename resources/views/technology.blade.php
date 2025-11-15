@@ -8,7 +8,7 @@
     <div class="py-6 w-full">
         <div class="w-[90%] bg-[#D8D8D8] mx-auto px-14 py-14 flex flex-col items-center content-center leading-[6.2rem] mb-2 gap-16">
             <x-Technology.content 
-                :imageUrl="asset('images/IMG_100203.jpg')"
+                :imageUrl="asset('images/IMG_100203.webp')"
                 name="ORTHOPANTOMOGRAPH™"
                 subName="OP 3D Pro"
                 title="High Quality 3D Images"
@@ -24,7 +24,7 @@
                             </p>"
             />
             <x-Technology.content 
-                :imageUrl="asset('images/100321.jpg')"
+                :imageUrl="asset('images/100321.webp')"
                 name=" RAYFACE 3D"
                 subName="Facial Scanner"
                 title="Your Entire Smile in 3D"
@@ -38,7 +38,7 @@
                             </p>"
             />
             <x-Technology.content 
-                :imageUrl="asset('images/IMG_100202.jpg')"
+                :imageUrl="asset('images/IMG_100202.webp')"
                 name="CEREC"
                 subName="Primescan"
                 title="Advanced Dental Technology"
