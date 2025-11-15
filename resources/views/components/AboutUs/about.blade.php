@@ -99,14 +99,14 @@ septiembre 2021 febrero 2022</li>
 @endphp
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100188.jpg')"
+    :imageUrl="asset('images/IMG_100188.webp')"
     name="Dr. Ernesto Moran"
     :specialties="['Chief Periodontist', 'Implantologist']"
     :content="$content"
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100190.jpg')"
+    :imageUrl="asset('images/IMG_100190.webp')"
     name="Dr. Julio Nevárez"
     :specialties="['Prosthodontist', 'Cosmetic Dentist', 'Implantologist']"
     :content="$contentJulio"
@@ -114,7 +114,7 @@ septiembre 2021 febrero 2022</li>
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100183.jpg')"
+    :imageUrl="asset('images/IMG_100183.webp')"
     name=" Dra. Adriana Armendáriz"
     :specialties="['General Dentist']"
     :content="$contentJulio"
@@ -122,7 +122,7 @@ septiembre 2021 febrero 2022</li>
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100198.jpg')"
+    :imageUrl="asset('images/IMG_100198.webp')"
     name=" Dra. Adriana Escalante"
     :specialties="['General Dentist']"
     {{-- :content="$contentAdriana"
@@ -130,14 +130,14 @@ septiembre 2021 febrero 2022</li>
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100191.jpg')"
+    :imageUrl="asset('images/IMG_100191.webp')"
     name=" Dr. Mario Torres"
     :specialties="['Endodontist']"
     :sections="$sectionsMario"
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100184.jpg')"
+    :imageUrl="asset('images/IMG_100184.webp')"
     name="Dra. Liliana Estrada"
     :specialties="['Pediatric Dentist']"
     {{-- :content="$contentAdriana"

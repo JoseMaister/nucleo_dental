@@ -15,7 +15,7 @@
     <div class="relative w-full lg:w-1/2 overflow-hidden">
         <div class="absolute inset-0 bg-indigo-900/90 z-10"></div>
         <img 
-            src="{{ asset('images/100338.jpg') }}" 
+            src="{{ asset('images/100338.webp') }}" 
             alt="Dental Office"
             class="absolute inset-0 w-full h-full object-cover"
             style="object-position: center center; object-fit: cover; transform: scale(1.6); transform-origin: center center;"

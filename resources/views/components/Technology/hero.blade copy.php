@@ -1,5 +1,5 @@
 <div class="bg-gray-400 text-white">
-    <div class="relative w-full h-[500px] bg-cover bg-center flex items-center justify-center " style="background-image: url('{{ asset('images/IMG_100202.jpg') }}'); background-size: 160%; background-position: top center;">
+    <div class="relative w-full h-[500px] bg-cover bg-center flex items-center justify-center " style="background-image: url('{{ asset('images/IMG_100202.webp') }}'); background-size: 160%; background-position: top center;">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-[#2D3089] bg-opacity-90"></div>
         
