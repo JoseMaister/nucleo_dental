@@ -4,8 +4,10 @@
 
 @section('content')
 <main>
-
-    <x-banner-smile-1 />
+    <x-Financing.hero />
+    <x-Financing.banner />
+    <x-Financing.payment />
+    <x-Financing.insurance />
     <x-contact-map /> 
 
 </main>

@@ -5,8 +5,14 @@
 @section('content')
 <main>
 
-    <x-banner-smile-1 />
-    <x-contact-map /> 
+<x-Services.hero />
+<x-card />
+<x-Services.banner />
+<x-Services.cosmetic />
+<x-Services.preventive />
+<x-Services.orthodontics />
+<x-banner-smile-2 />
+<x-contact-map /> 
 
 </main>
 
