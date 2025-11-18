@@ -10,7 +10,7 @@
             <p class="mt-2 text-white text-lg">{!! __('messages.financing.subtitle') !!}</p>
         </div>
         <div class="flex-shrink-0">
-            <a href="#" class=" text-gray-300 inline-block border border-gray-400 px-8 py-3 rounded-full hover:bg-gray-200 hover:text-gray-700">
+            <a href="#contact" class=" text-gray-300 inline-block border border-gray-400 px-8 py-3 rounded-full hover:bg-gray-200 hover:text-gray-700">
                 {!! __('messages.financing.cta') !!}
             </a>
         </div>

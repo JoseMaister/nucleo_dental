@@ -1,35 +1,49 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\ContactController;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
 
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+Route::group([
+    'prefix' => LaravelLocalization::setLocale(),
+    'middleware' => ['web']
+], function() {
+    // Main Pages
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('home');
 
-Route::get('/technology', function () {
-    return view('technology');
-})->name('technology');
+    Route::get('about', function () {
+        return view('about');
+    })->name('about');
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+    Route::get('technology', function () {
+        return view('technology');
+    })->name('technology');
 
-Route::get('/financing', function () {
-    return view('financing');
-})->name('financing');
+    Route::get('services', function () {
+        return view('services');
+    })->name('services');
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
+    Route::get('financing', function () {
+        return view('financing');
+    })->name('financing');
 
-// Contact Form Submission
-Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+    Route::get('contact', function () {
+        return view('contact');
+    })->name('contact');
 
-// Language Switcher
-Route::get('/lang/{lang}', [LanguageController::class, 'switchLang'])->name('language.switch');
+    // Contact Form Submission
+    Route::post('contact', [ContactController::class, 'submit'])->name('contact.submit');
+});

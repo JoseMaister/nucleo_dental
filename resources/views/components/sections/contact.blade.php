@@ -1,4 +1,4 @@
-<div class=" text-indigo-700 ">
+<div id="contact" class=" text-indigo-700 ">
     <div class="w-full flex items-center p-6">
         <div class="flex-shrink-0">
             <img src="{{ asset('images/tooth2.png') }}" alt="Núcleo Dental" class="h-16">

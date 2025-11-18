@@ -6,10 +6,10 @@
             <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-16">
         </div>
         <div class="text-2xl font-medium text-gray-800">
-            Nucleo Dental provides high-quality oral health services in one convenient location.
+            {{ __('messages.resume.title') }}
         </div>
         <div class="text-gray-600 leading-relaxed">
-            Our experienced team uses cutting-edge technology to deliver personalized treatments for every level of dental need. We accept new patients, American insurance (with direct reimbursement), and all major credit cards. Located for easy access, we aim to make your visit comfortable and effective so you can achieve the perfect smile with confidence.
+            {{ __('messages.resume.description') }}
         </div>
     </div>
     <div class="relative w-[80%] md:w-[300px] h-[500px] max-w-md mx-auto bg-gray-200 rounded-lg overflow-hidden">

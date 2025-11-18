@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Nucleo Dental')</title>
+    <title>@yield('title', __('messages.site.title'))</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -37,35 +37,44 @@
             <!-- Desktop Links -->
             <div class="hidden md:block">
                 <ul class="flex space-x-6 items-center">
-                    <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Home</a></li>
-                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Services</a></li>
-                    <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">About us</a></li>
-                    <li><a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Technology</a></li>
-                    <li><a href="{{ route('financing') }}" class="{{ request()->routeIs('financing') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">Financing</a></li>
-                    <li><a href="{{ route('contact') }}" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800 transition-colors {{ request()->routeIs('contact') ? 'bg-indigo-800' : '' }}">Contact</a></li>
+                    <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.home') }}</a></li>
+                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.services') }}</a></li>
+                    <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.about') }}</a></li>
+                    <li><a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.technology') }}</a></li>
+                    <li><a href="{{ route('financing') }}" class="{{ request()->routeIs('financing') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.financing') }}</a></li>
+                    <li><a href="{{ route('contact') }}" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800 transition-colors {{ request()->routeIs('contact') ? 'bg-indigo-800' : '' }}">{{ __('messages.nav.contact') }}</a></li>
                     
                     <!-- Language Dropdown -->
-                    <li class="relative">
-                        <button id="langBtn" class="flex items-center gap-2 border px-3 py-1 rounded hover:bg-gray-100">
-                            <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4">
-                            <span>EN</span>
+                    <li class="relative group">
+                        <button type="button" class="flex items-center gap-2 border px-3 py-1 rounded hover:bg-gray-100 focus:outline-none" id="languageDropdown">
+                            @if(app()->getLocale() === 'es')
+                                <img src="https://flagcdn.com/w20/mx.png" alt="ES" class="w-5 h-4">
+                                <span>ES</span>
+                            @else
+                                <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4">
+                                <span>EN</span>
+                            @endif
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                             </svg>
                         </button>
                         <!-- Dropdown -->
-                        <ul id="langMenu" class="absolute hidden bg-white border rounded mt-2 w-28 shadow-lg z-50">
-                            <li>
-                                <a href="{{ route('language.switch', 'en') }}" class="flex items-center gap-2 px-3 py-2 hover:bg-gray-100">
-                                    <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4"> EN
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('language.switch', 'es') }}" class="flex items-center gap-2 px-3 py-2 hover:bg-gray-100">
-                                    <img src="https://flagcdn.com/w20/mx.png" alt="EN" class="w-5 h-4"> ES
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="absolute right-0 mt-2 w-28 bg-white rounded-md shadow-lg z-50 hidden group-hover:block">
+                            <div class="py-1">
+                                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                    <a href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
+                                       class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 {{ app()->getLocale() === $localeCode ? 'bg-gray-100' : '' }}">
+                                        @if($localeCode === 'es')
+                                            <img src="https://flagcdn.com/w20/mx.png" alt="ES" class="w-5 h-4">
+                                            <span>ES</span>
+                                        @else
+                                            <img src="https://flagcdn.com/w20/us.png" alt="EN" class="w-5 h-4">
+                                            <span>EN</span>
+                                        @endif
+                                    </a>
+                                @endforeach
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -87,12 +96,12 @@
         <!-- Mobile menu -->
         <div id="mobile-menu" class="md:hidden hidden">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="{{ route('home') }}" class="block px-3 py-2 {{ request()->routeIs('home') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Home</a>
-                <a href="{{ route('services') }}" class="block px-3 py-2 {{ request()->routeIs('services') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Services</a>
-                <a href="{{ route('about') }}" class="block px-3 py-2 {{ request()->routeIs('about') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">About us</a>
-                <a href="{{ route('technology') }}" class="block px-3 py-2 {{ request()->routeIs('technology') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Technology</a>
-                <a href="{{ route('financing') }}" class="block px-3 py-2 {{ request()->routeIs('financing') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Financing</a>
-                <a href="{{ route('contact') }}" class="block px-3 py-2 {{ request()->routeIs('contact') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">Contact</a>
+                <a href="{{ route('home') }}" class="block px-3 py-2 {{ request()->routeIs('home') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.home') }}</a>
+                <a href="{{ route('services') }}" class="block px-3 py-2 {{ request()->routeIs('services') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.services') }}</a>
+                <a href="{{ route('about') }}" class="block px-3 py-2 {{ request()->routeIs('about') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.about') }}</a>
+                <a href="{{ route('technology') }}" class="block px-3 py-2 {{ request()->routeIs('technology') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.technology') }}</a>
+                <a href="{{ route('financing') }}" class="block px-3 py-2 {{ request()->routeIs('financing') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.financing') }}</a>
+                <a href="{{ route('contact') }}" class="block px-3 py-2 {{ request()->routeIs('contact') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.contact') }}</a>
             </div>
         </div>
     </nav>

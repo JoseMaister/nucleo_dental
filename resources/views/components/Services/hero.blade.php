@@ -5,16 +5,10 @@
         
         <!-- Content container -->
         <div class="relative z-10 max-w-6xl mx-auto text-center text-white">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 text-left -pl-2"><span class="text-white font-bold"> OUR </br> DENTAL <br> SERVICES</span></h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 text-left -pl-2"><span class="text-white font-bold">{!! str_replace(' ', ' <br> ', __('messages.services_hero.title')) !!}</span></h1>
             <p class="px-4 sm:px-6 lg:px-8 text-lg md:text-xl lg:text-2xl mb-8 text-justify leading-relaxed">
-                Your teeth are one of a kind. A bright, beautiful smile can speak a thousand words, but
-unhealthy teeth speak volumes as well. If your teeth make you feel uncomfortable or self conscious, it’s time to visit Nucleo Dental, today. Our team is adept at treating the entire
-spectrum of oral health issues and we will gladly help you achieve your dream smile.
-The mouth constantly faces barrages of bacteria, plaque, and other negative elements.
-It is our team’s goal to protect your oral landscape from all issues it may face. No matter
-the extent of your oral health issues, Nucleo Dental is ready to help.
+                {{ __('messages.services_hero.description') }}
             </p>
         </div>
     </div>
 </div>
-
