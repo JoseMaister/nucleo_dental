@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', __('messages.site.title'))</title>
+    <title>@yield('title', 'Nucleo Dental')</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -117,25 +117,60 @@
         document.getElementById('mobile-menu-button').addEventListener('click', function() {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
+            
+            // Close language dropdown if open
+            const langMenu = document.querySelector('.absolute.right-0.mt-2');
+            if (langMenu) {
+                langMenu.classList.add('hidden');
+            }
         });
 
-        // Language dropdown toggle
-        const langBtn = document.getElementById('langBtn');
-        const langMenu = document.getElementById('langMenu');
-        
-        if (langBtn && langMenu) {
-            langBtn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                langMenu.classList.toggle('hidden');
-            });
+        // Language dropdown functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const langBtn = document.getElementById('languageDropdown');
+            const langMenu = langBtn ? langBtn.nextElementSibling : null;
+            
+            if (langBtn && langMenu) {
+                // Toggle menu on button click
+                langBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    langMenu.classList.toggle('hidden');
+                });
 
-            // Close dropdown when clicking outside
-            document.addEventListener('click', (e) => {
-                if (!langMenu.contains(e.target) && e.target !== langBtn) {
-                    langMenu.classList.add('hidden');
-                }
-            });
-        }
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!langMenu.contains(e.target) && e.target !== langBtn) {
+                        langMenu.classList.add('hidden');
+                    }
+                });
+
+                // Close menu when a language is selected
+                const langOptions = langMenu.querySelectorAll('a');
+                langOptions.forEach(option => {
+                    option.addEventListener('click', function() {
+                        langMenu.classList.add('hidden');
+                    });
+                });
+            }
+        });
+
+        // Close dropdowns when clicking anywhere on mobile
+        document.addEventListener('click', function(e) {
+            const langMenu = document.querySelector('.absolute.right-0.mt-2');
+            const langBtn = document.getElementById('languageDropdown');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuBtn = document.getElementById('mobile-menu-button');
+            
+            // Close language dropdown if clicking outside
+            if (langMenu && !langMenu.contains(e.target) && e.target !== langBtn) {
+                langMenu.classList.add('hidden');
+            }
+            
+            // Close mobile menu if clicking outside
+            if (mobileMenu && !mobileMenu.contains(e.target) && e.target !== mobileMenuBtn && !e.target.closest('#mobile-menu-button')) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
     </script>
 </body>
 </html>
