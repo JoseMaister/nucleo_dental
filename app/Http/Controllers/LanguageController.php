@@ -10,7 +10,7 @@ class LanguageController extends Controller
 {
     public function switchLang($lang)
     {
-        if (in_array($lang, ['en', 'es'])) {
+        if (in_array($lang, ['es'])) {
             // Set the session
             session(['locale' => $lang]);
             
