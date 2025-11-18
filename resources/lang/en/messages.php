@@ -1,6 +1,17 @@
 <?php
 
 return [
+    'site' => [
+        'title' => 'Nucleo Dental - Your Perfect Smile',
+    ],
+    'nav' => [
+        'home' => 'Home',
+        'services' => 'Services',
+        'about' => 'About Us',
+        'technology' => 'Technology',
+        'financing' => 'Financing',
+        'contact' => 'Contact',
+    ],
     'hero' => [
         'title' => 'Creating vibrant smiles<br>for healthy lifestyles',
         'subtitle' => 'With over 25 years of experience we can give you<br>the beautiful healthy smile you deserve.',
@@ -28,8 +39,228 @@ return [
         'button' => 'Make your appointment',
         'location' => 'From El Paso - Juarez and back.'
     ],
+    'footer' => [
+        'copyright' => '  :year Nucleo Dental. All rights reserved.',
+        'rights' => 'All rights reserved.'
+    ],
     'services' => [
         'title' => 'Services',
-        'subtitle' => 'Did you know that your smile is the most important thing for us? We want you to feel confident every time you smile. Let us help you recover, offer the best treatments and personalized attention.'
+        'subtitle' => 'Did you know that your smile is the most important thing for us? We want you to feel confident every time you smile. Let us help you recover, offer the best treatments and personalized attention.',
+        'hero' => [
+            'title' => 'OUR DENTAL SERVICES',
+            'description' => "Your teeth are one of a kind. A bright, beautiful smile can speak a thousand words, but unhealthy teeth speak volumes as well. If your teeth make you feel uncomfortable or self conscious, it's time to visit Nucleo Dental, today. Our team is adept at treating the entire spectrum of oral health issues and we will gladly help you achieve your dream smile.\nThe mouth constantly faces barrages of bacteria, plaque, and other negative elements. It is our team's goal to protect your oral landscape from all issues it may face. No matter the extent of your oral health issues, Nucleo Dental is ready to help."
+        ]
+    ],
+    'about' => [
+        'title' => 'About Us',
+        'hero' => [
+            'title' => 'About Us',
+            'description' => "Nucleo Dental is conveniently located in Juarez, Mexico and serves patients from all over the United States and Mexico. We're able to provide oral health assistance to patients. We accept American insurance and will work with you to make the transaction run as smoothly as possible."
+        ],
+        'dr_name' => 'Dr. Ernesto Moran',
+        'bio' => 'Practicing since 1979 in Periodontal and Oral Implantology, he is a professor and program coordinator at U.A.C.J. and ITAV. He advises implant companies, lectures nationally and internationally, and is an active member of major dental associations.',
+        'cta' => 'Click for detailed information',
+        'banner' => [
+            'meet_team' => 'Meet the',
+            'team_experts' => 'Team of Experts'
+        ],
+        'transportation' => [
+            'title' => 'Patient <strong>Transportation</strong>',
+            'free_service' => '<span class="font-bold">Free</span> Transportation Service',
+            'location' => 'From El Paso - Juarez and Back',
+            'cta' => 'Make your appointment Here',
+            'drivers' => [
+                'edgar' => 'Edgar Ulloa',
+                'martin' => 'Martín Fernández'
+            ]
+        ]
+    ],
+    'technology' => [
+        'hero' => [
+            'title' => 'ADVANCED DENTAL <strong>TECHNOLOGY</strong>',
+            'subtitle' => 'CUTTING - EDGE TECHNOLOGY FOR YOUR SMILE',
+            'description' => 'At Nucleo Dental, we have the most advanced equipment in modern dentistry. We invest in cutting-edge technology to offer you more accurate diagnoses, more comfortable treatments, and safer results. Your well-being is our priority.'
+        ],
+        'op3d_pro' => [
+            'name' => 'ORTHOPANTOMOGRAPH™',
+            'subname' => 'OP 3D Pro',
+            'title' => 'High Quality 3D Images',
+            'description' => 'High-Precision 3D Technology Our OP 3D Pro CT scanner allows us to obtain high-quality 3D images with minimal radiation. Ideal for accurate diagnoses and safe treatments in implantology, endodontics, orthodontics, and more.'
+        ],
+        'rayface' => [
+            'name' => 'RAYFACE 3D',
+            'subname' => 'Facial Scanner',
+            'title' => 'Your Entire Smile in 3D',
+            'description' => 'With RayFace, we visualize your entire smile in 3D to offer you a more natural, aesthetic, and personalized treatment, for more complete and aesthetic digital planning.'
+        ],
+        'cerec' => [
+            'name' => 'CEREC',
+            'subname' => 'Primescan',
+            'title' => 'Advanced Dental Technology',
+            'description' => 'Experience cutting-edge dental care with our state-of-the-art CEREC technology. Our advanced systems provide precise, same-day restorations with exceptional accuracy and comfort. We scan your mouth with a 3D camera, design your piece on a computer, and shape it in minutes with millimeter precision.'
+        ],
+        'banner_bottom' => [
+            'line1' => 'Most Advanced',
+            'line2' => 'equipment in modern',
+            'line3' => 'dentistry'
+        ]
+    ],
+    'resume' => [
+        'title' => 'Nucleo Dental provides high-quality oral health services in one convenient location.',
+        'description' => 'Our experienced team uses cutting-edge technology to deliver personalized treatments for every level of dental need. We accept new patients, American insurance (with direct reimbursement), and all major credit cards. Located for easy access, we aim to make your visit comfortable and effective so you can achieve the perfect smile with confidence.'
+    ],
+    'services_banner' => [
+        'contact_us' => 'Contact us for more information'
+    ],
+    'services_hero' => [
+        'title' => 'OUR DENTAL SERVICES',
+        'description' => "Your teeth are one of a kind. A bright, beautiful smile can speak a thousand words, but unhealthy teeth speak volumes as well. If your teeth make you feel uncomfortable or self conscious, it's time to visit Nucleo Dental, today. Our team is adept at treating the entire spectrum of oral health issues and we will gladly help you achieve your dream smile.\nThe mouth constantly faces barrages of bacteria, plaque, and other negative elements. It is our team's goal to protect your oral landscape from all issues it may face. No matter the extent of your oral health issues, Nucleo Dental is ready to help."
+    ],
+    'preventive' => [
+        'title' => 'Preventive Dentistry',
+        'cleanings' => [
+            'title' => 'Cleanings',
+            'description' => 'Teeth cleaning is a process that eliminates dental plaque accumulation in the tissue around your teeth.'
+        ],
+        'xrays' => [
+            'title' => 'X-Rays',
+            'description' => 'Are images of the inside of your mouth, including teeth, jawbone, nerves, and sinuses, that dentists use to diagnose problems not visible during a visual exam.'
+        ]
+    ],
+    'cosmetic' => [
+        'title' => 'Cosmetic Dentistry',
+        'description1' => 'Transform your smile with our cosmetic dentistry services. We offer a range of treatments to enhance the appearance of your teeth and give you the confidence to show off your smile.',
+        'description2' => 'Our cosmetic treatments are designed to improve the aesthetics of your smile while maintaining optimal oral health. We use the latest techniques and materials to ensure natural-looking, long-lasting results.',
+        'description3' => 'Whether you\'re looking for a complete smile makeover or subtle enhancements, our team will work with you to create a personalized treatment plan that meets your goals and fits your lifestyle.',
+        'services' => [
+            'veneers' => [
+                'title' => 'Veneers',
+                'description' => 'Restore Your Smile with Porcelain Veneers. Are specifically made to fit in with your natural teeth.'
+            ],
+            'whitening' => [
+                'title' => 'Teeth Whitening',
+                'description' => 'A cosmetic procedure that give you brighten teeth and remove stains, making them appear whiter.'
+            ],
+            'fillings' => [
+                'title' => 'Fillings',
+                'description' => 'A dental filling is a material used to restore a tooth damaged by decay, a crack, or wear.'
+            ]
+        ]
+    ],
+    'orthodontics' => [
+        'title' => 'Orthodontics',
+        'treatments' => [
+            'aesthetic_braces' => [
+                'title' => 'Aesthetic Braces',
+                'description' => 'This option is more discreet than traditional braces since they make use of translucent ceramic brackets that aren\'t as visible as the traditional metallic brackets.'
+            ],
+            'metallic_braces' => [
+                'title' => 'Metallic Braces',
+                'description' => 'The most commonly used option, metallic braces give patients the ability to customize the color of the rubber bands in order to be as original as possible.'
+            ],
+            'orthognathic_surgery' => [
+                'title' => 'Orthognathic Surgery',
+                'description' => 'Is performed by our oral surgeons in order to correct skeletal mismatches. The name of this surgery literally means "the correction or straightening of the jaw."'
+            ]
+        ]
+    ],
+    'contact' => [
+        'title' => 'Request an Appointment',
+        'description1' => 'The first step towards a beautiful, healthy smile is to schedule an appointment. Please contact our office by phone or complete the appointment request form below.',
+        'description2' => 'Our scheduling coordinator will contact you to confirm your appointment. If you are an existing patient, this contact form should not be utilized for communicating private health information.',
+        'form' => [
+            'name' => 'Your Name',
+            'email' => 'Your E-mail Address',
+            'phone' => 'Your Phone Number',
+            'interest' => 'I am interested in',
+            'best_time' => 'Best Time for Appointment',
+            'referral' => 'How did you hear about us?',
+            'comments' => 'Comments/Questions',
+            'submit' => 'Submit Request',
+            'required' => 'Required field',
+            'services' => [
+                'Scheduling Appointment',
+                'Dental Implants',
+                'Wisdom Teeth',
+                'Veneers',
+                'Root Canal',
+                'Orthodontic',
+                'Jaw Surgery',
+                'TMJ Disorder',
+                'Zygomatic Implants',
+                'General Dentistry',
+                'Evaluation',
+                'Cosmetic Dentistry',
+                'Full Mouth Reconstruction'
+            ],
+            'times' => [
+                'Morning',
+                'Afternoon'
+            ]
+        ]
+    ],
+    'financing_insurance' => [
+        'title1' => 'Insurance',
+        'title2' => 'Partners',
+        'subtitle1' => 'We Work With',
+        'subtitle2' => 'Leading',
+        'subtitle3' => 'Insurance Providers',
+        'description1' => 'To help you maximize your benefits, Núcleo Dental collaborates with major insurance companies from both the U.S. and Mexico.',
+        'description2' => 'Our administrative staff assists you with all claim paperwork, so you can focus on your treatment.',
+        'we_work_with' => 'We work with:',
+        'insurance_types' => [
+            'Most U.S. PPO dental insurance plans',
+            'Cross-border dental coverage',
+            'Major Mexican insurance providers'
+        ],
+        'cta1' => 'Bring your insurance details to your first visit, and we\'ll handle the rest.',
+        'cta2' => 'Contact us for more information'
+    ],
+    'financing_payment' => [
+        'title1' => 'Payments',
+        'title2' => 'Methods',
+        'subtitle' => 'We Make It Easy to Pay for Your Smile',
+        'description' => 'We accept a wide range of payment options to make your treatment as convenient as possible. Choose the method that fits you best whether you\'re local or visiting from abroad.',
+        'accepted_methods' => 'Accepted Methods',
+        'methods' => [
+            'Credit & debit cards (Visa, MasterCard, American Express)',
+            'Cash payments (USD & MXN)',
+            'Bank transfers',
+            'Dental financing programs (with flexible monthly plans)',
+            'Paypal'
+        ],
+        'help_title' => 'Need help choosing the best option?',
+        'help_text' => 'Our team is ready to assist you before your appointment.',
+        'contact_us' => 'Contact Us'
+    ],
+    'financing_banner' => [
+        'title' => 'Learn About Our Payment Plans',
+        'cta' => 'Call us about financing'
+    ],
+    'financing_hero' => [
+        'title1' => 'SMILE NOW,',
+        'title2' => 'PAY LATER',
+        'title3' => ':)',
+        'subtitle' => 'Affordable dental care with <strong>flexible payment</strong> options designed for your comfort and peace of mind.',
+        'description1' => 'At Núcleo Dental, we believe <strong>everyone deserves a healthy, confident smile without financial stress.</strong>',
+        'description2' => 'That\'s why <strong>we offer simple financing plans</strong>, monthly payment options, and cross border benefits for U.S. and Mexican patients alike.',
+        'description3' => 'Our team will guide you through every step to make <strong>treatment accessible and worry free.</strong>'
+    ],
+    'restorative' => [
+        'title' => 'Restorative Dentistry',
+        'treatments' => [
+            'dental_implants' => [
+                'title' => 'Dental Implants',
+                'description' => 'Dental implants are artificial substitutes for missing teeth. Through a short surgical procedure, replacement teeth are put into the bone and gums to replace the root portion of the missing tooth, thereby enhancing a natural look.'
+            ],
+            'crowns' => [
+                'title' => 'Crowns',
+                'description' => 'Crowns are used to protect weak teeth from fractures or to restore teeth that have already fractured. They can also cover teeth that have undergone root canal treatment.'
+            ],
+            'dentures' => [
+                'title' => 'Dentures',
+                'description' => 'Unlike dental implants, dentures are easily removable and won\'t require invasive surgery. Implants come in two varieties, total or partial, to perfectly suit your exact needs.'
+            ]
+        ]
     ]
 ];

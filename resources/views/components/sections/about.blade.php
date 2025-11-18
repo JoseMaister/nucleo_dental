@@ -1,7 +1,7 @@
 <div class="bg-gray-400 text-white">
     <div class="w-full bg-white">
         <p class="text-4xl md:text-5xl lg:text-6xl text-gray-400 p-4 md:p-6">
-            About Us
+            {{ __('messages.about.title') }}
         </p>
     </div>
     
@@ -16,13 +16,13 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-0 items-center w-[100%] justify-center align-center h-[100%]">
                         <!-- Text Content -->
                         <div class="space-y-4 md:space-y-6 h-[100%] justify-center align-center w-[80%] m-auto">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left">Dr. Ernesto Moran</h2>
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left">{{ __('messages.about.dr_name') }}</h2>
                             <p class="text-center md:text-left text-sm md:text-base lg:text-lg">
-                                Practicing since 1979 in Periodontal and Oral Implantology, he is a professor and program coordinator at U.A.C.J. and ITAV. He advises implant companies, lectures nationally and internationally, and is an active member of major dental associations.
+                                {{ __('messages.about.bio') }}
                             </p>
                             <div class="flex justify-center lg:justify-start pt-2">
                                 <a href="#" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-sm md:text-base">
-                                    Click for detailed information
+                                    {{ __('messages.about.cta') }}
                                 </a>
                             </div>
                         </div>
@@ -37,13 +37,13 @@
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-[95%] justify-center">
                         <!-- Text Content -->
                         <div class="space-y-4 md:space-y-6">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">Dr. Ernesto Moran</h2>
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">{{ __('messages.about.dr_name') }}</h2>
                             <p class="text-left text-sm md:text-base lg:text-lg">
-                                Practicing since 1979 in Periodontal and Oral Implantology, he is a professor and program coordinator at U.A.C.J. and ITAV. He advises implant companies, lectures nationally and internationally, and is an active member of major dental associations.
+                                {{ __('messages.about.bio') }}
                             </p>
                             <div class="flex justify-center lg:justify-start pt-2">
                                 <a href="#" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-sm md:text-base">
-                                    Click for detailed information
+                                    {{ __('messages.about.cta') }}
                                 </a>
                             </div>
                         </div>

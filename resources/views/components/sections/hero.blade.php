@@ -6,7 +6,7 @@
     <div class="absolute top-3/4 left-6 md:left-10 transform -translate-y-1/2 text-white max-w-xl">
         <h2 class="text-4xl font-bold leading-tight">{!! __('messages.hero.title') !!}</h2>
         <p class="mt-4 text-lg">{!! __('messages.hero.subtitle') !!}</p>
-        <a href="#" class="mt-6 inline-block bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-full shadow-lg">
+        <a href="{{ route('services') }}" class="mt-6 inline-block bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-full shadow-lg">
             {{ __('messages.hero.cta') }}
         </a>
         <div class="mt-6 inline-flex items-center rounded-full border border-white bg-white bg-opacity-10 px-5 py-2 text-white">
