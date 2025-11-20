@@ -3,7 +3,7 @@
         {{ __('messages.orthodontics.title') }}
     </div>
     <div class="flex-shrink-0 w-full rounded-[50px] h-[30%] max-h-[300px] overflow-hidden">
-        <img src="{{ asset('images/IMG_100209.webp') }}" alt="Núcleo Dental" class="w-[120%] h-[120%]">
+        <img src="{{ asset('images/01.webp') }}" alt="Núcleo Dental" class="w-[120%] h-[120%]">
     </div>
     
     <!-- Aesthetic Braces -->

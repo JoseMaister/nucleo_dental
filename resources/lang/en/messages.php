@@ -168,6 +168,17 @@ return [
         'title' => 'Request an Appointment',
         'description1' => 'The first step towards a beautiful, healthy smile is to schedule an appointment. Please contact our office by phone or complete the appointment request form below.',
         'description2' => 'Our scheduling coordinator will contact you to confirm your appointment. If you are an existing patient, this contact form should not be utilized for communicating private health information.',
+        'success' => 'Thank you for your message. We will contact you soon!',
+        'email' => [
+            'title' => 'New Contact Form Submission',
+            'name' => 'Name',
+            'email' => 'Email',
+            'phone' => 'Phone',
+            'services' => 'Services Interested In',
+            'best_time' => 'Best Time to Contact',
+            'referral' => 'How did you hear about us?',
+            'comments' => 'Comments/Questions'
+        ],
         'form' => [
             'name' => 'Your Name',
             'email' => 'Your E-mail Address',
@@ -199,6 +210,23 @@ return [
             ]
         ]
     ],
+    'financing_payment' => [
+        'title1' => 'Payment',
+        'title2' => 'Options',
+        'subtitle' => 'Flexible Payment Solutions',
+        'description' => 'We offer various payment options to make your dental care more affordable and accessible.',
+        'accepted_methods' => 'Accepted Payment Methods',
+        'methods' => [
+            'Credit/Debit Cards (Visa, Mastercard, Amex)',
+            'Cash',
+            'Bank Transfers',
+            'Payment Plans',
+            'Dental Insurance'
+        ],
+        'help_title' => 'Need Help?',
+        'help_text' => 'Contact us to discuss payment options that work for you.',
+        'contact_us' => 'Contact Us'
+    ],
     'financing_insurance' => [
         'title1' => 'Insurance',
         'title2' => 'Partners',
@@ -211,16 +239,24 @@ return [
         'insurance_types' => [
             'Most U.S. PPO dental insurance plans',
             'Cross-border dental coverage',
-            'Major Mexican insurance providers'
         ],
-        'cta1' => 'Bring your insurance details to your first visit, and we\'ll handle the rest.',
-        'cta2' => 'Contact us for more information'
-    ],
-    'financing_payment' => [
-        'title1' => 'Payments',
-        'title2' => 'Methods',
-        'subtitle' => 'We Make It Easy to Pay for Your Smile',
-        'description' => 'We accept a wide range of payment options to make your treatment as convenient as possible. Choose the method that fits you best whether you\'re local or visiting from abroad.',
+        'orthodontics' => [
+            'title' => 'Orthodontics',
+            'treatments' => [
+                'aesthetic_braces' => [
+                    'title' => 'Aesthetic Braces',
+                    'description' => 'This option is more discreet than traditional braces since they make use of translucent ceramic brackets that aren\'t as visible as the traditional metallic brackets.'
+                ],
+                'metallic_braces' => [
+                    'title' => 'Metallic Braces',
+                    'description' => 'The most commonly used option, metallic braces give patients the ability to customize the color of the rubber bands in order to be as original as possible.'
+                ],
+                'orthognathic_surgery' => [
+                    'title' => 'Orthognathic Surgery',
+                    'description' => 'Is performed by our oral surgeons in order to correct skeletal mismatches. The name of this surgery literally means "the correction or straightening of the jaw."'
+                ]
+            ]
+        ],
         'accepted_methods' => 'Accepted Methods',
         'methods' => [
             'Credit & debit cards (Visa, MasterCard, American Express)',

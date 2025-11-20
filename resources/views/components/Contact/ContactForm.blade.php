@@ -16,11 +16,32 @@
         >
     </div>
 
-    @if(session('success'))
-        <div class="mb-6 p-4 bg-green-100 border-l-4 border-green-500 text-green-700">
-            <p>{{ session('success') }}</p>
+@if(session('success'))
+    <div id="successAlert" class="fixed bottom-4 right-4 z-50 max-w-md w-full bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded shadow-lg transition-opacity duration-500">
+        <div class="flex justify-between items-start">
+            <div class="flex-1">
+                <p class="font-medium">{{ session('success') }}</p>
+            </div>
+            <button type="button" class="ml-4 text-green-700 hover:text-green-900" onclick="document.getElementById('successAlert').remove()">
+                <span class="sr-only">Close</span>
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
         </div>
-    @endif
+    </div>
+
+    <script>
+        // Auto-hide after 20 seconds
+        setTimeout(function() {
+            const alert = document.getElementById('successAlert');
+            if (alert) {
+                alert.style.opacity = '0';
+                setTimeout(() => alert.remove(), 500); // Wait for fade out before removing
+            }
+        }, 20000);
+    </script>
+@endif
 
     @if($errors->any())
         <div class="mb-6 p-4 bg-red-100 border-l-4 border-red-500 text-red-700">

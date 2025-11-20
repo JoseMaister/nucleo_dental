@@ -22,11 +22,20 @@
                     <!-- Email -->
                     <div class="mb-2">
                         <div class="flex items-center justify-start mb-4">
-                            <div class="text-blue-600 mr-4 mt-1 bg-blue-600 p-2 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="white" viewBox="0 0 24 24" stroke="white">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
+                            <div class="mr-4 mt-1 p-2 rounded-full">
+                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.55 116.55"
+                                style="width: 42px; height: 42px">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #293275;
+                                }
+                                </style>
+                            </defs>
+                            <g id="Capa_2-2" data-name="Capa 2">
+                                <path class="cls-1" d="M58.28,0C26.09,0,0,26.09,0,58.28s26.09,58.28,58.28,58.28,58.28-26.09,58.28-58.28S90.46,0,58.28,0ZM32.6,32.04h52.08c.72,0,1.41.1,2.07.28-.09.08-.19.16-.27.25l-23.28,26.41c-1.17,1.33-2.79,2.06-4.56,2.06s-3.39-.73-4.57-2.06l-23.51-26.67c.65-.17,1.33-.27,2.03-.27ZM92.75,70.36c0,7.81-6.34,14.15-14.15,14.15h-39.87c-7.81,0-14.15-6.33-14.15-14.15v-30.27c0-1.12.23-2.19.65-3.16l23.56,26.74c2.5,2.83,6.1,4.46,9.87,4.46s7.37-1.63,9.87-4.46l23.28-26.41c.1-.12.18-.24.27-.37.43.98.67,2.07.67,3.21v30.27Z"/>
+                            </g>
+                            </svg>
                             </div>
                             <div>
                                 <p class="text-gray-600">citas@nucleodental.com</p>
@@ -36,10 +45,23 @@
                     <!-- Contact Numbers -->
                     <div class="mb-8">
                         <div class="flex items-center justify-start mb-4">
-                            <div class="text-blue-600 mr-4 mt-1 bg-blue-600 p-2 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="white" viewBox="0 0 24 24" stroke="white">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                </svg>
+                            <div class="text-blue-600 mr-4 mt-1  p-2 rounded-full">
+                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.55 116.55"
+                                style="width: 42px; height: 42px">
+                                    <defs>
+                                        <style>
+                                        .cls-1 {
+                                            fill: #293275;
+                                        }
+                                        </style>
+                                    </defs>
+                                    <g id="Capa_2-2" data-name="Capa 2">
+                                        <g>
+                                        <path class="cls-1" d="M62.08,78.04h-7.34c-2.23,0-4.04,1.81-4.04,4.04s1.81,4.04,4.04,4.04h7.34c2.23,0,4.04-1.81,4.04-4.04s-1.81-4.04-4.04-4.04Z"/>
+                                        <path class="cls-1" d="M58.28,0C26.09,0,0,26.09,0,58.28s26.09,58.28,58.28,58.28,58.28-26.09,58.28-58.28S90.46,0,58.28,0ZM81.77,73.11v11.2c0,4.65-3.77,8.43-8.42,8.43h-29.87c-4.65,0-8.43-3.77-8.43-8.43v-52.08c0-4.65,3.77-8.43,8.43-8.43h29.87c4.65,0,8.42,3.77,8.42,8.43v40.88Z"/>
+                                        </g>
+                                    </g>
+                                    </svg>
                             </div>
                             <div>
                                 <p class="text-gray-600"><span class="font-semibold">US:</span> +1 (915) 308 0101</p>
@@ -51,11 +73,23 @@
                     <!-- Address -->
                     <div class="mb-8">
                         <div class="flex items-center justify-start mb-4">
-                            <div class="text-blue-600 mr-4 mt-1 bg-blue-600 p-2 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="white" viewBox="0 0 24 24" stroke="white">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
+                            <div class=" mr-4 mt-1 p-2 rounded-full">
+                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.55 116.55"
+                                style="width: 42px; height: 42px">
+                                    <defs>
+                                        <style>
+                                        .cls-1 {
+                                            fill: #293275;
+                                        }
+                                        </style>
+                                    </defs>
+                                    <g id="Capa_2-2" data-name="Capa 2">
+                                        <g>
+                                        <path class="cls-1" d="M58.92,56.66c-3.39,0-6.15-2.76-6.15-6.15s2.76-6.15,6.15-6.15,6.15,2.76,6.15,6.15-2.76,6.15-6.15,6.15Z"/>
+                                        <path class="cls-1" d="M58.28,0C26.09,0,0,26.09,0,58.28s26.09,58.28,58.28,58.28,58.28-26.09,58.28-58.28S90.46,0,58.28,0ZM63.53,88.39c-2.42,2.85-6.81,2.85-9.23,0-7.4-8.72-21.11-26.28-21.11-36.65,0-14.21,11.52-25.72,25.72-25.72s25.72,11.52,25.72,25.72c0,10.37-13.7,27.92-21.11,36.65Z"/>
+                                        </g>
+                                    </g>
+                                    </svg>
                             </div>
                             <div>
                                 <p class="text-gray-600">Blvd. Tomas Fernandez, Los Parques, Ciudad Juárez, Chihuahua</p>
