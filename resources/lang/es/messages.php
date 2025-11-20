@@ -166,9 +166,20 @@ return [
         ]
     ],
     'contact' => [
-        'title' => 'Solicitar una Cita',
-        'description1' => 'El primer paso hacia una sonrisa hermosa y saludable es programar una cita. Por favor, contacte a nuestra oficina por teléfono o complete el formulario de solicitud de cita a continuación.',
-        'description2' => 'Nuestro coordinador de citas se comunicará con usted para confirmar su cita. Si ya es un paciente, este formulario no debe utilizarse para comunicar información de salud privada.',
+        'title' => 'Solicita una Cita',
+        'description1' => 'El primer paso hacia una sonrisa hermosa y saludable es programar una cita. Por favor, comuníquese con nuestra oficina por teléfono o complete el formulario de solicitud de cita a continuación.',
+        'description2' => 'Nuestro coordinador de citas se comunicará con usted para confirmar su cita. Si es un paciente existente, este formulario de contacto no debe utilizarse para comunicar información de salud privada.',
+        'success' => '¡Gracias por tu mensaje. Nos pondremos en contacto contigo pronto!',
+        'email' => [
+            'title' => 'Nuevo Mensaje del Formulario de Contacto',
+            'name' => 'Nombre',
+            'email' => 'Correo Electrónico',
+            'phone' => 'Teléfono',
+            'services' => 'Servicios de Interés',
+            'best_time' => 'Mejor Horario para Contactar',
+            'referral' => '¿Cómo se enteró de nosotros?',
+            'comments' => 'Comentarios/Preguntas'
+        ],
         'form' => [
             'name' => 'Su Nombre',
             'email' => 'Su Dirección de Correo Electrónico',
@@ -199,6 +210,26 @@ return [
                 'Tarde'
             ]
         ]
+    ],
+    'contact' => [
+        'success' => '¡Gracias por tu mensaje. Nos pondremos en contacto contigo pronto!',
+    ],
+    'financing_payment' => [
+        'title1' => 'Opciones de',
+        'title2' => 'Pago',
+        'subtitle' => 'Soluciones de Pago Flexibles',
+        'description' => 'Ofrecemos varias opciones de pago para hacer su atención dental más asequible y accesible.',
+        'accepted_methods' => 'Métodos de Pago Aceptados',
+        'methods' => [
+            'Tarjetas de Crédito/Débito (Visa, Mastercard, Amex)',
+            'Efectivo',
+            'Transferencias Bancarias',
+            'Planes de Pago',
+            'Seguro Dental'
+        ],
+        'help_title' => '¿Necesitas Ayuda?',
+        'help_text' => 'Contáctanos para discutir las opciones de pago que mejor se adapten a ti.',
+        'contact_us' => 'Contáctanos'
     ],
     'financing_insurance' => [
         'title1' => 'Aseguradoras',
