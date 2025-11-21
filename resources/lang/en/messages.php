@@ -127,6 +127,55 @@ return [
             'description' => 'Are images of the inside of your mouth, including teeth, jawbone, nerves, and sinuses, that dentists use to diagnose problems not visible during a visual exam.'
         ]
     ],
+    'testimonials' => [
+        'title' => 'Know our',
+        'highlighted_title' => 'Customers Testimonials',
+        'testimonial1' => [
+            'title' => 'Very impressive!',
+            'content' => 'This is an addendum to the review I recently posted. On the same day the review was published (very helpful liaison with gringos) called and affirmed that they wanted to make me happy with the upper. She advised I could return for a full replacement.'
+        ],
+        'testimonial2' => [
+            'title' => 'Excellent Service!',
+            'content' => 'The dental team was professional and caring. They made me feel comfortable throughout the entire procedure. I highly recommend their services to anyone looking for quality dental care.'
+        ],
+        'testimonial3' => [
+            'title' => 'Life Changing!',
+            'content' => 'After years of being self-conscious about my smile, the team at Núcleo Dental gave me the confidence to smile again. The results were beyond my expectations!'
+        ],
+        'testimonial4' => [
+            'title' => 'Highly recommend!',
+            'content' => 'I had such a great experience from the ease of pick up/drop off, to the very friendly, accommodating office staff and Dr. Nevarez meticulous detail. He helped pick a natural color that matched my bottom teeth and staged the procedure to ensure the best long term results. I\'ve been so happy and best thing is it looks so natural, no one can notice. Highly recommend him and this practice. We routinely continue to use this practice for cleanings'
+        ],
+        'testimonial5' => [
+            'title' => 'Better than any US practice!',
+            'content' => 'Dr. Moran and the entire team at NUCLEO DENTAL are great. This is better than any US practice I have visited. Everything is done in English except for the price! I love Mexican private healthcare.'
+        ],
+        'testimonial6' => [
+            'title' => 'The best I have ever seen!',
+            'content' => 'Monday Dr Moran addressed a cavity, took impressions for two crowns that need repair (I wore them out) and scheduled me for a fifth implant. Dr. Moran is patient, careful, through, and has a great personality. I have met a lot of dentists because I have "British" teeth. Dr Moran is the best I have ever seen.'
+        ]
+    ],
+    'services' => [
+        'title' => 'Our <strong>Services</strong>',
+        'subtitle' => 'We offer a wide range of dental services to meet all your oral health needs. Our experienced team is dedicated to providing the highest quality care in a comfortable environment.',
+        'learn_more' => 'Learn more about our services',
+        'dental_implants' => [
+            'title' => 'Dental Implants',
+            'description' => 'Dental implants are the best option for replacing missing teeth.'
+        ],
+        'porcelain_veneers' => [
+            'title' => 'Porcelain Veneers',
+            'description' => 'Achieve a perfect smile with our custom porcelain veneers.'
+        ],
+        'teeth_whitening' => [
+            'title' => 'Teeth Whitening',
+            'description' => 'Brighten your smile with our professional teeth whitening.'
+        ],
+        'orthodontics' => [
+            'title' => 'Orthodontics',
+            'description' => 'Straighten your teeth with our orthodontic treatments.'
+        ]
+    ],
     'cosmetic' => [
         'title' => 'Cosmetic Dentistry',
         'description1' => 'Transform your smile with our cosmetic dentistry services. We offer a range of treatments to enhance the appearance of your teeth and give you the confidence to show off your smile.',

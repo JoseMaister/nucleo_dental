@@ -1,22 +1,22 @@
 <div class="text-indigo-700 pt-10 pb-16">
     <div class="w-full">
         <p class="text-2xl flex items-center justify-center mb-8">
-            Know our &nbsp; <strong> Customers Testimonials</strong>
+            {{ __('messages.testimonials.title') }} &nbsp; <strong>{{ __('messages.testimonials.highlighted_title') }}</strong>
         </p>
     </div>
     
     <!-- Swiper Container -->
     <div class="relative max-w-full w-full mx-auto px-16 pb-5" >
-        <div class="testimonials-swiper swiper  h-[300px]">
+        <div class="testimonials-swiper swiper h-[460px]">
             <div class="swiper-wrapper">
                 <!-- Testimonial 1 -->
                 <div class="swiper-slide">
                     <div class="max-w-[400px] mx-auto p-6 shadow-2xl bg-white rounded-lg">
                         <div class="font-bold text-2xl text-left w-full mb-3">
-                            Very impressive!
+                            {{ __('messages.testimonials.testimonial1.title') }}
                         </div>
                         <div class="text-left text-gray-700">
-                            <p>This is an addendum to the review I recently posted. On the same day the review was published (very helpful liaison with gringos) called and affirmed that they wanted to make me happy with the upper. She advised I could return for a full replacement.</p>
+                            <p>{{ __('messages.testimonials.testimonial1.content') }}</p>
                         </div>
                     </div>
                 </div>
@@ -25,10 +25,10 @@
                 <div class="swiper-slide">
                     <div class="max-w-[400px] mx-auto p-6 shadow-2xl bg-white rounded-lg">
                         <div class="font-bold text-2xl text-left w-full mb-3">
-                            Excellent Service!
+                            {{ __('messages.testimonials.testimonial2.title') }}
                         </div>
                         <div class="text-left text-gray-700">
-                            <p>The dental team was professional and caring. They made me feel comfortable throughout the entire procedure. I highly recommend their services to anyone looking for quality dental care.</p>
+                            <p>{{ __('messages.testimonials.testimonial2.content') }}</p>
                         </div>
                     </div>
                 </div>
@@ -37,13 +37,44 @@
                 <div class="swiper-slide">
                     <div class="max-w-[400px] mx-auto p-6 shadow-2xl bg-white rounded-lg">
                         <div class="font-bold text-2xl text-left w-full mb-3">
-                            Life Changing!
+                            {{ __('messages.testimonials.testimonial3.title') }}
                         </div>
                         <div class="text-left text-gray-700">
-                            <p>After years of being self-conscious about my smile, the team at Núcleo Dental gave me the confidence to smile again. The results were beyond my expectations!</p>
+                            <p>{{ __('messages.testimonials.testimonial3.content') }}</p>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-slide ">
+                    <div class="max-w-[460px] mx-auto p-6 shadow-2xl bg-white rounded-lg">
+                        <div class="font-bold text-2xl text-left w-full mb-3">
+                            {{ __('messages.testimonials.testimonial4.title') }}
+                        </div>
+                        <div class="text-left text-gray-700">
+                            <p>{{ __('messages.testimonials.testimonial4.content') }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="max-w-[460px] mx-auto p-6 shadow-2xl bg-white rounded-lg">
+                        <div class="font-bold text-2xl text-left w-full mb-3">
+                            {{ __('messages.testimonials.testimonial5.title') }}
+                        </div>
+                        <div class="text-left text-gray-700">
+                            <p>{{ __('messages.testimonials.testimonial5.content') }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="max-w-[460px] mx-auto p-6 shadow-2xl bg-white rounded-lg">
+                        <div class="font-bold text-2xl text-left w-full mb-3">
+                            {{ __('messages.testimonials.testimonial6.title') }}
+                        </div>
+                        <div class="text-left text-gray-700">
+                            <p>{{ __('messages.testimonials.testimonial6.content') }}</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
         

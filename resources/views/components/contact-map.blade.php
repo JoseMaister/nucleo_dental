@@ -5,15 +5,12 @@
                 <!-- Map Section -->
                 <div class="lg:w-1/2 mb-8 lg:mb-0 lg:pr-6">
                     <div class="h-[300px] w-full rounded-sm overflow-hidden relative shadow-[-7px_8px_18px_-3px_rgba(0,0,0,0.67)]">
-                        <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.9867526475284!2d-106.4707507247009!3d31.610974674152554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d8e3a1e3f0d%3A0x8b8e9e9e9e9e9e9e9!2sNucleo%20Dental!5e0!3m2!1sen!2smx!4v1620000000000!5m2!1sen!2smx" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy"
-                        class="min-h-[400px] lg:min-h-[500px] w-full"
-                    ></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.437379847959!2d-106.41325482437999!3d31.73126047411811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75c7b195f8e21%3A0x3ea13c0504bd2836!2sN%C3%BAcleo%20Dental!5e0!3m2!1ses!2smx!4v1760252475462!5m2!1ses!2smx"                    width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                title="Núcleo Dental Location"></iframe>
                 </div>
             </div>
             <!-- Contact Information -->
