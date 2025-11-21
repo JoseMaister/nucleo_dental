@@ -117,6 +117,34 @@ return [
         'title' => 'NUESTROS SERVICIOS DENTALES',
         'description' => "Sus dientes son únicos. Una sonrisa brillante y hermosa puede decir mil palabras, pero los dientes poco saludables también dicen mucho. Si sus dientes lo hacen sentir incómodo o cohibido, es hora de visitar Nucleo Dental hoy mismo. Nuestro equipo es experto en tratar todo el espectro de problemas de salud bucal y con gusto lo ayudaremos a lograr la sonrisa de sus sueños.\nLa boca constantemente enfrenta ataques de bacterias, placa y otros elementos negativos. Es objetivo de nuestro equipo proteger su entorno bucal de todos los problemas que pueda enfrentar. No importa la magnitud de sus problemas de salud bucal, Nucleo Dental está listo para ayudarlo."
     ],
+    'testimonials' => [
+        'title' => 'Conoce nuestros',
+        'highlighted_title' => 'Testimonios de Clientes',
+        'testimonial1' => [
+            'title' => '¡Muy impresionante!',
+            'content' => 'Este es un complemento a la reseña que publiqué recientemente. El mismo día que se publicó la reseña, me llamaron (muy útil el enlace con los extranjeros) y confirmaron que querían que estuviera satisfecho con la parte superior. Me aconsejaron que podía regresar para un reemplazo completo.'
+        ],
+        'testimonial2' => [
+            'title' => '¡Excelente Servicio!',
+            'content' => 'El equipo dental fue profesional y atento. Me hicieron sentir cómodo durante todo el procedimiento. Recomiendo ampliamente sus servicios a cualquiera que busque atención dental de calidad.'
+        ],
+        'testimonial3' => [
+            'title' => '¡Cambió mi vida!',
+            'content' => 'Después de años de sentirme cohibido por mi sonrisa, el equipo de Núcleo Dental me dio la confianza para sonreír nuevamente. ¡Los resultados superaron mis expectativas!'
+        ],
+        'testimonial4' => [
+            'title' => '¡Altamente recomendado!',
+            'content' => 'Tuve una excelente experiencia, desde la facilidad del servicio de transporte hasta el personal de oficina muy amable y los meticulosos detalles del Dr. Nevárez. Ayudó a elegir un color natural que coincidiera con mis dientes inferiores y programó el procedimiento para garantizar los mejores resultados a largo plazo. ¡He estado muy feliz y lo mejor es que se ve tan natural que nadie puede notarlo! Altamente recomendado. Seguimos utilizando este consultorio para limpiezas de rutina.'
+        ],
+        'testimonial5' => [
+            'title' => '¡Mejor que cualquier consultorio en EE.UU.!',
+            'content' => 'El Dr. Morán y todo el equipo de NÚCLEO DENTAL son excelentes. Esto es mejor que cualquier consultorio en EE. UU. que haya visitado. Todo se hace en inglés, ¡excepto por el precio! Me encanta la atención médica privada mexicana.'
+        ],
+        'testimonial6' => [
+            'title' => '¡El mejor que he visto!',
+            'content' => 'El lunes, el Dr. Morán me atendió una caries, tomó impresiones para dos coronas que necesitaban reparación (las desgasté) y me programó un quinto implante. El Dr. Morán es paciente, cuidadoso, minucioso y tiene una gran personalidad. He conocido a muchos dentistas porque tengo "dientes británicos". El Dr. Morán es el mejor que he visto.'
+        ]
+    ],
     'preventive' => [
         'title' => 'Odontología Preventiva',
         'cleanings' => [
@@ -126,6 +154,27 @@ return [
         'xrays' => [
             'title' => 'Radiografías',
             'description' => 'Son imágenes del interior de su boca, incluyendo dientes, hueso maxilar, nervios y senos paranasales, que los dentistas utilizan para diagnosticar problemas no visibles durante un examen visual.'
+        ]
+    ],
+    'services' => [
+        'title' => 'Nuestros <strong>Servicios</strong>',
+        'subtitle' => 'Ofrecemos una amplia gama de servicios dentales para satisfacer todas sus necesidades de salud bucal. Nuestro experimentado equipo está dedicado a brindar la más alta calidad de atención en un ambiente cómodo.',
+        'learn_more' => 'Conoce más sobre nuestros servicios',
+        'dental_implants' => [
+            'title' => 'Implantes Dentales',
+            'description' => 'Los implantes dentales son la mejor opción para reemplazar dientes faltantes.'
+        ],
+        'porcelain_veneers' => [
+            'title' => 'Carillas de Porcelana',
+            'description' => 'Logra una sonrisa perfecta con nuestras carillas de porcelana personalizadas.'
+        ],
+        'teeth_whitening' => [
+            'title' => 'Blanqueamiento Dental',
+            'description' => 'Aclara tu sonrisa con nuestro blanqueamiento dental profesional.'
+        ],
+        'orthodontics' => [
+            'title' => 'Ortodoncia',
+            'description' => 'Endereza tus dientes con nuestros tratamientos de ortodoncia.'
         ]
     ],
     'cosmetic' => [
