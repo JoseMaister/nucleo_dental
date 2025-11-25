@@ -1,9 +1,9 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto px-6 py-12">
     <div class="space-y-6">
-        <div class="flex">
-            <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-16">
-            <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-16">
-            <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-16">
+        <div class="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-4">
+            <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-12 sm:h-14 md:h-16 w-auto">
+            <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-12 sm:h-14 md:h-16 w-auto">
+            <img src="{{ asset('images/flags.png') }}" alt="Núcleo Dental" class="h-12 sm:h-14 md:h-16 w-auto">
         </div>
         <div class="text-2xl font-medium text-gray-800">
             {{ __('messages.resume.title') }}

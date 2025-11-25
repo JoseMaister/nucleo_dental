@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', __('messages.technology.hero.title'))
+@section('title', __('messages.page_titles.technology') . ' - ' . config('app.name')) 
 
 @section('content')
 <main>

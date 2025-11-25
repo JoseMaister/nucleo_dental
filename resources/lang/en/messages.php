@@ -34,14 +34,23 @@ return [
         'city' => 'Juarez, Chihuahua'
     ],
     'banner2' => [
-        'title' => ':free Transportation Service!',
-        'free' => 'Free',
+        'title' => '<strong>Free</strong> Transportation Service!',
         'button' => 'Make your appointment',
         'location' => 'From El Paso - Juarez and back.'
     ],
     'footer' => [
-        'copyright' => '  :year Nucleo Dental. All rights reserved.',
+        'description' => 'Nucleo Dental provides high-quality dental care with a focus on patient comfort and satisfaction. We offer a wide range of dental services to meet all your oral health needs.',
+        'quick_links' => 'Quick Links',
+        'contact' => 'Contact Us',
+        'address' => '123 Dental Street, Juárez, Chihuahua, Mexico',
+        'copyright' => ' Nucleo Dental. All rights reserved.',
         'rights' => 'All rights reserved.'
+    ],
+    'whatsapp' => [
+        'button_text' => 'Any questions? Ask in WhatsApp',
+        'front_desk' => 'Front Desk',
+        'welcome_message' => 'Thank you for reaching out! For the best personalized care, we\'d love to connect with you directly. Please leave your contact details, and our team will get back to you promptly via phone or email.',
+        'start_chat' => 'START CHAT'
     ],
     'services' => [
         'title' => 'Services',
@@ -111,6 +120,14 @@ return [
     ],
     'services_banner' => [
         'contact_us' => 'Contact us for more information'
+    ],
+    'page_titles' => [
+        'services' => 'Services',
+        'financing' => 'Financing',
+        'contact' => 'Contact',
+        'about' => 'About Us',
+        'technology' => 'Technology',
+        'home' => 'Home - Nucleo Dental',
     ],
     'services_hero' => [
         'title' => 'OUR DENTAL SERVICES',

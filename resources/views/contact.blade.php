@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact - Nucleo Dental')
+@section('title', __('messages.page_titles.contact') . ' - ' . config('app.name'))
 
 @section('content')
 <main>

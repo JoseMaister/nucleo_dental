@@ -39,14 +39,23 @@ return [
         ]
     ],
     'banner2' => [
-        'title' => ':free Servicio de Transporte!',
-        'free' => 'Gratis',
+        'title' => '<strong>Gratis</strong> Servicio de Transporte!',
         'button' => 'Haz tu cita',
         'location' => 'Desde El Paso - Juárez y de regreso.'
     ],
     'footer' => [
+        'description' => 'Nucleo Dental ofrece atención dental de alta calidad con un enfoque en la comodidad y satisfacción del paciente. Ofrecemos una amplia gama de servicios dentales para satisfacer todas sus necesidades de salud bucal.',
+        'quick_links' => 'Enlaces Rápidos',
+        'contact' => 'Contáctenos',
+        'address' => 'Calle Dental 123, Juárez, Chihuahua, México',
         'copyright' => '© :year Nucleo Dental. Todos los derechos reservados.',
         'rights' => 'Todos los derechos reservados.'
+    ],
+    'whatsapp' => [
+        'button_text' => '¿Tienes preguntas? Pregunta por WhatsApp',
+        'front_desk' => 'Recepción',
+        'welcome_message' => '¡Gracias por contactarnos! Para brindarle la mejor atención personalizada, nos encantaría conectarnos con usted directamente. Por favor, deje sus datos de contacto y nuestro equipo se comunicará con usted a la brevedad vía telefónica o por correo electrónico.',
+        'start_chat' => 'INICIAR CHAT'
     ],
     'services' => [
         'title' => 'Servicios',
@@ -112,6 +121,14 @@ return [
     ],
     'services_banner' => [
         'contact_us' => 'Contáctenos para más información'
+    ],
+    'page_titles' => [
+        'services' => 'Servicios',
+        'financing' => 'Financiamiento',
+        'contact' => 'Contacto',
+        'about' => 'Nosotros',
+        'technology' => 'Tecnología',
+        'home' => 'Inicio - Nucleo Dental',
     ],
     'services_hero' => [
         'title' => 'NUESTROS SERVICIOS DENTALES',
