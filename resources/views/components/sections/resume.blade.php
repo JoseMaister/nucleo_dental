@@ -16,11 +16,12 @@
         <!-- Video Thumbnail/Placeholder -->
         <div class="absolute inset-0 flex items-center justify-center bg-black/20">
             <!-- Play Button -->
-            <div class="w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full flex items-center justify-center group hover:scale-110 transition-transform duration-200">
+            {{-- <div class="w-16 h-16 md:w-20 md:h-20 bg-white/90 rounded-full flex items-center justify-center group hover:scale-110 transition-transform duration-200">
                 <svg class="w-8 h-8 md:w-10 md:h-10 text-indigo-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z"/>
                 </svg>
-            </div>
+            </div> --}}
+            <img src="{{ asset('images/100338.webp') }}" alt="Núcleo Dental" class="h-full w-full">
         </div>
     </div>
 </div>
