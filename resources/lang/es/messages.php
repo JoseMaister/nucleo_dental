@@ -211,7 +211,102 @@ return [
             'fillings' => [
                 'title' => 'Empastes',
                 'description' => 'Un empaste dental es un material utilizado para restaurar un diente dañado por caries, grietas o desgaste.'
-            ]
+            ],
+            'cleanings' => [
+        'title' => 'Limpiezas',
+        'description' => 'Una limpieza dental elimina placa, sarro y manchas para mantener dientes y encías saludables.'
+    ],
+
+    'cosmetic_dentistry' => [
+        'title' => 'Odontología Cosmética',
+        'description' => 'La odontología cosmética mejora la apariencia de los dientes, encías y la sonrisa.'
+    ],
+
+    'dental_crowns' => [
+        'title' => 'Coronas Dentales',
+        'description' => 'Una corona dental es una cubierta hecha a medida que restaura la forma, resistencia y estética del diente.'
+    ],
+
+    'dental_implants' => [
+        'title' => 'Implantes Dentales',
+        'description' => 'Los implantes dentales son reemplazos permanentes de dientes perdidos que funcionan como dientes naturales.'
+    ],
+
+    'zygomatic_implants' => [
+        'title' => 'Implantes Cigomáticos',
+        'description' => 'Los implantes cigomáticos se colocan en el hueso del pómulo para pacientes con pérdida ósea severa.'
+    ],
+
+    'dentures' => [
+        'title' => 'Dentaduras',
+        'description' => 'Las dentaduras son aparatos removibles que reemplazan dientes faltantes y restauran la función oral.'
+    ],
+
+    'endodontics' => [
+        'title' => 'Endodoncia',
+        'description' => 'La endodoncia trata infecciones y problemas en el interior del diente.'
+    ],
+
+    'extractions' => [
+        'title' => 'Extracciones',
+        'description' => 'La extracción dental consiste en retirar un diente dañado, infectado o problemático.'
+    ],
+
+    'fillings' => [
+        'title' => 'Resinas',
+        'description' => 'Una resina dental restaura dientes dañados por caries, fracturas o desgaste.'
+    ],
+
+    'partials' => [
+        'title' => 'Parciales Fijas o Removibles',
+        'description' => 'Las prótesis parciales reemplazan uno o varios dientes faltantes de forma fija o removible.'
+    ],
+
+    'fluoride' => [
+        'title' => 'Flúor',
+        'description' => 'Los tratamientos con flúor fortalecen el esmalte y ayudan a prevenir caries.'
+    ],
+
+    'general_dentistry' => [
+        'title' => 'Odontología General',
+        'description' => 'La odontología general ofrece atención básica para mantener la salud bucal.'
+    ],
+
+    'laser_treatments' => [
+        'title' => 'Tratamientos con Láser',
+        'description' => 'La odontología láser utiliza tecnología avanzada para tratamientos precisos y mínimamente invasivos.'
+    ],
+
+    'oral_surgery' => [
+        'title' => 'Cirugía Oral',
+        'description' => 'La cirugía oral trata condiciones complejas de la boca, mandíbula y estructuras faciales.'
+    ],
+
+    'orthodontics' => [
+        'title' => 'Ortodoncia',
+        'description' => 'La ortodoncia corrige la alineación de dientes y mandíbula para mejorar función y estética.'
+    ],
+
+    'pediatric_dentistry' => [
+        'title' => 'Odontopediatría',
+        'description' => 'La odontopediatría cuida la salud dental de bebés, niños y adolescentes.'
+    ],
+
+    'periodontics' => [
+        'title' => 'Periodoncia',
+        'description' => 'La periodoncia trata enfermedades de las encías y los tejidos que sostienen los dientes.'
+    ],
+
+    'root_canal' => [
+        'title' => 'Tratamiento de Conducto',
+        'description' => 'El tratamiento de conducto elimina la infección interna del diente para aliviar el dolor y conservarlo.'
+    ],
+
+    'sealants' => [
+        'title' => 'Selladores',
+        'description' => 'Los selladores dentales protegen los dientes contra caries sellando surcos profundos.'
+    ]
+
         ]
     ],
     'orthodontics' => [

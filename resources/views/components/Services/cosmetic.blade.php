@@ -1,78 +1,163 @@
-<div class="bg-gray-300 mx-10 my-12 px-20 flex flex-col items-center justify-center py-12 rounded-[50px] gap-6">
-    <div class="flex-1 text-center text-3xl md:text-5xl text-indigo-700 pt-6 px-28 rounded-[50px]">
+<div class="bg-gray-300 mx-4 md:mx-10 my-12 px-6 md:px-20 py-12 rounded-[50px]">
+
+    <!-- TITULO -->
+    <div class="text-center text-3xl md:text-5xl text-indigo-700 pt-6 md:px-28">
         <strong>{{ __('messages.cosmetic.title') }}</strong>
     </div>
-    <div class="flex-1">
-        <p class="text-2xl text-gray-500 text-justify">
+
+    <!-- DESCRIPCIONES -->
+    <div class="mt-6 space-y-4">
+        <p class="text-lg md:text-2xl text-gray-500 text-justify">
             {{ __('messages.cosmetic.description1') }}
         </p>
-    </div>
-    <div class="flex-1">
-        <p class="text-2xl text-gray-500 text-justify">
+        <p class="text-lg md:text-2xl text-gray-500 text-justify">
             {{ __('messages.cosmetic.description2') }}
         </p>
-    </div>
-    <div class="flex-1">
-        <p class="text-2xl text-gray-500 text-justify">
+        <p class="text-lg md:text-2xl text-gray-500 text-justify">
             {{ __('messages.cosmetic.description3') }}
         </p>
     </div>
-    <div class="flex flex-row items-start justify-center flex-wrap gap-2 py-6">
-        <div class="relative border border-white border-[4px] mt-[120px] p-8 rounded-[50px] pt-[120px] max-w-[350px]">
-            <div class="absolute -top-[100px] p-[20px] left-[50%] -translate-x-[50%] bg-white rounded-full">
-                <svg id="Capa_2" data-name="Capa 2" style="width: 160px; height: 160px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.49 194.06">
-                <defs>
-                    <style>
-                    .cls-1 {
-                        fill: #293277;
-                    }
-                    </style>
-                </defs>
-                <g id="Capa_1-2" data-name="Capa 1">
-                    <g id="SOqvJO">
-                    <path class="cls-1" d="M148.53,98.94v16.96c2.46,1.31,13.1,5.48,14.16,7.27.19.32.42.59.43.99v66.89c-.04,3.9-6.06,3.9-6.11,0l-.23-63.85-27.09-13.65,10.37,21.89v55.14c-.55,4.72-6.12,4.56-6.62,0l.02-54.2-2.44-5.8-33.97-.19c-4.43-.59-9.77-6.02-9.77-10.49v-20.96h-9.66c-.47,0-3.48-.79-4.14-1.04-1.21-.45-3.03-2.22-3.86-2.24s-3.35,1.9-4.69,2.36c-5.19,1.77-34.29,1.51-41,.91s-11.45-4.22-12.04-11.05c-.93-10.81.13-23.95.85-34.77C9.67,41.15,3.4,28.7.48,16.87-1.62,8.37,3.37-.05,12.6,0c6.25.03,15.09,2.18,21.69,2.84C83.28,7.75,132.08,7.42,180.82,0c9.36.81,14.39,7.73,12.13,16.87-2.99,12.09-9,24.52-12.23,36.67,1.54,11.99.66,24.36.58,36.48-.83,4.39-6.52,8.92-10.86,8.92h-21.91ZM177.26,44.3l9.86-30.43c.59-3.4-1.6-6.51-4.94-7.23-56.6,7.64-113.46,8.08-170.04-.07-4.14.2-6.79,4.08-5.66,8.07l9.68,29.65c.65.12.6.1.98-.3,1.39-1.47,2.68-3.71,4.19-5.13,11.88-11.17,31.56-10.8,42.89.94,2.13,2.21,3.5,5.12,5.63,7.31,9.9-19.5,36.25-22.02,50.4-5.41.72.84,3.2,5.64,4.24,4.93,8.89-17.6,33.31-21.21,47.6-7.78,1.51,1.42,2.8,3.65,4.19,5.13.33.35.76.51.98.3ZM64.99,90.78c.95-.97,1.43-2.98,1.57-4.32.77-7.58.61-26.27-1.54-33.31-4.59-15.01-23.01-20.2-36-12.24-16.13,9.88-8.9,31.73-10.53,47.46.58,2.62,2.88,3.78,5.42,4,11.89,1.01,25.19-.79,37.24-.02,1.21-.12,3-.72,3.84-1.57ZM120.74,62.2c.66-31.56-45.72-34.07-48.07-2.14-.52,7.01-.67,20,0,26.89.74,7.72,9.14,4.96,14.56,5.33.63-4.1,1.19-7.69,2.81-11.56,5.17-12.34,17.58-18.91,30.71-18.52ZM173.81,90.78c.95-.97,1.43-2.98,1.57-4.32.77-7.58.62-27.56-1.86-34.4-2.47-6.81-8.72-12.2-15.67-14.01-17-4.44-32.34,8.16-30.54,25.73,9.88,3.68,17.58,11.5,20.14,21.88.54,2.21.44,4.47,1.15,6.62,6.76-.44,14.76.82,21.37.07,1.21-.14,3-.71,3.84-1.57ZM141.94,112.14v-21.43c0-16.38-19.19-25.58-33.57-19.91-19.98,7.89-13.41,31.79-14.44,48.6-.26,1.35,2.49,4.52,3.49,4.52h29.91l-7.93-16.36c-.22-1.41,1.89-4.33,3.5-4.36,6.61,2.01,12.67,6.11,19.03,8.95Z"/>
-                    </g>
-                </g>
-                </svg>
-            </div>
-            <div class="text-3xl font-bold text-[#293277] text-center">{{ __('messages.cosmetic.services.veneers.title') }}</div>
-            <div class="text-xl text-gray-500 text-center">{{ __('messages.cosmetic.services.veneers.description') }}</div>
-        </div>
-        
-        <div class="relative border border-white border-[4px] mt-[120px] p-8 rounded-[50px] pt-[120px] max-w-[350px]">
-            <div class="absolute -top-[100px] p-[20px] left-[50%] -translate-x-[50%] bg-white rounded-full">
-                <svg style="width: 160px; height: 160px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.43 172.54"><defs><style>.cls-1{fill:#293277;}</style></defs><title>{{ __('messages.cosmetic.services.fillings.title') }}</title><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><g id="sd1NEK"><path class="cls-1" d="M153.55,66.26,179.86,58c0-1,.09-2,.13-3-3.67-1.74-7.44-3.31-11-5.32-1.54-.87-2.57-2.64-3.83-4,1.87-.37,4-1.46,5.56-1a41.89,41.89,0,0,1,10.59,4.81c5.27,3.5,5.58,9.38,0,12.31a76.61,76.61,0,0,1-21.25,7.7c-6.65,1.25-9,4.16-9.37,10.47s-1.65,12.32-2.68,19.58c7.59-1.47,14.25-3,20.81-9.23-4.34-2.23-7.76-3.79-11-5.71-1.29-.78-2.11-2.34-3.14-3.55,1.62-.56,3.24-1.16,4.89-1.65.29-.09.73.22,1.08.38,5.21,2.46,12.08,3.83,12.11,11.06,0,6.87-6.34,8.62-11.51,10.89a7.34,7.34,0,0,1-2.19.8c-10.43.79-13.74,7.18-16,16.76-3.13,13.22-8.64,25.87-13.16,38.76a27.73,27.73,0,0,1-1.42,3.21c-4.2,8.55-8.15,11.38-14.39,10.35-6-1-9.22-5.44-10-14.64-.88-10.57-2-21-9.41-29.89-7.19,5.1-8.69,12.63-9.32,20.48-.32,4.09,0,8.23-.33,12.3-.46,5-2,9.75-7.23,11.83s-10.06.09-13.34-3.59c-4.09-4.59-8-9.79-10.34-15.42C48.59,139,43.69,125,39,111c-1.21-3.59-2.58-5.39-6.32-6.43a68.43,68.43,0,0,1-16.22-6.4c-6.72-3.93-6.6-10.18-.12-14.43a46.76,46.76,0,0,1,10.09-4.52c.89-.31,2.29.79,3.45,1.24-.61,1.25-.89,3-1.88,3.64-2.46,1.53-5.34,2.37-7.88,3.78-3.81,2.12-3.42,4.66.21,6.34,4.69,2.16,9.62,3.8,15.54,6.09C34.18,90.2,32.9,81.59,31.22,73.07,31,72,28.82,71,27.36,70.5c-7-2.31-14.34-3.9-21.08-6.85C3.42,62.4,0,58.47,0,55.75s3.62-5.84,6.27-8a16.38,16.38,0,0,1,7.54-3c1.86-.32,4,.68,5.94,1.1-1.35,1.3-2.51,3-4.11,3.85C12.17,51.55,8.47,53,3.72,55.19,12,62.55,20.9,62.93,29,65.14,29.43,57.26,29,50,30.3,43,33.2,27.2,45.12,17.2,61.17,17.11c7.75-.05,15.49,1.62,23.25,2.19a20.49,20.49,0,0,0,7.73-1c18.3-6,35.88-5.23,52,6,10.31,7.18,12.39,17.94,11.05,29.7C154.83,57.47,154.29,60.91,153.55,66.26ZM100.4,22.41c7.66,1.48,14.21,2.52,20.62,4.12,2,.5,3.6,2.51,5.38,3.82-2.19.49-4.49,1.66-6.57,1.36-6.75-1-13.39-2.71-20.14-3.75C86.8,26,73.9,23.27,60.93,22.74s-22,7.67-25,20.45A62.29,62.29,0,0,0,34.8,57.12c0,9.27.16,9.29,9.17,10.27a439.64,439.64,0,0,0,93.59.29c12.81-1.35,9.92-.64,11.79-11.48,1.41-8.14,1.57-16.37-4.26-23.44C136.49,22.34,114.34,16.79,100.4,22.41ZM140.75,107c-32.62,4.83-64.56,4.57-97.3.07,5.46,19.18,11.31,36.88,21.21,53a7.22,7.22,0,0,0,2.21,2.69c2.79,1.49,6.26,4.27,8.48,3.54s3.23-5.07,4.32-8c.57-1.55.19-3.47.18-5.23-.06-11.35,1.41-22.19,9.71-29.61-.69-2.8-1.19-4.79-1.68-6.78,2.18.49,5,.27,6.42,1.6a61.46,61.46,0,0,1,8.35,10.42c6.08,9.21,5.89,20,7.52,30.37.4,2.56,2.73,5.87,5,6.73,1.54.58,5.49-1.92,6.62-4C131,144.93,136.2,126.63,140.75,107Zm5.74-34.88A445.91,445.91,0,0,1,36.55,72c1.82,9.59,3.39,18.34,5.27,27,.22,1,2.09,2.21,3.34,2.41a296.18,296.18,0,0,0,93.26.09c1.5-.24,3.71-1.86,4-3.15C144,90,145.08,81.52,146.49,72.16Z"/><path class="cls-1" d="M162.71,15.85l-7.86-4.69,7.89-3.7C163.7,5.4,165,2.7,166.25,0c1.45,2.55,2.91,5.1,4.33,7.58l7.33,4-7.71,4-3.81,7.12Z"/><path class="cls-1" d="M27,124.82l7.73,3.88-7.69,4.39-4,7.2-3.51-7.48L11.65,129l7.94-4.27c1.05-2.11,2.39-4.77,3.73-7.43Z"/><path class="cls-1" d="M43.64,49.66c1.83-4.16,3.37-8.49,5.68-12.37.66-1.1,3.54-.88,5.4-1.26-.41,1.61-.81,3.22-1.23,4.82-1,4-2.31,7.94-3,12-.31,1.82.84,3.86.7,5.75-.1,1.24-1.31,2.39-2,3.58-1.08-.93-2.82-1.68-3.13-2.81a76.62,76.62,0,0,1-1.47-9.22Z"/></g></g></g></svg>
-            </div>
-            <div class="text-3xl font-bold text-[#293277] text-center">{{ __('messages.cosmetic.services.whitening.title') }}</div>
-            <div class="text-xl text-gray-500 text-center">{{ __('messages.cosmetic.services.whitening.description') }}</div>
-        </div>
-        
-        <div class="relative border border-white border-[4px] mt-[120px] p-8 rounded-[50px] pt-[120px] max-w-[350px]">
-            <div class="absolute -top-[100px] p-[20px] left-[50%] -translate-x-[50%] bg-white rounded-full">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.42 176.18" style="width: 160px; height: 160px">
-                <defs>
-                    <style>
-                    .cls-1 {
-                        fill: #293277;
-                        stroke: #293277;
-                        stroke-miterlimit: 10;
-                        stroke-width: 2px;
-                    }
-                    </style>
-                </defs>
-                <g id="Capa_1-2" data-name="Capa 1">
-                    <g id="fGBWIT">
-                    <g>
-                        <path class="cls-1" d="M19.76,30.36c2.57-.26,8.07-.43,10.51-.02,2.13.36,5.94,4.49,8.36,5.91,11.1,6.53,31.71,6.76,41.67-2.06,1.5-1.33,2.41-3.35,4.43-3.77,4.14-.87,12.49-.15,16.52,1.35,20.39,7.63,12.38,38.24,7.05,53.6-2.3,6.63-5.46,11.95-5.73,19.24-.7,18.78,3.14,46.08-5.51,63.32-3.79,7.55-10.49,10.39-15.57,2.03-8.15-13.43-5.52-45.02-18.95-52.73-10.68-6.13-17.45,8.36-19.68,16.48-2.53,9.17-4.22,36.11-13.13,40.73-7.03,3.64-11.95-6.72-13.54-11.92-5.2-17-3.69-36.39-3.46-53.93.15-11.52-4.04-17.35-7.24-27.74C.33,64.15-5.45,32.94,19.76,30.36ZM27.32,34.18h-7.67c-.72,0-4.56,1.32-5.42,1.71-16.51,7.55-7.39,36.9-2.97,49.83,3.85,11.26,5.22,12.29,4.99,24.94-.24,12.91-.99,48.42,7.16,58.14,2.11,2.52,3.99,3.36,6.21.52,6.56-8.4,6.8-29.31,10.54-40.11,8.37-24.19,27.65-22.56,35.32,1.07,3.14,9.68,3.29,20.14,6.32,30.06,1.72,5.64,5.37,16.65,11.21,6.74,7.1-12.06,6.25-42.56,6.02-56.78-.2-12.46,1.19-13.52,4.99-24.59,4.46-13,13.72-42.94-3.48-50.03-.84-.34-4.25-1.51-4.91-1.51h-7.67c3.74,10.35-6.65,16.5-15.06,19-10.25,3.04-22.83,2.85-32.91-.8-7.69-2.79-16.07-8.89-12.65-18.2ZM84.38,35.61c-4.63,4.59-10.61,7.33-17.04,8.45-11.38,1.99-23.33.46-33-6.02-1.89-1.27-4.02-4.6-4.09.23-.05,3.35,2.98,6.23,5.59,7.9,11,7.02,33.18,7.06,44.03-.29,3.53-2.39,6.38-5.85,4.52-10.28Z"/>
-                        <path class="cls-1" d="M59.42,23.84v6.06c1.21-.05,1.76-1.81,3.04-1.78.76.02,1.95,1.52,1.88,2.26-.05.58-4.79,5.58-5.43,5.96-.91.53-1.62.53-2.54,0-.52-.3-5.24-5.25-5.37-5.71-.24-.87.95-2.48,1.81-2.5,1.28-.03,1.83,1.72,3.04,1.78v-5.17c0-.12-.38-.85-.6-.9-2.2-.49-5.27-.38-7.67-.81-6.45-1.14-15.96-4.59-19.48-10.48C21.48,1.46,35.93,1.77,42.83,1.37c11.58-.67,30.49-.68,41.63,2.25,4.44,1.17,5.32,2.74,3.56,7.27-3.58,9.21-19.77,12.91-28.59,12.96ZM42.94,5.04c-2.04.11-10.83.83-12.06,1.85-1.94,1.61,2.65,6.15,3.96,7.11,10.75,7.86,33.12,7.78,44.3.85,1.44-.89,6.76-5.28,5.45-7.09-.54-.75-11.49-1.96-13.23-2.11-9.02-.8-19.37-1.1-28.42-.61Z"/>
-                    </g>
-                    </g>
-                </g>
-                </svg>
-            </div>
-            <div class="text-3xl font-bold text-[#293277] text-center">{{ __('messages.cosmetic.services.fillings.title') }}</div>
-            <div class="text-xl text-gray-500 text-center">{{ __('messages.cosmetic.services.fillings.description') }}</div>
+
+    <!-- SLIDER -->
+    <div class="relative w-full overflow-hidden py-14">
+
+        <!-- FLECHAS -->
+        <button id="prevBtn"
+            class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-3 rounded-full shadow">
+            ◀
+        </button>
+        <button id="nextBtn"
+            class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-3 rounded-full shadow">
+            ▶
+        </button>
+
+        <!-- TRACK -->
+        <div id="cosmetic-slider" class="flex gap-6 transition-transform duration-700 touch-pan-x">
+
+            @php
+                $services = [
+                    ['img'=>'01.png','key'=>'veneers'],
+                    ['img'=>'02.png','key'=>'whitening'],
+                    ['img'=>'03.png','key'=>'fillings'],
+                    ['img'=>'01.png','key'=>'cleanings'],
+                    ['img'=>'02.png','key'=>'cosmetic_dentistry'],
+                    ['img'=>'03.png','key'=>'dental_crowns'],
+                    ['img'=>'04.png','key'=>'dental_implants'],
+                    ['img'=>'05.png','key'=>'zygomatic_implants'],
+                    ['img'=>'06.png','key'=>'dentures'],
+                    ['img'=>'07.png','key'=>'endodontics'],
+                    ['img'=>'08.png','key'=>'extractions'],
+                    ['img'=>'09.png','key'=>'fillings'],
+                    ['img'=>'10.png','key'=>'orthodontics'],
+                    ['img'=>'11.png','key'=>'pediatric_dentistry'],
+                    ['img'=>'12.png','key'=>'periodontics'],
+                ];
+            @endphp
+
+            @foreach($services as $service)
+                <div class="relative border border-white border-[4px] mt-[120px] p-6 md:p-8 rounded-[50px]
+                            pt-[120px] w-[260px] sm:w-[300px] md:w-[350px] flex-shrink-0 bg-gray-300">
+                    <div class="absolute -top-[100px] left-1/2 -translate-x-1/2 bg-white p-5 rounded-full">
+                        <img src="{{ asset('images/cosmetic/'.$service['img']) }}"
+                             class="w-[140px] md:w-[160px] h-[140px] md:h-[160px] object-contain" alt="">
+                    </div>
+
+                    <div class="text-xl md:text-3xl font-bold text-[#293277] text-center">
+                        {{ __('messages.cosmetic.services.'.$service['key'].'.title') }}
+                    </div>
+
+                    <div class="text-base md:text-xl text-gray-500 text-center mt-2">
+                        {{ __('messages.cosmetic.services.'.$service['key'].'.description') }}
+                    </div>
+                </div>
+            @endforeach
+
         </div>
     </div>
 </div>
 
+<!-- JS -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const slider = document.getElementById('cosmetic-slider');
+    const prev = document.getElementById('prevBtn');
+    const next = document.getElementById('nextBtn');
+
+    const original = Array.from(slider.children);
+    let index = 0;
+    let interval;
+    let startX = 0;
+
+    function visibleCards() {
+        const w = window.innerWidth;
+        if (w < 640) return 1;
+        if (w < 1024) return 2;
+        return 3;
+    }
+
+    function cardWidth() {
+        return slider.children[0].offsetWidth + 24;
+    }
+
+    function setup() {
+        slider.innerHTML = '';
+        original.forEach(c => slider.appendChild(c));
+        original.slice(0, visibleCards()).forEach(c => {
+            slider.appendChild(c.cloneNode(true));
+        });
+        index = 0;
+        slider.style.transition = 'none';
+        slider.style.transform = 'translateX(0)';
+    }
+
+    function move(dir = 1) {
+        index += dir;
+        slider.style.transition = 'transform 0.7s ease-in-out';
+        slider.style.transform = `translateX(-${index * cardWidth()}px)`;
+
+        if (index >= original.length) {
+            setTimeout(() => {
+                slider.style.transition = 'none';
+                slider.style.transform = 'translateX(0)';
+                index = 0;
+            }, 700);
+        }
+
+        if (index < 0) {
+            index = original.length - 1;
+            slider.style.transition = 'none';
+            slider.style.transform = `translateX(-${index * cardWidth()}px)`;
+        }
+    }
+
+    function startAuto() {
+        interval = setInterval(() => move(1), 4000);
+    }
+
+    function stopAuto() {
+        clearInterval(interval);
+    }
+
+    /* Eventos */
+    next.onclick = () => move(1);
+    prev.onclick = () => move(-1);
+
+    slider.addEventListener('mouseenter', stopAuto);
+    slider.addEventListener('mouseleave', startAuto);
+
+    slider.addEventListener('touchstart', e => {
+        startX = e.touches[0].clientX;
+    });
+
+    slider.addEventListener('touchend', e => {
+        const endX = e.changedTouches[0].clientX;
+        if (startX - endX > 50) move(1);
+        if (endX - startX > 50) move(-1);
+    });
+
+    window.addEventListener('resize', setup);
+
+    setup();
+    startAuto();
+});
+</script>

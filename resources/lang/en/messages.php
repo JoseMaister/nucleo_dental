@@ -210,7 +210,102 @@ return [
             'fillings' => [
                 'title' => 'Fillings',
                 'description' => 'A dental filling is a material used to restore a tooth damaged by decay, a crack, or wear.'
-            ]
+            ],
+            
+    'cleanings' => [
+        'title' => 'Cleanings',
+        'description' => 'A dental cleaning removes plaque, tartar, and stains to keep teeth and gums healthy.'
+    ],
+
+    'cosmetic_dentistry' => [
+        'title' => 'Cosmetic Dentistry',
+        'description' => 'Cosmetic dentistry focuses on improving the appearance of teeth, gums, and smiles.'
+    ],
+
+    'dental_crowns' => [
+        'title' => 'Dental Crowns',
+        'description' => 'A dental crown is a custom-made cap that restores the strength, shape, and appearance of a tooth.'
+    ],
+
+    'dental_implants' => [
+        'title' => 'Dental Implants',
+        'description' => 'Dental implants are permanent replacements for missing teeth that function like natural teeth.'
+    ],
+
+    'zygomatic_implants' => [
+        'title' => 'Zygomatic Implants',
+        'description' => 'Zygomatic implants are advanced dental implants anchored in the cheekbone for patients with severe bone loss.'
+    ],
+
+    'dentures' => [
+        'title' => 'Dentures',
+        'description' => 'Dentures are removable appliances that replace missing teeth and restore oral function.'
+    ],
+
+    'endodontics' => [
+        'title' => 'Endodontics',
+        'description' => 'Endodontics treats the inside of the tooth, including infections of the dental pulp.'
+    ],
+
+    'extractions' => [
+        'title' => 'Extractions',
+        'description' => 'A tooth extraction is the removal of a tooth that is damaged, infected, or problematic.'
+    ],
+
+    'fillings' => [
+        'title' => 'Fillings',
+        'description' => 'A dental filling restores a tooth damaged by decay, cracks, or wear.'
+    ],
+
+    'partials' => [
+        'title' => 'Fixed or Removable Partials',
+        'description' => 'Partial dentures replace one or more missing teeth using fixed or removable solutions.'
+    ],
+
+    'fluoride' => [
+        'title' => 'Fluoride',
+        'description' => 'Fluoride treatments strengthen tooth enamel and help prevent cavities.'
+    ],
+
+    'general_dentistry' => [
+        'title' => 'General Dentistry',
+        'description' => 'General dentistry provides routine care to maintain overall oral health.'
+    ],
+
+    'laser_treatments' => [
+        'title' => 'Laser Treatments',
+        'description' => 'Laser dentistry uses advanced technology for precise and minimally invasive treatments.'
+    ],
+
+    'oral_surgery' => [
+        'title' => 'Oral Surgery',
+        'description' => 'Oral surgery addresses complex dental issues involving the mouth, jaw, and facial structures.'
+    ],
+
+    'orthodontics' => [
+        'title' => 'Orthodontics',
+        'description' => 'Orthodontics corrects misaligned teeth and jaws to improve function and appearance.'
+    ],
+
+    'pediatric_dentistry' => [
+        'title' => 'Pediatric Dentistry',
+        'description' => 'Pediatric dentistry focuses on the oral health of infants, children, and adolescents.'
+    ],
+
+    'periodontics' => [
+        'title' => 'Periodontics',
+        'description' => 'Periodontics treats gum disease and supports the health of the structures around the teeth.'
+    ],
+
+    'root_canal' => [
+        'title' => 'Root Canal',
+        'description' => 'A root canal removes infected tissue from inside the tooth to relieve pain and save it.'
+    ],
+
+    'sealants' => [
+        'title' => 'Sealants',
+        'description' => 'Dental sealants protect teeth from cavities by sealing deep grooves and pits.'
+    ],
         ]
     ],
     'orthodontics' => [
