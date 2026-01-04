@@ -55,9 +55,9 @@
             @endphp
 
             @foreach($services as $service)
-                <div class="relative border border-white border-[4px] mt-[120px] p-6 md:p-8 rounded-[50px]
-                            pt-[120px] w-[260px] sm:w-[300px] md:w-[350px] flex-shrink-0 bg-gray-300">
-                    <div class="absolute -top-[100px] left-1/2 -translate-x-1/2 bg-white p-5 rounded-full">
+                <div class="relative border border-white border-[4px] pt-[120px] mt-[120px] p-6 md:p-8 rounded-[50px]
+                             w-[260px] sm:w-[300px] md:w-[350px] flex-shrink-0 bg-gray-300" style="padding-top: 120px !important;">
+                    <div class="absolute -top-[100px] right-[50%] translate-x-1/2 bg-white p-3 rounded-full">
                         <img src="{{ asset('images/cosmetic/'.$service['img']) }}"
                              class="w-[140px] md:w-[160px] h-[140px] md:h-[160px] object-contain" alt="">
                     </div>

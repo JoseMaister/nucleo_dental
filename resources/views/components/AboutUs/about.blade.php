@@ -29,7 +29,7 @@ $content = "
 $sectionsJulio = [
     [
         'title' => ' Applied Studies',
-        'content' => "<p> 2002-2006 / Professional: UACJ Cd. Juárez Chihuahua</p>
+        'content' => "<p>Professional: UACJ Cd. Juárez Chihuahua</p>
 <p> 2008-2010 / Degree: Master's Degree in Oral Implantology at ITAV 
 Monterrey, Nuevo León</p>
 <p> 2011-2013 / Specialty: Fixed and Removable Oral Prosthesis - 
@@ -96,50 +96,189 @@ septiembre 2021 febrero 2022</li>
     ]
 ];
 
+$contentJose = "";
+$sectionsJose = [];
+
+$contentPaloma = "";
+$sectionsPaloma = [
+    [
+        'title' => ' Applied Studies',
+        'content' => "<p>Professional: UACJ Cd. Juárez Chihuahua</p>
+        <p> 2006-2011</p>"
+    ],
+    [
+        'title' => 'Professional Experience',
+        'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                    <li class='text-gray-600 text-[15px] leading-snug'>PARTICIPACION EN LA PROMOCION EDUCACION Y ATENCION A LA SALUD DURANTE EL EVENTO DIA DE LA SALUD, EFECTUADO EN EL INSTITUTO DE CIENCIAS BIOMEDICAS. EL DIA 8 DE ABRIL DEL 2008</li>
+        <li class='text-gray-600 text-[15px] leading-snug'>RECONOCIMIENTO POR PARTICIPACION EN LAS INTERVENCIONES QUIRURGICAS DEL 'PROGRAMA MIL SONRISAS' DIRIGIDO A PERSONAS CON PROBLEMA DE LABIO LEPORINO Y/O PALAR HENDIDO, LLEVADO A CABO DEL 24 AL 26 DE ABRIL DEL 2008, EN CIUDAD JUAREZ, CHIH.,MEXICO</li>
+        <li class='text-gray-600 text-[15px] leading-snug'>CONSEJERO TECNICO PROPIETARIO DEL INSTITUTO DE CIENCIAS BIOMEDICAS DE LA UNIVERSIDAD AUTONOMA DE CIUDAD JUAREZ ODONTOLOGIA. ENERO DEL 2008 A ENERO DEL 2009</li>
+        <li class='text-gray-600 text-[15px] leading-snug'>CONSEJERO TECNICO SUPLENTE DEL INSTITUTO DE CIENCIAS BIOMEDICAS DE LA UNIVERSIDAD AUTONOMA DE CIUDAD JUAREZ ODONTOLOGIA. ENERO- DICIEMBRE DEL 2010</li>
+    
+        </ul>"
+    ],
+    [
+        'title' => 'Courses',
+        'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+            <li class='text-gray-600 text-[15px] leading-snug'>ASISTENCIA V SEMANA DE ODONTOLOGIA, REALIZADA EN CIUDAD JUAREZ, CHIH., 3, 4 Y 5 DE MARZO DE 2008 CENTRO CULTURAL UNIVERSITARIO</li>
+        </ul>"
+    ]
+];
+
+$palomaSpecialties = [__('messages.specialties.orthodontist')];
+
+//Ernesto
+    $ernestoName = __('messages.team.ernesto.name');
+    $ernestoSpecialties = [__('messages.specialties.chief_periodontist'), __('messages.specialties.implantologist')];
+
+    // Doctor specialties and content
+try {
+    // Ernesto
+    $ernestoContent = __('messages.team.ernesto.content');
+    $ernestoSections = [];
+    
+    // Julio
+    $julioName = __('messages.team.julio.name');
+    $julioSpecialties = [__('messages.specialties.prosthodontist'), __('messages.specialties.cosmetic_dentist'), __('messages.specialties.implantologist')];
+    $julioContent = __('messages.team.julio.content');
+    $julioSections = [
+        [
+            'title' => __('messages.team.julio.sections.applied_studies.title'),
+            'content' => __('messages.team.julio.sections.applied_studies.content')
+        ],
+        [
+            'title' => __('messages.team.julio.sections.courses.title'),
+            'content' => __('messages.team.julio.sections.courses.content')
+        ]
+    ];
+    
+    // Adriana Armendariz
+    $adrianaArmendarizName = __('messages.team.adriana_armendariz.name');
+    $adrianaArmendarizSpecialties = [__('messages.specialties.general_dentist')];
+    $adrianaArmendarizContent = __('messages.team.adriana_armendariz.content');
+    $adrianaArmendarizSections = [
+        [
+            'title' => __('messages.team.adriana_armendariz.sections.training.title'),
+            'content' => __('messages.team.adriana_armendariz.sections.training.content')
+        ]
+    ];
+    
+    // Adriana Escalante
+    $adrianaEscalanteName = __('messages.team.adriana_escalante.name');
+    $adrianaEscalanteSpecialties = [__('messages.specialties.general_dentist')];
+    $adrianaEscalanteContent = __('messages.team.adriana_escalante.content');
+    $adrianaEscalanteSections = [
+        [
+            'title' => __('messages.team.adriana_escalante.sections.training.title'),
+            'content' => __('messages.team.adriana_escalante.sections.training.content')
+        ]
+    ];
+    
+    // Mario
+    $marioName = __('messages.team.mario.name');
+    $marioSpecialties = [__('messages.specialties.endodontist')];
+    $marioSections = [
+        [
+            'title' => __('messages.team.mario.sections.associations.title'),
+            'content' => __('messages.team.mario.sections.associations.content')
+        ],
+        [
+            'title' => __('messages.team.mario.sections.courses.title'),
+            'content' => __('messages.team.mario.sections.courses.content')
+        ]
+    ];
+    
+    // Paloma
+    $palomaName = __('messages.team.paloma.name');
+    $palomaSpecialties = [__('messages.specialties.orthodontist')];
+    $palomaContent = __('messages.team.paloma.content');
+    $palomaSections = [
+        [
+            'title' => __('messages.team.paloma.sections.applied_studies.title'),
+            'content' => __('messages.team.paloma.sections.applied_studies.content')
+        ],
+        [
+            'title' => __('messages.team.paloma.sections.professional_experience.title'),
+            'content' => __('messages.team.paloma.sections.professional_experience.content')
+        ],
+        [
+            'title' => __('messages.team.paloma.sections.courses.title'),
+            'content' => __('messages.team.paloma.sections.courses.content')
+        ]
+    ];
+    
+    
+    // Liliana
+    
+    $lilianaName = __('messages.team.liliana.name');
+    $lilianaSpecialties = [__('messages.specialties.pediatric_dentist')];
+    $lilianaContent = __('messages.team.liliana.content');
+    $lilianaSections = [
+        [
+            'title' => __('messages.team.liliana.sections.applied_studies.title'),
+            'content' => __('messages.team.liliana.sections.applied_studies.content')
+        ]
+    ];
+    
+
+} catch (Exception $e) {
+    // Fallback to default content if translation fails
+    $ernestoContent = "Ejercicio en la práctica privada desde 1979, principalmente en Periodoncia e Implantología Oral en Cd. Juárez.";
+    $julioContent = "Más de 25 años de experiencia";
+    $adrianaArmendarizContent = "Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua y Diplomado en Implantología";
+    $adrianaEscalanteContent = "Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua";
+    $palomaContent = "Especialista en Ortodoncia";
+}
 @endphp
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100188.webp')"
-    name="Dr. Ernesto Moran"
-    :specialties="['Chief Periodontist', 'Implantologist']"
-    :content="$content"
+    :name="$ernestoName"   
+    :specialties="$ernestoSpecialties"
+    :content="$ernestoContent"
+    :sections="$ernestoSections"
 />
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100190.webp')"
-    name="Dr. Julio Nevárez"
-    :specialties="['Prosthodontist', 'Cosmetic Dentist', 'Implantologist']"
-    :content="$contentJulio"
-    :sections="$sectionsJulio"
+    :name="__('messages.about.julio.name')"
+    :specialties="$julioSpecialties"
+    :content="$julioContent"
+    :sections="$julioSections"
 />
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100183.webp')"
-    name=" Dra. Adriana Armendáriz"
-    :specialties="['General Dentist']"
-    :content="$contentJulio"
-    :sections="$sectionsAdriana"
+    :name="$adrianaArmendarizName"
+    :specialties="$adrianaArmendarizSpecialties"
+    :content="$adrianaArmendarizContent"
+    :sections="$adrianaArmendarizSections"
 />
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100198.webp')"
-    name=" Dra. Adriana Escalante"
-    :specialties="['General Dentist']"
-    {{-- :content="$contentAdriana"
-    :sections="$sectionsAdriana" --}}
+    :name="$adrianaEscalanteName"
+    :specialties="$adrianaEscalanteSpecialties"
+
 />
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100191.webp')"
-    name=" Dr. Mario Torres"
-    :specialties="['Endodontist']"
-    :sections="$sectionsMario"
+    :name="$marioName"
+    :specialties="$marioSpecialties"
+    :sections="$marioSections"
 />
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100184.webp')"
-    name="Dra. Liliana Estrada"
-    :specialties="['Pediatric Dentist']"
-    {{-- :content="$contentAdriana"
-    :sections="$sectionsAdriana" --}}
+    :name="$lilianaName"
+    :specialties="$lilianaSpecialties"
+    :sections="$lilianaSections"
+/>
+
+<x-doctor-profile 
+    :imageUrl="asset('images/IMG_100181.webp')"
+    :name="$palomaName"
+    :specialties="$palomaSpecialties"
+    :content="$palomaContent"
+    :sections="$palomaSections"
 />

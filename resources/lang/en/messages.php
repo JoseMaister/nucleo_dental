@@ -1,6 +1,165 @@
 <?php
 
 return [
+    'specialties' => [
+        'periodontist' => 'Periodontist',
+        'implantologist' => 'Implantologist',
+        'prosthodontist' => 'Prosthodontist',
+        'cosmetic_dentist' => 'Cosmetic Dentist',
+        'general_dentist' => 'General Dentist',
+        'endodontist' => 'Endodontist',
+        'orthodontist' => 'Orthodontist',
+        'chief_periodontist' => 'Chief Periodontist',
+        'pediatric_dentist' => 'Pediatric Dentist',
+    ],
+    
+    'team' => [
+        'ernesto' => [
+            'name' => 'Dr. Ernesto Moran',
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Exercising in private practice since 1979, mainly doing Periodontology and Oral Implantology in Cd. Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He was also Director of the School of Dentistry and Director of the Institute of Biomedical Sciences of the Autonomous University of Ciudad Juárez. He is currently a full-time professor and holder of the Oral Implantology Course in the postgraduate courses of: Prosthesis, Periodontics and Maxillofacial Surgery at the U.A.C.J. He serves as coordinator and professor in the Master of Oral Implantology at the Institute of Advanced Technology (ITAV) in Monterey N.L.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He is currently an Advisor to various Implant companies in the State of Chihuahua. He is a lecturer on Oral Implantology in National forums and abroad. He is a founding member of the College of Periodontists of the State of Chihuahua and currently an active member of different dental colleges and associations such as: American Academy of Implantology, Fellow of the International College of Oral Implantology, Academy of Bone Integration, Mexican Association of Periodontology, College of Periodontists of Chihuahua, and from the National College of Dental Surgeons in the Ciudad Juárez section</p>"
+        ],
+        'julio' => [
+            'name' => 'Dr. Julio Nevárez',
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Over 25 years of experience</p>",
+            'sections' => [
+                'applied_studies' => [
+                    'title' => 'Applied Studies',
+                    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Professional: UACJ Cd. Juárez Chihuahua</p>\n<p class='text-gray-600 text-[16px] leading-tight'>2008-2010 / Degree: Master's Degree in Oral Implantology at ITAV Monterrey, Nuevo León</p>\n<p class='text-gray-600 text-[16px] leading-tight'>2011-2013 / Specialty: Fixed and Removable Oral Prosthesis - UACJ Cd. Juárez, Chihuahua</p>"
+                ],
+                'courses' => [
+                    'title' => 'Professional Update Courses',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>I X NATIONAL AND INTERNATIONAL CONGRESS 2003</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>IX NATIONAL AND INTERNATIONAL CONGRESS 2005</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>XI IBEROAMERICAN CONGRESS OF DENTISTRY 2006</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>CD BASIC SEMINAR ON ORAL IMPLANTOLOGY 2010</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>THE 11TH ANNUAL SYMPOSIUM ON PROSTHETIC IMPLANTS</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>XII ANNUAL SYMPOSIUM OF PROSTHETIC IMPLANTS 2009</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>MINI RESIDENCE IN BONE GRAFTING AND IMPLANTS 2010</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>CD INTERMEDIATE AND ADVANCED SEMINAR IN ORAL IMPLANTOLOGY 2011.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>XIX ALODYB DENTAL BIOMATERIALS CONGRESS 2010</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>IMMEDIATE RESTORATION OF THE COMPLETE ARCH \"TECNICA DE ALL IN FOUR\" 2012</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        'adriana_armendariz' => [
+            'name' => 'Dra. Adriana Armendáriz',
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Graduated from the Autonomous University of Ciudad Juárez, Chihuahua and Diploma In Implantology</p>",
+            'sections' => [
+                'training' => [
+                    'title' => 'Training',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Basic dental implant training May 1998</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Scientific conferences in endodontics May 1999</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>National and international congress March 1999</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>National meeting of the Mexican association of endodontics September 2000</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Dental seminar adhesive restorations: invisible dentistry January 2006</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Dental seminar adhesive restorations: invisible dentistry hands-on workshop January 2006</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Dentistry Congress August 2012</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Diploma in aesthetic and restorative dentistry April 2016 to January 2017</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Veneers course October 2018</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Smile Design Course & veneers November 2018</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>AMODYB International Congress October 2018</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        'adriana_escalante' => [
+            'name' => 'Dra. Adriana Escalante',
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Graduated from the Autonomous University of Ciudad Juárez, Chihuahua</p>",
+            'sections' => [
+                'training' => [
+                    'title' => 'Training',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Basic dental procedures and patient care</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Dental hygiene and preventive care</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Restorative dentistry techniques</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        'mario' => [
+            'name' => 'Dr. Mario Torres',
+            'sections' => [
+                'associations' => [
+                    'title' => 'Professional Associations',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Member of the College of Dental Surgeons of Cd. Juárez, Chih.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Member of the State Association A.D.M. Chih.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Member of the Health and Medical Tourism Cluster of Cd Juárez</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Professional activity</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>General practice since 2004 in Cd. Juárez, Chih.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Practice in Endodontics since 2008</li>
+                    </ul>"
+                ],
+                'courses' => [
+                    'title' => 'Courses',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Course: Problem solving in Endodontics and Management of Tomography in Endodontics July 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Implant Rehabilitation Course June 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Basic Diploma in Oral and Maxillofacial Implantology A.C. September 2021 - February 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Dental Certificate of Province May 2022 Monterrey N.L.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Cloudcroft Certificate New.Mex September 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ADM AMIC Congress Certificate November 2022</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        
+        'liliana' => [
+            'name' => 'Dr. Liliana Estrada',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Specialized dentist in pediatric orthodontics.</p>',
+            'sections' => [
+                'applied_studies' => [
+                    'title' => 'Applied Studies',
+                    'content' => "
+                    <ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Graduated from Universidad Autónoma de Ciudad Juárez, Chihuahua</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Specialized in Orthodontics</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Certified in Dental Surgery</li>
+                    </ul>"
+                ],
+                'courses' => [
+                    'title' => 'Courses',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Pediatric Orthodontics Course 2020</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Invisalign Orthodontics Course 2021</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        
+        'paloma' => [
+            'name' => 'Dra. Paloma Eguiarte',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Professional dentist with extensive experience in orthodontics.</p>',
+            'sections' => [
+                'applied_studies' => [
+                    'title' => 'Applied Studies',
+                    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Professional: UACJ Cd. Juárez Chihuahua</p>\n<p class='text-gray-600 text-[16px] leading-tight'>2006-2011</p>"
+                ],
+                'professional_experience' => [
+                    'title' => 'Professional Experience',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>PARTICIPATION IN THE PROMOTION OF EDUCATION AND HEALTH CARE DURING THE HEALTH DAY EVENT HELD AT THE INSTITUTE OF BIOMEDICAL SCIENCES. APRIL 8, 2008</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>RECOGNITION FOR PARTICIPATION IN THE SURGICAL INTERVENTIONS OF THE \"THOUSAND SMILES PROGRAM\" AIMED AT PEOPLE WITH CLEFT LIP AND/OR PALATE PROBLEMS, CARRIED OUT FROM APRIL 24 TO 26, 2008, IN CIUDAD JUAREZ, CHIH., MEXICO</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>OWNER TECHNICAL ADVISOR OF THE INSTITUTE OF BIOMEDICAL SCIENCES OF THE AUTONOMOUS UNIVERSITY OF CIUDAD JUAREZ DENTISTRY. JANUARY 2008 TO JANUARY 2009</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>SUBSTITUTE TECHNICAL ADVISOR OF THE INSTITUTE OF BIOMEDICAL SCIENCES OF THE AUTONOMOUS UNIVERSITY OF CIUDAD JUAREZ DENTISTRY. JANUARY-DECEMBER 2010</li>
+                    </ul>"
+                ],
+                'courses' => [
+                    'title' => 'Courses',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ATTENDANCE V DENTISTRY WEEK, HELD IN CIUDAD JUAREZ, CHIH., MARCH 3, 4 AND 5, 2008 UNIVERSITY CULTURAL CENTER</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ATTENDANCE XI NATIONAL AND INTERNATIONAL DENTISTRY CONGRESS NOVEMBER 9 AND 10, 2010 PASO DEL NORTE CULTURAL CENTER, CD. JUAREZ, CHIH.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ATTENDANCE VIII DENTAL WEEK HELD IN CIUDAD JUAREZ, CHIH., FEBRUARY 6, 7 AND 8, 2013 UNIVERSITY CULTURAL CENTER</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ATTENDANCE AT THE TWELFTH UPDATE COURSE ON AESTHETIC DENTISTRY, GIVEN BY THE SPEAKER DR. TAKASHI MATSUBARA KOYAMA HELD IN CIUDAD JUAREZ, CHIH., MEXICO, MAY 29, 2014 HOSPITAL ANGELES</li>
+                    </ul>"
+                ]
+            ]
+        ]
+    ],
+    
     'site' => [
         'title' => 'Nucleo Dental - Your Perfect Smile',
     ],

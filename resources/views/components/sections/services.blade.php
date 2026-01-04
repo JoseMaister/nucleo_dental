@@ -24,7 +24,7 @@
                 <!-- Service 1 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 flex items-center justify-center p-2">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/implants.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.dental_implants.title') }}</p>
@@ -35,7 +35,7 @@
                 <!-- Service 2 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64  max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 flex items-center justify-center p-2">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.porcelain_veneers.title') }}</p>
@@ -46,7 +46,7 @@
                 <!-- Service 3 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24 flex items-center justify-center p-2">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.11 143.4"
                             class="w-full h-full object-contain">
                                 <defs>
@@ -75,7 +75,7 @@
                 <!-- Service 4 -->
                 <div class="swiper-slide">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
-                        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-24  flex items-center justify-center p-2">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>

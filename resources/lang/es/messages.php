@@ -1,6 +1,155 @@
 <?php
 
 return [
+    'specialties' => [
+        'periodontist' => 'Periodoncista',
+        'implantologist' => 'Implantólogo',
+        'prosthodontist' => 'Prótesis Dental',
+        'cosmetic_dentist' => 'Dentista Cosmético',
+        'general_dentist' => 'Dentista General',
+        'endodontist' => 'Endodoncista',
+        'orthodontist' => 'Ortodoncista',
+        'chief_periodontist' => 'Periodoncista en Jefe',
+        'pediatric_dentist' => 'Dentista Pediátrico',
+    ],
+    
+    'team' => [
+        'ernesto' => [
+            'name' => 'Dr. Ernesto Moran',
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Ejercicio en la práctica privada desde 1979, principalmente en Periodoncia e Implantología Oral en Cd. Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>También fue Director de la Escuela de Odontología y Director del Instituto de Ciencias Biomédicas de la Universidad Autónoma de Ciudad Juárez. Actualmente es profesor de tiempo completo y titular del Curso de Implantología Oral en los posgrados de: Prótesis, Periodoncia y Cirugía Maxilofacial en la U.A.C.J. Se desempeña como coordinador y profesor en la Maestría en Implantología Oral en el Instituto de Tecnología Avanzada (ITAV) en Monterrey N.L.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Actualmente es Asesor de diversas empresas de Implantes en el Estado de Chihuahua. Es conferencista sobre Implantología Oral en foros Nacionales y en el extranjero. Es miembro fundador del Colegio de Periodoncistas del Estado de Chihuahua y actualmente miembro activo de diferentes colegios y asociaciones dentales como: Academia Americana de Implantología, Miembro del Colegio Internacional de Implantología Oral, Academia de Integración Ósea, Asociación Mexicana de Periodontología, Colegio de Periodoncistas de Chihuahua, y del Colegio Nacional de Cirujanos Dentistas en la sección Ciudad Juárez.</p>"
+        ],
+        'julio' => [
+            'name' => 'Dr. Julio Nevárez',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Más de 25 años de experiencia</p>',
+            'sections' => [
+                'applied_studies' => [
+                    'title' => 'Estudios Aplicados',
+                    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Profesional: UACJ Cd. Juárez Chihuahua</p>\n<p class='text-gray-600 text-[16px] leading-tight'>2008-2010 / Grado: Maestría en Implantología Oral en ITAV Monterrey, Nuevo León</p>\n<p class='text-gray-600 text-[16px] leading-tight'>2011-2013 / Especialidad: Prótesis Bucal Fija y Removible - UACJ Cd. Juárez, Chihuahua</p>"
+                ],
+                'courses' => [
+                    'title' => 'Cursos de Actualización Profesional',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>I X CONGRESO NACIONAL E INTERNACIONAL 2003</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>IX CONGRESO NACIONAL E INTERNACIONAL 2005</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>XI CONGRESO IBEROAMERICANO DE ODONTOLOGÍA 2006</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>C.D. SEMINARIO BÁSICO DE IMPLANTOLOGÍA ORAL 2010</li>
+                    <li class='text-gray-600 text-[15px] leading-snug'>EL 11° SIMPOSIO ANUAL SOBRE IMPLANTES PROTÉSICOS</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>XII SIMPOSIO ANUAL DE IMPLANTES PROTÉSICOS 2009</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>MINI RESIDENCIA EN INJERTOS ÓSEOS E IMPLANTES 2010</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>C.D. SEMINARIO INTERMEDIO Y AVANZADO EN IMPLANTOLOGÍA ORAL 2011.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>XIX CONGRESO ALODYB DE BIOMATERIALES DENTALES 2010</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>RESTAURACIÓN INMEDIATA DEL ARCO COMPLETO \"TÉCNICA DE ALL IN FOUR\" 2012</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        'adriana_armendariz' => [
+            'name' => 'Dra. Adriana Armendáriz',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua y Diplomado en Implantología</p>',
+            'sections' => [
+                'training' => [
+                    'title' => 'Capacitación',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Capacitación básica en implantes dentales Mayo 1998</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Conferencias científicas en endodoncia Mayo 1999</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Congreso nacional e internacional Marzo 1999</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Encuentro nacional de la asociación mexicana de endodoncia Septiembre 2000</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Seminario dental restauraciones adhesivas: odontología invisible Enero 2006</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Taller práctico de seminario dental restauraciones adhesivas: odontología invisible Enero 2006</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Congreso de odontología Agosto 2012</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Diplomado en odontología estética y restauradora Abril 2016 a Enero 2017</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de carillas Octubre 2018</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de Diseño de Sonrisa & carillas Noviembre 2018</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Congreso Internacional AMODYB Octubre 2018</li>
+                        
+                        </ul>"
+                ]
+            ]
+        ],
+        'adriana_escalante' => [
+            'name' => 'Dra. Adriana Escalante',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua</p>',
+            'sections' => []
+        ],
+        'mario' => [
+            'name' => 'Dr. Mario Torres',
+            'sections' => [
+                'associations' => [
+                    'title' => 'Asociaciones Profesionales',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Socio del Colegio de Cirujanos Dentistas de Cd. Juárez, Chih.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Socio de la Asociación Estatal A.D.M. Chih.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Socio del Clúster de Salud y Turismo Médico de Cd Juárez</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Actividad profesional</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Práctica general desde 2004 en Cd. Juárez, Chih.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Práctica en Endodoncia desde 2008</li>
+                    </ul>"
+                ],
+                'courses' => [
+                    'title' => 'Cursos',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Curso: Solución de problemas en Endodoncia y Manejo de Tomografía en la Endodoncia Julio 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de Rehabilitación sobre Implantes Junio 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Diplomado Básico de Implantología Bucal y Maxilofacial A.C. Septiembre 2021 - Febrero 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Constancia Dental de Provincia Mayo 2022 Monterrey N.L.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Constancia Cloudcroft New.Mex Septiembre 2022</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Constancia Congreso ADM AMIC Noviembre 2022</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        'liliana' => [
+            'name' => 'Dra. Liliana Estrada',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Dentista especializada en ortodoncia pediátrica.</p>',
+            'sections' => [
+                'applied_studies' => [
+                    'title' => 'Estudios Aplicados',
+                    'content' => "
+                    <ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Graduada de la Universidad Autónoma de Ciudad Juárez, Chihuahua</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Especialista en Ortodoncia</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Certificada en Cirugía Dental</li>
+                    </ul>"
+                ],
+                'courses' => [
+                    'title' => 'Cursos',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de Ortodoncia Pediatría 2020</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de Ortodoncia Invisalign 2021</li>
+                    </ul>"
+                ]
+            ]
+        ],
+        'paloma' => [
+            'name' => 'Dra. Paloma Eguiarte',
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Dentista profesional con amplia experiencia en ortodoncia.</p>',
+            'sections' => [
+                'applied_studies' => [
+                    'title' => 'Estudios Aplicados',
+                    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Profesional: UACJ Cd. Juárez Chihuahua</p>\n<p class='text-gray-600 text-[16px] leading-tight'>2006-2011</p>"
+                ],
+                'professional_experience' => [
+                    'title' => 'Experiencia Profesional',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>PARTICIPACIÓN EN LA PROMOCIÓN EDUCACIÓN Y ATENCIÓN A LA SALUD DURANTE EL EVENTO DÍA DE LA SALUD, EFECTUADO EN EL INSTITUTO DE CIENCIAS BIOMÉDICAS. EL DÍA 8 DE ABRIL DEL 2008</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>RECONOCIMIENTO POR PARTICIPACIÓN EN LAS INTERVENCIONES QUIRÚRGICAS DEL \"PROGRAMA MIL SONRISAS\" DIRIGIDO A PERSONAS CON PROBLEMA DE LABIO LEPORINO Y/O PALADAR HENDIDO, LLEVADO A CABO DEL 24 AL 26 DE ABRIL DEL 2008, EN CIUDAD JUÁREZ, CHIH., MÉXICO</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>CONSEJERO TÉCNICO PROPIETARIO DEL INSTITUTO DE CIENCIAS BIOMÉDICAS DE LA UNIVERSIDAD AUTÓNOMA DE CIUDAD JUÁREZ ODONTOLOGÍA. ENERO DEL 2008 A ENERO DEL 2009</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>CONSEJERO TÉCNICO SUPLENTE DEL INSTITUTO DE CIENCIAS BIOMÉDICAS DE LA UNIVERSIDAD AUTÓNOMA DE CIUDAD JUÁREZ ODONTOLOGÍA. ENERO- DICIEMBRE DEL 2010</li>
+                    </ul>"
+                ],
+                'courses' => [
+                    'title' => 'Cursos',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ASISTENCIA V SEMANA DE ODONTOLOGIA, REALIZADA EN CIUDAD JUAREZ, CHIH., 3, 4 Y 5 DE MARZO DE 2008 CENTRO CULTURAL UNIVERSITARIO</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ASISTENCIA XI CONGRESO NACIONAL E INTERNACIONAL DE ODONTOLOGIA 9 Y 10 DE NOVIEMBRE DE 2010 CENTRO CULTURAL PASO DEL NORTE, CD. JUAREZ, CHIH.</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ASISTENCIA VIII SEMANA ODONTOLÓGICA REALIZADA EN CIUDAD JUAREZ, CHIH., 6, 7 Y 8 DE FEBRERO DE 2013 CENTRO CULTURAL UNIVERSITARIO</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>ASISTENCIA EN EL DOCEAVO CURSO DE ACTUALIZACIÓN DE ODONTOLOGÍA ESTÉTICA, IMPARTIDA POR EL CONFERENCISTA DR. TAKASHI MATSUBARA KOYAMA REALIZADA EN CIUDAD JUAREZ, CHIH., MÉXICO, 29 DE MAYO DEL 2014 HOSPITAL ÁNGELES</li>
+                    </ul>"
+                ]
+            ]
+        ]
+    ],
+    
     'site' => [
         'title' => 'Nucleo Dental - Tu Sonrisa Perfecta',
     ],

@@ -1,6 +1,17 @@
 <?php
 
 return [
+    
+    'specialties' => [
+        'periodontist' => 'Periodoncista',
+        'implantologist' => 'Implantólogo',
+        'prosthodontist' => 'Prostodoncista',
+        'cosmetic_dentist' => 'Dentista Cosmético',
+        'general_dentist' => 'Dentista General',
+        'endodontist' => 'Endodoncista',
+        'orthodontist' => 'Ortodoncista',
+    ],
+    
     'hero' => [
         'title' => 'Creando sonrisas vibrantes<br>para estilos de vida saludables',
         'subtitle' => 'Con más de 25 años de experiencia podemos darte<br>la hermosa sonrisa saludable que mereces.',
