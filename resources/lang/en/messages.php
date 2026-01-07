@@ -554,6 +554,8 @@ return [
         'subtitle2' => 'Leading',
         'subtitle3' => 'Insurance Providers',
         'description1' => 'To help you maximize your benefits, Núcleo Dental collaborates with major insurance companies from both the U.S. and Mexico.',
+        'cta1' => 'Bring your insurance details to your first visit, and we\'ll handle the rest.',
+        'cta2' => 'Contact us for more information',
         'description2' => 'Our administrative staff assists you with all claim paperwork, so you can focus on your treatment.',
         'we_work_with' => 'We work with:',
         'insurance_types' => [
