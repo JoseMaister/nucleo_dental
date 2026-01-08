@@ -3,7 +3,8 @@
     'name' => '',
     'specialties' => [],
     'content' => '',
-    'sections' => [] // New prop for dynamic sections
+    'sections' => [], // New prop for dynamic sections
+    'showVideo' => false
 ])
 
 <div class="pt-6">
@@ -12,11 +13,36 @@
             <!-- Doctor's Image -->
             <div class="lg:w-4/12 mb-12 lg:mb-0 overflow-hidden">
                 <div class="relative w-[80%] h-180 mx-auto">
-                    <div class="bg-blue-100 absolute -top-6 -right-6 w-full h-full -z-10 rounded-sm"></div>
-                    <div class="relative z-10 w-[120%] h-[120%] -ml-[10%] -mt-[10%] overflow-hidden">
-                        <img src="{{ $imageUrl }}" alt="{{ $name }}" class="w-full h-full object-cover rounded-sm shadow-lg">
-                    </div>
-                </div>
+    <div class="bg-blue-100 absolute -top-6 -right-6 w-full h-full -z-10 rounded-sm"></div>
+
+    {{-- IMAGEN (igual que antes) --}}
+    <div class="relative z-10 w-[120%] h-[120%] -ml-[10%] -mt-[10%] overflow-hidden">
+        <img 
+            src="{{ $imageUrl }}" 
+            alt="{{ $name }}" 
+            class="w-full h-full object-cover rounded-sm shadow-lg"
+        >
+    </div>
+
+    {{-- BOTÓN (AQUÍ SÍ SE VE) --}}
+    @if($showVideo)
+        <div class="absolute bottom-4 left-4 z-50">
+            <button
+                class="flex items-center gap-2 px-4 py-2 rounded-full
+                       bg-white text-blue-700 font-medium shadow-lg"
+            >
+                <span class="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                         class="w-4 h-4 ml-0.5 fill-white">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </span>
+                <span>Watch Video</span>
+            </button>
+        </div>
+    @endif
+</div>
+
             </div>
             
             <!-- Text Content -->

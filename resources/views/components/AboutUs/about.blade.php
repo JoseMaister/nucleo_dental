@@ -236,6 +236,7 @@ try {
     :specialties="$ernestoSpecialties"
     :content="$ernestoContent"
     :sections="$ernestoSections"
+    :showVideo="true"
 />
 
 <x-doctor-profile 
@@ -258,8 +259,10 @@ try {
     :imageUrl="asset('images/IMG_100198.webp')"
     :name="$adrianaEscalanteName"
     :specialties="$adrianaEscalanteSpecialties"
-
+    content=""
+    :sections="[]"
 />
+
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100191.webp')"
