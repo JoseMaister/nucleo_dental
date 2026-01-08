@@ -1,5 +1,5 @@
 <div class="bg-gray-400 text-white">
-    <div class="relative w-full h-[600px] bg-cover bg-center flex items-center justify-center" style="background-image: url('{{ asset('images/100321.webp') }}'); background-size: 180%; background-position: center center;">
+<div class="relative w-full h-[600px] bg-cover bg-center flex items-center justify-center" style="background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('{{ asset('images/02.webp') }}'); background-size: fit-content; background-position: center center;">
         <!-- Content container -->
         <div class="relative flex w-full h-full  justify-between p-8 flex-col md:flex-row z-10 max-w-6xl mx-auto md:gap-6">
             <div class="flex-1 md:max-w-[400px] text-indigo-800 text-4xl md:text-5xl lg:text-7xl text-center md:text-left"> 

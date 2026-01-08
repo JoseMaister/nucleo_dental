@@ -241,7 +241,7 @@ try {
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100190.webp')"
-    :name="__('messages.about.julio.name')"
+    :name="__('messages.team.julio.name')"
     :specialties="$julioSpecialties"
     :content="$julioContent"
     :sections="$julioSections"

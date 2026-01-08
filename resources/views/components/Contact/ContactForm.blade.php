@@ -17,7 +17,7 @@
     </div>
 
 @if(session('success'))
-    <div id="successAlert" class="fixed bottom-4 right-4 z-50 max-w-md w-full bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded shadow-lg transition-opacity duration-500">
+    <div id="successAlert" class="fixed bottom-4 left-4 z-50 max-w-md w-full bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded shadow-lg transition-opacity duration-500">
         <div class="flex justify-between items-start">
             <div class="flex-1">
                 <p class="font-medium">{{ session('success') }}</p>

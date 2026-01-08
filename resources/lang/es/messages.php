@@ -476,10 +476,36 @@ return [
         ]
     ],
     'contact' => [
+                'success' => '¡Gracias por tu mensaje. Nos pondremos en contacto contigo pronto!',
         'title' => 'Solicita una Cita',
         'description1' => 'El primer paso hacia una sonrisa hermosa y saludable es programar una cita. Por favor, comuníquese con nuestra oficina por teléfono o complete el formulario de solicitud de cita a continuación.',
         'description2' => 'Nuestro coordinador de citas se comunicará con usted para confirmar su cita. Si es un paciente existente, este formulario de contacto no debe utilizarse para comunicar información de salud privada.',
         'success' => '¡Gracias por tu mensaje. Nos pondremos en contacto contigo pronto!',
+        'times' => [
+            'morning' => 'Mañana (8am - 12pm)',
+            'afternoon' => 'Tarde (12pm - 5pm)',
+            'evening' => 'Noche (5pm - 8pm)'
+        ],
+        'validation' => [
+            'name_required' => 'Por favor proporcione su nombre completo.',
+            'name_string' => 'El nombre debe ser una cadena de texto válida.',
+            'name_max' => 'El nombre no puede tener más de 255 caracteres.',
+            'email_required' => 'Por favor proporcione su dirección de correo electrónico.',
+            'email_email' => 'Por favor ingrese una dirección de correo electrónico válida.',
+            'email_max' => 'El correo electrónico no puede tener más de 255 caracteres.',
+            'phone_required' => 'Por favor proporcione su número de teléfono.',
+            'phone_string' => 'Por favor ingrese un número de teléfono válido.',
+            'phone_max' => 'El número de teléfono no puede tener más de 20 caracteres.',
+            'services_required' => 'Por favor seleccione al menos un servicio de su interés.',
+            'services_array' => 'Por favor seleccione servicios válidos de la lista.',
+            'services_*_string' => 'Cada servicio debe ser una selección válida.',
+            'best_time_required' => 'Por favor seleccione sus horarios de contacto preferidos.',
+            'best_time_array' => 'Por favor seleccione horarios de contacto válidos de la lista.',
+            'best_time_*_string' => 'Cada selección de horario debe ser válida.',
+            'referral_string' => 'La fuente de referencia debe ser una cadena de texto válida.',
+            'referral_max' => 'La fuente de referencia no puede tener más de 255 caracteres.',
+            'comments_string' => 'Los comentarios deben ser una cadena de texto válida.',
+        ],
         'email' => [
             'title' => 'Nuevo Mensaje del Formulario de Contacto',
             'name' => 'Nombre',
@@ -491,9 +517,9 @@ return [
             'comments' => 'Comentarios/Preguntas'
         ],
         'form' => [
-            'name' => 'Su Nombre',
-            'email' => 'Su Dirección de Correo Electrónico',
-            'phone' => 'Su Número de Teléfono',
+            'name' => 'Nombre',
+            'email' => 'Dirección de Correo Electrónico',
+            'phone' => 'Número de Teléfono',
             'interest' => 'Estoy interesado en',
             'best_time' => 'Mejor Horario para la Cita',
             'referral' => '¿Cómo se enteró de nosotros?',
@@ -521,9 +547,7 @@ return [
             ]
         ]
     ],
-    'contact' => [
-        'success' => '¡Gracias por tu mensaje. Nos pondremos en contacto contigo pronto!',
-    ],
+
     'financing_payment' => [
         'title1' => 'Opciones de',
         'title2' => 'Pago',
