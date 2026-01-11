@@ -1,3 +1,19 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<style>
+    .swiper-pagination-bullet {
+    width: 32px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.4);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: white;
+}
+
+</style>
 @props([
     'imageUrl' => '',
     'name' => '',
@@ -5,15 +21,13 @@
     'content' => '',
     'sections' => [],
     'showVideo' => false,
-    'videoUrl' => ''
+    'videos' => []
 ])
 
 @php
-    use Illuminate\Support\Str;
-
     $uid = uniqid('doctor_video_');
-    $isMp4 = Str::endsWith($videoUrl, '.mp4');
 @endphp
+
 
 <div class="pt-6">
     <div class="container mx-auto px-4">
@@ -33,11 +47,12 @@
                         >
                     </div>
 
-                    @if($showVideo && $videoUrl)
+                    @if($showVideo && count($videos))
+
                         <div class="absolute bottom-4 inset-x-0 flex justify-center z-50">
                             <button
                                 type="button"
-                                onclick="openDoctorVideo('{{ $uid }}', '{{ $videoUrl }}', {{ $isMp4 ? 'true' : 'false' }})"
+                                onclick="openDoctorVideo('{{ $uid }}')"
                                 class="flex items-center gap-2 px-5 py-3 rounded-full bg-white text-blue-700 font-medium shadow-lg"
                             >
                                 <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600">
@@ -105,91 +120,96 @@
     <div class="border-t border-gray-800 my-5 w-[90%] mx-auto"></div>
 </div>
 
-{{-- MODAL --}}
-@if($showVideo && $videoUrl)
 <div
     id="modal-{{ $uid }}"
     class="fixed inset-0 bg-black/80 z-[999] hidden flex items-center justify-center p-3 sm:p-6"
 >
-    <div
-        class="
-            relative bg-black rounded-lg overflow-hidden
-            w-full h-full
-            sm:h-auto sm:w-[90vw]
-            md:w-[80vw]
-            lg:max-w-5xl
-            sm:aspect-video
-        "
-    >
+    <div class="relative bg-black rounded-lg overflow-hidden w-full h-full sm:h-auto sm:w-[90vw] lg:max-w-5xl sm:aspect-video">
 
-        <!-- BOTÓN CERRAR -->
         <button
             onclick="closeDoctorVideo('{{ $uid }}')"
-            class="
-                absolute top-3 right-3
-                z-30
-                w-10 h-10
-                flex items-center justify-center
-                rounded-full
-                bg-black/70 text-white
-                hover:bg-black
-                text-xl
-            "
-        >
-            ✕
-        </button>
+            class="absolute top-3 right-3 z-30 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 text-white text-xl"
+        >✕</button>
 
-        @if($isMp4)
-            <video
-                id="video-{{ $uid }}"
-                class="w-full h-full object-contain"
-                controls
-                playsinline
-            ></video>
-        @else
-            <iframe
-                id="iframe-{{ $uid }}"
-                class="w-full h-full"
-                frameborder="0"
-                allow="autoplay; fullscreen"
-                allowfullscreen
-            ></iframe>
-        @endif
+        <div class="swiper h-full w-full" id="swiper-{{ $uid }}">
+            <div class="swiper-wrapper">
+                @foreach($videos as $video)
+                    <div class="swiper-slide flex items-center justify-center bg-black">
+                        <video
+    class="w-full h-full object-contain"
+    playsinline
+    autoplay
+    loop
+    preload="auto"
+>
+    <source src="{{ $video }}" type="video/mp4">
+</video>
 
+                    </div>
+                @endforeach
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 </div>
-@endif
-
-
 <script>
-function openDoctorVideo(id, url, isMp4) {
+let doctorSwipers = {};
+
+function openDoctorVideo(id) {
     const modal = document.getElementById('modal-' + id);
     modal.classList.remove('hidden');
 
-    if (isMp4) {
-        const video = document.getElementById('video-' + id);
-        video.src = url;
-        video.currentTime = 0;
-        video.play();
-    } else {
-        document.getElementById('iframe-' + id).src = url;
+    if (!doctorSwipers[id]) {
+      doctorSwipers[id] = new Swiper('#swiper-' + id, {
+    loop: true,
+    pagination: {
+        el: '#swiper-' + id + ' .swiper-pagination',
+        clickable: true,
+    },
+    on: {
+        slideChangeTransitionEnd() {
+            const container = document.getElementById('swiper-' + id);
+
+            container.querySelectorAll('video').forEach(v => {
+                v.pause();
+                v.currentTime = 0;
+                
+            });
+
+            const activeVideo = container.querySelector('.swiper-slide-active video');
+            if (activeVideo) {
+                activeVideo.play().catch(() => {});
+            }
+        }
     }
+});
+
+
+    }
+
+    // reproducir el primero al abrir
+    setTimeout(() => {
+        const activeVideo = modal.querySelector('.swiper-slide-active video');
+        activeVideo?.play();
+    }, 300);
 }
 
 function closeDoctorVideo(id) {
     const modal = document.getElementById('modal-' + id);
     modal.classList.add('hidden');
 
-    const video = document.getElementById('video-' + id);
-    const iframe = document.getElementById('iframe-' + id);
-
-    if (video) {
+    modal.querySelectorAll('video').forEach(video => {
         video.pause();
-        video.src = '';
-    }
+        video.currentTime = 0;
+    });
 
-    if (iframe) {
-        iframe.src = '';
+document.addEventListener('click', function (e) {
+    if (e.target.tagName === 'VIDEO') {
+        e.target.muted = false;
+        e.target.volume = 1;
     }
+});
 }
 </script>
+

@@ -181,11 +181,17 @@ return [
         ]
     ],
     'financing' => [
+    'title' => 'Smile with confidence',
+    'subtitle' => 'Payment options available',
+    'cta' => 'Learn about our payment options'
+],
+
+    /*'financing' => [
         'title' => 'Smile now... :pay_later',
         'pay_later' => 'Pay later!',
         'subtitle' => 'We now offer finance in our treatments',
         'cta' => 'Call us about financing'
-    ],
+    ],*/
     'banner' => [
         'title' => 'Find Your Perfect Smile, :today',
         'today' => 'Today!',
@@ -203,7 +209,9 @@ return [
         'contact' => 'Contact Us',
         'address' => '123 Dental Street, Juárez, Chihuahua, Mexico',
         'copyright' => ' Nucleo Dental. All rights reserved.',
-        'rights' => 'All rights reserved.'
+        'rights' => 'All rights reserved.',
+        'address2' => 'Address',
+        'email' => 'Email'
     ],
     'whatsapp' => [
         'button_text' => 'Any questions? Ask in WhatsApp',

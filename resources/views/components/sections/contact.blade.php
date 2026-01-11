@@ -4,7 +4,7 @@
             <img src="{{ asset('images/tooth2.png') }}" alt="Núcleo Dental" class="h-16">
         </div>
         <p class="text-5xl md:text-6xl p-6">
-            Contact Us
+            {{ __('messages.footer.contact') }}
         </p>
     </div>
     <div class="container mx-auto px-4 py-8">
@@ -22,7 +22,7 @@
                 <div class="flex items-start space-x-3">
                     <i class="fas fa-envelope mt-1 text-indigo-300"></i>
                     <div>
-                        <h3 class="font-semibold">Email</h3>
+                        <h3 class="font-semibold">{{ __('messages.footer.email') }}</h3>
                         <p>info@nucleodental.com</p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                 <div class="flex items-start space-x-3">
                     <i class="fas fa-map-marker-alt mt-1 text-indigo-300"></i>
                     <div>
-                        <h3 class="font-semibold">Address</h3>
+                        <h3 class="font-semibold">{{ __('messages.footer.address2') }}</h3>
                         <p>Bulevar Tomas Fernandez #7803, CD. Juárez, Chihuahua</p>
                     </div>
                 </div>

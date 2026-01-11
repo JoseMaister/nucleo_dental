@@ -170,12 +170,17 @@ return [
             'mx' => '+52 (656) 625 - 9250'
         ]
     ],
-    'financing' => [
+       'financing' => [
+    'title' => 'Sonríe ahora',
+    'subtitle' => 'Contamos con esquemas de pago disponibles',
+    'cta' => 'Consulta nuestras opciones de pago'
+],
+    /*'financing' => [
         'title' => 'Sonríe ahora... :pay_later',
         'pay_later' => '¡Paga después!',
         'subtitle' => 'Ahora ofrecemos financiamiento en nuestros tratamientos',
         'cta' => 'Llámanos sobre financiamiento'
-    ],
+    ],*/
     'banner' => [
         'title' => 'Encuentra Tu Sonrisa Perfecta, :today',
         'today' => '¡Hoy!',
@@ -198,7 +203,9 @@ return [
         'contact' => 'Contáctenos',
         'address' => 'Calle Dental 123, Juárez, Chihuahua, México',
         'copyright' => '© :year Nucleo Dental. Todos los derechos reservados.',
-        'rights' => 'Todos los derechos reservados.'
+        'rights' => 'Todos los derechos reservados.',
+        'address2' => 'Dirección',
+        'email' => 'Correo electrónico'
     ],
     'whatsapp' => [
         'button_text' => '¿Tienes preguntas? Pregunta por WhatsApp',

@@ -1,5 +1,5 @@
 <section class="relative">
-    <img src="https://as1.ftcdn.net/v2/jpg/02/46/18/78/1000_F_246187812_D7A1GzXLISKxcKr24TpH095qPeumMv6Q.jpg" 
+    <img src="images/IMG_100199.webp" 
          class="w-full h-[500px] object-cover" 
          alt="Dental Clinic">
     <div class="absolute inset-0 bg-black bg-opacity-30"></div>
