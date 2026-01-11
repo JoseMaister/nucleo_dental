@@ -214,8 +214,10 @@ return [
         'title' => 'Sobre Nosotros',
         'hero' => [
             'title' => 'Sobre Nosotros',
-            'description' => 'Nucleo Dental está convenientemente ubicado en Juárez, México y atiende a pacientes de todo Estados Unidos y México. Podemos brindar asistencia de salud bucal a los pacientes. Aceptamos seguros estadounidenses y trabajaremos con usted para que la transacción sea lo más fluida posible.'
+            'description' => 'Nucleo Dental está convenientemente ubicado en Juárez, México y atiende a pacientes de todo Estados Unidos y México. Podemos brindar asistencia de salud bucal a los pacientes. Aceptamos seguros estadounidenses y trabajaremos con usted para que la transacción sea lo más fluida posible.',
+            'video' => 'Ver Video'
         ],
+        'video' => 'Ver Video',
         'banner' => [
             'meet_team' => 'Conoce al',
             'team_experts' => 'Equipo de Expertos'

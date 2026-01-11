@@ -237,6 +237,7 @@ try {
     :content="$ernestoContent"
     :sections="$ernestoSections"
     :showVideo="true"
+    :videoUrl="asset('images/videos/moran_ortodoncia.mp4')"
 />
 
 <x-doctor-profile 
@@ -269,6 +270,8 @@ try {
     :name="$marioName"
     :specialties="$marioSpecialties"
     :sections="$marioSections"
+    :showVideo="true"
+    :videoUrl="asset('images/videos/mario_endodoncia.mp4')"
 />
 
 <x-doctor-profile 

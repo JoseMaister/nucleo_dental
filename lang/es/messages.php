@@ -42,5 +42,8 @@ return [
     'services' => [
         'title' => 'Servicios',
         'subtitle' => 'Nuestros servicios'
+    ],
+    'about' => [
+        'title' => 'Ver Video'
     ]
 ];

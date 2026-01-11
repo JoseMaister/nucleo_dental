@@ -224,7 +224,9 @@ return [
         'hero' => [
             'title' => 'About Us',
             'description' => "Nucleo Dental is conveniently located in Juarez, Mexico and serves patients from all over the United States and Mexico. We're able to provide oral health assistance to patients. We accept American insurance and will work with you to make the transaction run as smoothly as possible."
+            
         ],
+        'video' => 'Watch Video',
         'dr_name' => 'Dr. Ernesto Moran',
         'bio' => 'Practicing since 1979 in Periodontal and Oral Implantology, he is a professor and program coordinator at U.A.C.J. and ITAV. He advises implant companies, lectures nationally and internationally, and is an active member of major dental associations.',
         'cta' => 'Click for detailed information',
