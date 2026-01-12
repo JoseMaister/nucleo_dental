@@ -20,6 +20,8 @@ return [
         ],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
+            'julio_summary' => "• Master's in Oral Implantology from ITAV Monterrey\n• Specialist in Fixed and Removable Oral Prosthesis\n• Over 25 years of experience in dentistry",
+            
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Over 25 years of experience</p>",
             'sections' => [
                 'applied_studies' => [
@@ -45,6 +47,7 @@ return [
         ],
         'adriana_armendariz' => [
             'name' => 'Dra. Adriana Armendáriz',
+            'adriana_armendariz_summary' => "• Graduate of Autonomous University of Ciudad Juárez\n• Diploma in Implantology\n• Extensive training in aesthetic and restorative dentistry",
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Graduated from the Autonomous University of Ciudad Juárez, Chihuahua and Diploma In Implantology</p>",
             'sections' => [
                 'training' => [
@@ -67,6 +70,8 @@ return [
         ],
         'adriana_escalante' => [
             'name' => 'Dra. Adriana Escalante',
+                    'adriana_escalante_summary' => "• Graduate of Autonomous University of Ciudad Juárez\n• Specialized in general and preventive dentistry\n• Focus on patient-centered care",
+
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Graduated from the Autonomous University of Ciudad Juárez, Chihuahua</p>",
             'sections' => [
                 'training' => [
@@ -81,6 +86,7 @@ return [
         ],
         'mario' => [
             'name' => 'Dr. Mario Torres',
+            'mario_summary' => "• General practice since 2004 in Cd. Juárez\n• Specialized in Endodontics since 2008\n• Active member of multiple dental associations\n• Extensive continuing education in implantology",
             'sections' => [
                 'associations' => [
                     'title' => 'Professional Associations',
@@ -130,9 +136,25 @@ return [
             ]
         ],
         
+        'liliana' => [
+            'name' => 'Dra. Liliana',
+            'liliana_summary' => "• Specialized in Pediatric Dentistry\n• Focus on children's dental health and prevention\n• Creating positive dental experiences for young patients",
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Specialized in Pediatric Dentistry with a focus on creating positive dental experiences for children.</p>',
+            'sections' => [
+                'specialties' => [
+                    'title' => 'Specialties',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Pediatric Dentistry</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Preventive Dental Care</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Child Behavioral Management</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Dental Education for Children</li>
+                    </ul>"
+                ]
+            ]
+        ],
         'paloma' => [
             'name' => 'Dra. Paloma Eguiarte',
-            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Professional dentist with extensive experience in orthodontics.</p>',
+            'paloma_summary' => "• Professional dentist with extensive experience in orthodontics\n• Specialized in aesthetic and functional dental solutions\n• Committed to patient comfort and satisfaction",
             'sections' => [
                 'applied_studies' => [
                     'title' => 'Applied Studies',

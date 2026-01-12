@@ -22,7 +22,7 @@
             </ul>
         </div>
     </div>
-    <div class="absolute flex w-[90%] flex-col md:flex-row z-10 -bottom-[8%] left-[50%] -translate-x-[50%] bg-gray-400 rounded-[50px] px-12 py-6 gap-6">
+<div class="absolute flex w-[90%] max-w-4xl flex-col md:flex-row z-10 -bottom-[8%] left-1/2 -translate-x-1/2 bg-gray-400 rounded-[50px] px-6 md:px-12 py-6 gap-6 mx-auto">
         <div class="flex-1 text-left">
             <div class="text-2xl font-bold text-indigo-800">{{ __('messages.financing_payment.help_title') }}</div>
             <div class="font-light text-lg text-white">{{ __('messages.financing_payment.help_text') }}</div>

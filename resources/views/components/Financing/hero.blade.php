@@ -17,13 +17,13 @@
                 <p class="text-2xl md:text-3xl lg:text-4xl font-semibold text-indigo-800 leading-tight">
                     {!! __('messages.financing_hero.subtitle') !!}
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl font-thin text-gray-700 md:text-right leading-tight">
+                <p class="text-lg md:text-xl lg:text-2xl font-regular text-gray-700 md:text-right leading-tight">
                     {!! __('messages.financing_hero.description1') !!}
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl font-thin text-gray-700 md:text-right leading-tight">
+                <p class="text-lg md:text-xl lg:text-2xl font-regular text-gray-700 md:text-right leading-tight">
                     {!! __('messages.financing_hero.description2') !!}
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl font-thin text-gray-700 md:text-right leading-tight">
+                <p class="text-lg md:text-xl lg:text-2xl font-regular text-gray-700 md:text-right leading-tight">
                     {!! __('messages.financing_hero.description3') !!}
                 </p>
             </div>

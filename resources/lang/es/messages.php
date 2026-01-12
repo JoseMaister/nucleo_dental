@@ -20,6 +20,7 @@ return [
         ],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
+            'julio_summary' => "• Maestría en Implantología Oral por ITAV Monterrey\n• Especialista en Prótesis Bucal Fija y Removible\n• Más de 25 años de experiencia en odontología",
             'content' => '<p class="text-gray-600 text-[16px] leading-tight">Más de 25 años de experiencia</p>',
             'sections' => [
                 'applied_studies' => [
@@ -45,6 +46,7 @@ return [
         ],
         'adriana_armendariz' => [
             'name' => 'Dra. Adriana Armendáriz',
+            'adriana_armendariz_summary' => "• Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua y Diplomado en Implantología",
             'content' => '<p class="text-gray-600 text-[16px] leading-tight">Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua y Diplomado en Implantología</p>',
             'sections' => [
                 'training' => [
@@ -68,11 +70,13 @@ return [
         ],
         'adriana_escalante' => [
             'name' => 'Dra. Adriana Escalante',
+            'adriana_escalante_summary' => "Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua",
             'content' => '<p class="text-gray-600 text-[16px] leading-tight">Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua</p>',
             'sections' => []
         ],
         'mario' => [
             'name' => 'Dr. Mario Torres',
+            'mario_summary' => "• Práctica general desde 2004 en Cd. Juárez\n• Especializado en Endodoncia desde 2008\n• Miembro activo de múltiples asociaciones dentales\n• Educación continua en implantología",
             'sections' => [
                 'associations' => [
                     'title' => 'Asociaciones Profesionales',
@@ -120,9 +124,25 @@ return [
                 ]
             ]
         ],
+        'liliana' => [
+            'name' => 'Dra. Liliana',
+            'liliana_summary' => "• Especializada en Odontopediatría\n• Enfoque en la salud dental infantil y prevención\n• Creando experiencias dentales positivas para pacientes jóvenes",
+            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Especializada en Odontopediatría con enfoque en crear experiencias dentales positivas para niños.</p>',
+            'sections' => [
+                'specialties' => [
+                    'title' => 'Especialidades',
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Odontopediatría</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Cuidado Dental Preventivo</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Manejo de Comportamiento Infantil</li>
+                        <li class='text-gray-600 text-[15px] leading-snug'>Educación Dental para Niños</li>
+                    </ul>"
+                ]
+            ]
+        ],
         'paloma' => [
             'name' => 'Dra. Paloma Eguiarte',
-            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Dentista profesional con amplia experiencia en ortodoncia.</p>',
+            'paloma_summary' => "• Dentista profesional con amplia experiencia en ortodoncia\n• Especializada en soluciones dentales estéticas y funcionales\n• Comprometida con la comodidad y satisfacción del paciente",
             'sections' => [
                 'applied_studies' => [
                     'title' => 'Estudios Aplicados',

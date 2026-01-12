@@ -13,8 +13,10 @@
     <meta name="theme-color" content="#ffffff">
     <title>@yield('title', 'Nucleo Dental')</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @stack('styles')
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans flex flex-col min-h-screen">
