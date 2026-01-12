@@ -1,4 +1,4 @@
-<div id="contact" class="bg-white py-16">
+<div id="contact" class="bg-white py-16 mt-2">
     <div class="w-full h-full shadow-[-7px_-1px_24px_-3px_rgba(0,0,0,0.67)]">
         <div class="container mx-auto px-4 py-12 ">
             <div class="flex flex-col lg:flex-row items-stretch">
