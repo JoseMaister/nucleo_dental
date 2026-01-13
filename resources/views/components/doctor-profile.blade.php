@@ -138,8 +138,6 @@
                         <video
     class="w-full h-full object-contain"
     playsinline
-    autoplay
-    loop
     preload="auto"
 >
     <source src="{{ $video }}" type="video/mp4">
@@ -153,6 +151,8 @@
         </div>
     </div>
 </div>
+
+
 <script>
 let doctorSwipers = {};
 
@@ -161,38 +161,40 @@ function openDoctorVideo(id) {
     modal.classList.remove('hidden');
 
     if (!doctorSwipers[id]) {
-      doctorSwipers[id] = new Swiper('#swiper-' + id, {
-    loop: true,
-    pagination: {
-        el: '#swiper-' + id + ' .swiper-pagination',
-        clickable: true,
-    },
-    on: {
-        slideChangeTransitionEnd() {
-            const container = document.getElementById('swiper-' + id);
-
-            container.querySelectorAll('video').forEach(v => {
-                v.pause();
-                v.currentTime = 0;
-                
-            });
-
-            const activeVideo = container.querySelector('.swiper-slide-active video');
-            if (activeVideo) {
-                activeVideo.play().catch(() => {});
+        doctorSwipers[id] = new Swiper('#swiper-' + id, {
+            loop: true,
+            pagination: {
+                el: '#swiper-' + id + ' .swiper-pagination',
+                clickable: true,
+            },
+            on: {
+                slideChangeTransitionEnd() {
+                    playActiveVideo(id);
+                }
             }
-        }
-    }
-});
-
-
+        });
     }
 
-    // reproducir el primero al abrir
     setTimeout(() => {
-        const activeVideo = modal.querySelector('.swiper-slide-active video');
-        activeVideo?.play();
-    }, 300);
+        playActiveVideo(id);
+    }, 200);
+}
+
+function playActiveVideo(id) {
+    const container = document.getElementById('swiper-' + id);
+
+    container.querySelectorAll('video').forEach(v => {
+        v.pause();
+        v.currentTime = 0;
+        v.muted = true;
+    });
+
+    const activeVideo = container.querySelector('.swiper-slide-active video');
+    if (activeVideo) {
+        activeVideo.muted = false;
+        activeVideo.volume = 1;
+        activeVideo.play().catch(() => {});
+    }
 }
 
 function closeDoctorVideo(id) {
@@ -202,14 +204,9 @@ function closeDoctorVideo(id) {
     modal.querySelectorAll('video').forEach(video => {
         video.pause();
         video.currentTime = 0;
+        video.muted = true;
     });
-
-document.addEventListener('click', function (e) {
-    if (e.target.tagName === 'VIDEO') {
-        e.target.muted = false;
-        e.target.volume = 1;
-    }
-});
 }
 </script>
+
 
