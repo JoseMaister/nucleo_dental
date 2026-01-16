@@ -1,5 +1,5 @@
 <div class="bg-white p-10 w-full flex flex-col items-center justify-center">
-    <div class="bg-indigo-800 text-white text-center text-5xl font-light mx-auto rounded-[50px] py-6 px-20 mb-6">
+    <div class="bg-indigo-800 text-white text-center text-3xl md:text-5xl font-light mx-auto rounded-[50px] py-6 px-10  md:px-20 mb-6">
         {!! __('messages.about.transportation.title') !!}
     </div>
     <div class="flex flex-wrap flex-row items-center justify-center gap-6">

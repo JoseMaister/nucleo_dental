@@ -61,7 +61,7 @@
                                         <path d="M8 5v14l11-7z"/>
                                     </svg>
                                 </span>
-                                <span>{{ __('messages.about.hero.video') }}</span>
+                                <span>{{ __('messages.about.video') }}</span>
                             </button>
                         </div>
                     @endif
@@ -122,13 +122,13 @@
 
 <div
     id="modal-{{ $uid }}"
-    class="fixed inset-0 bg-black/80 z-[999] hidden flex items-center justify-center p-3 sm:p-6"
+    class="fixed inset-0 bg-black/80 z-[999] hidden flex items-center justify-center p-2 sm:p-4 md:p-6"
 >
-    <div class="relative bg-black rounded-lg overflow-hidden w-full h-full sm:h-auto sm:w-[90vw] lg:max-w-5xl sm:aspect-video">
+    <div class="relative bg-black rounded-lg overflow-hidden w-full h-full sm:h-auto sm:w-[90%] md:w-[85%] lg:w-[80%] xl:max-w-5xl sm:aspect-video max-w-[95vw]">
 
         <button
             onclick="closeDoctorVideo('{{ $uid }}')"
-            class="absolute top-3 right-3 z-30 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 text-white text-xl"
+            class="absolute top-2 right-2 sm:top-3 sm:right-3 z-30 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-black/70 text-white text-lg sm:text-xl"
         >✕</button>
 
         <div class="swiper h-full w-full" id="swiper-{{ $uid }}">
@@ -136,12 +136,14 @@
                 @foreach($videos as $video)
                     <div class="swiper-slide flex items-center justify-center bg-black">
                         <video
-    class="w-full h-full object-contain"
-    playsinline
-    preload="auto"
->
-    <source src="{{ $video }}" type="video/mp4">
-</video>
+                            class="w-full h-full object-contain max-w-full max-h-full"
+                            playsinline
+                            preload="auto"
+                            muted
+                            controls
+                        >
+                            <source src="{{ $video }}" type="video/mp4">
+                        </video>
 
                     </div>
                 @endforeach

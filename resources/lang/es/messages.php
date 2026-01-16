@@ -102,28 +102,28 @@ return [
                 ]
             ]
         ],
-        'liliana' => [
-            'name' => 'Dra. Liliana Estrada',
-            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Dentista especializada en ortodoncia pediátrica.</p>',
-            'sections' => [
-                'applied_studies' => [
-                    'title' => 'Estudios Aplicados',
-                    'content' => "
-                    <ul class='list-disc pl-5 space-y-0.5'>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Graduada de la Universidad Autónoma de Ciudad Juárez, Chihuahua</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Especialista en Ortodoncia</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Certificada en Cirugía Dental</li>
-                    </ul>"
-                ],
-                'courses' => [
-                    'title' => 'Cursos',
-                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de Ortodoncia Pediatría 2020</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Curso de Ortodoncia Invisalign 2021</li>
-                    </ul>"
-                ]
-            ]
-        ],
+        // 'liliana' => [
+        //     'name' => 'Dra. Liliana Estrada',
+        //     'content' => '<p class="text-gray-600 text-[16px] leading-tight">Dentista especializada en ortodoncia pediátrica.</p>',
+        //     'sections' => [
+        //         'applied_studies' => [
+        //             'title' => 'Estudios Aplicados',
+        //             'content' => "
+        //             <ul class='list-disc pl-5 space-y-0.5'>
+        //                 <li class='text-gray-600 text-[15px] leading-snug'>Graduada de la Universidad Autónoma de Ciudad Juárez, Chihuahua</li>
+        //                 <li class='text-gray-600 text-[15px] leading-snug'>Especialista en Ortodoncia</li>
+        //                 <li class='text-gray-600 text-[15px] leading-snug'>Certificada en Cirugía Dental</li>
+        //             </ul>"
+        //         ],
+        //         'courses' => [
+        //             'title' => 'Cursos',
+        //             'content' => "<ul class='list-disc pl-5 space-y-0.5'>
+        //                 <li class='text-gray-600 text-[15px] leading-snug'>Curso de Ortodoncia Pediatría 2020</li>
+        //                 <li class='text-gray-600 text-[15px] leading-snug'>Curso de Ortodoncia Invisalign 2021</li>
+        //             </ul>"
+        //         ]
+        //     ]
+        // ],
         'liliana' => [
             'name' => 'Dra. Liliana',
             'liliana_summary' => "• Especializada en Odontopediatría\n• Enfoque en la salud dental infantil y prevención\n• Creando experiencias dentales positivas para pacientes jóvenes",
