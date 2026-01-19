@@ -136,22 +136,6 @@ return [
             ]
         ],
         
-        // 'liliana' => [
-        //     'name' => 'Dra. Liliana',
-        //     'liliana_summary' => "• Specialized in Pediatric Dentistry\n• Focus on children's dental health and prevention\n• Creating positive dental experiences for young patients",
-        //     'content' => '<p class="text-gray-600 text-[16px] leading-tight">Specialized in Pediatric Dentistry with a focus on creating positive dental experiences for children.</p>',
-        //     'sections' => [
-        //         'specialties' => [
-        //             'title' => 'Specialties',
-        //             'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-        //                 <li class='text-gray-600 text-[15px] leading-snug'>Pediatric Dentistry</li>
-        //                 <li class='text-gray-600 text-[15px] leading-snug'>Preventive Dental Care</li>
-        //                 <li class='text-gray-600 text-[15px] leading-snug'>Child Behavioral Management</li>
-        //                 <li class='text-gray-600 text-[15px] leading-snug'>Dental Education for Children</li>
-        //             </ul>"
-        //         ]
-        //     ]
-        // ],
         'paloma' => [
             'name' => 'Dra. Paloma Eguiarte',
             'paloma_summary' => "• Professional dentist with extensive experience in orthodontics\n• Specialized in aesthetic and functional dental solutions\n• Committed to patient comfort and satisfaction",
