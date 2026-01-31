@@ -11,12 +11,13 @@ return [
         'orthodontist' => 'Orthodontist',
         'chief_periodontist' => 'Chief Periodontist',
         'pediatric_dentist' => 'Pediatric Dentist',
+        'maxillofacial_surgeon' => 'Maxillofacial Surgeon',
     ],
     
     'team' => [
         'ernesto' => [
             'name' => 'Dr. Ernesto Moran',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Exercising in private practice since 1979, mainly doing Periodontology and Oral Implantology in Cd. Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He was also Director of the School of Dentistry and Director of the Institute of Biomedical Sciences of the Autonomous University of Ciudad Juárez. He is currently a full-time professor and holder of the Oral Implantology Course in the postgraduate courses of: Prosthesis, Periodontics and Maxillofacial Surgery at the U.A.C.J. He serves as coordinator and professor in the Master of Oral Implantology at the Institute of Advanced Technology (ITAV) in Monterey N.L.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He is currently an Advisor to various Implant companies in the State of Chihuahua. He is a lecturer on Oral Implantology in National forums and abroad. He is a founding member of the College of Periodontists of the State of Chihuahua and currently an active member of different dental colleges and associations such as: American Academy of Implantology, Fellow of the International College of Oral Implantology, Academy of Bone Integration, Mexican Association of Periodontology, College of Periodontists of Chihuahua, and from the National College of Dental Surgeons in the Ciudad Juárez section</p>"
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Moran has maintained a distinguished private practice since 1979, specializing primarily in Periodontology and Oral Implantology in Ciudad Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Throughout his academic career, he served as Director of the School of Dentistry and Director of the Institute of Biomedical Sciences at the Autonomous University of Ciudad Juárez (UACJ). He also served as a professor and course director of Oral Implantology in the postgraduate programs of Prosthodontics, Periodontics, and Maxillofacial Surgery at UACJ.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>In addition, he previously served as coordinator and professor of the Master's Program in Oral Implantology at the Institute of Advanced Technology (ITAV) in Monterrey, Nuevo León.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Currently, Dr. Moran acts as an advisor to several dental implant companies in the State of Chihuahua and is an active lecturer in Oral Implantology at national and international conferences.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He is a founding member of the College of Periodontists of the State of Chihuahua and an active member of several professional organizations, including the American Academy of Implantology, the International College of Oral Implantologists, the Academy of Osseointegration, the Mexican Association of Periodontology, the College of Periodontists of Chihuahua, and the National College of Dental Surgeons, Ciudad Juárez Section.</p>"
         ],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
@@ -163,7 +164,18 @@ return [
                     </ul>"
                 ]
             ]
-        ]
+        ],
+        'jose' => [
+            'name' => 'Dr. José Luis Trejo',
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Board-certified Oral and Maxillofacial Surgeon by the Mexican Board of Oral and Maxillofacial Surgery, with active practice in both public and private healthcare settings. He earned his dental degree from the Autonomous University of Ciudad Juárez and completed his specialty training in Oral and Maxillofacial Surgery at the \"20 de Noviembre\" National Medical Center (ISSSTE), endorsed by the National Autonomous University of Mexico, where he also served as Chief Resident.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He has extensive experience in the diagnosis, surgical and reconstructive treatment of craniofacial pathologies, trauma, and deformities, as well as orthognathic surgery, facial trauma management, and comprehensive maxillofacial emergency care. He currently practices at the Center for Medical Specialties and at the Mexican Institute of Social Security (IMSS).</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Dr. Trejo is an active member of national and international maxillofacial surgery associations, a frequent lecturer at academic forums, and a regular participant in continuing education programs, congresses, and advanced training courses both in Mexico and abroad.</p>"
+        ],
+        'sandra' => [
+            'name' => 'Dr. Sandra Luz Torres Guevara',
+            'specialties' => [
+                'pediatric_dentist'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Sandra Luz Torres Guevara earned her dental degree from the Autonomous University of Ciudad Juárez and completed her specialty training in Pediatric Dentistry at the same institution. She has over two decades of experience providing comprehensive dental care for children, with a strong focus on prevention, behavior management, and patient comfort.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Her professional training includes postgraduate studies in Dentofacial Orthopedics and a specialty in Orthodontics certified by the Mexican Association for Education and Research (AOMEI). She is currently enrolled in an advanced continuing education program in Pediatric Dentistry, reflecting her ongoing commitment to clinical excellence and professional development.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Dr. Torres has also served as a postgraduate faculty member at the Autonomous University of Ciudad Juárez. Her practice is recognized for delivering safe, compassionate, and specialized dental care for children and adolescents, incorporating modern sedation techniques and pain management approaches in pediatric dentistry.</p>"
+        ]        
     ],
     
     'site' => [
@@ -570,7 +582,16 @@ return [
         'title1' => 'Payment',
         'title2' => 'Options',
         'subtitle' => 'Flexible Payment Solutions',
-        'description' => 'We offer various payment options to make your dental care more affordable and accessible.',
+        'description' => "<p class='text-gray-600 text-[16px] leading-tight'>Affordable dental care with flexible payment options and complete transparency.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>At Núcleo Dental, we believe high-quality dental care should be clear, accessible, and free of confusion.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>All services are paid directly to the clinic. We do not accept dental insurance; however, we are happy to assist patients with completing and submitting the required documentation for insurance reimbursement purposes. Any follow-up, approval, or reimbursement process is handled directly between the patient and their insurance provider.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>We also offer flexible payment options designed to provide peace of mind and make treatment more accessible for patients from both Mexico and the United States.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Our team is here to guide you and answer any questions, ensuring a transparent and stress-free experience.</p>",
+        'transparent_care' => 'Transparent Care',
+        'transparent_care_desc' => 'We believe high-quality dental care should be clear, accessible, and free of confusion.',
+        'direct_payment' => 'Direct Payment',
+        'direct_payment_desc' => 'All services are paid directly to the clinic for greater transparency.',
+        'insurance_support' => 'Insurance Support',
+        'insurance_support_desc' => 'We assist with documentation for reimbursements, though we don\'t accept insurance directly.',
+        'flexible_options' => 'Flexible Options',
+        'flexible_options_desc' => 'Payment plans designed for patients from Mexico and the United States.',
+        'important_info' => 'Important Information',
         'accepted_methods' => 'Accepted Payment Methods',
         'methods' => [
             'Credit/Debit Cards (Visa, Mastercard, Amex)',

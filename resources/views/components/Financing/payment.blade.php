@@ -12,8 +12,8 @@
         {{ __('messages.financing_payment.subtitle') }}
     </div>
 
-    <div class="text-gray-700 mb-12 text-center text-2xl font-light px-6 mt-12">
-        {{ __('messages.financing_payment.description') }}
+    <div class="text-gray-700 mb-12 text-justify text-2xl font-light px-6 mt-12">
+        {!! __('messages.financing_payment.description') !!}
     </div>
 
     <!-- BLOQUE BLANCO -->
@@ -27,6 +27,10 @@
         <div class="flex-1">
             <div class="text-4xl mb-6 font-bold text-indigo-800">
                 {{ __('messages.financing_payment.accepted_methods') }}
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ __('messages.financing_payment.transparent_care') }}</h3>
+                <p class="text-gray-600">{{ __('messages.financing_payment.transparent_care_desc') }}</p>
             </div>
             <ul class="list-disc list-inside text-2xl text-gray-500">
                 @foreach(__('messages.financing_payment.methods') as $method)
@@ -56,9 +60,7 @@
     "
 >
     <div class="flex-1 text-left">
-        <div class="text-2xl font-bold text-indigo-800">
-            {{ __('messages.financing_payment.help_title') }}
-        </div>
+        <h3 class="text-2xl font-bold text-indigo-900">{{ __('messages.financing_payment.important_info') }}</h3>
         <div class="font-light text-lg text-white">
             {{ __('messages.financing_payment.help_text') }}
         </div>

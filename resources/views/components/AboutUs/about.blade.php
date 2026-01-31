@@ -150,6 +150,18 @@ try {
             'content' => __('messages.team.julio.sections.courses.content')
         ]
     ];
+
+    //jose
+    $joseName = __('messages.team.jose.name');
+    $joseSpecialties = [__('messages.specialties.maxillofacial_surgeon')];
+    $joseContent = __('messages.team.jose.content');
+    $joseSections = [];
+    
+    //sandra
+    $sandraName = __('messages.team.sandra.name');
+    $sandraSpecialties = [__('messages.specialties.pediatric_dentist')];
+    $sandraContent = __('messages.team.sandra.content');
+    $sandraSections = [];
     
     // Adriana Armendariz
     $adrianaArmendarizName = __('messages.team.adriana_armendariz.name');
@@ -249,6 +261,22 @@ try {
     :specialties="$julioSpecialties"
     :content="$julioContent"
     :sections="$julioSections"
+/>
+
+<x-doctor-profile 
+    :imageUrl="asset('images/SAM_0004_JPG.avif')"
+    :name="__('messages.team.jose.name')"
+    :specialties="$joseSpecialties"
+    :content="$joseContent"
+    :sections="$joseSections"
+/>
+
+<x-doctor-profile 
+    :imageUrl="asset('images/Sandra_Torres.webp')"
+    :name="__('messages.team.sandra.name')"
+    :specialties="$sandraSpecialties"
+    :content="$sandraContent"
+    :sections="$sandraSections"
 />
 
 <x-doctor-profile 
