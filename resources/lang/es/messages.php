@@ -10,13 +10,14 @@ return [
         'endodontist' => 'Endodoncista',
         'orthodontist' => 'Ortodoncista',
         'chief_periodontist' => 'Periodoncista en Jefe',
-        'pediatric_dentist' => 'Dentista Pediátrico',
+        'pediatric_dentist' => 'Odontopediatra',
+        'maxillofacial_surgeon' => "Cirujano Maxilofacial"
     ],
     
     'team' => [
         'ernesto' => [
             'name' => 'Dr. Ernesto Moran',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Ejercicio en la práctica privada desde 1979, principalmente en Periodoncia e Implantología Oral en Cd. Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>También fue Director de la Escuela de Odontología y Director del Instituto de Ciencias Biomédicas de la Universidad Autónoma de Ciudad Juárez. Actualmente es profesor de tiempo completo y titular del Curso de Implantología Oral en los posgrados de: Prótesis, Periodoncia y Cirugía Maxilofacial en la U.A.C.J. Se desempeña como coordinador y profesor en la Maestría en Implantología Oral en el Instituto de Tecnología Avanzada (ITAV) en Monterrey N.L.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Actualmente es Asesor de diversas empresas de Implantes en el Estado de Chihuahua. Es conferencista sobre Implantología Oral en foros Nacionales y en el extranjero. Es miembro fundador del Colegio de Periodoncistas del Estado de Chihuahua y actualmente miembro activo de diferentes colegios y asociaciones dentales como: Academia Americana de Implantología, Miembro del Colegio Internacional de Implantología Oral, Academia de Integración Ósea, Asociación Mexicana de Periodontología, Colegio de Periodoncistas de Chihuahua, y del Colegio Nacional de Cirujanos Dentistas en la sección Ciudad Juárez.</p>"
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Cuenta con una destacada trayectoria en la práctica privada desde 1979, con enfoque principal en Periodoncia e Implantología Oral en Ciudad Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>A lo largo de su carrera académica, fue Director de la Escuela de Odontología y Director del Instituto de Ciencias Biomédicas de la Universidad Autónoma de Ciudad Juárez (UACJ). Asimismo, se desempeñó como profesor y titular del Curso de Implantología Oral en los programas de posgrado de Prótesis, Periodoncia y Cirugía Maxilofacial de la UACJ.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>También fue coordinador y profesor de la Maestría en Implantología Oral en el Instituto de Tecnología Avanzada (ITAV) en Monterrey, Nuevo León.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Actualmente, funge como asesor de diversas compañías de implantes dentales en el estado de Chihuahua y es conferencista en Implantología Oral en foros nacionales e internacionales.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Es miembro fundador del Colegio de Periodoncistas del Estado de Chihuahua y miembro activo de diversas asociaciones y colegios dentales, entre ellos: la Academia Americana de Implantología, el Colegio Internacional de Implantología Oral, la Academia de Integración Ósea, la Asociación Mexicana de Periodontología, el Colegio de Periodoncistas de Chihuahua y el Colegio Nacional de Cirujanos Dentistas, sección Ciudad Juárez.</p>"
         ],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
@@ -151,6 +152,20 @@ return [
                     </ul>"
                 ]
             ]
+        ],
+        'jose' => [
+            'name' => 'Dr. José Luis Trejo',
+            'specialties' => [
+                'maxillofacial_surgeon'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Cirujano Maxilofacial certificado por el Consejo Mexicano de Cirugía Oral y Maxilofacial, con práctica activa en el sector público y privado. Egresado como Cirujano Dentista por la Universidad Autónoma de Ciudad Juárez y especialista en Cirugía Oral y Maxilofacial por el Centro Médico Nacional \"20 de Noviembre\" ISSSTE, avalado por la Universidad Nacional Autónoma de México, donde también se desempeñó como Jefe de Residentes.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Cuenta con amplia experiencia en el diagnóstico, tratamiento quirúrgico y reconstructivo de patologías, traumatismos y deformidades del complejo cráneo-facial, así como en cirugía ortognática, trauma facial y manejo integral de urgencias maxilofaciales.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Actualmente ejerce en el Centro Médico de Especialidades y en el Instituto Mexicano del Seguro Social.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Es miembro activo de asociaciones nacionales e internacionales de cirugía maxilofacial, conferencista en foros académicos y participante constante en congresos, cursos de actualización y programas de educación continua en México y el extranjero.</p>"
+        ],
+        'sandra' => [
+            'name' => 'Dra. Sandra Luz Torres Guevara',
+            'specialties' => [
+                'pediatric_dentist'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Cirujano Dentista egresada de la Universidad Autónoma de Ciudad Juárez, con especialidad en Odontopediatría por la misma institución. Cuenta con más de dos décadas de experiencia en la atención dental infantil, combinando un enfoque clínico integral con técnicas modernas orientadas a la prevención, el manejo del comportamiento y el bienestar del paciente pediátrico.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Ha complementado su formación con estudios en Ortopedia Dentofacial y una especialidad en Ortodoncia certificada por la Asociación Mexicana para la Enseñanza e Investigación (AOMEI). Actualmente cursa un programa de actualización avanzada en Odontopediatría, reforzando su compromiso con la educación continua y la excelencia clínica.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Se ha desempeñado también como docente en programas de posgrado en la Universidad Autónoma de Ciudad Juárez. Su práctica profesional se distingue por un trato humano, seguro y especializado para niños y adolescentes, así como por la aplicación de alternativas modernas de sedación y control del dolor en odontología pediátrica.</p>"
         ]
     ],
     
@@ -599,7 +614,16 @@ return [
         'title1' => 'Métodos de',
         'title2' => 'Pago',
         'subtitle' => 'Hacemos que Pagar por tu Sonrisa sea Fácil',
-        'description' => 'Aceptamos una amplia gama de opciones de pago para que su tratamiento sea lo más conveniente posible. Elija el método que mejor se adapte a usted, ya sea local o que nos visite desde el extranjero.',
+        'description' => "<p class='text-gray-600 text-[16px] leading-tight'>Atención dental accesible con opciones de pago flexibles y total claridad.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>En Núcleo Dental creemos que una atención dental de calidad debe ser clara, accesible y sin confusiones.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Nuestros servicios se pagan directamente en clínica. No aceptamos seguros dentales; sin embargo, con gusto apoyamos a nuestros pacientes en el llenado y envío de la documentación necesaria para procesos de reembolso con su aseguradora. El seguimiento y autorización del reembolso se realiza directamente entre el paciente y su seguro.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Además, ofrecemos opciones de pago flexibles y planes diseñados para brindar tranquilidad y facilitar el acceso a nuestros tratamientos, tanto para pacientes de México como de Estados Unidos.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Nuestro equipo está para acompañarle y resolver cualquier duda, asegurando una experiencia transparente y sin preocupaciones.</p>",
+        'transparent_care' => 'Atención Transparente',
+        'transparent_care_desc' => 'Creemos que una atención dental de calidad debe ser clara, accesible y sin confusiones.',
+        'direct_payment' => 'Pago Directo',
+        'direct_payment_desc' => 'Todos los servicios se pagan directamente en la clínica para mayor transparencia.',
+        'insurance_support' => 'Soporte de Seguros',
+        'insurance_support_desc' => 'Apoyamos con la documentación para reembolsos, aunque no aceptamos seguros directamente.',
+        'flexible_options' => 'Opciones Flexibles',
+        'flexible_options_desc' => 'Planes de pago diseñados para pacientes de México y Estados Unidos.',
+        'important_info' => 'Información Importante',
         'accepted_methods' => 'Métodos Aceptados',
         'methods' => [
             'Tarjetas de crédito y débito (Visa, MasterCard, American Express)',
