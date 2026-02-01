@@ -249,6 +249,11 @@ try {
     :specialties="$julioSpecialties"
     :content="$julioContent"
     :sections="$julioSections"
+    :showVideo="true"
+    :videos="[
+        asset('images/videos/julio_cosmetics.mp4'),
+        asset('images/videos/julio_implants.mp4'),
+    ]"
 />
 
 <x-doctor-profile 
@@ -292,4 +297,8 @@ try {
     :specialties="$palomaSpecialties"
     :content="$palomaContent"
     :sections="$palomaSections"
+    :showVideo="true"
+    :videos="[
+        asset('images/videos/paloma_orthodontics.mp4')
+    ]"
 />
