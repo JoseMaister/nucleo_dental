@@ -13,16 +13,16 @@
     <!-- Services Slider -->
     <div class="relative mt-12 p-4">
         <!-- Navigation Buttons -->
-        <button class="services-prev absolute left-4 top-1/2 transform -translate-y-1/2 z-10 rounded-full bg-white w-12 h-12 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">
+        <button type="button" id="services-prev" class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 rounded-full bg-white w-12 h-12 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors shadow-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
         </button>
         
-        <div class="swiper services-swiper max-w-6xl mx-auto">
-            <div class="swiper-wrapper items-center pt-20">
+        <div class="services-slider max-w-6xl mx-auto overflow-hidden">
+            <div class="services-track flex transition-transform duration-500 ease-in-out">
                 <!-- Service 1 -->
-                <div class="swiper-slide">
+                <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/implants.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
@@ -33,7 +33,7 @@
                 </div>
                 
                 <!-- Service 2 -->
-                <div class="swiper-slide">
+                <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64  max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
@@ -44,7 +44,7 @@
                 </div>
                 
                 <!-- Service 3 -->
-                <div class="swiper-slide">
+                <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.11 143.4"
@@ -71,9 +71,72 @@
                         <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.description') }}</span>
                     </div>
                 </div>
-                
+                 
                 <!-- Service 4 -->
-                <div class="swiper-slide">
+                <div class="service-slide flex-shrink-0 w-full px-4">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
+                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
+                        </div>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
+                    </div>
+                </div>
+                
+                <!-- Duplicated slides for infinite loop effect -->
+                <!-- Service 1 (duplicate) -->
+                <div class="service-slide flex-shrink-0 w-full px-4">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
+                            <img src="{{ asset('images/implants.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
+                        </div>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.dental_implants.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.description') }}</span>
+                    </div>
+                </div>
+                
+                <!-- Service 2 (duplicate) -->
+                <div class="service-slide flex-shrink-0 w-full px-4">
+                    <div class="relative flex flex-col items-center justify-center min-h-64  max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
+                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
+                        </div>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.porcelain_veneers.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.description') }}</span>
+                    </div>
+                </div>
+                
+                <!-- Service 3 (duplicate) -->
+                <div class="service-slide flex-shrink-0 w-full px-4">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
+                            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.11 143.4"
+                            class="w-full h-full object-contain">
+                                <defs>
+                                    <style>
+                                    .cls-1 {
+                                        fill: #ffffff;
+                                    }
+                                    </style>
+                                </defs>
+                                <g id="Capa_1-2" data-name="Capa 1">
+                                    <g id="tJd8e3.tif">
+                                    <g>
+                                        <path class="cls-1" d="M31.17,12.66c.42.43,2.11,1.1,2.75,1.09C83.44.56,138.33-.3,187.88,13.39c7.44,2.06,15.5,3.59,16.63,12.84,1.37,11.27-.85,24.93.01,36.46-1.48,6.75-7.68,11.61-14.69,10.69v10.92c6.51-.66,13.57,4.23,14.61,10.77.93,5.9.83,25.37.13,31.52-.85,7.57-6.79,10.5-13.45,11.65-33.29,5.77-73.68,5.73-107.43,4.45-16.71-.64-36.51-1.36-52.85-4.45-5.6-1.06-10.19-3.46-12.08-9.21-1.48-4.5-1.4-26.98-.77-32.41.92-7.94,7.37-12.87,15.22-12.34v-10.92c-8.28.82-14.46-4.6-15.28-12.83-.59-5.91,1.09-15.2-.26-20.48-.17-.64-4.44-8.75-4.8-9.11-1.84-1.84-9.3-4.05-11.46-6.13-2.41-2.31-1.45-4.38.73-6.25,2.57-2.2,8.88-4.08,10.73-5.92.97-.96,3.46-6.96,4.62-8.75,7.3-11.28,10.01,5.06,13.68,8.75Z"/>
+                                        <path class="cls-1" d="M122.57,29.32c-4.13.56-16.3,5.85-12.66,11.29,2.96,4.42,7.31-1.34,10.41-2.62,3.62-1.5,7.4-1.64,11.1-.33,2.88,1.02,8.18,7.1,10.52,1.76,1.61-3.69-1.72-5.67-4.49-7.24-4.75-2.69-9.39-3.6-14.88-2.85Z"/>
+                                        <path class="cls-1" d="M122.57,29.32c5.48-.75,10.13.16,14.88,2.85,2.77,1.57,6.1,3.55,4.49,7.24-2.33,5.34-7.64-.74-10.52-1.76-3.7-1.31-7.48-1.17-11.1.33-3.09,1.28-7.45,7.05-10.41,2.62-3.64-5.44,8.53-10.73,12.66-11.29Z"/>
+                                    </g>
+                                    </g>
+                                </g>
+                                </svg>
+                        </div>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.teeth_whitening.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.description') }}</span>
+                    </div>
+                </div>
+                
+                <!-- Service 4 (duplicate) -->
+                <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
                             <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
@@ -85,11 +148,11 @@
             </div>
         </div>
         
-        <a href="{{ route('services') }}" class="services-next absolute right-4 top-1/2 transform -translate-y-1/2 z-10 rounded-full bg-white w-12 h-12 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">
+        <button type="button" id="services-next" class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 rounded-full bg-white w-12 h-12 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors shadow-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
-        </a>
+        </button>
     </div>
     
     <div class="flex justify-center mt-12">
@@ -99,83 +162,175 @@
     </div>
 </div>
 
-<!-- Initialize Swiper -->
+<!-- Custom Services Slider -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const swiper = new Swiper('.services-swiper', {
+        const slider = {
+            track: document.querySelector('.services-track'),
+            slides: document.querySelectorAll('.service-slide'),
+            prevBtn: document.getElementById('services-prev'),
+            nextBtn: document.getElementById('services-next'),
+            currentSlide: 0,
             slidesPerView: 1,
-            spaceBetween: 10,
-
-            loop: true,
-            navigation: {
-                nextEl: '.services-next',
-                prevEl: '.services-prev',
-                disabledClass: 'opacity-30 cursor-not-allowed',
+            totalSlides: 4, // Original slides count
+            duplicatedSlides: 4, // Duplicated slides count
+            actualTotalSlides: 8, // Total slides in DOM
+            
+            init() {
+                this.updateSlidesPerView();
+                this.updateSlider();
+                this.bindEvents();
             },
-            breakpoints: {
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                },
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 10,
-                },
-            },
-            on: {
-                init: function() {
-                    this.navigation.update();
-                },
-                slideChange: function() {
-                    this.navigation.update();
+            
+            updateSlidesPerView() {
+                const width = window.innerWidth;
+                if (width >= 768) {
+                    this.slidesPerView = 3;
+                } else if (width >= 640) {
+                    this.slidesPerView = 2;
+                } else {
+                    this.slidesPerView = 1;
                 }
+            },
+            
+            updateSlider() {
+                const slideWidth = 100 / this.slidesPerView;
+                const offset = this.currentSlide * slideWidth;
+                this.track.style.transform = `translateX(-${offset}%)`;
+                
+                // Handle seamless infinite loop
+                const maxOriginalSlide = this.totalSlides;
+                
+                // When we reach the duplicated slides, reset to original without animation
+                if (this.currentSlide >= maxOriginalSlide) {
+                    setTimeout(() => {
+                        this.track.style.transition = 'none';
+                        this.currentSlide = this.currentSlide - this.totalSlides;
+                        const newOffset = this.currentSlide * slideWidth;
+                        this.track.style.transform = `translateX(-${newOffset}%)`;
+                        setTimeout(() => {
+                            this.track.style.transition = 'transform 0.5s ease-in-out';
+                        }, 50);
+                    }, 500);
+                }
+                
+                // When we go before the first slide, jump to duplicated section
+                if (this.currentSlide < 0) {
+                    setTimeout(() => {
+                        this.track.style.transition = 'none';
+                        this.currentSlide = this.currentSlide + this.totalSlides;
+                        const newOffset = this.currentSlide * slideWidth;
+                        this.track.style.transform = `translateX(-${newOffset}%)`;
+                        setTimeout(() => {
+                            this.track.style.transition = 'transform 0.5s ease-in-out';
+                        }, 50);
+                    }, 500);
+                }
+                
+                this.updateButtons();
+            },
+            
+            updateButtons() {
+                // Always keep buttons enabled for continuous loop
+                this.prevBtn.disabled = false;
+                this.nextBtn.disabled = false;
+                this.prevBtn.style.opacity = '1';
+                this.nextBtn.style.opacity = '1';
+            },
+            
+            next() {
+                this.currentSlide++;
+                this.updateSlider();
+            },
+            
+            prev() {
+                this.currentSlide--;
+                this.updateSlider();
+            },
+            
+            bindEvents() {
+                this.nextBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.next();
+                });
+                
+                this.prevBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.prev();
+                });
+                
+                window.addEventListener('resize', () => {
+                    this.updateSlidesPerView();
+                    // Adjust current slide if needed
+                    const maxSlide = Math.max(0, this.totalSlides - this.slidesPerView);
+                    if (this.currentSlide > maxSlide) {
+                        this.currentSlide = maxSlide;
+                    }
+                    this.updateSlider();
+                });
             }
-        });
+        };
+        
+        slider.init();
     });
 </script>
 
 <style>
-    .services-swiper {
+    .services-slider {
         padding: 40px 0 60px;
         width: 100%;
+        overflow: hidden;
     }
-    .swiper-slide {
-        opacity: 1;
-        transition: all 0.3s ease;
+    
+    .services-track {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+    }
+    
+    .service-slide {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 0 1rem;
+        box-sizing: border-box;
         display: flex;
         justify-content: center;
-        align-items: center;
-        height: auto;
     }
-    .swiper-slide:not(.swiper-slide-active) {
-        opacity: 0.9;
+    
+    @media (min-width: 640px) {
+        .service-slide {
+            width: 50%;
+        }
     }
-    .swiper-slide-active {
-        transform: translateY(-10px);
+    
+    @media (min-width: 768px) {
+        .service-slide {
+            width: 33.333%;
+        }
     }
-    .swiper-pagination-bullet {
-        background: rgba(255, 255, 255, 0.5);
-        opacity: 1;
-        width: 10px;
-        height: 10px;
-    }
-    .swiper-pagination-bullet-active {
-        background: white;
-    }
+    
     .service-card {
+        width: 100%;
+        max-width: 240px;
+        height: 280px;
         position: relative;
-        transition: all 0.3s ease;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .service-card::before {
-        content: '';
+    
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .service-card .absolute {
         position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 30px;
-        background: transparent;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 50% 50% 0 0 / 30px 30px 0 0;
+        top: -40px;
     }
 </style>
 
