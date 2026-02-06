@@ -202,7 +202,7 @@ try {
     // Paloma
     $palomaName = __('messages.team.paloma.name');
     $palomaSpecialties = [__('messages.specialties.orthodontist')];
-    $palomaContent = __('messages.team.paloma.content');
+    $palomaContent = "";//__('messages.team.paloma.sections.applied_studies.content');
     $palomaSections = [
         [
             'title' => __('messages.team.paloma.sections.applied_studies.title'),
