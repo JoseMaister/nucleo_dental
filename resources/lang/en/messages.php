@@ -12,6 +12,7 @@ return [
         'chief_periodontist' => 'Chief Periodontist',
         'pediatric_dentist' => 'Pediatric Dentist',
         'maxillofacial_surgeon' => 'Maxillofacial Surgeon',
+        'informatic_resposible' => 'Informatic Responsible'
     ],
     
     'team' => [
@@ -114,8 +115,9 @@ return [
             ]
         ],
         
-        'liliana' => [
-            'name' => 'Dr. Liliana Estrada',
+        'monica' => [
+            'name' => 'Dr. Monica Limas',
+            'monica_summary' => "• Dentist specialized in pediatric orthodontics\n• Especializada en soluciones dentales estéticas y funcionales\n• Comprometida con la comodidad y satisfacción del paciente",
             'content' => '<p class="text-gray-600 text-[16px] leading-tight">Specialized dentist in pediatric orthodontics.</p>',
             'sections' => [
                 'applied_studies' => [
@@ -175,6 +177,20 @@ return [
                 'pediatric_dentist'
             ],
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Sandra Luz Torres Guevara earned her dental degree from the Autonomous University of Ciudad Juárez and completed her specialty training in Pediatric Dentistry at the same institution. She has over two decades of experience providing comprehensive dental care for children, with a strong focus on prevention, behavior management, and patient comfort.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Her professional training includes postgraduate studies in Dentofacial Orthopedics and a specialty in Orthodontics certified by the Mexican Association for Education and Research (AOMEI). She is currently enrolled in an advanced continuing education program in Pediatric Dentistry, reflecting her ongoing commitment to clinical excellence and professional development.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Dr. Torres has also served as a postgraduate faculty member at the Autonomous University of Ciudad Juárez. Her practice is recognized for delivering safe, compassionate, and specialized dental care for children and adolescents, incorporating modern sedation techniques and pain management approaches in pediatric dentistry.</p>"
+        ],
+        'valeria' => [
+            'name' => 'Dr. Valeria Assiram Trimmer Duarte',
+            'specialties' => [
+                'periodontist',
+                'implantologist'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Valeria Assiram Trimmer Duarte is a licensed dentist with a Master's Degree in Dental Sciences with a concentration in Periodontics from the Autonomous University of Coahuila. She completed her dental training at the Autonomous University of Ciudad Juárez, where she also served as a dental assistant in postgraduate clinics.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>She has extensive clinical experience in both private practice and at Núcleo Dental, working alongside specialists in periodontics and implantology. She currently maintains a private practice focused on Periodontics and Oral Implantology in Ciudad Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Her professional development includes advanced training, diplomas, and certifications in periodontology, peri-implant therapy, biomaterials, and mucogingival surgery, as well as participation in national and international continuing education programs. She holds certification from the Mexican Board of Periodontology and is an active member of professional dental associations.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Dr. Trimmer has participated in scientific publications, clinical case presentations, and international congresses. Her clinical philosophy is grounded in evidence-based dentistry, continuous education, and personalized patient care aimed at long-term periodontal health.</p>"
+        ],
+        'hugo' => [
+            'name' => 'Hugo',
+            'specialties' => [
+                'informatic_responsible'
+            ],
         ]        
     ],
     

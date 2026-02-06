@@ -11,7 +11,8 @@ return [
         'orthodontist' => 'Ortodoncista',
         'chief_periodontist' => 'Periodoncista en Jefe',
         'pediatric_dentist' => 'Odontopediatra',
-        'maxillofacial_surgeon' => "Cirujano Maxilofacial"
+        'maxillofacial_surgeon' => "Cirujano Maxilofacial",
+        'informatic_responsible' => 'Responsable de Informática'
     ],
     
     'team' => [
@@ -103,8 +104,9 @@ return [
                 ]
             ]
         ],
-        'liliana' => [
-            'name' => 'Dra. Liliana Estrada',
+        'monica' => [
+            'name' => 'Dra. Monica Limas',
+            'monica_summary' => "• Dentista especializada en ortodoncia pediátrica\n• Especializada en soluciones dentales estéticas y funcionales\n• Comprometida con la comodidad y satisfacción del paciente",
             'content' => '<p class="text-gray-600 text-[16px] leading-tight">Dentista especializada en ortodoncia pediátrica.</p>',
             'sections' => [
                 'applied_studies' => [
@@ -166,6 +168,20 @@ return [
                 'pediatric_dentist'
             ],
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Cirujano Dentista egresada de la Universidad Autónoma de Ciudad Juárez, con especialidad en Odontopediatría por la misma institución. Cuenta con más de dos décadas de experiencia en la atención dental infantil, combinando un enfoque clínico integral con técnicas modernas orientadas a la prevención, el manejo del comportamiento y el bienestar del paciente pediátrico.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Ha complementado su formación con estudios en Ortopedia Dentofacial y una especialidad en Ortodoncia certificada por la Asociación Mexicana para la Enseñanza e Investigación (AOMEI). Actualmente cursa un programa de actualización avanzada en Odontopediatría, reforzando su compromiso con la educación continua y la excelencia clínica.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Se ha desempeñado también como docente en programas de posgrado en la Universidad Autónoma de Ciudad Juárez. Su práctica profesional se distingue por un trato humano, seguro y especializado para niños y adolescentes, así como por la aplicación de alternativas modernas de sedación y control del dolor en odontología pediátrica.</p>"
+        ],
+        'valeria' => [
+            'name' => 'Dra. Valeria Assiram Trimmer Duarte',
+            'specialties' => [
+                'periodontist',
+                'implantologist'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>La Dra. Valeria Assiram Trimmer Duarte es cirujano dentista con Maestría en Ciencias Odontológicas con Acentuación en Periodoncia por la Universidad Autónoma de Coahuila. Inició su formación profesional en la Universidad Autónoma de Ciudad Juárez, donde también participó como asistente en clínicas de posgrado.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Cuenta con amplia experiencia clínica tanto en práctica privada como en Núcleo Dental, colaborando con especialistas en periodoncia e implantología. Actualmente ejerce consulta privada especializada en Periodoncia e Implantología en Ciudad Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Ha complementado su formación con diplomados, cursos avanzados y certificaciones nacionales e internacionales, incluyendo programas en periodoncia, periimplantología, biomateriales y cirugía mucogingival. Es miembro de asociaciones profesionales y cuenta con certificación vigente por el Consejo Mexicano de Periodoncia.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Ha participado activamente en congresos nacionales e internacionales, así como en publicaciones científicas y presentaciones clínicas. Su práctica se distingue por un enfoque actualizado, ético y basado en evidencia científica, orientado a la salud periodontal y el bienestar integral del paciente.</p>"
+        ],
+        'hugo' => [
+            'name' => 'Hugo',
+            'specialties' => [
+                'informatic_responsible'
+            ],
         ]
     ],
     

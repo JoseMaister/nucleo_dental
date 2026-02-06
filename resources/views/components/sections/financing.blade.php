@@ -10,9 +10,9 @@
             <p class="mt-2 text-gray-600">{!! __('messages.financing.subtitle') !!}</p>
         </div>
         <div class="flex-shrink-0">
-            <a href="#contact" class="inline-block border border-gray-400 px-6 py-3 rounded-full hover:bg-gray-200">
+            <a href="{{ route('financing') }}"" class="inline-block border border-gray-400 px-6 py-3 rounded-full hover:bg-gray-200">
                 {!! __('messages.financing.cta') !!}
-            </a>
+            </a> 
         </div>
     </div>
 </section>

@@ -4,7 +4,8 @@
     'name' => '',
     'subName' => '',
     'title' => [],
-    'content' => ''
+    'content' => '',
+    'style' => ''
 ])
 
 <div class="relative w-full flex-1 mb-12 lg:mb-0 mt-8 border-indigo-800 border border-[4px] my-16">
@@ -24,7 +25,7 @@
                 <img 
                     src="{{ $imageUrl }}" 
                     alt="Dental Technology"
-                    class="w-full h-full object-cover"
+                    class="w-full h-full object-cover {{ $style }}"
                 >
             </div>
         </div>

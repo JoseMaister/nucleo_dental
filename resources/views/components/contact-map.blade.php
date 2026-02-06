@@ -88,8 +88,7 @@
                                     </g>
                                     </svg>
                             </div>
-                            <div>
-                                <p class="text-gray-600">Blvd. Tomas Fernandez, Los Parques, Ciudad Juárez, Chihuahua</p>
+                            <div>Bulevar Tomas Fernandez #7803-2, Fracc. Los Parques, C.P. 32440, CD. Juárez, Chihuahua</p>
                             </div>
                         </div>
                     </div>

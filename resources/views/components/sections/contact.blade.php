@@ -23,16 +23,16 @@
                     <i class="fas fa-envelope mt-1 text-indigo-300"></i>
                     <div>
                         <h3 class="font-semibold">{{ __('messages.footer.email') }}</h3>
-                        <p>info@nucleodental.com</p>
+                        <p>citas@nucleodental.com</p>
                     </div>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i class="fas fa-phone mt-1 text-indigo-300"></i>
                     <div>
                         <h3 class="font-semibold">USA</h3>
-                        <p>+52 656 123 4567</p>
+                        <p>+1 (915) 308 0101</p>
                         <h3 class="font-semibold">MEX</h3>
-                        <p>+52 656 123 4567</p>
+                        <p>+52 (656) 625 9250</p>
                     </div>
                 </div>
                 
@@ -41,7 +41,7 @@
                     <i class="fas fa-map-marker-alt mt-1 text-indigo-300"></i>
                     <div>
                         <h3 class="font-semibold">{{ __('messages.footer.address2') }}</h3>
-                        <p>Bulevar Tomas Fernandez #7803, CD. Juárez, Chihuahua</p>
+                        <p>Bulevar Tomas Fernandez #7803-2, Fracc. Los Parques, C.P. 32440, CD. Juárez, Chihuahua</p>
                     </div>
                 </div>
                 

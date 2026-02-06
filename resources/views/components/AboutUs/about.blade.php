@@ -219,17 +219,31 @@ try {
     ];
     
     
-    // Liliana
+    // Monica
     
-    $lilianaName = __('messages.team.liliana.name');
-    $lilianaSpecialties = [__('messages.specialties.pediatric_dentist')];
-    $lilianaContent = __('messages.team.liliana.content');
-    $lilianaSections = [
+    $monicaName = __('messages.team.monica.name');
+    $monicaSpecialties = [__('messages.specialties.pediatric_dentist')];
+    $monicaContent = __('messages.team.monica.content');
+    $monicaSections = [
         [
-            'title' => __('messages.team.liliana.sections.applied_studies.title'),
-            'content' => __('messages.team.liliana.sections.applied_studies.content')
+            'title' => __('messages.team.monica.sections.applied_studies.title'),
+            'content' => __('messages.team.monica.sections.applied_studies.content')
         ]
     ];
+    
+    // Valeria
+    $valeriaName = __('messages.team.valeria.name');
+    $valeriaSpecialties = [
+        __('messages.specialties.periodontist'),
+        __('messages.specialties.implantologist')
+    ];
+    $valeriaContent = __('messages.team.valeria.content');
+    $valeriaSections = [];
+
+    // Hugo
+    $hugoName = __('messages.team.hugo.name');
+    $hugoSpecialties = [__('messages.specialties.informatic_responsible')];
+    
     
 
 } catch (Exception $e) {
@@ -314,9 +328,9 @@ try {
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100184.webp')"
-    :name="$lilianaName"
-    :specialties="$lilianaSpecialties"
-    :sections="$lilianaSections"
+    :name="$monicaName"
+    :specialties="$monicaSpecialties"
+    :sections="$monicaSections"
 />
 
 <x-doctor-profile 
@@ -329,4 +343,18 @@ try {
     :videos="[
         asset('images/videos/paloma_orthodontics.mp4')
     ]"
+/>
+
+<x-doctor-profile 
+    :imageUrl="asset('images/valeria.webp')"
+    :name="$valeriaName"
+    :specialties="$valeriaSpecialties"
+    :content="$valeriaContent"
+    :sections="$valeriaSections"
+/>
+
+<x-doctor-profile 
+    :imageUrl="asset('images/IMG_100194.webp')"
+    :name="$hugoName"
+    :specialties="$hugoSpecialties"
 />

@@ -27,6 +27,7 @@
                 :subName="__('messages.technology.cerec.subname')"
                 :title="__('messages.technology.cerec.title')"
                 :content="'<p class=\'text-lg text-gray-700 leading-relaxed text-left md:text-right\'>'.__('messages.technology.cerec.description').'</p>'"
+                :style="'object-top'"
             />
         </div>
     </div>

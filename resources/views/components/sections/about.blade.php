@@ -26,7 +26,7 @@
                             </a>
                         </div>
                         <div class="flex justify-center">
-                            <img src="{{ asset('images/doctor.png') }}" alt="Dr. Ernesto Moran" class="max-h-[400px] w-auto object-contain">
+                            <img src="{{ asset('images/IMG_100188-removebg.png') }}" alt="Dr. Ernesto Moran" class="max-h-[400px] w-auto object-contain">
                         </div>
                     </div>
                 </div>
@@ -103,20 +103,20 @@
                     </div>
                 </div>
 
-                <!-- Dra. Liliana -->
+                <!-- Dra. monica -->
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-4">
                         <div class="text-center lg:text-left">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.liliana.name') }}</h2>
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.monica.name') }}</h2>
                             <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
-                                {{ __('messages.team.liliana.liliana_summary') }}
+                                {{ __('messages.team.monica.monica_summary') }}
                             </p>
                             <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
                                 {{ __('messages.about.cta') }}
                             </a>
                         </div>
                         <div class="flex justify-center">
-                            <img src="{{ asset('images/IMG_100184-removebg.png') }}" alt="Dra. Liliana" class="max-h-[400px] w-auto object-contain">
+                            <img src="{{ asset('images/IMG_100184-removebg.png') }}" alt="Dra. Monica Limas" class="max-h-[400px] w-auto object-contain">
                         </div>
                     </div>
                 </div>
