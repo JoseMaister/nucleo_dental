@@ -244,6 +244,12 @@ try {
     $hugoName = __('messages.team.hugo.name');
     $hugoSpecialties = [__('messages.specialties.informatic_responsible')];
     
+    // Liliana
+    $lilianaName = __('messages.team.liliana.name');
+    $lilianaSpecialties = [__('messages.specialties.pediatric_dentist')];
+    $lilianaContent = __('messages.team.liliana.content');
+    $lilianaSections = [];
+    
     
 
 } catch (Exception $e) {
@@ -351,6 +357,15 @@ try {
     :specialties="$valeriaSpecialties"
     :content="$valeriaContent"
     :sections="$valeriaSections"
+/>
+
+
+<x-doctor-profile 
+    :imageUrl="asset('images/liliana.avif')"
+    :name="$lilianaName"
+    :specialties="$lilianaSpecialties"
+    :content="$lilianaContent"
+    :sections="$lilianaSections"
 />
 
 <x-doctor-profile 

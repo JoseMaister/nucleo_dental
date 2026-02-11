@@ -182,6 +182,13 @@ return [
             'specialties' => [
                 'informatic_responsible'
             ],
+        ],
+        'liliana' => [
+            'name' => 'Dra. Liliana Estrada',
+            'specialties' => [
+                'pediatric_dentist'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>La Dra. Liliana Estrada es especialista en salud dental infantil y forma parte del equipo profesional de Núcleo Dental, donde se dedica a ofrecer atención odontológica de calidad para niños y adolescentes. Su enfoque clínico está orientado a brindar tratamientos personalizados y seguros, adaptados a las necesidades de cada paciente pediátrico y basados en las mejores prácticas de odontopediatría moderna.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Se distingue por su trato amable y profesional con los pacientes más jóvenes, promoviendo una experiencia dental positiva desde la infancia. La Dra. Estrada participa activamente en los programas de atención a pacientes infantiles de la clínica, y su labor forma parte del compromiso del equipo de Núcleo Dental por proporcionar atención especializada y de alto nivel tanto para familias locales como para pacientes internacionales.</p>"
         ]
     ],
     

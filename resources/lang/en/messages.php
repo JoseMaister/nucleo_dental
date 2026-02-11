@@ -12,7 +12,7 @@ return [
         'chief_periodontist' => 'Chief Periodontist',
         'pediatric_dentist' => 'Pediatric Dentist',
         'maxillofacial_surgeon' => 'Maxillofacial Surgeon',
-        'informatic_resposible' => 'Informatic Responsible'
+        'informatic_responsible' => 'Informatic Responsible'
     ],
     
     'team' => [
@@ -191,6 +191,13 @@ return [
             'specialties' => [
                 'informatic_responsible'
             ],
+        ],
+        'liliana' => [
+            'name' => 'Dr. Liliana Estrada',
+            'specialties' => [
+                'pediatric_dentist'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Liliana Estrada is a specialist in children's dental health and part of the professional team at Núcleo Dental, where she is dedicated to providing quality dental care for children and adolescents. Her clinical approach is focused on offering personalized and safe treatments, adapted to the needs of each pediatric patient and based on the best practices of modern pediatric dentistry.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>She is distinguished by her friendly and professional treatment with the youngest patients, promoting a positive dental experience from childhood. Dr. Estrada actively participates in the clinic's pediatric care programs, and her work is part of Núcleo Dental's commitment to providing specialized, high-level care for both local families and international patients.</p>"
         ]        
     ],
     
