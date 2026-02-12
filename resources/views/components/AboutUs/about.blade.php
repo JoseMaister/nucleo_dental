@@ -297,7 +297,7 @@ try {
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/Sandra_Torres.webp')"
+    :imageUrl="asset('images/IMG_1685.jpg')"
     :name="__('messages.team.sandra.name')"
     :specialties="$sandraSpecialties"
     :content="$sandraContent"
