@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "messages.faq.one.question",
+      "answer": "messages.faq.one.answer"
+    },
+    {
+      "question": "messages.faq.two.question",
+      "answer": "messages.faq.two.answer"
+    },
+    {
+      "question": "messages.faq.three.question",
+      "answer": "messages.faq.three.answer"
+    },
+    {
+      "question": "messages.faq.four.question",
+      "answer": "messages.faq.four.answer"
+    },
+    {
+      "question": "messages.faq.five.question",
+      "answer": "messages.faq.five.answer"
+    },
+    {
+      "question": "messages.faq.six.question",
+      "answer": "messages.faq.six.answer"
+    }
+  ]
+}

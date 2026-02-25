@@ -44,6 +44,10 @@ Route::group([
         return view('contact');
     })->name('contact');
 
+    Route::get('dental-tourism', function () {
+        return view('dental_tourism');
+    })->name('dental-tourism');
+
     // Contact Form Submission
     Route::post('contact', [ContactController::class, 'submit'])->name('contact.submit');
 });

@@ -197,8 +197,7 @@ return [
     ],
     'nav' => [
         'home' => 'Inicio',
-        'services' => 'Servicios',
-        'about' => 'Nosotros',
+        'services' => 'Servicios',        'dental_tourism' => 'Turismo Dental',        'about' => 'Nosotros',
         'technology' => 'Tecnología',
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
@@ -327,8 +326,7 @@ return [
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
         'about' => 'Nosotros',
-        'technology' => 'Tecnología',
-        'home' => 'Inicio - Nucleo Dental',
+        'technology' => 'Tecnología',        'dental_tourism' => 'Turismo Dental',        'home' => 'Inicio - Nucleo Dental',
     ],
     'services_hero' => [
         'title' => 'NUESTROS SERVICIOS DENTALES',
@@ -687,6 +685,242 @@ return [
                 'title' => 'Dentaduras Postizas',
                 'description' => 'A diferencia de los implantes dentales, las dentaduras postizas son fácilmente removibles y no requieren cirugía invasiva. Vienen en dos variedades, completas o parciales, para adaptarse perfectamente a sus necesidades específicas.'
             ]
+        ]
+    ],
+    'faq' => [
+        'title' => 'Preguntas Frecuentes',
+        'one' => [
+            'question' => '¿Cuál es la mejor opción para reemplazar dientes perdidos?',
+            'answer' => 'Los implantes dentales se consideran la mejor opción para reemplazar dientes perdidos, ya que proporcionan una apariencia natural, restauran la funcionalidad completa y ayudan a preservar la estructura ósea. Sin embargo, podemos discutir otras opciones como dentaduras postizas o puentes según sus necesidades específicas.'
+        ],
+        'two' => [
+            'question' => '¿Cuánto tiempo duran los tratamientos dentales?',
+            'answer' => 'La durabilidad de los tratamientos dentales varía según el tipo. Los implantes dentales pueden durar más de 25 años con el cuidado adecuado, las coronas suelen durar 10-15 años y las carillas generalmente duran 10-12 años. El mantenimiento regular es clave para maximizar la durabilidad.'
+        ],
+        'three' => [
+            'question' => '¿Ofrecen planes de pago?',
+            'answer' => 'Sí, ofrecemos planes de pago flexibles y aceptamos tarjetas de crédito, efectivo y transferencias bancarias. También asistimos con la documentación de seguros para reembolsos. Póngase en contacto con nosotros para discutir opciones de pago que funcionen para usted.'
+        ],
+        'four' => [
+            'question' => '¿Es seguro el blanqueamiento de dientes?',
+            'answer' => 'El blanqueamiento profesional de dientes realizado por nuestros dentistas es seguro y efectivo. Utilizamos materiales y técnicas aprobados para minimizar la sensibilidad mientras entregamos resultados excelentes.'
+        ],
+        'five' => [
+            'question' => '¿Con qué frecuencia debo visitar al dentista?',
+            'answer' => 'Recomendamos visitar a su dentista cada 6 meses para limpiezas regulares y chequeos. Sin embargo, los pacientes con condiciones dentales específicas pueden necesitar visitas más frecuentes.'
+        ],
+        'six' => [
+            'question' => '¿Ofrecen tratamientos de ortodoncia para adultos?',
+            'answer' => 'Sí, ofrecemos tratamientos ortodóncicos para pacientes de todas las edades, incluidos adultos. Tenemos opciones como brackets tradicionales, brackets estéticos y otras soluciones avanzadas.'
+        ]
+    ],
+    'dental_tourism' => [
+        'page_title' => 'Turismo Dental - Sonríe Ahora, Paga Menos',
+        'hero' => [
+            'title' => 'Sonríe Ahora, Paga Menos',
+            'subtitle' => 'Combina atención dental de clase mundial con una experiencia de vacaciones memorable',
+            'description' => 'Disfruta de tratamientos dentales de alta calidad a una fracción del costo, con el beneficio adicional de recuperarte en un hermoso destino mexicano.'
+        ],
+        'what_is' => [
+            'title' => '¿Qué es el Turismo Dental?',
+            'description' => 'El turismo dental es un servicio único que te permite combinar un procedimiento dental con unas vacaciones relajantes. Es una forma de recibir atención dental de alta calidad mientras ahorras dinero y disfrutas de la belleza de México.',
+            'benefits_intro' => 'En Núcleo Dental, nos especializamos en hacer el turismo dental accesible, cómodo y gratificante para pacientes internacionales.',
+            'savings' => 'Ahorra hasta el 70% en comparación con tratamientos en EE.UU.',
+            'quality' => 'Dentistas capacitados internacionalmente con instalaciones modernas',
+            'convenience' => 'Programación eficiente y planificación de atención integral',
+            'experience' => 'Combina tratamiento con turismo y experiencias culturales'
+        ],
+        'why_choose' => [
+            'title' => '¿Por Qué Elegir Núcleo Dental para Turismo Dental?',
+            'intro' => 'Proporcionamos una experiencia de turismo dental excepcional que combina atención de calidad con conveniencia y valor.',
+            'consultation' => [
+                'title' => '1. Programar tu Consulta',
+                'description' => 'Discute tus necesidades dentales con uno de nuestros especialistas y recibe un plan de tratamiento integral con estimación de costos.'
+            ],
+            'planning' => [
+                'title' => '2. Planifica tu Viaje',
+                'description' => 'Te ayudamos a organizar alojamientos, transporte y cronograma para hacer tu visita sin estrés.'
+            ],
+            'treatment' => [
+                'title' => '3. Recibe el Tratamiento',
+                'description' => 'Experimenta atención dental de clase mundial con tecnología de vanguardia en un ambiente cómodo y acogedor.'
+            ],
+            'recovery' => [
+                'title' => '4. Disfruta tu Sonrisa',
+                'description' => 'Recuperate y disfruta tu nueva sonrisa mientras exploras nuestro hermoso destino, con instrucciones completas de cuidado postratamiento.'
+            ]
+        ],
+        'services_offered' => [
+            'title' => 'Servicios Populares de Turismo Dental',
+            'description' => 'Ofrecemos una amplia gama de procedimientos dentales con valor excepcional:',
+            'dental_implants' => [
+                'title' => 'Implantes Dentales',
+                'cost_us' => '$3,000 - $6,000',
+                'cost_mexico' => '$650 - $1,500',
+                'savings' => 'Ahorra 70-80%'
+            ],
+            'crowns' => [
+                'title' => 'Coronas de Porcelana',
+                'cost_us' => '$1,000 - $1,600',
+                'cost_mexico' => '$300 - $450',
+                'savings' => 'Ahorra 70%'
+            ],
+            'veneers' => [
+                'title' => 'Carillas de Porcelana',
+                'cost_us' => '$800 - $1,000',
+                'cost_mexico' => '$250 - $400',
+                'savings' => 'Ahorra 60-70%'
+            ],
+            'root_canal' => [
+                'title' => 'Tratamiento de Conducto',
+                'cost_us' => '$1,000 - $1,500',
+                'cost_mexico' => '$250 - $550',
+                'savings' => 'Ahorra 75%'
+            ],
+            'full_mouth' => [
+                'title' => 'Rehabilitación de Boca Completa',
+                'cost_us' => '$15,000+',
+                'cost_mexico' => '$4,000 - $8,000',
+                'savings' => 'Ahorra 70%+'
+            ],
+            'cleanings' => [
+                'title' => 'Limpieza y Revisión',
+                'cost_us' => '$150 - $300',
+                'cost_mexico' => '$35 - $60',
+                'savings' => 'Ahorra 80%'
+            ]
+        ],
+        'process' => [
+            'title' => 'El Proceso del Turismo Dental',
+            'step_1' => [
+                'title' => 'Consulta Inicial',
+                'description' => 'Contáctanos directamente o por videollamada para discutir tu caso. Evaluamos tus necesidades y proporcionamos un plan de tratamiento detallado con precios.'
+            ],
+            'step_2' => [
+                'title' => 'Organización del Viaje',
+                'description' => 'Te ayudamos con información de vuelos, recomendaciones hoteleras, transporte y todos los detalles logísticos para asegurar un viaje sin problemas.'
+            ],
+            'step_3' => [
+                'title' => 'Comienza el Tratamiento',
+                'description' => 'Al llegar, recibirás atención dental integral utilizando nuestra tecnología avanzada en un ambiente cómodo.'
+            ],
+            'step_4' => [
+                'title' => 'Recuperación y Disfrute',
+                'description' => 'La mayoría de pacientes pueden disfrutar de actividades turísticas en pocos días. Proporcionamos instrucciones detalladas de cuidado postratamiento para resultados óptimos.'
+            ],
+            'step_5' => [
+                'title' => 'Apoyo Continuo',
+                'description' => 'Mantente conectado con nuestro equipo para citas de seguimiento y soporte continuo de atención incluso después de regresar a casa.'
+            ]
+        ],
+        'cost_benefits' => [
+            'title' => 'Evaluando Costos vs Beneficios',
+            'procedure_comparison' => 'Comparación de Costos de Procedimientos',
+            'travel_costs' => [
+                'title' => 'Viaje y Alojamiento',
+                'description' => 'Si bien ahorras significativamente en tratamiento, presupuesta para vuelos y hoteles. Muchos pacientes encuentran que incluso con gastos de viaje, el costo total es sustancialmente menor que los precios de EE.UU.',
+                'flights' => 'Vuelos desde EE.UU.: $200-$500 ida y vuelta',
+                'accommodation' => 'Hoteles: $50-$200 por noche',
+                'total_savings' => 'Los ahorros totales a menudo superan los costos de viaje en 50-70%'
+            ],
+            'key_factors' => [
+                'Ahorros significativos en procedimientos (50-80%)',
+                'Tiempo de recuperación mínimo (la mayoría de pacientes regresan al trabajo en días)',
+                'Calidad equivalente a estándares de EE.UU.',
+                'Planes de tratamiento integral',
+                'Paquetes todo incluido disponibles'
+            ]
+        ],
+        'benefits' => [
+            'title' => 'Beneficios del Turismo Dental en México',
+            'quality_care' => [
+                'title' => 'Atención de Alta Calidad',
+                'description' => 'Nuestros dentistas están capacitados internacionalmente con años de experiencia. Utilizamos tecnología de vanguardia y seguimos protocolos de seguridad internacionales estrictos.'
+            ],
+            'efficiency' => [
+                'title' => 'Eficiencia y Conveniencia',
+                'description' => 'Programación rápida de citas, planes de tratamiento flexibles y procesos de atención eficientes significan que obtienes resultados más rápido.'
+            ],
+            'affordability' => [
+                'title' => 'Asequibilidad Excepcional',
+                'description' => 'Ahorra 50-80% en procedimientos dentales mientras mantienes la misma calidad que esperas en EE.UU.'
+            ],
+            'experience' => [
+                'title' => 'Oportunidades Culturales y Recreativas',
+                'description' => 'Combina tu tratamiento con experiencias de vacaciones. Juárez ofrece rica cultura, gastronomía, compras y atracciones naturales cercanas.'
+            ],
+            'support' => [
+                'title' => 'Apoyo Integral',
+                'description' => 'Personal bilingüe, asistencia en transporte, ayuda con alojamiento e instrucciones completas de cuidado postratamiento.'
+            ]
+        ],
+        'risks_mitigation' => [
+            'title' => 'Comprendiendo Riesgos y Cómo los Prevenimos',
+            'verify_credentials' => [
+                'title' => 'Verifica Credenciales',
+                'description' => 'Todos nuestros dentistas tienen certificaciones internacionales y están registrados con juntas dentales mexicanas. Verifica credenciales antes de elegir cualquier clínica.'
+            ],
+            'hygiene_standards' => [
+                'title' => 'Estándares Estrictos de Higiene',
+                'description' => 'Mantenemos protocolos rigurosos de esterilización y estándares de seguridad internacionales para prevenir infecciones.'
+            ],
+            'clear_communication' => [
+                'title' => 'Comunicación Clara',
+                'description' => 'Nuestro personal bilingüe asegura una comprensión completa del historial médico, procedimientos e instrucciones de cuidado.'
+            ],
+            'follow_up_care' => [
+                'title' => 'Disposiciones de Seguimiento',
+                'description' => 'Coordinamos con tu dentista local para cualquier seguimiento necesario y mantenemos registros digitales que puedes compartir.'
+            ],
+            'insurance_assistance' => [
+                'title' => 'Asistencia con Seguros',
+                'description' => 'Asistimos con toda la documentación para reembolso de seguros y proporcionamos documentación de todos los tratamientos.'
+            ]
+        ],
+        'preparation' => [
+            'title' => 'Preparándose para tu Viaje de Turismo Dental',
+            'checklist' => [
+                'Reúne tus registros dentales y radiografías para traer contigo',
+                'Asegúrate de que tu pasaporte sea válido por al menos 6 meses',
+                'Programa tratamientos con al menos 2-3 semanas de anticipación',
+                'Haz arreglos de viaje (vuelos, hotel)',
+                'Informa a tu dentista local sobre tu viaje',
+                'Verifica cobertura de seguros de viaje para procedimientos médicos',
+                'Arregla tiempo libre del trabajo para tratamiento y recuperación',
+                'Planifica 3-7 días dependiendo de la complejidad del tratamiento'
+            ]
+        ],
+        'faq_tourism' => [
+            'q1' => [
+                'question' => '¿Cuánto tiempo necesito estar en México?',
+                'answer' => 'Depende de la complejidad de tu tratamiento. Las limpiezas simples pueden tomar 1-2 días. Los procedimientos mayores como implantes pueden requerir 5-7 días para tratamiento inicial y chequeos de seguimiento. Proporcionamos un cronograma personalizado basado en tus necesidades específicas.'
+            ],
+            'q2' => [
+                'question' => '¿Puedo volar a casa inmediatamente después del tratamiento?',
+                'answer' => 'Se recomienda esperar 24-48 horas después de procedimientos mayores antes de volar, ya que los cambios de presión de cabina pueden afectar la cicatrización. Recomendamos quedarse unos días más para permitir una recuperación apropiada y ajuste.'
+            ],
+            'q3' => [
+                'question' => '¿Aceptan seguros internacionales?',
+                'answer' => 'La mayoría de planes internacionales no cubren tratamientos en el extranjero. Sin embargo, ayudamos con toda documentación para reembolso de seguros de EE.UU. También aceptamos tarjetas de crédito principales, efectivo y transferencias bancarias.'
+            ],
+            'q4' => [
+                'question' => '¿Qué pasa si algo sale mal después de regresar a casa?',
+                'answer' => 'Proporcionamos soporte de seguimiento integral. Puedes contactarnos por teléfono, correo electrónico o videollamada. También coordinamos con tu dentista local para asegurar continuidad de atención y abordar cualquier preocupación.'
+            ],
+            'q5' => [
+                'question' => '¿La calidad realmente es comparable a la de EE.UU.?',
+                'answer' => 'Sí. Nuestros dentistas tienen capacitación y certificaciones internacionales. Usamos los mismos materiales y tecnología que clínicas estadounidenses. La principal diferencia es que nuestros costos operacionales son menores, lo cual te pasamos como ahorros.'
+            ],
+            'q6' => [
+                'question' => '¿Qué hay sobre barreras del idioma?',
+                'answer' => 'Nuestro personal es bilingüe inglés-español. Aseguramos comunicación clara durante todo tu tratamiento con explicaciones detalladas e instrucciones escritas en inglés.'
+            ]
+        ],
+        'cta' => [
+            'title' => '¿Listo para Transformar tu Sonrisa?',
+            'description' => 'Comienza tu viaje de turismo dental con Núcleo Dental. Estamos aquí para hacerlo fácil, asequible y memorable.',
+            'button' => 'Programa tu Consulta Gratuita',
+            'subtext' => 'Combina atención dental excepcional con una experiencia de vacaciones memorable.'
         ]
     ]
 ];

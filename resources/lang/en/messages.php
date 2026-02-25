@@ -207,6 +207,7 @@ return [
     'nav' => [
         'home' => 'Home',
         'services' => 'Services',
+        'dental_tourism' => 'Dental Tourism',
         'about' => 'About Us',
         'technology' => 'Technology',
         'financing' => 'Financing',
@@ -337,6 +338,7 @@ return [
         'contact' => 'Contact',
         'about' => 'About Us',
         'technology' => 'Technology',
+        'dental_tourism' => 'Dental Tourism',
         'home' => 'Home - Nucleo Dental',
     ],
     'services_hero' => [
@@ -699,6 +701,242 @@ return [
                 'title' => 'Dentures',
                 'description' => 'Unlike dental implants, dentures are easily removable and won\'t require invasive surgery. Implants come in two varieties, total or partial, to perfectly suit your exact needs.'
             ]
+        ]
+    ],
+    'faq' => [
+        'title' => 'Frequently Asked Questions',
+        'one' => [
+            'question' => 'What is the best option for replacing missing teeth?',
+            'answer' => 'Dental implants are considered the best option for replacing missing teeth as they provide a natural look, restore full functionality, and help preserve bone structure. However, we can discuss other options like dentures or bridges based on your specific needs.'
+        ],
+        'two' => [
+            'question' => 'How long do dental treatments last?',
+            'answer' => 'The longevity of dental treatments varies depending on the type. Dental implants can last 25+ years with proper care, crowns typically last 10-15 years, and veneers usually last 10-12 years. Regular maintenance is key to maximizing longevity.'
+        ],
+        'three' => [
+            'question' => 'Do you offer payment plans?',
+            'answer' => 'Yes, we offer flexible payment plans and accept major credit cards, cash, and bank transfers. We also assist with insurance documentation for reimbursement. Please contact us to discuss payment options that work for you.'
+        ],
+        'four' => [
+            'question' => 'Is teeth whitening safe?',
+            'answer' => 'Professional teeth whitening performed by our dentists is safe and effective. We use approved materials and techniques to minimize sensitivity while delivering excellent results.'
+        ],
+        'five' => [
+            'question' => 'How often should I visit the dentist?',
+            'answer' => 'We recommend visiting your dentist every 6 months for regular cleanings and check-ups. However, patients with specific dental conditions may need more frequent visits.'
+        ],
+        'six' => [
+            'question' => 'Do you offer orthodontic treatments for adults?',
+            'answer' => 'Yes, we offer orthodontic treatments for patients of all ages, including adults. We have options like traditional braces, aesthetic braces, and other advanced solutions.'
+        ]
+    ],
+    'dental_tourism' => [
+        'page_title' => 'Dental Tourism - Smile Now, Pay Less',
+        'hero' => [
+            'title' => 'Smile Now, Pay Less',
+            'subtitle' => 'Combine world-class dental care with a memorable vacation experience',
+            'description' => 'Enjoy high-quality dental treatments at a fraction of the cost, with the added benefit of recovering in a beautiful Mexican destination.'
+        ],
+        'what_is' => [
+            'title' => 'What is Dental Tourism?',
+            'description' => 'Dental tourism is a unique service that allows you to combine a dental procedure with a relaxing vacation. It\'s a way to receive high-quality dental care while saving money and enjoying the beauty of Mexico.',
+            'benefits_intro' => 'At Núcleo Dental, we specialize in making dental tourism accessible, comfortable, and rewarding for international patients.',
+            'savings' => 'Save up to 70% compared to treatments in the USA',
+            'quality' => 'Internationally trained dentists with modern facilities',
+            'convenience' => 'Efficient scheduling and comprehensive care planning',
+            'experience' => 'Combine treatment with tourism and cultural experiences'
+        ],
+        'why_choose' => [
+            'title' => 'Why Choose Núcleo Dental for Dental Tourism?',
+            'intro' => 'We provide an exceptional dental tourism experience that combines quality care with convenience and value.',
+            'consultation' => [
+                'title' => '1. Schedule Your Consultation',
+                'description' => 'Discuss your dental needs with one of our specialists and receive a comprehensive treatment plan with cost estimate.'
+            ],
+            'planning' => [
+                'title' => '2. Plan Your Trip',
+                'description' => 'We help arrange accommodations, transportation, and timing to make your visit seamless and stress-free.'
+            ],
+            'treatment' => [
+                'title' => '3. Receive Treatment',
+                'description' => 'Experience world-class dental care with cutting-edge technology in a comfortable, welcoming environment.'
+            ],
+            'recovery' => [
+                'title' => '4. Enjoy Your Smile',
+                'description' => 'Recover and enjoy your new smile while exploring our beautiful location, with full post-treatment care instructions.'
+            ]
+        ],
+        'services_offered' => [
+            'title' => 'Popular Dental Tourism Services',
+            'description' => 'We offer a comprehensive range of dental procedures at exceptional value:',
+            'dental_implants' => [
+                'title' => 'Dental Implants',
+                'cost_us' => '$3,000 - $6,000',
+                'cost_mexico' => '$650 - $1,500',
+                'savings' => 'Save 70-80%'
+            ],
+            'crowns' => [
+                'title' => 'Porcelain Crowns',
+                'cost_us' => '$1,000 - $1,600',
+                'cost_mexico' => '$300 - $450',
+                'savings' => 'Save 70%'
+            ],
+            'veneers' => [
+                'title' => 'Porcelain Veneers',
+                'cost_us' => '$800 - $1,000',
+                'cost_mexico' => '$250 - $400',
+                'savings' => 'Save 60-70%'
+            ],
+            'root_canal' => [
+                'title' => 'Root Canal Treatment',
+                'cost_us' => '$1,000 - $1,500',
+                'cost_mexico' => '$250 - $550',
+                'savings' => 'Save 75%'
+            ],
+            'full_mouth' => [
+                'title' => 'Full Mouth Rehabilitation',
+                'cost_us' => '$15,000+',
+                'cost_mexico' => '$4,000 - $8,000',
+                'savings' => 'Save 70%+'
+            ],
+            'cleanings' => [
+                'title' => 'Cleaning & Check-up',
+                'cost_us' => '$150 - $300',
+                'cost_mexico' => '$35 - $60',
+                'savings' => 'Save 80%'
+            ]
+        ],
+        'process' => [
+            'title' => 'The Dental Tourism Process',
+            'step_1' => [
+                'title' => 'Initial Consultation',
+                'description' => 'Contact us directly or via video call to discuss your case. We assess your needs and provide a detailed treatment plan with pricing.'
+            ],
+            'step_2' => [
+                'title' => 'Travel Arrangement',
+                'description' => 'We help with flight information, hotel recommendations, transportation, and all logistics to ensure a smooth trip.'
+            ],
+            'step_3' => [
+                'title' => 'Treatment Begins',
+                'description' => 'Upon arrival, you\'ll receive comprehensive dental care using our advanced technology in a comfortable setting.'
+            ],
+            'step_4' => [
+                'title' => 'Recovery & Enjoy',
+                'description' => 'Most patients can enjoy tourist activities within days. We provide detailed post-treatment care instructions for optimal results.'
+            ],
+            'step_5' => [
+                'title' => 'Ongoing Support',
+                'description' => 'Stay connected with our team for follow-up appointments and continued care support even after you return home.'
+            ]
+        ],
+        'cost_benefits' => [
+            'title' => 'Evaluating Costs vs Benefits',
+            'procedure_comparison' => 'Procedure Cost Comparison',
+            'travel_costs' => [
+                'title' => 'Travel & Accommodation',
+                'description' => 'While you save significantly on treatment, budget for flights and hotels. Many patients find that even with travel expenses, the overall cost is substantially lower than USA prices.',
+                'flights' => 'Flights from USA: $200-$500 roundtrip',
+                'accommodation' => 'Hotels: $50-$200 per night',
+                'total_savings' => 'Total savings often exceed travel costs by 50-70%'
+            ],
+            'key_factors' => [
+                'Significant procedure savings (50-80%)',
+                'Minimal recovery time (most patients return to work within days)',
+                'Quality equivalent to US standards',
+                'Comprehensive treatment plans',
+                'All-inclusive packages available'
+            ]
+        ],
+        'benefits' => [
+            'title' => 'Benefits of Dental Tourism in Mexico',
+            'quality_care' => [
+                'title' => 'High-Quality Care',
+                'description' => 'Our dentists are internationally trained with years of experience. We use state-of-the-art technology and follow strict international safety protocols.'
+            ],
+            'efficiency' => [
+                'title' => 'Efficiency & Convenience',
+                'description' => 'Quick appointment scheduling, flexible treatment plans, and efficient care processes mean you get results faster.'
+            ],
+            'affordability' => [
+                'title' => 'Exceptional Affordability',
+                'description' => 'Save 50-80% on dental procedures while maintaining the same quality you expect in the USA.'
+            ],
+            'experience' => [
+                'title' => 'Cultural & Recreational Opportunities',
+                'description' => 'Combine your treatment with vacation experiences. Juárez offers rich culture, dining, shopping, and nearby natural attractions.'
+            ],
+            'support' => [
+                'title' => 'Comprehensive Support',
+                'description' => 'English-speaking staff, transportation assistance, accommodation help, and detailed post-treatment care.'
+            ]
+        ],
+        'risks_mitigation' => [
+            'title' => 'Understanding Risks & How We Prevent Them',
+            'verify_credentials' => [
+                'title' => 'Verify Credentials',
+                'description' => 'All our dentists have international certifications and are registered with Mexican dental boards. Check credentials before choosing any clinic.'
+            ],
+            'hygiene_standards' => [
+                'title' => 'Strict Hygiene Standards',
+                'description' => 'We maintain rigorous sterilization protocols and international safety standards to prevent infections.'
+            ],
+            'clear_communication' => [
+                'title' => 'Clear Communication',
+                'description' => 'Our bilingual staff ensures complete understanding of medical history, procedures, and care instructions.'
+            ],
+            'follow_up_care' => [
+                'title' => 'Follow-up Arrangements',
+                'description' => 'We coordinate with your home dentist for any necessary follow-ups and maintain digital records you can share.'
+            ],
+            'insurance_assistance' => [
+                'title' => 'Insurance Documentation',
+                'description' => 'We assist with all paperwork for insurance reimbursement and provide documentation of all treatments.'
+            ]
+        ],
+        'preparation' => [
+            'title' => 'Preparing for Your Dental Tourism Trip',
+            'checklist' => [
+                'Gather your dental records and X-rays to bring with you',
+                'Ensure your passport is valid for at least 6 months',
+                'Schedule treatments at least 2-3 weeks in advance',
+                'Make travel arrangements (flights, hotel)',
+                'Inform your home dentist about your trip',
+                'Check travel insurance coverage for medical procedures',
+                'Arrange time off work for treatment and recovery',
+                'Plan for 3-7 days depending on complexity of treatment'
+            ]
+        ],
+        'faq_tourism' => [
+            'q1' => [
+                'question' => 'How long do I need to stay in Mexico?',
+                'answer' => 'It depends on your treatment complexity. Simple cleanings may take 1-2 days. Major procedures like implants may require 5-7 days for initial treatment and follow-up checks. We provide a customized timeline based on your specific needs.'
+            ],
+            'q2' => [
+                'question' => 'Can I fly home immediately after treatment?',
+                'answer' => 'It\'s recommended to wait 24-48 hours after major procedures before flying, as cabin pressure changes can affect healing. We advise staying a few extra days to allow proper recovery and adjustment.'
+            ],
+            'q3' => [
+                'question' => 'Do you accept international insurance?',
+                'answer' => 'Most international plans don\'t cover treatments abroad. However, we help with all documentation for US insurance reimbursement. We also accept major credit cards, cash, and wire transfers.'
+            ],
+            'q4' => [
+                'question' => 'What if something goes wrong after I return home?',
+                'answer' => 'We provide comprehensive follow-up support. You can contact us via phone, email, or video call. We also coordinate with your local dentist to ensure continuity of care and address any concerns.'
+            ],
+            'q5' => [
+                'question' => 'Is the quality really comparable to the USA?',
+                'answer' => 'Yes. Our dentists have international training and certifications. We use the same materials and technology as US clinics. The main difference is our operating costs are lower, which we pass on to you as savings.'
+            ],
+            'q6' => [
+                'question' => 'What about language barriers?',
+                'answer' => 'Our staff is bilingual English-Spanish. We ensure clear communication throughout your treatment with detailed explanations and written instructions in English.'
+            ]
+        ],
+        'cta' => [
+            'title' => 'Ready to Transform Your Smile?',
+            'description' => 'Start your dental tourism journey with Núcleo Dental. We\'re here to make it easy, affordable, and memorable.',
+            'button' => 'Schedule Your Free Consultation',
+            'subtext' => 'Combine exceptional dental care with a memorable vacation experience.'
         ]
     ]
 ];
