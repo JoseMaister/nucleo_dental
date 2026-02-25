@@ -369,6 +369,152 @@
         </div>
     </section>
 
+    <!-- Why Ciudad Juárez Section -->
+    <section class="py-16 md:py-24 px-4 md:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-6 text-center">
+                {{ __('messages.dental_tourism.juarez_benefits.title') }}
+            </h2>
+            <div class="w-20 h-1 bg-indigo-700 mx-auto rounded mb-12"></div>
+
+            <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+                {{ __('messages.dental_tourism.juarez_benefits.description') }}
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                @php
+                    $juarez = [
+                        'proximity' => '🌍',
+                        'affordability' => '💰',
+                        'culture' => '🎭',
+                        'climate' => '☀️',
+                        'attractions' => '🎡'
+                    ];
+                @endphp
+
+                @foreach($juarez as $benefit => $icon)
+                    <div class="bg-gradient-to-br from-green-50 to-white border-2 border-green-300 p-8 rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-105">
+                        <div class="text-5xl mb-4">{{ $icon }}</div>
+                        <h3 class="text-2xl font-bold text-green-700 mb-3">
+                            {{ __("messages.dental_tourism.juarez_benefits.{$benefit}.title") }}
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            {{ __("messages.dental_tourism.juarez_benefits.{$benefit}.description") }}
+                        </p>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Essentials: Hotels & Transport -->
+    <section class="py-16 md:py-24 px-4 md:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-6 text-center">
+                {{ __('messages.dental_tourism.travel_essentials.title') }}
+            </h2>
+            <div class="w-20 h-1 bg-indigo-700 mx-auto rounded mb-12"></div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Hotels Section -->
+                <div class="bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fas fa-hotel text-4xl text-blue-600"></i>
+                        <h3 class="text-3xl font-bold text-indigo-800">
+                            {{ __('messages.dental_tourism.travel_essentials.hotels.title') }}
+                        </h3>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        {{ __('messages.dental_tourism.travel_essentials.hotels.description') }}
+                    </p>
+                    <ul class="space-y-3">
+                        @php
+                            $hotels = __('messages.dental_tourism.travel_essentials.hotels.list');
+                        @endphp
+                        @foreach($hotels as $hotel)
+                            <li class="flex items-start gap-3 text-gray-700">
+                                <span class="text-blue-600 font-bold text-lg flex-shrink-0 mt-0.5">★</span>
+                                <span>{{ $hotel }}</span>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+
+                <!-- Transport Section -->
+                <div class="bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fas fa-shuttle-van text-4xl text-orange-600"></i>
+                        <h3 class="text-3xl font-bold text-indigo-800">
+                            {{ __('messages.dental_tourism.travel_essentials.transport.title') }}
+                        </h3>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        {{ __('messages.dental_tourism.travel_essentials.transport.description') }}
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-gray-700 pb-3 border-b">
+                            <span class="text-orange-600 font-bold text-lg flex-shrink-0">✈️</span>
+                            <span>{{ __('messages.dental_tourism.travel_essentials.transport.airport') }}</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-700 pb-3 border-b">
+                            <span class="text-orange-600 font-bold text-lg flex-shrink-0">🚕</span>
+                            <span>{{ __('messages.dental_tourism.travel_essentials.transport.taxi') }}</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-700 pb-3 border-b">
+                            <span class="text-orange-600 font-bold text-lg flex-shrink-0">🚗</span>
+                            <span>{{ __('messages.dental_tourism.travel_essentials.transport.rental') }}</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-700 pb-3 border-b">
+                            <span class="text-orange-600 font-bold text-lg flex-shrink-0">🚐</span>
+                            <span>{{ __('messages.dental_tourism.travel_essentials.transport.shuttle') }}</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-700">
+                            <span class="text-orange-600 font-bold text-lg flex-shrink-0">🚶</span>
+                            <span>{{ __('messages.dental_tourism.travel_essentials.transport.local') }}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- External Resources -->
+    <section class="py-16 md:py-24 px-4 md:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-6 text-center">
+                {{ __('messages.dental_tourism.external_resources.title') }}
+            </h2>
+            <div class="w-20 h-1 bg-indigo-700 mx-auto rounded mb-12"></div>
+
+            <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+                {{ __('messages.dental_tourism.external_resources.description') }}
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                @php
+                    $resources = __('messages.dental_tourism.external_resources.resources');
+                @endphp
+
+                @foreach($resources as $resource)
+                    <a href="{{ $resource['url'] }}" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-br from-indigo-50 to-white border-2 border-indigo-200 p-8 rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-105 hover:border-indigo-400">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-xl font-bold text-indigo-800 flex-1">
+                                {{ $resource['name'] }}
+                            </h3>
+                            <i class="fas fa-external-link-alt text-indigo-600 text-lg ml-2 flex-shrink-0"></i>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            {{ $resource['description'] }}
+                        </p>
+                        <div class="mt-4 pt-4 border-t border-indigo-200 text-indigo-700 text-sm font-semibold">
+                            Visitar Recurso →
+                        </div>
+                    </a>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-16 md:py-24 px-4 md:px-8 bg-gradient-to-br from-indigo-600 via-indigo-700 to-indigo-900 text-white relative overflow-hidden">
         <!-- Decorative elements -->

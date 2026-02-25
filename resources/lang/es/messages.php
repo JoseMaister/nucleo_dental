@@ -197,7 +197,10 @@ return [
     ],
     'nav' => [
         'home' => 'Inicio',
-        'services' => 'Servicios',        'dental_tourism' => 'Turismo Dental',        'about' => 'Nosotros',
+        'services' => 'Servicios',
+        'dental_tourism' => 'Turismo Dental',
+        'blog_educativo' => 'Blog Educativo',
+        'about' => 'Nosotros',
         'technology' => 'Tecnología',
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
@@ -916,11 +919,255 @@ return [
                 'answer' => 'Nuestro personal es bilingüe inglés-español. Aseguramos comunicación clara durante todo tu tratamiento con explicaciones detalladas e instrucciones escritas en inglés.'
             ]
         ],
+        'juarez_benefits' => [
+            'title' => '¿Por Qué Ciudad Juárez?',
+            'description' => 'Ciudad Juárez es el destino perfecto para turismo dental, ofreciendo conveniencia, cultura y experiencias inolvidables.',
+            'proximity' => [
+                'title' => 'Cerca de EE.UU.',
+                'description' => 'A través de la frontera de El Paso, Texas. Opciones de viaje rápidas y asequibles.'
+            ],
+            'affordability' => [
+                'title' => 'Excelente Valor',
+                'description' => 'Bajo costo de vida significa gastos generales bajos - ahorros que te compartimos.'
+            ],
+            'culture' => [
+                'title' => 'Cultura Rica',
+                'description' => 'Experimenta la gastronomía mexicana, arte, historia y hospitalidad cálida.'
+            ],
+            'climate' => [
+                'title' => 'Clima Excelente',
+                'description' => 'Clima desértico con 300+ días de sol. Perfecto para recuperación y relajación.'
+            ],
+            'attractions' => [
+                'title' => 'Qué Hacer',
+                'description' => 'Museos, restaurantes, tiendas, parques y eventos culturales en toda la ciudad.'
+            ]
+        ],
+        'travel_essentials' => [
+            'title' => 'Esenciales de Viaje',
+            'hotels' => [
+                'title' => 'Hoteles Recomendados',
+                'description' => 'Alojamiento de calidad cerca de nuestra clínica con tarifas especiales para nuestros pacientes:',
+                'list' => [
+                    'Hotel Presidente - 4 estrellas, ubicación céntrica, centro de negocios, restaurante',
+                    'Fiesta Inn Ciudad Juárez - Amenidades modernas, cerca de tiendas, desayuno incluido',
+                    'Holiday Inn Express - Opción económica, habitaciones limpias, WiFi gratis',
+                    'Hotel Plaza Real - Hotel boutique con carácter y encanto local',
+                    'Gamma San José - Opción de rango medio con excelente servicio'
+                ]
+            ],
+            'transport' => [
+                'title' => 'Transporte',
+                'description' => 'Opciones de transporte para hacer tu estancia cómoda:',
+                'airport' => 'Aeropuerto Internacional de El Paso (EPT) - 45 min en coche, organizamos transporte',
+                'taxi' => 'Uber y taxis locales disponibles 24/7 - asequibles y confiables',
+                'rental' => 'Agencias de renta de autos en el aeropuerto si prefieres independencia',
+                'shuttle' => 'Proporcionamos servicio de transporte coordinado hacia/desde el aeropuerto bajo solicitud',
+                'local' => 'Caminar y transporte público disponible en áreas del centro'
+            ]
+        ],
+        'external_resources' => [
+            'title' => 'Recursos Externos Útiles',
+            'description' => 'Información adicional y apoyo para tu viaje de turismo dental:',
+            'resources' => [
+                [
+                    'name' => 'Asociación Dental USA-México',
+                    'url' => 'https://www.ada.org',
+                    'description' => 'Información sobre estándares dentales y verificación de dentistas'
+                ],
+                [
+                    'name' => 'Asociación Internacional de Investigación Dental',
+                    'url' => 'https://www.iadr.org',
+                    'description' => 'Investigación dental global y estándares de calidad'
+                ],
+                [
+                    'name' => 'Asociación Dental Americana (ADA)',
+                    'url' => 'https://www.ada.org',
+                    'description' => 'Aprende sobre mejores prácticas y procedimientos dentales'
+                ],
+                [
+                    'name' => 'Asesoramiento de Viaje - México',
+                    'url' => 'https://travel.state.gov',
+                    'description' => 'Información de viaje del Departamento de Estado de EE.UU. para México'
+                ],
+                [
+                    'name' => 'Reembolso de Seguros Dentales',
+                    'url' => 'https://www.cigna.com',
+                    'description' => 'Información sobre reclamación de trabajo dental hecho internacionalmente'
+                ],
+                [
+                    'name' => 'Junta de Turismo de Ciudad Juárez',
+                    'url' => 'https://www.visitcuidadjuarez.com',
+                    'description' => 'Atracciones, restaurantes y eventos en Ciudad Juárez'
+                ]
+            ]
+        ],
         'cta' => [
             'title' => '¿Listo para Transformar tu Sonrisa?',
             'description' => 'Comienza tu viaje de turismo dental con Núcleo Dental. Estamos aquí para hacerlo fácil, asequible y memorable.',
             'button' => 'Programa tu Consulta Gratuita',
             'subtext' => 'Combina atención dental excepcional con una experiencia de vacaciones memorable.'
+        ]
+    ],
+    'blog_educativo' => [
+        'page_title' => 'Blog Educativo - Nucleo Dental',
+        'hero' => [
+            'title' => 'Blog Educativo',
+            'subtitle' => 'Aprende sobre tratamientos, turismo dental y lo que hace diferente a Núcleo Dental.',
+            'description' => 'Información confiable para ayudarte a tomar decisiones seguras e informadas sobre tu salud oral.'
+        ],
+        'treatments' => [
+            'title' => 'Guías de Tratamientos',
+            'articles' => [
+                [
+                    'title' => 'Implantes Dentales',
+                    'what' => 'Los implantes dentales son raíces artificiales que se colocan en el hueso para soportar coronas, puentes o dentaduras.',
+                    'how' => 'Se inserta un poste de titanio en el hueso, se deja sanar e integrar, y luego se coloca una corona personalizada.',
+                    'who' => 'Ideal para adultos que han perdido uno o más dientes y tienen encías y hueso sanos.',
+                    'benefits' => 'Solución permanente, aspecto natural, preserva el hueso, restaura función y confianza.'
+                ],
+                [
+                    'title' => 'Coronas de Porcelana',
+                    'what' => 'Las coronas son fundas que cubren dientes dañados o debilitados para restaurar forma, fuerza y apariencia.',
+                    'how' => 'Se prepara el diente, se toma impresión y se cementa una corona de porcelana hecha a medida.',
+                    'who' => 'Para dientes con grandes restauraciones, fracturas o después de endodoncia.',
+                    'benefits' => 'Protege el diente, restaura función, aspecto natural y es duradera.'
+                ],
+                [
+                    'title' => 'Carillas de Porcelana',
+                    'what' => 'Láminas delgadas de porcelana que se adhieren al frente de los dientes para mejorar color, forma y alineación.',
+                    'how' => 'Se remueve una pequeña cantidad de esmalte, se toman impresiones y se cementan las carillas.',
+                    'who' => 'Para pacientes con dientes manchados, astillados o ligeramente desalineados.',
+                    'benefits' => 'Sonrisa estética, mínima reducción dental, resistentes a manchas.'
+                ],
+                [
+                    'title' => 'Endodoncia',
+                    'what' => 'Procedimiento para eliminar la pulpa infectada o dañada del interior del diente, aliviando dolor y salvando el diente.',
+                    'how' => 'Se retira la pulpa, se limpia y desinfecta el conducto, luego se sella.',
+                    'who' => 'Para dientes con caries profundas, infección o traumatismo.',
+                    'benefits' => 'Alivia dolor, salva el diente natural, previene infecciones.'
+                ],
+                [
+                    'title' => 'Rehabilitación de Boca Completa',
+                    'what' => 'Restauración integral de todos los dientes usando coronas, puentes, implantes y/o prótesis.',
+                    'how' => 'Se elabora un plan personalizado para restaurar función y estética, a menudo en varias fases.',
+                    'who' => 'Pacientes con problemas dentales extensos o pérdida de dientes.',
+                    'benefits' => 'Recupera masticación, habla, estética y confianza.'
+                ],
+                [
+                    'title' => 'Limpieza y Revisión Dental',
+                    'what' => 'Eliminación profesional de placa y sarro, más un examen oral completo.',
+                    'how' => 'El higienista limpia dientes y encías con instrumentos especiales y el dentista revisa la boca.',
+                    'who' => 'Recomendado para todos cada 6 meses.',
+                    'benefits' => 'Previene caries, enfermedades de encías y mantiene la boca sana.'
+                ],
+                [
+                    'title' => 'Ortodoncia (Brackets y Alineadores)',
+                    'what' => 'Tratamientos para alinear dientes y corregir mordida usando brackets o alineadores transparentes.',
+                    'how' => 'Aparatos aplican presión suave para mover los dientes a su posición ideal.',
+                    'who' => 'Niños, adolescentes y adultos con dientes desalineados o problemas de mordida.',
+                    'benefits' => 'Mejora sonrisa, facilita higiene, mejor mordida y confianza.'
+                ],
+                [
+                    'title' => 'Extracciones Dentales',
+                    'what' => 'Remoción de un diente dañado, con caries severa o que causa apiñamiento.',
+                    'how' => 'Se anestesia la zona, se afloja y retira el diente cuidadosamente.',
+                    'who' => 'Para dientes irrecuperables o para preparar ortodoncia.',
+                    'benefits' => 'Alivia dolor, previene infecciones, crea espacio para dientes sanos.'
+                ],
+                [
+                    'title' => 'Tratamiento Periodontal (Encías)',
+                    'what' => 'Tratamientos para controlar la enfermedad de encías y restaurar la salud gingival.',
+                    'how' => 'Limpieza profunda (raspado y alisado radicular), a veces cirugía o antibióticos.',
+                    'who' => 'Personas con encías sangrantes, retraídas o periodontitis.',
+                    'benefits' => 'Detiene la enfermedad, previene pérdida dental, mejora aliento.'
+                ],
+                [
+                    'title' => 'Blanqueamiento Dental',
+                    'what' => 'Procedimiento estético para aclarar dientes y eliminar manchas.',
+                    'how' => 'Se aplican agentes blanqueadores profesionales en consultorio o con cubetas personalizadas.',
+                    'who' => 'Adultos con dientes sanos que desean una sonrisa más blanca.',
+                    'benefits' => 'Dientes más blancos, resultados rápidos, seguro y eficaz.'
+                ],
+                [
+                    'title' => 'Prótesis Dentales',
+                    'what' => 'Reemplazos artificiales para dientes perdidos, como puentes, parciales y dentaduras completas.',
+                    'how' => 'Se fabrican dispositivos a medida para restaurar función y estética.',
+                    'who' => 'Pacientes con uno o más dientes faltantes.',
+                    'benefits' => 'Recupera masticación, habla y sonrisa.'
+                ],
+                [
+                    'title' => 'Odontopediatría',
+                    'what' => 'Atención dental para niños, incluyendo prevención, empastes y educación en hábitos saludables.',
+                    'how' => 'Exámenes, limpiezas, selladores y orientación para niños y padres.',
+                    'who' => 'Niños desde bebés hasta adolescentes.',
+                    'benefits' => 'Sonrisas sanas de por vida, experiencias positivas.'
+                ],
+                [
+                    'title' => 'Cirugía Maxilofacial',
+                    'what' => 'Procedimientos quirúrgicos para problemas dentales, mandibulares o faciales complejos.',
+                    'how' => 'Realizados por un especialista, pueden incluir extracciones, injertos óseos o cirugía correctiva.',
+                    'who' => 'Pacientes con problemas severos en dientes, mandíbula o rostro.',
+                    'benefits' => 'Recupera función, salud y estética.'
+                ],
+                [
+                    'title' => 'Resinas y Restauraciones',
+                    'what' => 'Resina del color del diente para reparar caries o fracturas menores.',
+                    'how' => 'Se elimina la caries, se coloca la resina y se endurece con luz especial.',
+                    'who' => 'Cualquier persona con caries pequeñas o dientes astillados.',
+                    'benefits' => 'Apariencia natural, conserva estructura dental, procedimiento rápido.'
+                ],
+                [
+                    'title' => 'Tratamientos Preventivos',
+                    'what' => 'Medidas para prevenir problemas dentales, como selladores y flúor.',
+                    'how' => 'Aplicados por el dentista o higienista en visitas de rutina.',
+                    'who' => 'Niños y adultos con riesgo de caries o enfermedad de encías.',
+                    'benefits' => 'Reduce riesgo de caries, fácil y sin dolor.'
+                ]
+            ]
+        ],
+        'dental_tourism' => [
+            'title' => 'Esenciales del Turismo Dental',
+            'articles' => [
+                [
+                    'title' => 'Cómo Planear tu Viaje Dental',
+                    'summary' => 'Cronograma recomendado, documentos necesarios y tiempos ideales de tratamiento.'
+                ],
+                [
+                    'title' => 'Costos, Ahorros y Valor Real',
+                    'summary' => 'Comprende precios de tratamiento, gastos de viaje y planeación de presupuesto total.'
+                ],
+                [
+                    'title' => 'Recuperación y Seguimiento al Regresar a Casa',
+                    'summary' => 'Recomendaciones prácticas para proteger tus resultados después del tratamiento en México.'
+                ]
+            ]
+        ],
+        'differentiators' => [
+            'title' => 'Nuestros Diferenciadores',
+            'items' => [
+                [
+                    'title' => 'Atención Bilingüe',
+                    'description' => 'Comunicación clara en inglés y español en cada etapa.'
+                ],
+                [
+                    'title' => 'Tecnología Moderna',
+                    'description' => 'Diagnóstico digital y equipo actualizado para tratamientos precisos.'
+                ],
+                [
+                    'title' => 'Planeación Personalizada',
+                    'description' => 'Cada paciente recibe un plan de tratamiento y apoyo de viaje a la medida.'
+                ],
+                [
+                    'title' => 'Conveniencia Fronteriza',
+                    'description' => 'Ubicación estratégica en Ciudad Juárez para pacientes de EE.UU. y México.'
+                ]
+            ]
+        ],
+        'cta' => [
+            'title' => '¿Necesitas Ayuda para Elegir un Tratamiento?',
+            'description' => 'Nuestro equipo puede revisar tu caso y orientarte con una recomendación personalizada.',
+            'button' => 'Solicitar Orientación'
         ]
     ]
 ];

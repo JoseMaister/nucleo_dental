@@ -208,6 +208,7 @@ return [
         'home' => 'Home',
         'services' => 'Services',
         'dental_tourism' => 'Dental Tourism',
+        'blog_educativo' => 'Educational Blog',
         'about' => 'About Us',
         'technology' => 'Technology',
         'financing' => 'Financing',
@@ -932,11 +933,255 @@ return [
                 'answer' => 'Our staff is bilingual English-Spanish. We ensure clear communication throughout your treatment with detailed explanations and written instructions in English.'
             ]
         ],
+        'juarez_benefits' => [
+            'title' => 'Why Ciudad Juárez?',
+            'description' => 'Ciudad Juárez is the perfect destination for dental tourism, offering convenience, culture, and unforgettable experiences.',
+            'proximity' => [
+                'title' => 'Close to USA',
+                'description' => 'Just across the border from El Paso, Texas. Quick and affordable travel options.'
+            ],
+            'affordability' => [
+                'title' => 'Excellent Value',
+                'description' => 'Low cost of living means lower overhead - savings passed to you.'
+            ],
+            'culture' => [
+                'title' => 'Rich Culture',
+                'description' => 'Experience Mexican cuisine, art, history, and warm hospitality.'
+            ],
+            'climate' => [
+                'title' => 'Great Climate',
+                'description' => 'Desert climate with 300+ days of sunshine. Perfect for recovery and relaxation.'
+            ],
+            'attractions' => [
+                'title' => 'Things to Do',
+                'description' => 'Museums, restaurants, shopping, parks, and cultural events throughout the city.'
+            ]
+        ],
+        'travel_essentials' => [
+            'title' => 'Travel Essentials',
+            'hotels' => [
+                'title' => 'Recommended Hotels',
+                'description' => 'Quality accommodations near our clinic with special rates for our patients:',
+                'list' => [
+                    'Hotel Presidente - 4-star, downtown location, business center, restaurant',
+                    'Fiesta Inn Ciudad Juárez - Modern amenities, near shopping, complimentary breakfast',
+                    'Holiday Inn Express - Budget-friendly, clean rooms, free WiFi',
+                    'Hotel Plaza Real - Boutique hotel with character and local charm',
+                    'Gamma San José - Mid-range option with excellent service'
+                ]
+            ],
+            'transport' => [
+                'title' => 'Getting Around',
+                'description' => 'Transportation options to make your stay comfortable:',
+                'airport' => 'El Paso International Airport (EPT) - 45 min drive, we arrange pickups',
+                'taxi' => 'Uber and local taxis available 24/7 - affordable and reliable',
+                'rental' => 'Car rental agencies at airport if you prefer independence',
+                'shuttle' => 'We provide coordinated shuttle service to/from airport on request',
+                'local' => 'Walking and public transport available in downtown areas'
+            ]
+        ],
+        'external_resources' => [
+            'title' => 'Helpful External Resources',
+            'description' => 'Additional information and support for your dental tourism journey:',
+            'resources' => [
+                [
+                    'name' => 'US-Mexico Dental Association',
+                    'url' => 'https://www.ada.org',
+                    'description' => 'Information about dental standards and dentist verification'
+                ],
+                [
+                    'name' => 'International Association of Dental Research',
+                    'url' => 'https://www.iadr.org',
+                    'description' => 'Global dental research and quality standards'
+                ],
+                [
+                    'name' => 'American Dental Association (ADA)',
+                    'url' => 'https://www.ada.org',
+                    'description' => 'Learn about dental best practices and procedures'
+                ],
+                [
+                    'name' => 'Travel Advisory - Mexico',
+                    'url' => 'https://travel.state.gov',
+                    'description' => 'US State Department travel information for Mexico'
+                ],
+                [
+                    'name' => 'Dental Insurance Reimbursement',
+                    'url' => 'https://www.cigna.com',
+                    'description' => 'Information on claiming dental work done internationally'
+                ],
+                [
+                    'name' => 'Ciudad Juárez Tourism Board',
+                    'url' => 'https://www.visitcuidadjuarez.com',
+                    'description' => 'Attractions, restaurants, and events in Ciudad Juárez'
+                ]
+            ]
+        ],
         'cta' => [
             'title' => 'Ready to Transform Your Smile?',
             'description' => 'Start your dental tourism journey with Núcleo Dental. We\'re here to make it easy, affordable, and memorable.',
             'button' => 'Schedule Your Free Consultation',
             'subtext' => 'Combine exceptional dental care with a memorable vacation experience.'
+        ]
+    ],
+    'blog_educativo' => [
+        'page_title' => 'Educational Blog - Nucleo Dental',
+        'hero' => [
+            'title' => 'Educational Blog',
+            'subtitle' => 'Learn about treatments, dental tourism, and what makes Núcleo Dental different.',
+            'description' => 'Reliable information to help you make safe and informed decisions about your oral health.'
+        ],
+        'treatments' => [
+            'title' => 'Treatment Guides',
+            'articles' => [
+                [
+                    'title' => 'Dental Implants',
+                    'what' => 'Dental implants are artificial tooth roots placed in the jaw to support crowns, bridges, or dentures.',
+                    'how' => 'A titanium post is surgically inserted into the bone, allowed to heal and integrate, then topped with a custom crown.',
+                    'who' => 'Ideal for adults missing one or more teeth with healthy bone and gums.',
+                    'benefits' => 'Permanent, natural-looking, preserves bone, restores chewing and confidence.'
+                ],
+                [
+                    'title' => 'Porcelain Crowns',
+                    'what' => 'Crowns are tooth-shaped caps that cover damaged or weakened teeth to restore shape, strength, and appearance.',
+                    'how' => 'The tooth is prepared, an impression is taken, and a custom porcelain crown is cemented in place.',
+                    'who' => 'For teeth with large fillings, fractures, or after root canal therapy.',
+                    'benefits' => 'Protects tooth, restores function, looks natural, durable.'
+                ],
+                [
+                    'title' => 'Porcelain Veneers',
+                    'what' => 'Veneers are thin porcelain shells bonded to the front of teeth to improve color, shape, and alignment.',
+                    'how' => 'A small amount of enamel is removed, impressions are taken, and veneers are custom-made and bonded.',
+                    'who' => 'For patients with stained, chipped, or slightly misaligned front teeth.',
+                    'benefits' => 'Beautiful smile, minimal tooth reduction, stain-resistant.'
+                ],
+                [
+                    'title' => 'Root Canal Therapy',
+                    'what' => 'A procedure to remove infected or damaged pulp from inside a tooth, relieving pain and saving the tooth.',
+                    'how' => 'The dentist removes the pulp, cleans and disinfects the canal, then fills and seals it.',
+                    'who' => 'For teeth with deep decay, infection, or trauma.',
+                    'benefits' => 'Relieves pain, saves natural tooth, prevents spread of infection.'
+                ],
+                [
+                    'title' => 'Full Mouth Rehabilitation',
+                    'what' => 'Comprehensive restoration of all teeth using a combination of crowns, bridges, implants, and/or dentures.',
+                    'how' => 'A personalized plan is created to restore function and aesthetics, often in phases.',
+                    'who' => 'For patients with extensive dental problems or tooth loss.',
+                    'benefits' => 'Restores chewing, speech, appearance, and confidence.'
+                ],
+                [
+                    'title' => 'Dental Cleaning & Checkup',
+                    'what' => 'Professional removal of plaque and tartar, plus a thorough oral exam.',
+                    'how' => 'A hygienist uses special tools to clean teeth and gums, then the dentist checks for problems.',
+                    'who' => 'Recommended for everyone every 6 months.',
+                    'benefits' => 'Prevents cavities, gum disease, keeps mouth healthy.'
+                ],
+                [
+                    'title' => 'Orthodontics (Braces & Aligners)',
+                    'what' => 'Treatments to straighten teeth and correct bite using braces or clear aligners.',
+                    'how' => 'Appliances apply gentle pressure to move teeth into ideal positions over time.',
+                    'who' => 'Children, teens, and adults with crooked teeth or bite issues.',
+                    'benefits' => 'Improved smile, easier cleaning, better bite, confidence.'
+                ],
+                [
+                    'title' => 'Tooth Extractions',
+                    'what' => 'Removal of a tooth that is damaged, decayed, or causing crowding.',
+                    'how' => 'The area is numbed, the tooth is gently loosened and removed.',
+                    'who' => 'For teeth that cannot be saved or to prepare for orthodontics.',
+                    'benefits' => 'Relieves pain, prevents infection, makes space for healthy teeth.'
+                ],
+                [
+                    'title' => 'Periodontal (Gum) Treatment',
+                    'what' => 'Treatments to control gum disease and restore gum health.',
+                    'how' => 'Deep cleaning (scaling and root planing), sometimes surgery or antibiotics.',
+                    'who' => 'Anyone with bleeding gums, gum recession, or periodontal disease.',
+                    'benefits' => 'Stops gum disease, prevents tooth loss, freshens breath.'
+                ],
+                [
+                    'title' => 'Teeth Whitening',
+                    'what' => 'Cosmetic procedure to lighten teeth and remove stains.',
+                    'how' => 'Professional bleaching agents are applied in-office or with custom trays.',
+                    'who' => 'Adults with healthy teeth who want a brighter smile.',
+                    'benefits' => 'Whiter teeth, fast results, safe and effective.'
+                ],
+                [
+                    'title' => 'Dental Prosthetics',
+                    'what' => 'Artificial replacements for missing teeth, such as bridges, partials, and full dentures.',
+                    'how' => 'Custom-made devices are fitted to restore function and appearance.',
+                    'who' => 'Patients missing one or more teeth.',
+                    'benefits' => 'Restores chewing, speech, and smile.'
+                ],
+                [
+                    'title' => 'Pediatric Dentistry',
+                    'what' => 'Dental care for children, including prevention, fillings, and guidance for healthy habits.',
+                    'how' => 'Gentle exams, cleanings, sealants, and education for kids and parents.',
+                    'who' => 'Children from infancy through adolescence.',
+                    'benefits' => 'Healthy smiles for life, positive dental experiences.'
+                ],
+                [
+                    'title' => 'Maxillofacial Surgery',
+                    'what' => 'Surgical procedures for complex dental, jaw, or facial problems.',
+                    'how' => 'Performed by a specialist, may include extractions, bone grafts, or corrective jaw surgery.',
+                    'who' => 'Patients with severe dental, jaw, or facial issues.',
+                    'benefits' => 'Restores function, health, and appearance.'
+                ],
+                [
+                    'title' => 'Composite Fillings',
+                    'what' => 'Tooth-colored resin used to repair cavities or minor fractures.',
+                    'how' => 'Decay is removed, resin is placed and hardened with a special light.',
+                    'who' => 'Anyone with small cavities or chipped teeth.',
+                    'benefits' => 'Natural look, preserves tooth structure, quick procedure.'
+                ],
+                [
+                    'title' => 'Preventive Treatments',
+                    'what' => 'Measures to prevent dental problems, such as sealants and fluoride.',
+                    'how' => 'Applied by the dentist or hygienist during routine visits.',
+                    'who' => 'Children and adults at risk for cavities or gum disease.',
+                    'benefits' => 'Reduces risk of decay, easy and painless.'
+                ]
+            ]
+        ],
+        'dental_tourism' => [
+            'title' => 'Dental Tourism Essentials',
+            'articles' => [
+                [
+                    'title' => 'How to Plan Your Dental Trip',
+                    'summary' => 'Recommended timeline, required documents, and ideal treatment windows.'
+                ],
+                [
+                    'title' => 'Costs, Savings, and Real Value',
+                    'summary' => 'Understand treatment pricing, travel costs, and total budget planning.'
+                ],
+                [
+                    'title' => 'Recovery and Follow-up After Returning Home',
+                    'summary' => 'Practical recommendations to protect your results after treatment in Mexico.'
+                ]
+            ]
+        ],
+        'differentiators' => [
+            'title' => 'What Makes Us Different',
+            'items' => [
+                [
+                    'title' => 'Bilingual Care Team',
+                    'description' => 'Clear communication in English and Spanish at every step.'
+                ],
+                [
+                    'title' => 'Modern Technology',
+                    'description' => 'Digital diagnostics and up-to-date equipment for precise treatments.'
+                ],
+                [
+                    'title' => 'Personalized Planning',
+                    'description' => 'Each patient receives a tailored treatment and travel support plan.'
+                ],
+                [
+                    'title' => 'Cross-Border Convenience',
+                    'description' => 'Strategic location in Ciudad Juárez for patients from the U.S. and Mexico.'
+                ]
+            ]
+        ],
+        'cta' => [
+            'title' => 'Need Help Choosing a Treatment?',
+            'description' => 'Our team can review your case and guide you with a personalized recommendation.',
+            'button' => 'Request Guidance'
         ]
     ]
 ];
