@@ -332,7 +332,7 @@
             </h2>
             <div class="w-20 h-1 bg-indigo-700 mx-auto rounded mb-12"></div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 @php
                     $faqs = [
                         'q1' => '⏱️',
@@ -346,8 +346,9 @@
 
                 @foreach($faqs as $faq => $icon)
                     <div 
-                        class="faq-item bg-gradient-to-br from-indigo-50 to-white border-2 border-indigo-200 rounded-xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 cursor-pointer hover:scale-105"
-                        onclick="toggleFaq(this)"
+                        class="faq-item bg-gradient-to-br from-indigo-50 to-white border-2 border-indigo-200 rounded-xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 cursor-pointer hover:scale-105 overflow-hidden"
+                        onclick="toggleTourismFaq(this)"
+                        style="min-height: fit-content;"
                     >
                         <div class="flex items-start justify-between gap-4">
                             <div class="flex-1">
@@ -357,17 +358,140 @@
                                 </h3>
                             </div>
                             <div class="faq-icon flex-shrink-0 text-indigo-700 text-2xl transition-transform duration-300">
-                                <span class="inline-block">+</span>
+                                <span class="inline-block transition-transform duration-300">+</span>
                             </div>
                         </div>
-                        <div class="faq-answer hidden mt-4 ml-10 text-gray-600 text-base leading-relaxed">
-                            {{ __("messages.dental_tourism.faq_tourism.{$faq}.answer") }}
+                        <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                            <div class="mt-4 ml-10 text-gray-600 text-base leading-relaxed">
+                                {{ __("messages.dental_tourism.faq_tourism.{$faq}.answer") }}
+                            </div>
                         </div>
                     </div>
                 @endforeach
             </div>
         </div>
     </section>
+
+    <script>
+        function toggleTourismFaq(element) {
+            // Get the answer element and icon
+            const answer = element.querySelector('.faq-answer');
+            const icon = element.querySelector('.faq-icon span');
+            const answerContent = answer.querySelector('div');
+            
+            // Check if currently open
+            const isOpen = !answer.classList.contains('max-h-0');
+            
+            if (isOpen) {
+                // Close the FAQ
+                answer.style.maxHeight = '0px';
+                answer.classList.remove('max-h-96', 'max-h-[500px]', 'lg:max-h-[400px]');
+                answer.classList.add('max-h-0');
+                
+                // Rotate icon back
+                icon.textContent = '+';
+                icon.style.transform = 'rotate(0deg) scale(1)';
+                
+                // Remove active styling
+                element.classList.remove('bg-indigo-100', 'border-indigo-400', 'shadow-xl');
+                element.classList.add('border-indigo-200');
+            } else {
+                // Open the FAQ
+                // Get the natural height of the content
+                const contentHeight = answerContent.scrollHeight;
+                answer.style.maxHeight = contentHeight + 'px';
+                
+                // Add responsive max-height classes for different screen sizes
+                answer.classList.remove('max-h-0');
+                answer.classList.add('max-h-96', 'lg:max-h-[400px]');
+                
+                // Rotate icon
+                icon.textContent = '−';
+                icon.style.transform = 'rotate(180deg) scale(1.1)';
+                
+                // Add active styling
+                element.classList.add('bg-indigo-100', 'border-indigo-400', 'shadow-xl');
+                element.classList.remove('border-indigo-200');
+                
+                // Smooth scroll into view if needed
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 100);
+            }
+            
+            // Add ripple effect
+            addTourismRippleEffect(element);
+        }
+
+        // Add ripple effect for better visual feedback
+        function addTourismRippleEffect(element) {
+            const ripple = document.createElement('div');
+            ripple.className = 'absolute inset-0 bg-indigo-200 opacity-30 rounded-xl pointer-events-none';
+            ripple.style.animation = 'tourismRipple 0.6s ease-out';
+            
+            element.style.position = 'relative';
+            element.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        }
+
+        // Add CSS animation for ripple effect
+        const tourismStyle = document.createElement('style');
+        tourismStyle.textContent = `
+            @keyframes tourismRipple {
+                0% {
+                    transform: scale(0.8);
+                    opacity: 0.5;
+                }
+                100% {
+                    transform: scale(1);
+                    opacity: 0;
+                }
+            }
+            
+            .tourism-faq .faq-answer {
+                transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+                            padding 0.3s ease-in-out,
+                            opacity 0.3s ease-in-out;
+            }
+            
+            .tourism-faq .faq-answer.max-h-0 {
+                opacity: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            
+            .tourism-faq .faq-answer:not(.max-h-0) {
+                opacity: 1;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+            
+            .tourism-faq .faq-icon span {
+                transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                            scale 0.3s ease-in-out;
+            }
+            
+            .tourism-faq .faq-item {
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                align-self: start;
+            }
+            
+            /* Fix grid alignment issues */
+            .tourism-faq .grid {
+                align-items: start;
+            }
+            
+            /* Ensure each FAQ item maintains its own height */
+            .tourism-faq .faq-item {
+                height: auto !important;
+                min-height: auto !important;
+            }
+        `;
+        document.head.appendChild(tourismStyle);
+    </script>
 
     <!-- Why Ciudad Juárez Section -->
     <section class="py-16 md:py-24 px-4 md:px-8 bg-white">

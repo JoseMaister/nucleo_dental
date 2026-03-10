@@ -344,23 +344,28 @@ return [
         ],
         'testimonial2' => [
             'title' => '¡Excelente Servicio!',
-            'content' => 'El equipo dental fue profesional y atento. Me hicieron sentir cómodo durante todo el procedimiento. Recomiendo ampliamente sus servicios a cualquiera que busque atención dental de calidad.'
+            'content' => 'El equipo dental fue profesional y atento. Me hicieron sentir cómodo durante todo el procedimiento. Recomiendo ampliamente sus servicios a cualquiera que busque atención dental de calidad.',
+            'author' => 'Robert Thompson'
         ],
         'testimonial3' => [
             'title' => '¡Cambió mi vida!',
-            'content' => 'Después de años de sentirme cohibido por mi sonrisa, el equipo de Núcleo Dental me dio la confianza para sonreír nuevamente. ¡Los resultados superaron mis expectativas!'
+            'content' => 'Después de años de sentirme cohibido por mi sonrisa, el equipo de Núcleo Dental me dio la confianza para sonreír nuevamente. ¡Los resultados superaron mis expectativas!',
+            'author' => 'Karen Floyd'
         ],
-        'testimonial4' => [
+        'testimonial4'  => [
             'title' => '¡Altamente recomendado!',
-            'content' => 'Tuve una excelente experiencia, desde la facilidad del servicio de transporte hasta el personal de oficina muy amable y los meticulosos detalles del Dr. Nevárez. Ayudó a elegir un color natural que coincidiera con mis dientes inferiores y programó el procedimiento para garantizar los mejores resultados a largo plazo. ¡He estado muy feliz y lo mejor es que se ve tan natural que nadie puede notarlo! Altamente recomendado. Seguimos utilizando este consultorio para limpiezas de rutina.'
+            'content' => 'Tuve una excelente experiencia, desde la facilidad del servicio de transporte hasta el personal de oficina muy amable y los meticulosos detalles del Dr. Nevárez. Ayudó a elegir un color natural que coincidiera con mis dientes inferiores y programó el procedimiento para garantizar los mejores resultados a largo plazo. ¡He estado muy feliz y lo mejor es que se ve tan natural que nadie puede notarlo! Altamente recomendado. Seguimos utilizando este consultorio para limpiezas de rutina.',
+            'author' => 'Emily Davis'
         ],
         'testimonial5' => [
             'title' => '¡Mejor que cualquier consultorio en EE.UU.!',
-            'content' => 'El Dr. Morán y todo el equipo de NÚCLEO DENTAL son excelentes. Esto es mejor que cualquier consultorio en EE. UU. que haya visitado. Todo se hace en inglés, ¡excepto por el precio! Me encanta la atención médica privada mexicana.'
+            'content' => 'El Dr. Morán y todo el equipo de NÚCLEO DENTAL son excelentes. Esto es mejor que cualquier consultorio en EE. UU. que haya visitado. Todo se hace en inglés, ¡excepto por el precio! Me encanta la atención médica privada mexicana.',
+            'author' => 'Mark OGrady'
         ],
         'testimonial6' => [
             'title' => '¡El mejor que he visto!',
-            'content' => 'El lunes, el Dr. Morán me atendió una caries, tomó impresiones para dos coronas que necesitaban reparación (las desgasté) y me programó un quinto implante. El Dr. Morán es paciente, cuidadoso, minucioso y tiene una gran personalidad. He conocido a muchos dentistas porque tengo "dientes británicos". El Dr. Morán es el mejor que he visto.'
+            'content' => 'El lunes, el Dr. Morán me atendió una caries, tomó impresiones para dos coronas que necesitaban reparación (las desgasté) y me programó un quinto implante. El Dr. Morán es paciente, cuidadoso, minucioso y tiene una gran personalidad. He conocido a muchos dentistas porque tengo "dientes británicos". El Dr. Morán es el mejor que he visto.',
+            'author' => 'Glenn Michel'
         ]
     ],
     'preventive' => [
@@ -393,6 +398,14 @@ return [
         'orthodontics' => [
             'title' => 'Ortodoncia',
             'description' => 'Endereza tus dientes con nuestros tratamientos de ortodoncia.'
+        ],
+        'popup' => [
+            'description' => 'Descripción',
+            'how_it_works' => 'Cómo Funciona',
+            'benefits' => 'Beneficios',
+            'duration' => 'Duración',
+            'cost' => 'Costo',
+            'close' => 'Cerrar'
         ]
     ],
     'cosmetic' => [
@@ -692,29 +705,45 @@ return [
     ],
     'faq' => [
         'title' => 'Preguntas Frecuentes',
-        'one' => [
-            'question' => '¿Cuál es la mejor opción para reemplazar dientes perdidos?',
-            'answer' => 'Los implantes dentales se consideran la mejor opción para reemplazar dientes perdidos, ya que proporcionan una apariencia natural, restauran la funcionalidad completa y ayudan a preservar la estructura ósea. Sin embargo, podemos discutir otras opciones como dentaduras postizas o puentes según sus necesidades específicas.'
+        'why_juarez' => [
+            'question' => '¿Por qué debería considerar ir a Juárez para atención dental?',
+            'answer' => 'Una de las atracciones principales es el significativo ahorro de costos; los procedimientos dentales en Juárez pueden ser mucho más económicos que en los Estados Unidos o Canadá, a menudo con paquetes integrales que incluyen transporte y alojamiento. Además, la calidad de la atención en Juárez es notable, ya que muchas clínicas están equipadas con instalaciones modernas y cumplen con estándares internacionales, con dentistas que a menudo están capacitados en los Estados Unidos o Europa. La gama de servicios disponibles también es impresionante, abarcando odontología general y cosmética, ortodoncia y cirugía oral.\n\nLa proximidad de Juárez con los Estados Unidos lo hace fácilmente accesible para pacientes norteamericanos, con opciones de transporte convenientes y tiempos de espera mínimos para citas, permitiendo una programación más flexible. Además, el turismo dental en Juárez ofrece a los pacientes la oportunidad de explorar una cultura vibrante, disfrutar de una deliciosa cocina y visitar atracciones locales, combinando efectivamente el tratamiento con unas vacaciones. Muchos pacientes reportan altas tasas de satisfacción y experiencias positivas, respaldadas por recomendaciones de amigos o familiares que han recibido tratamiento.'
         ],
-        'two' => [
-            'question' => '¿Cuánto tiempo duran los tratamientos dentales?',
-            'answer' => 'La durabilidad de los tratamientos dentales varía según el tipo. Los implantes dentales pueden durar más de 25 años con el cuidado adecuado, las coronas suelen durar 10-15 años y las carillas generalmente duran 10-12 años. El mantenimiento regular es clave para maximizar la durabilidad.'
+        'safety' => [
+            'question' => '¿Es seguro viajar a Juárez para atención dental?',
+            'answer' => 'Viajar a Juárez para atención dental puede ser seguro si tomas las precauciones necesarias y te mantienes informado. Beyond Borders Dental ha estado refiriendo pacientes desde 2016 que han recibido exitosamente tratamiento dental de calidad en Juárez, beneficiándose de significativos ahorros de costos y acceso a instalaciones modernas.\n\nBeyond Borders Dental toma medidas adicionales para mejorar tu seguridad haciendo arreglos de viaje por adelantado con la clínica dental, asegurando que tu seguridad sea una prioridad máxima. Al estar consciente de tu entorno, puedes tener una experiencia segura y positiva mientras recibes atención dental en Juárez.'
         ],
-        'three' => [
-            'question' => '¿Ofrecen planes de pago?',
-            'answer' => 'Sí, ofrecemos planes de pago flexibles y aceptamos tarjetas de crédito, efectivo y transferencias bancarias. También asistimos con la documentación de seguros para reembolsos. Póngase en contacto con nosotros para discutir opciones de pago que funcionen para usted.'
+        'first_visit' => [
+            'question' => '¿Qué debo esperar durante mi primera visita a la clínica?',
+            'answer' => 'En tu primer día en Juárez para trabajo dental, puedes esperar una experiencia estructurada y de apoyo. Al llegar, prepárate para los procedimientos de cruce fronterizo y ten tu identificación lista. El transporte será arreglado por tu clínica dental por adelantado, con un representante saludándote para ayudarte a llegar a tu alojamiento o directamente a la clínica.\n\nUna vez en la clínica, conocerás al equipo dental para una consulta inicial, que incluye un examen exhaustivo de tus dientes y encías, posiblemente acompañado de rayos X y/o tomografías computarizadas para evaluar tus necesidades dentales. El dentista luego discutirá tu plan de tratamiento, explicando los procedimientos recomendados, resultados esperados y costos asociados, dándote la oportunidad de hacer cualquier pregunta. Dependiendo de tu plan de tratamiento, podrías comenzar tu trabajo dental el mismo día, con el equipo dental asegurando tu comodidad throughout proporcionando anestesia o sedación según sea necesario. Después, recibirás instrucciones de cuidado post-tratamiento para facilitar una curación adecuada, junto con cualquier programación de citas de seguimiento si es necesario. En general, tu primer día se centrará en consultas y posiblemente el inicio de tu tratamiento, asegurando una experiencia fluida y positiva.'
         ],
-        'four' => [
-            'question' => '¿Es seguro el blanqueamiento de dientes?',
-            'answer' => 'El blanqueamiento profesional de dientes realizado por nuestros dentistas es seguro y efectivo. Utilizamos materiales y técnicas aprobados para minimizar la sensibilidad mientras entregamos resultados excelentes.'
+        'duration' => [
+            'question' => '¿Cuánto tiempo debo planear quedarme en México para tratamiento dental?',
+            'answer' => 'La duración de tu estancia en México para tratamiento dental puede variar basándose en varios factores, incluyendo el tipo de procedimiento, la complejidad de tu caso, y las visitas de seguimiento recomendadas. Aquí hay una guía general:\n\nProcedimientos Menores (p. ej., blanqueamiento dental, obturaciones): Típicamente requieren aproximadamente 3 a 5 días.\n\nProcedimientos Mayores (p. ej., coronas, implantes, restauración de boca completa): Usualmente requieren una estancia de 5 a 10 días para permitir la recuperación inicial y citas de seguimiento.\n\nCuidado de Seguimiento: Dependiendo de tu plan de tratamiento, visitas de seguimiento adicionales pueden ser necesarias para algunos pacientes, lo que podría extender tu estancia.\n\nBeyond Borders Dental trabaja estrechamente con nuestras clínicas asociadas para proporcionarte un itinerario de tratamiento detallado adaptado a tus necesidades específicas. Este plan personalizado ayudará a asegurar que tengas una comprensión clara de tu cronograma y procedimientos. ¡La planificación ayudará a asegurar una experiencia dental fluida y exitosa!'
         ],
-        'five' => [
-            'question' => '¿Con qué frecuencia debo visitar al dentista?',
-            'answer' => 'Recomendamos visitar a su dentista cada 6 meses para limpiezas regulares y chequeos. Sin embargo, los pacientes con condiciones dentales específicas pueden necesitar visitas más frecuentes.'
+        'upfront_payment' => [
+            'question' => '¿Necesitaré pagar por adelantado por los servicios?',
+            'answer' => 'Dependiendo del procedimiento, nuestra clínica en Juárez requiere pago al momento del servicio. En algunos casos, si necesitan ordenar partes personalizadas, pueden requerir un depósito. Discutiremos opciones de pago con la clínica antes de tu visita para entender los costos involucrados.'
         ],
-        'six' => [
-            'question' => '¿Ofrecen tratamientos de ortodoncia para adultos?',
-            'answer' => 'Sí, ofrecemos tratamientos ortodóncicos para pacientes de todas las edades, incluidos adultos. Tenemos opciones como brackets tradicionales, brackets estéticos y otras soluciones avanzadas.'
+        'payment_options' => [
+            'question' => '¿Qué opciones de pago están disponibles?',
+            'answer' => 'Aceptan varios métodos de pago, incluyendo efectivo, tarjetas de crédito/débito principales, Zelle (para estadounidenses), y TransferWise (ahora Wise) o Interac e-Transfer, una opción popular en Canadá que permite a los usuarios enviar dinero directamente de una cuenta bancaria a otra vía correo electrónico o teléfono móvil. Aunque Venmo se usa principalmente en los Estados Unidos, algunos turistas canadienses pueden tener acceso a Venmo. Permite pagos fáciles de persona a persona a través de una aplicación móvil. Por favor pregunta sobre planes de pago antes de tu primera visita.'
+        ],
+        'follow_up' => [
+            'question' => '¿Qué pasa si necesito cuidado de seguimiento después de mi tratamiento?',
+            'answer' => 'Si vas a nuestra clínica dental aprobada en Juárez para un procedimiento invasivo, como implantes dentales, la clínica te proporcionará instrucciones integrales de cuidado postoperatorio. Después de tu procedimiento, el equipo dental se asegurará de que entiendas cómo cuidar tus implantes y manejar cualquier molestia o complicaciones potenciales.\n\nQué Esperar en tus Instrucciones de Cuidado Postoperatorio:\n\nGuías Detalladas: Recibirás instrucciones claras y escritas sobre el cuidado de tu sitio quirúrgico, incluyendo recomendaciones para higiene oral, dieta y restricciones de actividad.\n\nManejo del Dolor: La clínica proporcionará información sobre el manejo del dolor y la hinchazón, incluyendo medicamentos y dosis recomendados.\n\nSignos de Complicaciones: Se te informará sobre signos de complicaciones potenciales, como sangrado excesivo, infección, o dolor inusual, y cuándo buscar atención médica adicional.\n\nCitas de Seguimiento: La clínica discutirá cualquier visita de seguimiento necesaria para monitorear tu progreso de curación y asegurar que los implantes se estén integrando correctamente con tu hueso maxilar.\n\nInformación de Contacto: Si tienes alguna pregunta o preocupación después de regresar a casa, la clínica proporcionará información de contacto para asistencia adicional.\n\nEn general, el equipo dental priorizará tu recuperación y se asegurará de que tengas toda la información necesaria para apoyar un proceso de curación exitoso después de tus implantes dentales. Es esencial seguir estas instrucciones de cerca para lograr el mejor resultado posible. Además, si necesitas asistencia acelerada o tienes alguna pregunta después de tu procedimiento, los pacientes también pueden contactar a Beyond Borders Dental para soporte. Esto asegura que tengas acceso a la ayuda que necesitas, incluso después de regresar a casa, para facilitar una recuperación fluida.'
+        ],
+        'insurance' => [
+            'question' => '¿Aceptan seguro dental?',
+            'answer' => 'Nuestra clínica dental en Juárez no procesa reclamos de seguro dental extranjero directamente. Sin embargo, si tienes seguro dental que reembolsa tratamientos realizados en el extranjero, nuestro personal estará más que feliz de asistirte. Podemos proporcionarte la documentación necesaria, incluyendo facturas detalladas, para ayudarte a presentar un reclamo al regresar a casa. Esto asegura que puedas aprovechar al máximo los beneficios de tu seguro para los tratamientos que recibes en nuestra clínica.'
+        ],
+        'emergency' => [
+            'question' => '¿Qué debo hacer en caso de emergencia dental?',
+            'answer' => 'Si experimentas una emergencia dental, por favor contáctanos inmediatamente. Contactaremos la clínica dental en tu nombre para expedir una cita del mismo día o de emergencia para casos urgentes.'
+        ],
+        'getting_started' => [
+            'question' => '¿Cómo Puedo Comenzar con Beyond Borders Dental?',
+            'answer' => '¡Comenzar con Beyond Borders Dental es fácil! Sigue estos pasos:\n\nContáctanos: Alcanza a nosotros vía nuestro sitio web o llámanos para discutir tus necesidades y objetivos dentales.\n\nConsulta: Programaremos una consulta para entender tus requisitos específicos y responder cualquier pregunta que puedas tener.\n\nPlan de Tratamiento Personalizado: Basado en tu consulta, te proporcionaremos un plan de tratamiento e itinerario personalizados.\n\nReserva tu Viaje: Una vez que estés listo, te ayudaremos a organizar tu viaje y alojamientos.\n\n¡Nuestro equipo está aquí para guiarte a través de cada paso del proceso, asegurando una experiencia dental fluida y positiva en México!'
         ]
     ],
     'dental_tourism' => [
@@ -997,7 +1026,7 @@ return [
                 ],
                 [
                     'name' => 'Junta de Turismo de Ciudad Juárez',
-                    'url' => 'https://www.visitcuidadjuarez.com',
+                    'url' => 'https://visitelpaso.com/things-to-do/juarez-mexico',
                     'description' => 'Atracciones, restaurantes y eventos en Ciudad Juárez'
                 ]
             ]

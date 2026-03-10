@@ -366,23 +366,28 @@ return [
         ],
         'testimonial2' => [
             'title' => 'Excellent Service!',
-            'content' => 'The dental team was professional and caring. They made me feel comfortable throughout the entire procedure. I highly recommend their services to anyone looking for quality dental care.'
+            'content' => 'The dental team was professional and caring. They made me feel comfortable throughout the entire procedure. I highly recommend their services to anyone looking for quality dental care.',
+            'author' => 'Robert Thompson'
         ],
         'testimonial3' => [
             'title' => 'Life Changing!',
-            'content' => 'After years of being self-conscious about my smile, the team at Núcleo Dental gave me the confidence to smile again. The results were beyond my expectations!'
+            'content' => 'After years of being self-conscious about my smile, the team at Núcleo Dental gave me the confidence to smile again. The results were beyond my expectations!',
+            'author' => 'Karen Floyd'
         ],
         'testimonial4' => [
             'title' => 'Highly recommend!',
-            'content' => 'I had such a great experience from the ease of pick up/drop off, to the very friendly, accommodating office staff and Dr. Nevarez meticulous detail. He helped pick a natural color that matched my bottom teeth and staged the procedure to ensure the best long term results. I\'ve been so happy and best thing is it looks so natural, no one can notice. Highly recommend him and this practice. We routinely continue to use this practice for cleanings'
+            'content' => 'I had such a great experience from the ease of pick up/drop off, to the very friendly, accommodating office staff and Dr. Nevarez meticulous detail. He helped pick a natural color that matched my bottom teeth and staged the procedure to ensure the best long term results. I\'ve been so happy and best thing is it looks so natural, no one can notice. Highly recommend him and this practice. We routinely continue to use this practice for cleanings',
+            'author' => 'Emily Davis'
         ],
         'testimonial5' => [
             'title' => 'Better than any US practice!',
-            'content' => 'Dr. Moran and the entire team at NUCLEO DENTAL are great. This is better than any US practice I have visited. Everything is done in English except for the price! I love Mexican private healthcare.'
+            'content' => 'Dr. Moran and the entire team at NUCLEO DENTAL are great. This is better than any US practice I have visited. Everything is done in English except for the price! I love Mexican private healthcare.',
+            'author' => 'Mark OGrady'
         ],
         'testimonial6' => [
             'title' => 'The best I have ever seen!',
-            'content' => 'Monday Dr Moran addressed a cavity, took impressions for two crowns that need repair (I wore them out) and scheduled me for a fifth implant. Dr. Moran is patient, careful, through, and has a great personality. I have met a lot of dentists because I have "British" teeth. Dr Moran is the best I have ever seen.'
+            'content' => 'Monday Dr Moran addressed a cavity, took impressions for two crowns that need repair (I wore them out) and scheduled me for a fifth implant. Dr. Moran is patient, careful, through, and has a great personality. I have met a lot of dentists because I have "British" teeth. Dr Moran is the best I have ever seen.',
+            'author' => 'Glenn Michel'
         ]
     ],
     'services' => [
@@ -404,6 +409,14 @@ return [
         'orthodontics' => [
             'title' => 'Orthodontics',
             'description' => 'Straighten your teeth with our orthodontic treatments.'
+        ],
+        'popup' => [
+            'description' => 'Description',
+            'how_it_works' => 'How It Works',
+            'benefits' => 'Benefits',
+            'duration' => 'Duration',
+            'cost' => 'Cost',
+            'close' => 'Close'
         ]
     ],
     'cosmetic' => [
@@ -706,29 +719,45 @@ return [
     ],
     'faq' => [
         'title' => 'Frequently Asked Questions',
-        'one' => [
-            'question' => 'What is the best option for replacing missing teeth?',
-            'answer' => 'Dental implants are considered the best option for replacing missing teeth as they provide a natural look, restore full functionality, and help preserve bone structure. However, we can discuss other options like dentures or bridges based on your specific needs.'
+        'why_juarez' => [
+            'question' => 'Why should I consider going to Juárez for dental care?',
+            'answer' => 'One of the primary attractions is the significant cost savings; dental procedures in Juárez can be much cheaper than those in the U.S. or Canada, often with comprehensive packages that include transportation and accommodation. Additionally, the quality of care in Juárez is noteworthy, as many clinics are equipped with modern facilities and adhere to international standards, with dentists who are often trained in the U.S. or Europe. The range of services available is also impressive, spanning general and cosmetic dentistry, orthodontics, and oral surgery.\n\nJuárez\'s proximity to the U.S. makes it easily accessible to North American patients, with convenient transportation options and minimal appointment wait times, enabling more flexible scheduling. Furthermore, dental tourism in Juárez offers patients the chance to explore a vibrant culture, enjoy delicious cuisine, and visit local attractions, effectively combining treatment with a vacation. Many patients report high satisfaction rates and positive experiences, bolstered by recommendations from friends or family who have undergone treatment.'
         ],
-        'two' => [
-            'question' => 'How long do dental treatments last?',
-            'answer' => 'The longevity of dental treatments varies depending on the type. Dental implants can last 25+ years with proper care, crowns typically last 10-15 years, and veneers usually last 10-12 years. Regular maintenance is key to maximizing longevity.'
+        'safety' => [
+            'question' => 'Is it safe to travel to Juárez for dental care?',
+            'answer' => 'Traveling to Juárez for dental care can be safe if you take the necessary precautions and stay informed. Beyond Borders Dental has been referring patients since 2016 who have successfully received quality dental treatment in Juárez, benefiting from significant cost savings and access to modern facilities.\n\nBeyond Borders Dental takes extra measures to enhance your safety by making travel arrangements in advance with the dental clinic, ensuring that your safety is a top priority. By being mindful of your surroundings, you can have a safe and positive experience while receiving dental care in Juárez.'
         ],
-        'three' => [
-            'question' => 'Do you offer payment plans?',
-            'answer' => 'Yes, we offer flexible payment plans and accept major credit cards, cash, and bank transfers. We also assist with insurance documentation for reimbursement. Please contact us to discuss payment options that work for you.'
+        'first_visit' => [
+            'question' => 'What should I expect during my first visit to the clinic?',
+            'answer' => 'On your first day in Juárez for dental work, you can expect a structured and supportive experience. Upon arrival, be prepared for border crossing procedures and have your identification ready. Transportation will be arranged by your dental clinic in advance, with a representative greeting you to help you get to your accommodation or directly to the clinic.\n\nOnce at the clinic, you\'ll meet the dental team for an initial consultation, which includes a thorough examination of your teeth and gums, possibly accompanied by X-rays and/or CT scans to assess your dental needs. The dentist will then discuss your treatment plan, explaining the recommended procedures, expected outcomes, and associated costs, giving you the chance to ask any questions. Depending on your treatment plan, you may begin your dental work the same day, with the dental team ensuring your comfort throughout by providing anesthesia or sedation as needed. Afterward, you will receive post-treatment care instructions to facilitate proper healing, along with any follow-up appointment scheduling if required. Overall, your first day will focus on consultations and possibly the start of your treatment, ensuring a smooth and positive experience.'
         ],
-        'four' => [
-            'question' => 'Is teeth whitening safe?',
-            'answer' => 'Professional teeth whitening performed by our dentists is safe and effective. We use approved materials and techniques to minimize sensitivity while delivering excellent results.'
+        'duration' => [
+            'question' => 'How long should I plan to stay in México for dental treatment?',
+            'answer' => 'The duration of your stay in México for dental treatment can vary based on several factors, including the type of procedure, the complexity of your case, and the recommended follow-up visits. Here\'s a general guideline:\n\nMinor Procedures (e.g., teeth whitening, fillings): Typically require about 3 to 5 days.\n\nMajor Procedures (e.g., crowns, implants, full-mouth restoration): Usually require a stay of 5 to 10 days to allow for initial recovery and follow-up appointments.\n\nFollow-Up Care: Depending on your treatment plan, additional follow-up visits may be necessary for some patients, which could extend your stay.\n\nBeyond Borders Dental works closely with our partner clinics to provide you with a detailed treatment itinerary tailored to your specific needs. This personalized plan will help ensure you have a clear understanding of your timeline and procedures. Planning will help ensure a smooth and successful dental experience!'
         ],
-        'five' => [
-            'question' => 'How often should I visit the dentist?',
-            'answer' => 'We recommend visiting your dentist every 6 months for regular cleanings and check-ups. However, patients with specific dental conditions may need more frequent visits.'
+        'upfront_payment' => [
+            'question' => 'Will I need to pay up front for services?',
+            'answer' => 'Depending on the procedure, our clinic in Juárez requires payment at the time of service. In some cases, if they need to order custom parts, they may be required to pay a deposit. We will discuss payment options with the clinic before your visit to understand the costs involved.'
         ],
-        'six' => [
-            'question' => 'Do you offer orthodontic treatments for adults?',
-            'answer' => 'Yes, we offer orthodontic treatments for patients of all ages, including adults. We have options like traditional braces, aesthetic braces, and other advanced solutions.'
+        'payment_options' => [
+            'question' => 'What payment options are available?',
+            'answer' => 'They accept various payment methods, including cash, major credit/debit cards, Zelle (for Americans), and TransferWise (now Wise) or Interac e-Transfer, a popular option in Canada that allows users to send money directly from one bank account to another via email or mobile phone. While Venmo is primarily used in the U.S., some Canadian tourists may have access to Venmo. It allows for easy peer-to-peer payments through a mobile app. Please inquire about payment plans before your first visit.'
+        ],
+        'follow_up' => [
+            'question' => 'What if I need follow-up care after my treatment?',
+            'answer' => 'If you go to our approved dental clinic in Juárez for an invasive procedure, such as dental implants, the clinic will provide you with comprehensive post-operative care instructions. After your procedure, the dental team will ensure that you understand how to care for your implants and manage any discomfort or potential complications.\n\nWhat to Expect in Your Post-Op Care Instructions:\n\nDetailed Guidelines: You will receive clear, written instructions on caring for your surgical site, including recommendations for oral hygiene, diet, and activity restrictions.\n\nPain Management: The clinic will provide information on managing pain and swelling, including recommended medications and dosages.\n\nSigns of Complications: You\'ll be informed about signs of potential complications, such as excessive bleeding, infection, or unusual pain, and when to seek further medical attention.\n\nFollow-Up Appointments: The clinic will discuss any necessary follow-up visits to monitor your healing progress and ensure that the implants are integrating properly with your jawbone.\n\nContact Information: Should you have any questions or concerns after returning home, the clinic will provide contact information for further assistance.\n\nOverall, the dental team will prioritize your recovery and ensure you have all the necessary information to support a successful healing process after your dental implants. It\'s essential to follow these instructions closely to achieve the best possible outcome. Additionally, if you need expedited assistance or have any questions after your procedure, patients can also contact Beyond Borders Dental for support. This ensures you have access to the help you need, even after returning home, to facilitate a smooth recovery.'
+        ],
+        'insurance' => [
+            'question' => 'Do they accept dental insurance?',
+            'answer' => 'Our dental clinic in Juárez does not process foreign dental insurance claims directly. However, if you have dental insurance that reimburses for treatments performed abroad, our staff will be more than happy to assist you. We can provide you with the necessary paperwork, including itemized invoices, to help you file a claim upon your return home. This ensures that you can take full advantage of your insurance benefits for the treatments you receive at our clinic.'
+        ],
+        'emergency' => [
+            'question' => 'What should I do in case of a dental emergency?',
+            'answer' => 'If you experience a dental emergency, please contact us immediately. We will contact the dental clinic on your behalf to expedite a same-day or emergency appointment for urgent cases.'
+        ],
+        'getting_started' => [
+            'question' => 'How Can I Get Started with Beyond Borders Dental?',
+            'answer' => 'Getting started with Beyond Borders Dental is easy! Follow these steps:\n\nContact Us: Reach out via our website or call us to discuss your dental needs and goals.\n\nConsultation: We\'ll schedule a consultation to understand your specific requirements and answer any questions you may have.\n\nCustomized Treatment Plan: Based on your consultation, we\'ll provide you with a personalized treatment plan and itinerary.\n\nBook Your Trip: Once you\'re ready, we\'ll help you arrange your travel and accommodations.\n\nOur team is here to guide you through every step of the process, ensuring a smooth and positive dental experience in Mexico!'
         ]
     ],
     'dental_tourism' => [
@@ -1011,7 +1040,7 @@ return [
                 ],
                 [
                     'name' => 'Ciudad Juárez Tourism Board',
-                    'url' => 'https://www.visitcuidadjuarez.com',
+                    'url' => 'https://visitelpaso.com/things-to-do/juarez-mexico',
                     'description' => 'Attractions, restaurants, and events in Ciudad Juárez'
                 ]
             ]
