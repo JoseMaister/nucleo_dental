@@ -76,7 +76,7 @@
                 <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('orthodontics')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/orthodontics.png') }}" alt="Orthodontics" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Orthodontics" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
