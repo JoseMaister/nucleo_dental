@@ -18,6 +18,9 @@
                         <div class="text-left text-gray-700">
                             <p>{{ __('messages.testimonials.testimonial1.content') }}</p>
                         </div>
+                        <!-- <div class="text-right text-gray-500">
+                            <p>{{ __('messages.testimonials.testimonial1.author') }}</p>
+                        </div> -->
                     </div>
                 </div>
                 
@@ -29,6 +32,9 @@
                         </div>
                         <div class="text-left text-gray-700">
                             <p>{{ __('messages.testimonials.testimonial2.content') }}</p>
+                        </div>
+                        <div class="text-right text-gray-500">
+                            <p>{{ __('messages.testimonials.testimonial2.author') }}</p>
                         </div>
                     </div>
                 </div>
@@ -42,6 +48,9 @@
                         <div class="text-left text-gray-700">
                             <p>{{ __('messages.testimonials.testimonial3.content') }}</p>
                         </div>
+                        <div class="text-right text-gray-500">
+                            <p>{{ __('messages.testimonials.testimonial3.author') }}</p>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
@@ -51,6 +60,9 @@
                         </div>
                         <div class="text-left text-gray-700">
                             <p>{{ __('messages.testimonials.testimonial4.content') }}</p>
+                        </div>
+                        <div class="text-right text-gray-500">
+                            <p>{{ __('messages.testimonials.testimonial4.author') }}</p>
                         </div>
                     </div>
                 </div>
@@ -62,6 +74,9 @@
                         <div class="text-left text-gray-700">
                             <p>{{ __('messages.testimonials.testimonial5.content') }}</p>
                         </div>
+                        <div class="text-right text-gray-500">
+                            <p>{{ __('messages.testimonials.testimonial5.author') }}</p>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -71,6 +86,9 @@
                         </div>
                         <div class="text-left text-gray-700">
                             <p>{{ __('messages.testimonials.testimonial6.content') }}</p>
+                        </div>
+                        <div class="text-right text-gray-500">
+                            <p>{{ __('messages.testimonials.testimonial6.author') }}</p>
                         </div>
                     </div>
                 </div>

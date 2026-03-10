@@ -198,6 +198,8 @@ return [
     'nav' => [
         'home' => 'Inicio',
         'services' => 'Servicios',
+        'dental_tourism' => 'Turismo Dental',
+        'blog_educativo' => 'Blog Educativo',
         'about' => 'Nosotros',
         'technology' => 'Tecnología',
         'financing' => 'Financiamiento',
@@ -327,8 +329,7 @@ return [
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
         'about' => 'Nosotros',
-        'technology' => 'Tecnología',
-        'home' => 'Inicio - Nucleo Dental',
+        'technology' => 'Tecnología',        'dental_tourism' => 'Turismo Dental',        'home' => 'Inicio - Nucleo Dental',
     ],
     'services_hero' => [
         'title' => 'NUESTROS SERVICIOS DENTALES',
@@ -343,23 +344,28 @@ return [
         ],
         'testimonial2' => [
             'title' => '¡Excelente Servicio!',
-            'content' => 'El equipo dental fue profesional y atento. Me hicieron sentir cómodo durante todo el procedimiento. Recomiendo ampliamente sus servicios a cualquiera que busque atención dental de calidad.'
+            'content' => 'El equipo dental fue profesional y atento. Me hicieron sentir cómodo durante todo el procedimiento. Recomiendo ampliamente sus servicios a cualquiera que busque atención dental de calidad.',
+            'author' => 'Robert Thompson'
         ],
         'testimonial3' => [
             'title' => '¡Cambió mi vida!',
-            'content' => 'Después de años de sentirme cohibido por mi sonrisa, el equipo de Núcleo Dental me dio la confianza para sonreír nuevamente. ¡Los resultados superaron mis expectativas!'
+            'content' => 'Después de años de sentirme cohibido por mi sonrisa, el equipo de Núcleo Dental me dio la confianza para sonreír nuevamente. ¡Los resultados superaron mis expectativas!',
+            'author' => 'Karen Floyd'
         ],
-        'testimonial4' => [
+        'testimonial4'  => [
             'title' => '¡Altamente recomendado!',
-            'content' => 'Tuve una excelente experiencia, desde la facilidad del servicio de transporte hasta el personal de oficina muy amable y los meticulosos detalles del Dr. Nevárez. Ayudó a elegir un color natural que coincidiera con mis dientes inferiores y programó el procedimiento para garantizar los mejores resultados a largo plazo. ¡He estado muy feliz y lo mejor es que se ve tan natural que nadie puede notarlo! Altamente recomendado. Seguimos utilizando este consultorio para limpiezas de rutina.'
+            'content' => 'Tuve una excelente experiencia, desde la facilidad del servicio de transporte hasta el personal de oficina muy amable y los meticulosos detalles del Dr. Nevárez. Ayudó a elegir un color natural que coincidiera con mis dientes inferiores y programó el procedimiento para garantizar los mejores resultados a largo plazo. ¡He estado muy feliz y lo mejor es que se ve tan natural que nadie puede notarlo! Altamente recomendado. Seguimos utilizando este consultorio para limpiezas de rutina.',
+            'author' => 'Emily Davis'
         ],
         'testimonial5' => [
             'title' => '¡Mejor que cualquier consultorio en EE.UU.!',
-            'content' => 'El Dr. Morán y todo el equipo de NÚCLEO DENTAL son excelentes. Esto es mejor que cualquier consultorio en EE. UU. que haya visitado. Todo se hace en inglés, ¡excepto por el precio! Me encanta la atención médica privada mexicana.'
+            'content' => 'El Dr. Morán y todo el equipo de NÚCLEO DENTAL son excelentes. Esto es mejor que cualquier consultorio en EE. UU. que haya visitado. Todo se hace en inglés, ¡excepto por el precio! Me encanta la atención médica privada mexicana.',
+            'author' => 'Mark OGrady'
         ],
         'testimonial6' => [
             'title' => '¡El mejor que he visto!',
-            'content' => 'El lunes, el Dr. Morán me atendió una caries, tomó impresiones para dos coronas que necesitaban reparación (las desgasté) y me programó un quinto implante. El Dr. Morán es paciente, cuidadoso, minucioso y tiene una gran personalidad. He conocido a muchos dentistas porque tengo "dientes británicos". El Dr. Morán es el mejor que he visto.'
+            'content' => 'El lunes, el Dr. Morán me atendió una caries, tomó impresiones para dos coronas que necesitaban reparación (las desgasté) y me programó un quinto implante. El Dr. Morán es paciente, cuidadoso, minucioso y tiene una gran personalidad. He conocido a muchos dentistas porque tengo "dientes británicos". El Dr. Morán es el mejor que he visto.',
+            'author' => 'Glenn Michel'
         ]
     ],
     'preventive' => [
@@ -392,6 +398,14 @@ return [
         'orthodontics' => [
             'title' => 'Ortodoncia',
             'description' => 'Endereza tus dientes con nuestros tratamientos de ortodoncia.'
+        ],
+        'popup' => [
+            'description' => 'Descripción',
+            'how_it_works' => 'Cómo Funciona',
+            'benefits' => 'Beneficios',
+            'duration' => 'Duración',
+            'cost' => 'Costo',
+            'close' => 'Cerrar'
         ]
     ],
     'cosmetic' => [
@@ -687,6 +701,502 @@ return [
                 'title' => 'Dentaduras Postizas',
                 'description' => 'A diferencia de los implantes dentales, las dentaduras postizas son fácilmente removibles y no requieren cirugía invasiva. Vienen en dos variedades, completas o parciales, para adaptarse perfectamente a sus necesidades específicas.'
             ]
+        ]
+    ],
+    'faq' => [
+        'title' => 'Preguntas Frecuentes',
+        'why_juarez' => [
+            'question' => '¿Por qué debería considerar ir a Juárez para atención dental?',
+            'answer' => 'Una de las atracciones principales es el significativo ahorro de costos; los procedimientos dentales en Juárez pueden ser mucho más económicos que en los Estados Unidos o Canadá, a menudo con paquetes integrales que incluyen transporte y alojamiento. Además, la calidad de la atención en Juárez es notable, ya que muchas clínicas están equipadas con instalaciones modernas y cumplen con estándares internacionales, con dentistas que a menudo están capacitados en los Estados Unidos o Europa. La gama de servicios disponibles también es impresionante, abarcando odontología general y cosmética, ortodoncia y cirugía oral.\n\nLa proximidad de Juárez con los Estados Unidos lo hace fácilmente accesible para pacientes norteamericanos, con opciones de transporte convenientes y tiempos de espera mínimos para citas, permitiendo una programación más flexible. Además, el turismo dental en Juárez ofrece a los pacientes la oportunidad de explorar una cultura vibrante, disfrutar de una deliciosa cocina y visitar atracciones locales, combinando efectivamente el tratamiento con unas vacaciones. Muchos pacientes reportan altas tasas de satisfacción y experiencias positivas, respaldadas por recomendaciones de amigos o familiares que han recibido tratamiento.'
+        ],
+        'safety' => [
+            'question' => '¿Es seguro viajar a Juárez para atención dental?',
+            'answer' => 'Viajar a Juárez para atención dental puede ser seguro si tomas las precauciones necesarias y te mantienes informado. Beyond Borders Dental ha estado refiriendo pacientes desde 2016 que han recibido exitosamente tratamiento dental de calidad en Juárez, beneficiándose de significativos ahorros de costos y acceso a instalaciones modernas.\n\nBeyond Borders Dental toma medidas adicionales para mejorar tu seguridad haciendo arreglos de viaje por adelantado con la clínica dental, asegurando que tu seguridad sea una prioridad máxima. Al estar consciente de tu entorno, puedes tener una experiencia segura y positiva mientras recibes atención dental en Juárez.'
+        ],
+        'first_visit' => [
+            'question' => '¿Qué debo esperar durante mi primera visita a la clínica?',
+            'answer' => 'En tu primer día en Juárez para trabajo dental, puedes esperar una experiencia estructurada y de apoyo. Al llegar, prepárate para los procedimientos de cruce fronterizo y ten tu identificación lista. El transporte será arreglado por tu clínica dental por adelantado, con un representante saludándote para ayudarte a llegar a tu alojamiento o directamente a la clínica.\n\nUna vez en la clínica, conocerás al equipo dental para una consulta inicial, que incluye un examen exhaustivo de tus dientes y encías, posiblemente acompañado de rayos X y/o tomografías computarizadas para evaluar tus necesidades dentales. El dentista luego discutirá tu plan de tratamiento, explicando los procedimientos recomendados, resultados esperados y costos asociados, dándote la oportunidad de hacer cualquier pregunta. Dependiendo de tu plan de tratamiento, podrías comenzar tu trabajo dental el mismo día, con el equipo dental asegurando tu comodidad throughout proporcionando anestesia o sedación según sea necesario. Después, recibirás instrucciones de cuidado post-tratamiento para facilitar una curación adecuada, junto con cualquier programación de citas de seguimiento si es necesario. En general, tu primer día se centrará en consultas y posiblemente el inicio de tu tratamiento, asegurando una experiencia fluida y positiva.'
+        ],
+        'duration' => [
+            'question' => '¿Cuánto tiempo debo planear quedarme en México para tratamiento dental?',
+            'answer' => 'La duración de tu estancia en México para tratamiento dental puede variar basándose en varios factores, incluyendo el tipo de procedimiento, la complejidad de tu caso, y las visitas de seguimiento recomendadas. Aquí hay una guía general:\n\nProcedimientos Menores (p. ej., blanqueamiento dental, obturaciones): Típicamente requieren aproximadamente 3 a 5 días.\n\nProcedimientos Mayores (p. ej., coronas, implantes, restauración de boca completa): Usualmente requieren una estancia de 5 a 10 días para permitir la recuperación inicial y citas de seguimiento.\n\nCuidado de Seguimiento: Dependiendo de tu plan de tratamiento, visitas de seguimiento adicionales pueden ser necesarias para algunos pacientes, lo que podría extender tu estancia.\n\nBeyond Borders Dental trabaja estrechamente con nuestras clínicas asociadas para proporcionarte un itinerario de tratamiento detallado adaptado a tus necesidades específicas. Este plan personalizado ayudará a asegurar que tengas una comprensión clara de tu cronograma y procedimientos. ¡La planificación ayudará a asegurar una experiencia dental fluida y exitosa!'
+        ],
+        'upfront_payment' => [
+            'question' => '¿Necesitaré pagar por adelantado por los servicios?',
+            'answer' => 'Dependiendo del procedimiento, nuestra clínica en Juárez requiere pago al momento del servicio. En algunos casos, si necesitan ordenar partes personalizadas, pueden requerir un depósito. Discutiremos opciones de pago con la clínica antes de tu visita para entender los costos involucrados.'
+        ],
+        'payment_options' => [
+            'question' => '¿Qué opciones de pago están disponibles?',
+            'answer' => 'Aceptan varios métodos de pago, incluyendo efectivo, tarjetas de crédito/débito principales, Zelle (para estadounidenses), y TransferWise (ahora Wise) o Interac e-Transfer, una opción popular en Canadá que permite a los usuarios enviar dinero directamente de una cuenta bancaria a otra vía correo electrónico o teléfono móvil. Aunque Venmo se usa principalmente en los Estados Unidos, algunos turistas canadienses pueden tener acceso a Venmo. Permite pagos fáciles de persona a persona a través de una aplicación móvil. Por favor pregunta sobre planes de pago antes de tu primera visita.'
+        ],
+        'follow_up' => [
+            'question' => '¿Qué pasa si necesito cuidado de seguimiento después de mi tratamiento?',
+            'answer' => 'Si vas a nuestra clínica dental aprobada en Juárez para un procedimiento invasivo, como implantes dentales, la clínica te proporcionará instrucciones integrales de cuidado postoperatorio. Después de tu procedimiento, el equipo dental se asegurará de que entiendas cómo cuidar tus implantes y manejar cualquier molestia o complicaciones potenciales.\n\nQué Esperar en tus Instrucciones de Cuidado Postoperatorio:\n\nGuías Detalladas: Recibirás instrucciones claras y escritas sobre el cuidado de tu sitio quirúrgico, incluyendo recomendaciones para higiene oral, dieta y restricciones de actividad.\n\nManejo del Dolor: La clínica proporcionará información sobre el manejo del dolor y la hinchazón, incluyendo medicamentos y dosis recomendados.\n\nSignos de Complicaciones: Se te informará sobre signos de complicaciones potenciales, como sangrado excesivo, infección, o dolor inusual, y cuándo buscar atención médica adicional.\n\nCitas de Seguimiento: La clínica discutirá cualquier visita de seguimiento necesaria para monitorear tu progreso de curación y asegurar que los implantes se estén integrando correctamente con tu hueso maxilar.\n\nInformación de Contacto: Si tienes alguna pregunta o preocupación después de regresar a casa, la clínica proporcionará información de contacto para asistencia adicional.\n\nEn general, el equipo dental priorizará tu recuperación y se asegurará de que tengas toda la información necesaria para apoyar un proceso de curación exitoso después de tus implantes dentales. Es esencial seguir estas instrucciones de cerca para lograr el mejor resultado posible. Además, si necesitas asistencia acelerada o tienes alguna pregunta después de tu procedimiento, los pacientes también pueden contactar a Beyond Borders Dental para soporte. Esto asegura que tengas acceso a la ayuda que necesitas, incluso después de regresar a casa, para facilitar una recuperación fluida.'
+        ],
+        'insurance' => [
+            'question' => '¿Aceptan seguro dental?',
+            'answer' => 'Nuestra clínica dental en Juárez no procesa reclamos de seguro dental extranjero directamente. Sin embargo, si tienes seguro dental que reembolsa tratamientos realizados en el extranjero, nuestro personal estará más que feliz de asistirte. Podemos proporcionarte la documentación necesaria, incluyendo facturas detalladas, para ayudarte a presentar un reclamo al regresar a casa. Esto asegura que puedas aprovechar al máximo los beneficios de tu seguro para los tratamientos que recibes en nuestra clínica.'
+        ],
+        'emergency' => [
+            'question' => '¿Qué debo hacer en caso de emergencia dental?',
+            'answer' => 'Si experimentas una emergencia dental, por favor contáctanos inmediatamente. Contactaremos la clínica dental en tu nombre para expedir una cita del mismo día o de emergencia para casos urgentes.'
+        ],
+        'getting_started' => [
+            'question' => '¿Cómo Puedo Comenzar con Beyond Borders Dental?',
+            'answer' => '¡Comenzar con Beyond Borders Dental es fácil! Sigue estos pasos:\n\nContáctanos: Alcanza a nosotros vía nuestro sitio web o llámanos para discutir tus necesidades y objetivos dentales.\n\nConsulta: Programaremos una consulta para entender tus requisitos específicos y responder cualquier pregunta que puedas tener.\n\nPlan de Tratamiento Personalizado: Basado en tu consulta, te proporcionaremos un plan de tratamiento e itinerario personalizados.\n\nReserva tu Viaje: Una vez que estés listo, te ayudaremos a organizar tu viaje y alojamientos.\n\n¡Nuestro equipo está aquí para guiarte a través de cada paso del proceso, asegurando una experiencia dental fluida y positiva en México!'
+        ]
+    ],
+    'dental_tourism' => [
+        'page_title' => 'Turismo Dental - Sonríe Ahora, Paga Menos',
+        'hero' => [
+            'title' => 'Sonríe Ahora, Paga Menos',
+            'subtitle' => 'Combina atención dental de clase mundial con una experiencia de vacaciones memorable',
+            'description' => 'Disfruta de tratamientos dentales de alta calidad a una fracción del costo, con el beneficio adicional de recuperarte en un hermoso destino mexicano.'
+        ],
+        'what_is' => [
+            'title' => '¿Qué es el Turismo Dental?',
+            'description' => 'El turismo dental es un servicio único que te permite combinar un procedimiento dental con unas vacaciones relajantes. Es una forma de recibir atención dental de alta calidad mientras ahorras dinero y disfrutas de la belleza de México.',
+            'benefits_intro' => 'En Núcleo Dental, nos especializamos en hacer el turismo dental accesible, cómodo y gratificante para pacientes internacionales.',
+            'savings' => 'Ahorra hasta el 70% en comparación con tratamientos en EE.UU.',
+            'quality' => 'Dentistas capacitados internacionalmente con instalaciones modernas',
+            'convenience' => 'Programación eficiente y planificación de atención integral',
+            'experience' => 'Combina tratamiento con turismo y experiencias culturales'
+        ],
+        'why_choose' => [
+            'title' => '¿Por Qué Elegir Núcleo Dental para Turismo Dental?',
+            'intro' => 'Proporcionamos una experiencia de turismo dental excepcional que combina atención de calidad con conveniencia y valor.',
+            'consultation' => [
+                'title' => '1. Programar tu Consulta',
+                'description' => 'Discute tus necesidades dentales con uno de nuestros especialistas y recibe un plan de tratamiento integral con estimación de costos.'
+            ],
+            'planning' => [
+                'title' => '2. Planifica tu Viaje',
+                'description' => 'Te ayudamos a organizar alojamientos, transporte y cronograma para hacer tu visita sin estrés.'
+            ],
+            'treatment' => [
+                'title' => '3. Recibe el Tratamiento',
+                'description' => 'Experimenta atención dental de clase mundial con tecnología de vanguardia en un ambiente cómodo y acogedor.'
+            ],
+            'recovery' => [
+                'title' => '4. Disfruta tu Sonrisa',
+                'description' => 'Recuperate y disfruta tu nueva sonrisa mientras exploras nuestro hermoso destino, con instrucciones completas de cuidado postratamiento.'
+            ]
+        ],
+        'services_offered' => [
+            'title' => 'Servicios Populares de Turismo Dental',
+            'description' => 'Ofrecemos una amplia gama de procedimientos dentales con valor excepcional:',
+            'dental_implants' => [
+                'title' => 'Implantes Dentales',
+                'cost_us' => '$3,000 - $6,000',
+                'cost_mexico' => '$650 - $1,500',
+                'savings' => 'Ahorra 70-80%'
+            ],
+            'crowns' => [
+                'title' => 'Coronas de Porcelana',
+                'cost_us' => '$1,000 - $1,600',
+                'cost_mexico' => '$300 - $450',
+                'savings' => 'Ahorra 70%'
+            ],
+            'veneers' => [
+                'title' => 'Carillas de Porcelana',
+                'cost_us' => '$800 - $1,000',
+                'cost_mexico' => '$250 - $400',
+                'savings' => 'Ahorra 60-70%'
+            ],
+            'root_canal' => [
+                'title' => 'Tratamiento de Conducto',
+                'cost_us' => '$1,000 - $1,500',
+                'cost_mexico' => '$250 - $550',
+                'savings' => 'Ahorra 75%'
+            ],
+            'full_mouth' => [
+                'title' => 'Rehabilitación de Boca Completa',
+                'cost_us' => '$15,000+',
+                'cost_mexico' => '$4,000 - $8,000',
+                'savings' => 'Ahorra 70%+'
+            ],
+            'cleanings' => [
+                'title' => 'Limpieza y Revisión',
+                'cost_us' => '$150 - $300',
+                'cost_mexico' => '$35 - $60',
+                'savings' => 'Ahorra 80%'
+            ]
+        ],
+        'process' => [
+            'title' => 'El Proceso del Turismo Dental',
+            'step_1' => [
+                'title' => 'Consulta Inicial',
+                'description' => 'Contáctanos directamente o por videollamada para discutir tu caso. Evaluamos tus necesidades y proporcionamos un plan de tratamiento detallado con precios.'
+            ],
+            'step_2' => [
+                'title' => 'Organización del Viaje',
+                'description' => 'Te ayudamos con información de vuelos, recomendaciones hoteleras, transporte y todos los detalles logísticos para asegurar un viaje sin problemas.'
+            ],
+            'step_3' => [
+                'title' => 'Comienza el Tratamiento',
+                'description' => 'Al llegar, recibirás atención dental integral utilizando nuestra tecnología avanzada en un ambiente cómodo.'
+            ],
+            'step_4' => [
+                'title' => 'Recuperación y Disfrute',
+                'description' => 'La mayoría de pacientes pueden disfrutar de actividades turísticas en pocos días. Proporcionamos instrucciones detalladas de cuidado postratamiento para resultados óptimos.'
+            ],
+            'step_5' => [
+                'title' => 'Apoyo Continuo',
+                'description' => 'Mantente conectado con nuestro equipo para citas de seguimiento y soporte continuo de atención incluso después de regresar a casa.'
+            ]
+        ],
+        'cost_benefits' => [
+            'title' => 'Evaluando Costos vs Beneficios',
+            'procedure_comparison' => 'Comparación de Costos de Procedimientos',
+            'travel_costs' => [
+                'title' => 'Viaje y Alojamiento',
+                'description' => 'Si bien ahorras significativamente en tratamiento, presupuesta para vuelos y hoteles. Muchos pacientes encuentran que incluso con gastos de viaje, el costo total es sustancialmente menor que los precios de EE.UU.',
+                'flights' => 'Vuelos desde EE.UU.: $200-$500 ida y vuelta',
+                'accommodation' => 'Hoteles: $50-$200 por noche',
+                'total_savings' => 'Los ahorros totales a menudo superan los costos de viaje en 50-70%'
+            ],
+            'key_factors' => [
+                'Ahorros significativos en procedimientos (50-80%)',
+                'Tiempo de recuperación mínimo (la mayoría de pacientes regresan al trabajo en días)',
+                'Calidad equivalente a estándares de EE.UU.',
+                'Planes de tratamiento integral',
+                'Paquetes todo incluido disponibles'
+            ]
+        ],
+        'benefits' => [
+            'title' => 'Beneficios del Turismo Dental en México',
+            'quality_care' => [
+                'title' => 'Atención de Alta Calidad',
+                'description' => 'Nuestros dentistas están capacitados internacionalmente con años de experiencia. Utilizamos tecnología de vanguardia y seguimos protocolos de seguridad internacionales estrictos.'
+            ],
+            'efficiency' => [
+                'title' => 'Eficiencia y Conveniencia',
+                'description' => 'Programación rápida de citas, planes de tratamiento flexibles y procesos de atención eficientes significan que obtienes resultados más rápido.'
+            ],
+            'affordability' => [
+                'title' => 'Asequibilidad Excepcional',
+                'description' => 'Ahorra 50-80% en procedimientos dentales mientras mantienes la misma calidad que esperas en EE.UU.'
+            ],
+            'experience' => [
+                'title' => 'Oportunidades Culturales y Recreativas',
+                'description' => 'Combina tu tratamiento con experiencias de vacaciones. Juárez ofrece rica cultura, gastronomía, compras y atracciones naturales cercanas.'
+            ],
+            'support' => [
+                'title' => 'Apoyo Integral',
+                'description' => 'Personal bilingüe, asistencia en transporte, ayuda con alojamiento e instrucciones completas de cuidado postratamiento.'
+            ]
+        ],
+        'risks_mitigation' => [
+            'title' => 'Comprendiendo Riesgos y Cómo los Prevenimos',
+            'verify_credentials' => [
+                'title' => 'Verifica Credenciales',
+                'description' => 'Todos nuestros dentistas tienen certificaciones internacionales y están registrados con juntas dentales mexicanas. Verifica credenciales antes de elegir cualquier clínica.'
+            ],
+            'hygiene_standards' => [
+                'title' => 'Estándares Estrictos de Higiene',
+                'description' => 'Mantenemos protocolos rigurosos de esterilización y estándares de seguridad internacionales para prevenir infecciones.'
+            ],
+            'clear_communication' => [
+                'title' => 'Comunicación Clara',
+                'description' => 'Nuestro personal bilingüe asegura una comprensión completa del historial médico, procedimientos e instrucciones de cuidado.'
+            ],
+            'follow_up_care' => [
+                'title' => 'Disposiciones de Seguimiento',
+                'description' => 'Coordinamos con tu dentista local para cualquier seguimiento necesario y mantenemos registros digitales que puedes compartir.'
+            ],
+            'insurance_assistance' => [
+                'title' => 'Asistencia con Seguros',
+                'description' => 'Asistimos con toda la documentación para reembolso de seguros y proporcionamos documentación de todos los tratamientos.'
+            ]
+        ],
+        'preparation' => [
+            'title' => 'Preparándose para tu Viaje de Turismo Dental',
+            'checklist' => [
+                'Reúne tus registros dentales y radiografías para traer contigo',
+                'Asegúrate de que tu pasaporte sea válido por al menos 6 meses',
+                'Programa tratamientos con al menos 2-3 semanas de anticipación',
+                'Haz arreglos de viaje (vuelos, hotel)',
+                'Informa a tu dentista local sobre tu viaje',
+                'Verifica cobertura de seguros de viaje para procedimientos médicos',
+                'Arregla tiempo libre del trabajo para tratamiento y recuperación',
+                'Planifica 3-7 días dependiendo de la complejidad del tratamiento'
+            ]
+        ],
+        'faq_tourism' => [
+            'q1' => [
+                'question' => '¿Cuánto tiempo necesito estar en México?',
+                'answer' => 'Depende de la complejidad de tu tratamiento. Las limpiezas simples pueden tomar 1-2 días. Los procedimientos mayores como implantes pueden requerir 5-7 días para tratamiento inicial y chequeos de seguimiento. Proporcionamos un cronograma personalizado basado en tus necesidades específicas.'
+            ],
+            'q2' => [
+                'question' => '¿Puedo volar a casa inmediatamente después del tratamiento?',
+                'answer' => 'Se recomienda esperar 24-48 horas después de procedimientos mayores antes de volar, ya que los cambios de presión de cabina pueden afectar la cicatrización. Recomendamos quedarse unos días más para permitir una recuperación apropiada y ajuste.'
+            ],
+            'q3' => [
+                'question' => '¿Aceptan seguros internacionales?',
+                'answer' => 'La mayoría de planes internacionales no cubren tratamientos en el extranjero. Sin embargo, ayudamos con toda documentación para reembolso de seguros de EE.UU. También aceptamos tarjetas de crédito principales, efectivo y transferencias bancarias.'
+            ],
+            'q4' => [
+                'question' => '¿Qué pasa si algo sale mal después de regresar a casa?',
+                'answer' => 'Proporcionamos soporte de seguimiento integral. Puedes contactarnos por teléfono, correo electrónico o videollamada. También coordinamos con tu dentista local para asegurar continuidad de atención y abordar cualquier preocupación.'
+            ],
+            'q5' => [
+                'question' => '¿La calidad realmente es comparable a la de EE.UU.?',
+                'answer' => 'Sí. Nuestros dentistas tienen capacitación y certificaciones internacionales. Usamos los mismos materiales y tecnología que clínicas estadounidenses. La principal diferencia es que nuestros costos operacionales son menores, lo cual te pasamos como ahorros.'
+            ],
+            'q6' => [
+                'question' => '¿Qué hay sobre barreras del idioma?',
+                'answer' => 'Nuestro personal es bilingüe inglés-español. Aseguramos comunicación clara durante todo tu tratamiento con explicaciones detalladas e instrucciones escritas en inglés.'
+            ]
+        ],
+        'juarez_benefits' => [
+            'title' => '¿Por Qué Ciudad Juárez?',
+            'description' => 'Ciudad Juárez es el destino perfecto para turismo dental, ofreciendo conveniencia, cultura y experiencias inolvidables.',
+            'proximity' => [
+                'title' => 'Cerca de EE.UU.',
+                'description' => 'A través de la frontera de El Paso, Texas. Opciones de viaje rápidas y asequibles.'
+            ],
+            'affordability' => [
+                'title' => 'Excelente Valor',
+                'description' => 'Bajo costo de vida significa gastos generales bajos - ahorros que te compartimos.'
+            ],
+            'culture' => [
+                'title' => 'Cultura Rica',
+                'description' => 'Experimenta la gastronomía mexicana, arte, historia y hospitalidad cálida.'
+            ],
+            'climate' => [
+                'title' => 'Clima Excelente',
+                'description' => 'Clima desértico con 300+ días de sol. Perfecto para recuperación y relajación.'
+            ],
+            'attractions' => [
+                'title' => 'Qué Hacer',
+                'description' => 'Museos, restaurantes, tiendas, parques y eventos culturales en toda la ciudad.'
+            ]
+        ],
+        'travel_essentials' => [
+            'title' => 'Esenciales de Viaje',
+            'hotels' => [
+                'title' => 'Hoteles Recomendados',
+                'description' => 'Alojamiento de calidad cerca de nuestra clínica con tarifas especiales para nuestros pacientes:',
+                'list' => [
+                    'Hotel Presidente - 4 estrellas, ubicación céntrica, centro de negocios, restaurante',
+                    'Fiesta Inn Ciudad Juárez - Amenidades modernas, cerca de tiendas, desayuno incluido',
+                    'Holiday Inn Express - Opción económica, habitaciones limpias, WiFi gratis',
+                    'Hotel Plaza Real - Hotel boutique con carácter y encanto local',
+                    'Gamma San José - Opción de rango medio con excelente servicio'
+                ]
+            ],
+            'transport' => [
+                'title' => 'Transporte',
+                'description' => 'Opciones de transporte para hacer tu estancia cómoda:',
+                'airport' => 'Aeropuerto Internacional de El Paso (EPT) - 45 min en coche, organizamos transporte',
+                'taxi' => 'Uber y taxis locales disponibles 24/7 - asequibles y confiables',
+                'rental' => 'Agencias de renta de autos en el aeropuerto si prefieres independencia',
+                'shuttle' => 'Proporcionamos servicio de transporte coordinado hacia/desde el aeropuerto bajo solicitud',
+                'local' => 'Caminar y transporte público disponible en áreas del centro'
+            ]
+        ],
+        'external_resources' => [
+            'title' => 'Recursos Externos Útiles',
+            'description' => 'Información adicional y apoyo para tu viaje de turismo dental:',
+            'resources' => [
+                [
+                    'name' => 'Asociación Dental USA-México',
+                    'url' => 'https://www.ada.org',
+                    'description' => 'Información sobre estándares dentales y verificación de dentistas'
+                ],
+                [
+                    'name' => 'Asociación Internacional de Investigación Dental',
+                    'url' => 'https://www.iadr.org',
+                    'description' => 'Investigación dental global y estándares de calidad'
+                ],
+                [
+                    'name' => 'Asociación Dental Americana (ADA)',
+                    'url' => 'https://www.ada.org',
+                    'description' => 'Aprende sobre mejores prácticas y procedimientos dentales'
+                ],
+                [
+                    'name' => 'Asesoramiento de Viaje - México',
+                    'url' => 'https://travel.state.gov',
+                    'description' => 'Información de viaje del Departamento de Estado de EE.UU. para México'
+                ],
+                [
+                    'name' => 'Reembolso de Seguros Dentales',
+                    'url' => 'https://www.cigna.com',
+                    'description' => 'Información sobre reclamación de trabajo dental hecho internacionalmente'
+                ],
+                [
+                    'name' => 'Junta de Turismo de Ciudad Juárez',
+                    'url' => 'https://visitelpaso.com/things-to-do/juarez-mexico',
+                    'description' => 'Atracciones, restaurantes y eventos en Ciudad Juárez'
+                ]
+            ]
+        ],
+        'cta' => [
+            'title' => '¿Listo para Transformar tu Sonrisa?',
+            'description' => 'Comienza tu viaje de turismo dental con Núcleo Dental. Estamos aquí para hacerlo fácil, asequible y memorable.',
+            'button' => 'Programa tu Consulta Gratuita',
+            'subtext' => 'Combina atención dental excepcional con una experiencia de vacaciones memorable.'
+        ]
+    ],
+    'blog_educativo' => [
+        'page_title' => 'Blog Educativo - Nucleo Dental',
+        'hero' => [
+            'title' => 'Blog Educativo',
+            'subtitle' => 'Aprende sobre tratamientos, turismo dental y lo que hace diferente a Núcleo Dental.',
+            'description' => 'Información confiable para ayudarte a tomar decisiones seguras e informadas sobre tu salud oral.'
+        ],
+        'treatments' => [
+            'title' => 'Guías de Tratamientos',
+            'articles' => [
+                [
+                    'title' => 'Implantes Dentales',
+                    'what' => 'Los implantes dentales son raíces artificiales que se colocan en el hueso para soportar coronas, puentes o dentaduras.',
+                    'how' => 'Se inserta un poste de titanio en el hueso, se deja sanar e integrar, y luego se coloca una corona personalizada.',
+                    'who' => 'Ideal para adultos que han perdido uno o más dientes y tienen encías y hueso sanos.',
+                    'benefits' => 'Solución permanente, aspecto natural, preserva el hueso, restaura función y confianza.'
+                ],
+                [
+                    'title' => 'Coronas de Porcelana',
+                    'what' => 'Las coronas son fundas que cubren dientes dañados o debilitados para restaurar forma, fuerza y apariencia.',
+                    'how' => 'Se prepara el diente, se toma impresión y se cementa una corona de porcelana hecha a medida.',
+                    'who' => 'Para dientes con grandes restauraciones, fracturas o después de endodoncia.',
+                    'benefits' => 'Protege el diente, restaura función, aspecto natural y es duradera.'
+                ],
+                [
+                    'title' => 'Carillas de Porcelana',
+                    'what' => 'Láminas delgadas de porcelana que se adhieren al frente de los dientes para mejorar color, forma y alineación.',
+                    'how' => 'Se remueve una pequeña cantidad de esmalte, se toman impresiones y se cementan las carillas.',
+                    'who' => 'Para pacientes con dientes manchados, astillados o ligeramente desalineados.',
+                    'benefits' => 'Sonrisa estética, mínima reducción dental, resistentes a manchas.'
+                ],
+                [
+                    'title' => 'Endodoncia',
+                    'what' => 'Procedimiento para eliminar la pulpa infectada o dañada del interior del diente, aliviando dolor y salvando el diente.',
+                    'how' => 'Se retira la pulpa, se limpia y desinfecta el conducto, luego se sella.',
+                    'who' => 'Para dientes con caries profundas, infección o traumatismo.',
+                    'benefits' => 'Alivia dolor, salva el diente natural, previene infecciones.'
+                ],
+                [
+                    'title' => 'Rehabilitación de Boca Completa',
+                    'what' => 'Restauración integral de todos los dientes usando coronas, puentes, implantes y/o prótesis.',
+                    'how' => 'Se elabora un plan personalizado para restaurar función y estética, a menudo en varias fases.',
+                    'who' => 'Pacientes con problemas dentales extensos o pérdida de dientes.',
+                    'benefits' => 'Recupera masticación, habla, estética y confianza.'
+                ],
+                [
+                    'title' => 'Limpieza y Revisión Dental',
+                    'what' => 'Eliminación profesional de placa y sarro, más un examen oral completo.',
+                    'how' => 'El higienista limpia dientes y encías con instrumentos especiales y el dentista revisa la boca.',
+                    'who' => 'Recomendado para todos cada 6 meses.',
+                    'benefits' => 'Previene caries, enfermedades de encías y mantiene la boca sana.'
+                ],
+                [
+                    'title' => 'Ortodoncia (Brackets y Alineadores)',
+                    'what' => 'Tratamientos para alinear dientes y corregir mordida usando brackets o alineadores transparentes.',
+                    'how' => 'Aparatos aplican presión suave para mover los dientes a su posición ideal.',
+                    'who' => 'Niños, adolescentes y adultos con dientes desalineados o problemas de mordida.',
+                    'benefits' => 'Mejora sonrisa, facilita higiene, mejor mordida y confianza.'
+                ],
+                [
+                    'title' => 'Extracciones Dentales',
+                    'what' => 'Remoción de un diente dañado, con caries severa o que causa apiñamiento.',
+                    'how' => 'Se anestesia la zona, se afloja y retira el diente cuidadosamente.',
+                    'who' => 'Para dientes irrecuperables o para preparar ortodoncia.',
+                    'benefits' => 'Alivia dolor, previene infecciones, crea espacio para dientes sanos.'
+                ],
+                [
+                    'title' => 'Tratamiento Periodontal (Encías)',
+                    'what' => 'Tratamientos para controlar la enfermedad de encías y restaurar la salud gingival.',
+                    'how' => 'Limpieza profunda (raspado y alisado radicular), a veces cirugía o antibióticos.',
+                    'who' => 'Personas con encías sangrantes, retraídas o periodontitis.',
+                    'benefits' => 'Detiene la enfermedad, previene pérdida dental, mejora aliento.'
+                ],
+                [
+                    'title' => 'Blanqueamiento Dental',
+                    'what' => 'Procedimiento estético para aclarar dientes y eliminar manchas.',
+                    'how' => 'Se aplican agentes blanqueadores profesionales en consultorio o con cubetas personalizadas.',
+                    'who' => 'Adultos con dientes sanos que desean una sonrisa más blanca.',
+                    'benefits' => 'Dientes más blancos, resultados rápidos, seguro y eficaz.'
+                ],
+                [
+                    'title' => 'Prótesis Dentales',
+                    'what' => 'Reemplazos artificiales para dientes perdidos, como puentes, parciales y dentaduras completas.',
+                    'how' => 'Se fabrican dispositivos a medida para restaurar función y estética.',
+                    'who' => 'Pacientes con uno o más dientes faltantes.',
+                    'benefits' => 'Recupera masticación, habla y sonrisa.'
+                ],
+                [
+                    'title' => 'Odontopediatría',
+                    'what' => 'Atención dental para niños, incluyendo prevención, empastes y educación en hábitos saludables.',
+                    'how' => 'Exámenes, limpiezas, selladores y orientación para niños y padres.',
+                    'who' => 'Niños desde bebés hasta adolescentes.',
+                    'benefits' => 'Sonrisas sanas de por vida, experiencias positivas.'
+                ],
+                [
+                    'title' => 'Cirugía Maxilofacial',
+                    'what' => 'Procedimientos quirúrgicos para problemas dentales, mandibulares o faciales complejos.',
+                    'how' => 'Realizados por un especialista, pueden incluir extracciones, injertos óseos o cirugía correctiva.',
+                    'who' => 'Pacientes con problemas severos en dientes, mandíbula o rostro.',
+                    'benefits' => 'Recupera función, salud y estética.'
+                ],
+                [
+                    'title' => 'Resinas y Restauraciones',
+                    'what' => 'Resina del color del diente para reparar caries o fracturas menores.',
+                    'how' => 'Se elimina la caries, se coloca la resina y se endurece con luz especial.',
+                    'who' => 'Cualquier persona con caries pequeñas o dientes astillados.',
+                    'benefits' => 'Apariencia natural, conserva estructura dental, procedimiento rápido.'
+                ],
+                [
+                    'title' => 'Tratamientos Preventivos',
+                    'what' => 'Medidas para prevenir problemas dentales, como selladores y flúor.',
+                    'how' => 'Aplicados por el dentista o higienista en visitas de rutina.',
+                    'who' => 'Niños y adultos con riesgo de caries o enfermedad de encías.',
+                    'benefits' => 'Reduce riesgo de caries, fácil y sin dolor.'
+                ]
+            ]
+        ],
+        'dental_tourism' => [
+            'title' => 'Esenciales del Turismo Dental',
+            'articles' => [
+                [
+                    'title' => 'Cómo Planear tu Viaje Dental',
+                    'summary' => 'Cronograma recomendado, documentos necesarios y tiempos ideales de tratamiento.'
+                ],
+                [
+                    'title' => 'Costos, Ahorros y Valor Real',
+                    'summary' => 'Comprende precios de tratamiento, gastos de viaje y planeación de presupuesto total.'
+                ],
+                [
+                    'title' => 'Recuperación y Seguimiento al Regresar a Casa',
+                    'summary' => 'Recomendaciones prácticas para proteger tus resultados después del tratamiento en México.'
+                ]
+            ]
+        ],
+        'differentiators' => [
+            'title' => 'Nuestros Diferenciadores',
+            'items' => [
+                [
+                    'title' => 'Atención Bilingüe',
+                    'description' => 'Comunicación clara en inglés y español en cada etapa.'
+                ],
+                [
+                    'title' => 'Tecnología Moderna',
+                    'description' => 'Diagnóstico digital y equipo actualizado para tratamientos precisos.'
+                ],
+                [
+                    'title' => 'Planeación Personalizada',
+                    'description' => 'Cada paciente recibe un plan de tratamiento y apoyo de viaje a la medida.'
+                ],
+                [
+                    'title' => 'Conveniencia Fronteriza',
+                    'description' => 'Ubicación estratégica en Ciudad Juárez para pacientes de EE.UU. y México.'
+                ]
+            ]
+        ],
+        'cta' => [
+            'title' => '¿Necesitas Ayuda para Elegir un Tratamiento?',
+            'description' => 'Nuestro equipo puede revisar tu caso y orientarte con una recomendación personalizada.',
+            'button' => 'Solicitar Orientación'
         ]
     ]
 ];

@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "messages.faq.why_juarez.question",
+      "answer": "messages.faq.why_juarez.answer"
+    },
+    {
+      "question": "messages.faq.safety.question",
+      "answer": "messages.faq.safety.answer"
+    },
+    {
+      "question": "messages.faq.first_visit.question",
+      "answer": "messages.faq.first_visit.answer"
+    },
+    {
+      "question": "messages.faq.duration.question",
+      "answer": "messages.faq.duration.answer"
+    },
+    {
+      "question": "messages.faq.upfront_payment.question",
+      "answer": "messages.faq.upfront_payment.answer"
+    },
+    {
+      "question": "messages.faq.payment_options.question",
+      "answer": "messages.faq.payment_options.answer"
+    },
+    {
+      "question": "messages.faq.follow_up.question",
+      "answer": "messages.faq.follow_up.answer"
+    },
+    {
+      "question": "messages.faq.insurance.question",
+      "answer": "messages.faq.insurance.answer"
+    },
+    {
+      "question": "messages.faq.emergency.question",
+      "answer": "messages.faq.emergency.answer"
+    },
+    {
+      "question": "messages.faq.getting_started.question",
+      "answer": "messages.faq.getting_started.answer"
+    }
+  ]
+}

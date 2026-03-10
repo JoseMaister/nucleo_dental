@@ -54,7 +54,8 @@
                     <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.services') }}</a></li>
                     <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.about') }}</a></li>
                     <li><a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.technology') }}</a></li>
-                    <li><a href="{{ route('financing') }}" class="{{ request()->routeIs('financing') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.financing') }}</a></li>
+                    <li><a href="{{ route('dental-tourism') }}" class="{{ request()->routeIs('dental-tourism') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.dental_tourism') }}</a></li>
+                    <li><a href="{{ route('blog-educativo') }}" class="{{ request()->routeIs('blog-educativo') ? 'text-indigo-600 font-bold' : 'text-gray-700' }} hover:text-indigo-600 transition-colors">{{ __('messages.nav.blog_educativo') }}</a></li>
                     <li><a href="{{ route('contact') }}" class="bg-indigo-700 text-white px-5 py-2 rounded-full hover:bg-indigo-800 transition-colors {{ request()->routeIs('contact') ? 'bg-indigo-800' : '' }}">{{ __('messages.nav.contact') }}</a></li>
                     
                     <!-- Language Dropdown -->
@@ -111,6 +112,8 @@
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="{{ route('home') }}" class="block px-3 py-2 {{ request()->routeIs('home') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.home') }}</a>
                 <a href="{{ route('services') }}" class="block px-3 py-2 {{ request()->routeIs('services') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.services') }}</a>
+                <a href="{{ route('dental-tourism') }}" class="block px-3 py-2 {{ request()->routeIs('dental-tourism') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.dental_tourism') }}</a>
+                <a href="{{ route('blog-educativo') }}" class="block px-3 py-2 {{ request()->routeIs('blog-educativo') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.blog_educativo') }}</a>
                 <a href="{{ route('about') }}" class="block px-3 py-2 {{ request()->routeIs('about') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.about') }}</a>
                 <a href="{{ route('technology') }}" class="block px-3 py-2 {{ request()->routeIs('technology') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.technology') }}</a>
                 <a href="{{ route('financing') }}" class="block px-3 py-2 {{ request()->routeIs('financing') ? 'text-indigo-700 bg-indigo-50 font-bold' : 'text-gray-700' }} hover:text-indigo-600 hover:bg-gray-50 rounded-md">{{ __('messages.nav.financing') }}</a>
