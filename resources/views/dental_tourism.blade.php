@@ -40,8 +40,9 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-center">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1631217315651-11a60111e5f0?w=500&h=500&fit=crop" alt="Dental Tourism" class="rounded-xl shadow-xl w-full">
-                </div>
+<img src="{{ asset('images/IMG_100216.webp') }}" 
+     alt="Dental Tourism" 
+     class="rounded-xl shadow-xl w-full">                </div>  
                 <div>
                     <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                         {{ __('messages.dental_tourism.what_is.description') }}
@@ -302,7 +303,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Image -->
                 <div class="hidden md:block">
-                    <img src="https://images.unsplash.com/photo-1516321318423-f06a0b504e5e?w=500&h=600&fit=crop" alt="Travel Preparation" class="rounded-xl shadow-xl w-full h-full object-cover">
+                    <img src="{{ asset('images/IMG_100224.webp') }}" alt="Travel Preparation" class="rounded-xl shadow-xl w-full h-full object-cover">
                 </div>
 
                 <!-- Checklist -->
