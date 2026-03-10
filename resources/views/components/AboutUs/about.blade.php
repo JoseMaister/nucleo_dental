@@ -247,6 +247,12 @@ try {
     // Liliana
     $lilianaName = __('messages.team.liliana.name');
     $lilianaSpecialties = [__('messages.specialties.pediatric_dentist')];
+    
+    // Lori - Dental Concierge
+    $loriName = __('messages.team.lori.name');
+    $loriSpecialties = [__('messages.specialties.dental_concierge')];
+    $loriContent = __('messages.team.lori.content');
+    $loriSections = [];
     $lilianaContent = __('messages.team.liliana.content');
     $lilianaSections = [];
     
@@ -313,10 +319,10 @@ try {
 />
 
 <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100198.webp')"
-    :name="$adrianaEscalanteName"
-    :specialties="$adrianaEscalanteSpecialties"
-    content=""
+    :imageUrl="asset('images/IMG_100187.webp')"
+    :name="$loriName"
+    :specialties="$loriSpecialties"
+    :content="$loriContent"
     :sections="[]"
 />
 
@@ -366,10 +372,4 @@ try {
     :specialties="$lilianaSpecialties"
     :content="$lilianaContent"
     :sections="$lilianaSections"
-/>
-
-<x-doctor-profile 
-    :imageUrl="asset('images/IMG_100194.webp')"
-    :name="$hugoName"
-    :specialties="$hugoSpecialties"
 />

@@ -12,7 +12,8 @@ return [
         'chief_periodontist' => 'Chief Periodontist',
         'pediatric_dentist' => 'Pediatric Dentist',
         'maxillofacial_surgeon' => 'Maxillofacial Surgeon',
-        'informatic_responsible' => 'Informatic Responsible'
+        'informatic_responsible' => 'Informatic Responsible',
+        'dental_concierge' => 'Dental Concierge'
     ],
     
     'team' => [
@@ -198,6 +199,13 @@ return [
                 'pediatric_dentist'
             ],
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Liliana Estrada is a specialist in children's dental health and part of the professional team at Núcleo Dental, where she is dedicated to providing quality dental care for children and adolescents. Her clinical approach is focused on offering personalized and safe treatments, adapted to the needs of each pediatric patient and based on the best practices of modern pediatric dentistry.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>She is distinguished by her friendly and professional treatment with the youngest patients, promoting a positive dental experience from childhood. Dr. Estrada actively participates in the clinic's pediatric care programs, and her work is part of Núcleo Dental's commitment to providing specialized, high-level care for both local families and international patients.</p>"
+        ],
+        'lori' => [
+            'name' => 'Lori',
+            'specialties' => [
+                'dental_concierge'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Lori serves as the Dental Concierge at Núcleo Dental, dedicated to accompanying patients throughout their entire experience. She coordinates transportation, accommodation, and logistics for arrival and return, while providing continuous assistance during treatment.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Her role ensures that international patients have a seamless and stress-free experience, handling all the details of their dental tourism journey so they can focus on their treatment and recovery.</p>"
         ]        
     ],
     
@@ -290,6 +298,10 @@ return [
             'free_service' => '<span class="font-bold">Free</span> Transportation Service',
             'location' => 'From El Paso - Juarez and Back',
             'cta' => 'Make your appointment Here',
+            'free_title' => 'Free Transportation',
+            'free_description' => 'We offer complimentary transportation service for our international patients, ensuring you can travel comfortably between the airport, your accommodation, and our dental clinic without any additional cost.',
+            'reliable_title' => 'Free, Reliable & Safe Transportation',
+            'reliable_description' => 'Our professional drivers, Edgar and Martín, provide safe and reliable transportation services. With years of experience serving dental tourism patients, they ensure you arrive safely and on time for all your appointments.',
             'drivers' => [
                 'edgar' => 'Edgar Ulloa',
                 'martin' => 'Martín Fernández'

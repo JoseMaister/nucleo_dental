@@ -12,7 +12,8 @@ return [
         'chief_periodontist' => 'Periodoncista en Jefe',
         'pediatric_dentist' => 'Odontopediatra',
         'maxillofacial_surgeon' => "Cirujano Maxilofacial",
-        'informatic_responsible' => 'Responsable de Informática'
+        'informatic_responsible' => 'Responsable de Informática',
+        'dental_concierge' => 'Concierge Dental'
     ],
     
     'team' => [
@@ -189,6 +190,13 @@ return [
                 'pediatric_dentist'
             ],
             'content' => "<p class='text-gray-600 text-[16px] leading-tight'>La Dra. Liliana Estrada es especialista en salud dental infantil y forma parte del equipo profesional de Núcleo Dental, donde se dedica a ofrecer atención odontológica de calidad para niños y adolescentes. Su enfoque clínico está orientado a brindar tratamientos personalizados y seguros, adaptados a las necesidades de cada paciente pediátrico y basados en las mejores prácticas de odontopediatría moderna.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Se distingue por su trato amable y profesional con los pacientes más jóvenes, promoviendo una experiencia dental positiva desde la infancia. La Dra. Estrada participa activamente en los programas de atención a pacientes infantiles de la clínica, y su labor forma parte del compromiso del equipo de Núcleo Dental por proporcionar atención especializada y de alto nivel tanto para familias locales como para pacientes internacionales.</p>"
+        ],
+        'lori' => [
+            'name' => 'Lori',
+            'specialties' => [
+                'dental_concierge'
+            ],
+            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Lori sirve como Concierge Dental en Núcleo Dental, dedicada a acompañar a los pacientes durante toda su experiencia. Coordina el transporte, hospedaje y logística de llegada y regreso, así como asistencia continua durante el tratamiento.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Su rol asegura que los pacientes internacionales tengan una experiencia sin complicaciones y sin estrés, manejando todos los detalles de su viaje de turismo dental para que puedan concentrarse en su tratamiento y recuperación.</p>"
         ]
     ],
     
@@ -278,6 +286,10 @@ return [
             'free_service' => '<span class="font-bold">Servicio de Transporte</span> Gratis',
             'location' => 'Desde El Paso - Juárez y de regreso',
             'cta' => 'Haz tu cita aquí',
+            'free_title' => 'Transporte Gratis',
+            'free_description' => 'Ofrecemos servicio de transporte gratuito para nuestros pacientes internacionales, asegurando que puedas viajar cómodamente entre el aeropuerto, tu hospedaje y nuestra clínica dental sin costo adicional.',
+            'reliable_title' => 'Transporte Gratis, Confiable y Seguro',
+            'reliable_description' => 'Nuestros conductores profesionales, Edgar y Martín, proporcionan servicios de transporte seguros y confiables. Con años de experiencia atendiendo pacientes de turismo dental, aseguran que llegues seguro y a tiempo a todas tus citas.',
             'drivers' => [
                 'edgar' => 'Edgar Ulloa',
                 'martin' => 'Martín Fernández'

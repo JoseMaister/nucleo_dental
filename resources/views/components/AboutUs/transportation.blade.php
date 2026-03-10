@@ -2,6 +2,20 @@
     <div class="bg-indigo-800 text-white text-center text-3xl md:text-5xl font-light mx-auto rounded-[50px] py-6 px-10  md:px-20 mb-6">
         {!! __('messages.about.transportation.title') !!}
     </div>
+    
+    <!-- Transportation Service Description -->
+    <div class="max-w-4xl mx-auto text-center mb-8">
+        <h3 class="text-2xl font-bold text-indigo-800 mb-4">{{ __('messages.about.transportation.free_title') }}</h3>
+        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+            {{ __('messages.about.transportation.free_description') }}
+        </p>
+        
+        <h3 class="text-2xl font-bold text-indigo-800 mb-4">{{ __('messages.about.transportation.reliable_title') }}</h3>
+        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+            {{ __('messages.about.transportation.reliable_description') }}
+        </p>
+    </div>
+    
     <div class="flex flex-wrap flex-row items-center justify-center gap-6">
         <div class="flex flex-col justify-center items-center">
             <div class="w-[290px] h-[290px] rounded-full overflow-hidden relative">  
