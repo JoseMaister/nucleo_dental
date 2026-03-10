@@ -69,19 +69,19 @@
                             'video' => '',
                         ],
                         'Dental Cleaning & Checkup' => [
-                            'img' => 'https://images.unsplash.com/photo-1512070679279-c2f999098c01?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Limpieza y Revisión Dental' => [
-                            'img' => 'https://images.unsplash.com/photo-1512070679279-c2f999098c01?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Orthodontics (Braces & Aligners)' => [
-                            'img' => 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Ortodoncia (Brackets y Alineadores)' => [
-                            'img' => 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Tooth Extractions' => [
@@ -117,11 +117,11 @@
                             'video' => '',
                         ],
                         'Pediatric Dentistry' => [
-                            'img' => 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Odontopediatría' => [
-                            'img' => 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Maxillofacial Surgery' => [
@@ -133,50 +133,65 @@
                             'video' => '',
                         ],
                         'Composite Fillings' => [
-                            'img' => 'https://images.unsplash.com/photo-1512070679279-c2f999098c01?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Resinas y Restauraciones' => [
-                            'img' => 'https://images.unsplash.com/photo-1512070679279-c2f999098c01?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Preventive Treatments' => [
-                            'img' => 'https://images.unsplash.com/photo-1512070679279-c2f999098c01?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                         'Tratamientos Preventivos' => [
-                            'img' => 'https://images.unsplash.com/photo-1512070679279-c2f999098c01?fit=crop&w=400&q=80',
+                               'img' => 'images/CompositeFillings.jpg',
                             'video' => '',
                         ],
                     ];
                 @endphp
                 @foreach($treatmentArticles as $article)
-                    @php
-                        $media = $procedureMedia[$article['title']] ?? null;
-                    @endphp
-                    <article class="bg-gradient-to-br from-indigo-50 to-white border-2 border-indigo-200 rounded-xl p-7 hover:shadow-lg transition-all duration-300">
-                        @if($media && !empty($media['img']))
-                            <img src="{{ $media['img'] }}" alt="{{ $article['title'] }}" class="rounded-lg mb-4 w-full h-40 object-cover">
-                        @endif
-                        <h3 class="text-xl font-bold text-indigo-800 mb-3">{{ $article['title'] }}</h3>
-                        <ul class="text-gray-700 text-sm space-y-2">
-                            <li><span class="font-semibold text-indigo-700">{{ __('¿Qué es?') }}:</span> {{ $article['what'] ?? '' }}</li>
-                            <li><span class="font-semibold text-indigo-700">{{ __('¿Cómo funciona?') }}:</span> {{ $article['how'] ?? '' }}</li>
-                            <li><span class="font-semibold text-indigo-700">{{ __('¿Para quién es?') }}:</span> {{ $article['who'] ?? '' }}</li>
-                            <li><span class="font-semibold text-indigo-700">{{ __('Beneficios') }}:</span> {{ $article['benefits'] ?? '' }}</li>
-                        </ul>
-                        {{--
-                        @if($media && !empty($media['video']))
-                            <div class="mt-4 aspect-video">
-                                <iframe src="{{ $media['video'] }}" frameborder="0" allowfullscreen class="w-full h-full rounded-lg"></iframe>
+                            @php
+                                // Try to find media for both English and Spanish titles
+                                $media = $procedureMedia[$article['title']] ?? null;
+                                // Fallback: try to match by lowercased title
+                                if (!$media) {
+                                    foreach ($procedureMedia as $key => $value) {
+                                        if (strtolower($key) === strtolower($article['title'])) {
+                                            $media = $value;
+                                            break;
+                                        }
+                                    }
+                                }
+                                 // If image is missing or empty, use local asset
+                                 $imgUrl = (!empty($media['img'])) ? asset($media['img']) : asset('images/CompositeFillings.jpg');
+                            @endphp
+                            {{-- DEBUG: Show article title and resolved image URL --}}
+                            <div style="display:none">
+                                <strong>DEBUG:</strong> {{ $article['title'] }}<br>
+                                <strong>IMG:</strong> {{ $imgUrl }}
                             </div>
-                        @endif
-                        --}}
-                        {{--
-                        // For future: Embed a 3D model (e.g. Sketchfab)
-                        // <iframe src="https://sketchfab.com/models/MODEL_ID/embed" ...></iframe>
-                        --}}
-                    </article>
+                        <article class="bg-gradient-to-br from-indigo-50 to-white border-2 border-indigo-200 rounded-xl p-7 hover:shadow-lg transition-all duration-300">
+                                <img src="{{ $imgUrl }}" alt="{{ $article['title'] }}" class="rounded-lg mb-4 w-full h-40 object-cover">
+                            <h3 class="text-xl font-bold text-indigo-800 mb-3">{{ $article['title'] }}</h3>
+                            <ul class="text-gray-700 text-sm space-y-2">
+                                <li><span class="font-semibold text-indigo-700">{{ __('¿Qué es?') }}:</span> {{ $article['what'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('¿Cómo funciona?') }}:</span> {{ $article['how'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('¿Para quién es?') }}:</span> {{ $article['who'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('Beneficios') }}:</span> {{ $article['benefits'] ?? '' }}</li>
+                            </ul>
+                            {{--
+                            @if($media && !empty($media['video']))
+                                <div class="mt-4 aspect-video">
+                                    <iframe src="{{ $media['video'] }}" frameborder="0" allowfullscreen class="w-full h-full rounded-lg"></iframe>
+                                </div>
+                            @endif
+                            --}}
+                            {{--
+                            // For future: Embed a 3D model (e.g. Sketchfab)
+                            // <iframe src="https://sketchfab.com/models/MODEL_ID/embed" ...></iframe>
+                            --}}
+                        </article>
                 @endforeach
             </div>
         </div>

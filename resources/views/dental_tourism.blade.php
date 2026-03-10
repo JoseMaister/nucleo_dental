@@ -40,9 +40,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-center">
                 <div>
-<img src="{{ asset('images/IMG_100216.webp') }}" 
-     alt="Dental Tourism" 
-     class="rounded-xl shadow-xl w-full">                </div>  
+                    <img src="{{ asset('images/IMG_100225.webp') }}" alt="Dental Tourism" class="rounded-xl shadow-xl w-full">
+                </div>
                 <div>
                     <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                         {{ __('messages.dental_tourism.what_is.description') }}
@@ -199,20 +198,20 @@
                     @foreach($steps as $stepKey => $icon)
                         @php $stepNum = $loop->iteration; @endphp
                         <div class="relative">
-                            <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-indigo-700 border-4 border-white rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg" style="top: 0;">
-                                {{ $icon }}
-                            </div>
-
-                            <div class="{{ $stepNum % 2 == 1 ? 'md:ml-auto md:w-1/2 md:pr-16' : 'md:w-1/2 md:pl-16' }} w-full">
-                                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200">
-                                    <h3 class="text-2xl font-bold text-indigo-800 mb-3 flex items-center gap-2">
-                                        {{ __("messages.dental_tourism.process.{$stepKey}.title") }}
-                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">
-                                        {{ __("messages.dental_tourism.process.{$stepKey}.description") }}
-                                    </p>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-indigo-700 border-4 border-white rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg" style="top: 0;">
+                                    {{ $item }}
                                 </div>
-                            </div>
+
+                                <div class="{{ $stepNum % 2 == 1 ? 'md:ml-auto md:w-1/2 md:pr-16' : 'md:w-1/2 md:pl-16' }} w-full">
+                                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-indigo-200">
+                                        <h3 class="text-2xl font-bold text-indigo-800 mb-3 flex items-center gap-2">
+                                            {{ __("messages.dental_tourism.process.{$index}.title") }}
+                                        </h3>
+                                        <p class="text-gray-600 leading-relaxed">
+                                            {{ __("messages.dental_tourism.process.{$index}.description") }}
+                                        </p>
+                                    </div>
+                                </div>
                         </div>
                     @endforeach
                 </div>
