@@ -496,10 +496,6 @@
             const lang = currentLang.startsWith('es') ? 'es' : 'en';
             
             content.innerHTML = `
-                <div class="text-center mb-6">
-                    <img src="${service.image}" alt="${service.title[lang]}" class="w-32 h-32 mx-auto mb-4 object-contain">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-2">${service.title[lang]}</h2>
-                </div>
                 
                 <div class="space-y-6">
                     <div>
