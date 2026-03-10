@@ -282,7 +282,7 @@
                     en: 'Dental Implants',
                     es: 'Implantes Dentales'
                 },
-                image: '{{ asset("images/implants.png") }}',
+                // image: '{{ asset("images/implants.png") }}',
                 description: {
                     en: 'Dental implants are titanium posts that are surgically positioned into the jawbone beneath your gums. Once in place, they allow your dentist to mount replacement teeth onto them.',
                     es: 'Los implantes dentales son postes de titanio que se colocan quirúrgicamente en el hueso maxilar debajo de las encías. Una vez colocados, permiten a su dentista montar dientes de reemplazo sobre ellos.'
@@ -331,7 +331,7 @@
                     en: 'Porcelain Veneers',
                     es: 'Carillas de Porcelana'
                 },
-                image: '{{ asset("images/porcelain_veneers.png") }}',
+                // image: '{{ asset("images/porcelain_veneers.png") }}',
                 description: {
                     en: 'Porcelain veneers are thin, custom-made shells of tooth-colored materials designed to cover the front surface of teeth to improve your appearance.',
                     es: 'Las carillas de porcelana son cáscaras delgadas y personalizadas de materiales del color de los dientes diseñadas para cubrir la superficie frontal de los dientes para mejorar tu apariencia.'
@@ -380,7 +380,7 @@
                     en: 'Teeth Whitening',
                     es: 'Blanqueamiento Dental'
                 },
-                image: '{{ asset("images/teeth_whitening.png") }}',
+                // image: '{{ asset("images/teeth_whitening.png") }}',
                 description: {
                     en: 'Professional teeth whitening is a cosmetic procedure that lightens teeth and helps remove stains and discoloration.',
                     es: 'El blanqueamiento dental profesional es un procedimiento cosmético que aclara los dientes y ayuda a eliminar manchas y decoloración.'
@@ -429,7 +429,7 @@
                     en: 'Orthodontics',
                     es: 'Ortodoncia'
                 },
-                image: '{{ asset("images/orthodontics.png") }}',
+                // image: '{{ asset("images/orthodontics.png") }}',
                 description: {
                     en: 'Orthodontic treatment involves the use of braces, aligners, and other appliances to correct misaligned teeth and jaws.',
                     es: 'El tratamiento ortodóncico implica el uso de brackets, alineadores y otros aparatos para corregir dientes y mandíbulas desalineados.'
