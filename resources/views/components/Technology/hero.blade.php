@@ -5,13 +5,13 @@
         
         <!-- Content container -->
         <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6">{!! __('messages.technology.hero.title') !!}</h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6">{!! __('messages.techno.hero.title') !!}</h1>
             <p class="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed">
-                {{ __('messages.technology.hero.subtitle') }}
+                {{ __('messages.techno.hero.subtitle') }}
             </p>
             <div class="border-t border-white border-[2px] my-5 w-[90%] mx-auto"></div>
             <p class="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed">
-                {{ __('messages.technology.hero.description') }}
+                {{ __('messages.techno.hero.description') }}
             </p>
         </div>
     </div>

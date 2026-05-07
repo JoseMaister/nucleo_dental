@@ -150,6 +150,245 @@
     </div>
 </div>
 
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+            {{-- Left Side --}}
+            <div>
+                <p class="text-sm font-bold uppercase tracking-[0.25em] text-indigo-700">
+                    {{ __('messages.us_patients.label') }}
+                </p>
+
+                <h2 class="mt-4 text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+                    {{ __('messages.us_patients.title') }}
+                </h2>
+
+                <p class="mt-6 text-lg text-gray-600 leading-relaxed">
+                    {{ __('messages.us_patients.description_1') }}
+                </p>
+
+                <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                    {{ __('messages.us_patients.description_2') }}
+                </p>
+
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                    @foreach(__('messages.us_patients.points') as $point)
+                    <div class="flex items-start p-5 rounded-2xl bg-gray-50 hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 rounded-full bg-indigo-700 text-white flex items-center justify-center flex-shrink-0">
+                            <i class="fa-solid fa-{{ $point['icon'] }}"></i>
+                        </div>
+
+                        <p class="ml-4 text-gray-700 font-semibold leading-snug">
+                            {{ $point['text'] }}
+                        </p>
+                    </div>
+                    @endforeach
+
+                </div>
+
+                <div class="mt-8 p-4 border-l-4 border-indigo-700 bg-indigo-50">
+                    <p class="text-indigo-900 font-bold italic text-lg">
+                        "{{ __('messages.us_patients.killer') }}"
+                    </p>
+                </div>
+
+                
+            </div>
+
+            {{-- Right Side --}}
+            <div class="relative">
+                <img src="{{ asset(__('messages.us_patients.image')) }}"
+                     alt="{{ __('messages.us_patients.image_alt') }}"
+                     class="w-full rounded-3xl shadow-2xl object-cover h-[500px]">
+
+                <div class="absolute bottom-6 left-6 right-6 bg-white rounded-2xl shadow-xl p-6">
+                    <p class="text-sm uppercase tracking-widest text-gray-400 mb-2">
+                        {{ __('messages.us_patients.card_label') }}
+                    </p>
+
+                    <p class="text-2xl font-bold text-gray-900 leading-tight">
+                        {{ __('messages.us_patients.card_text') }}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+            <!-- Image -->
+            <div class="order-2 md:order-1">
+                <img src="{{ asset(__('messages.technology.image')) }}"
+                     alt="{{ __('messages.technology.title') }}"
+                     class="w-full h-[500px] object-cover rounded-3xl shadow-2xl">
+            </div>
+
+            <!-- Content -->
+            <div class="order-1 md:order-2">
+                <p class="text-sm font-semibold tracking-[0.25em] uppercase text-indigo-700">
+                    {{ __('messages.technology.label') }}
+                </p>
+
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+                    {{ __('messages.technology.title') }}
+                </h2>
+
+                <p class="mt-6 text-lg text-gray-600 leading-relaxed">
+                    {{ __('messages.technology.description_1') }}
+                </p>
+
+                <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                    {{ __('messages.technology.description_2') }}
+                </p>
+
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-indigo-700 mt-1"></i>
+                        <span class="text-gray-700">{{ __('messages.technology.point_1') }}</span>
+                    </div>
+
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-indigo-700 mt-1"></i>
+                        <span class="text-gray-700">{{ __('messages.technology.point_2') }}</span>
+                    </div>
+
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-indigo-700 mt-1"></i>
+                        <span class="text-gray-700">{{ __('messages.technology.point_3') }}</span>
+                    </div>
+
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-indigo-700 mt-1"></i>
+                        <span class="text-gray-700">{{ __('messages.technology.point_4') }}</span>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-5 rounded-2xl bg-indigo-50 border-l-4 border-indigo-700">
+                    <p class="text-lg font-bold italic text-indigo-900">
+                        "{{ __('messages.technology.killer') }}"
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+            <div>
+                <img src="{{ __('messages.social_proof.image') }}"
+                     alt="Trusted Patients"
+                     class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
+            </div>
+
+            <div>
+                <p class="text-sm font-bold uppercase tracking-widest text-indigo-700">
+                    {{ __('messages.social_proof.label') }}
+                </p>
+
+                <h2 class="mt-3 text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+                    {{ __('messages.social_proof.title') }}
+                </h2>
+
+                <p class="mt-6 text-lg text-gray-600 leading-relaxed">
+                    {{ __('messages.social_proof.description_1') }}
+                </p>
+
+                <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                    {{ __('messages.social_proof.description_2') }}
+                </p>
+
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex items-start p-4 rounded-2xl bg-gray-50">
+                        <i class="fa-solid fa-check text-indigo-700 mt-1"></i>
+                        <p class="ml-3 text-gray-700 font-medium">
+                            {{ __('messages.social_proof.point_1') }}
+                        </p>
+                    </div>
+
+                    <div class="flex items-start p-4 rounded-2xl bg-gray-50">
+                        <i class="fa-solid fa-check text-indigo-700 mt-1"></i>
+                        <p class="ml-3 text-gray-700 font-medium">
+                            {{ __('messages.social_proof.point_2') }}
+                        </p>
+                    </div>
+
+                    <div class="flex items-start p-4 rounded-2xl bg-gray-50">
+                        <i class="fa-solid fa-check text-indigo-700 mt-1"></i>
+                        <p class="ml-3 text-gray-700 font-medium">
+                            {{ __('messages.social_proof.point_3') }}
+                        </p>
+                    </div>
+
+                    <div class="flex items-start p-4 rounded-2xl bg-gray-50">
+                        <i class="fa-solid fa-check text-indigo-700 mt-1"></i>
+                        <p class="ml-3 text-gray-700 font-medium">
+                            {{ __('messages.social_proof.point_4') }}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-4 border-l-4 border-indigo-700 bg-indigo-50 rounded-r-xl">
+                    <p class="text-indigo-900 font-bold italic text-lg">
+                        "{{ __('messages.social_proof.killer') }}"
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="relative overflow-hidden rounded-3xl bg-indigo-900">
+
+            <div class="absolute inset-0">
+                <img src="{{ __('messages.cta_final.image') }}"
+                     class="w-full h-full object-cover opacity-20"
+                     alt="Dental Consultation">
+            </div>
+
+            <div class="relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center p-10 md:p-16">
+
+                <div>
+                    <p class="text-sm font-bold uppercase tracking-widest text-indigo-200">
+                        {{ __('messages.cta_final.label') }}
+                    </p>
+
+                    <h2 class="mt-4 text-4xl md:text-5xl font-bold text-white leading-tight">
+                        {{ __('messages.cta_final.title') }}
+                    </h2>
+
+                    <p class="mt-6 text-lg text-indigo-100 leading-relaxed max-w-2xl">
+                        {{ __('messages.cta_final.description') }}
+                    </p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row lg:flex-col gap-4 lg:items-end">
+                    <a href="#contact"
+                       class="inline-block bg-white hover:bg-gray-100 text-indigo-900 px-8 py-4 rounded-full shadow-xl font-bold transition-all text-center">
+                        {{ __('messages.cta_final.cta_primary') }}
+                    </a>
+
+                    <a href="#quote"
+                       class="inline-block border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-8 py-4 rounded-full font-bold transition-all text-center">
+                        {{ __('messages.cta_final.cta_secondary') }}
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 

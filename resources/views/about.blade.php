@@ -5,11 +5,13 @@
 @section('content')
 <main>
     @include('components.AboutUs.hero')
-    <x-AboutUs.banner />
-    @include('components.AboutUs.about')
-    <x-AboutUs.transportation />
-    <x-banner-smile-1 />
-    <x-contact-map />   
+
+    {{-- <x-AboutUs.banner /> --}}
+    {{-- @include('components.AboutUs.about') --}}
+    {{-- <x-AboutUs.transportation /> --}}
+    {{-- <x-banner-smile-1 /> --}}
+    <x-AboutUs.aboutUs />
+    <x-contact-map /> 
 </main>
 
 

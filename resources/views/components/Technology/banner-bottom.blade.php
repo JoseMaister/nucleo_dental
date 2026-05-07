@@ -19,10 +19,10 @@
             "
         >
             <span class="font-bold">
-                {{ __('messages.technology.banner_bottom.line1') }}
+                {{ __('messages.techno.banner_bottom.line1') }}
             </span><br>
-            {{ __('messages.technology.banner_bottom.line2') }}<br>
-            {{ __('messages.technology.banner_bottom.line3') }}
+            {{ __('messages.techno.banner_bottom.line2') }}<br>
+            {{ __('messages.techno.banner_bottom.line3') }}
         </div>
     </div>
 

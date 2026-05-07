@@ -51,6 +51,17 @@ Route::group([
     Route::get('blog-educativo', function () {
         return view('blog_educativo');
     })->name('blog-educativo');
+    
+    Route::get('/dental-implants', function () {
+        return view('dental-implants');
+    })->name('dental-implants');
+    
+    Route::get('/full-arch-implants', function () {
+        return view('full-arch-implants');
+    })->name('full-arch-implants');
+    Route::get('/safety-clinical-standards', function () {
+        return view('safety'); // o 'pages.safety'
+    })->name('safety');
 
     // Contact Form Submission
     Route::post('contact', [ContactController::class, 'submit'])->name('contact.submit');

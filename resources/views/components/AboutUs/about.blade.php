@@ -318,7 +318,6 @@ try {
     :sections="$adrianaArmendarizSections"
 />
 
-<<<<<<< Updated upstream
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100187.webp')"
     :name="$loriName"
@@ -326,9 +325,7 @@ try {
     :content="$loriContent"
     :sections="[]"
 />
-=======
 
->>>>>>> Stashed changes
 
 
 <x-doctor-profile 
@@ -377,7 +374,3 @@ try {
     :content="$lilianaContent"
     :sections="$lilianaSections"
 />
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
