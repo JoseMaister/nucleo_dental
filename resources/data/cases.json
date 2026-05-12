@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "category": "full_arch",
+        "featured": true,
+        "title": {
+            "en": "Full Smile Restoration with Fixed Full-Arch Implants",
+            "es": "Restauración de Sonrisa Completa con Implantes de Arcada Completa Fijos"
+        },
+        "short_description": {
+            "en": "This patient came to Núcleo Dental with severe tooth loss, difficulty chewing, and low confidence when smiling. After comprehensive planning, treatment included full-arch implant rehabilitation with a fixed zirconia restoration.",
+            "es": "Este paciente acudió a Núcleo Dental con pérdida severa de dientes, dificultad para masticar y poca confianza al sonreír. Después de una planificación integral, el tratamiento incluyó rehabilitación con implantes de arcada completa con una restauración fija de zirconio."
+        },
+        "treatment": {
+            "en": ["Extractions", "Implant placement", "Full-arch restoration"],
+            "es": ["Extracciones", "Colocación de implantes", "Restauración de arcada completa"]
+        },
+        "outcome": {
+            "en": "A stronger bite, improved facial support, and a confident, natural-looking smile.",
+            "es": "Una mordida más fuerte, mejor soporte facial y una sonrisa segura y de aspecto natural."
+        },
+        "killer_line": {
+            "en": "A life-changing transformation built for function, beauty, and confidence.",
+            "es": "Una transformación que cambia la vida, diseñada para la función, la belleza y la confianza."
+        },
+        "before_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800",
+        "concerns": {
+            "en": ["Missing teeth", "Difficulty chewing", "Failing dental work", "Dissatisfaction with smile appearance"],
+            "es": ["Dientes faltantes", "Dificultad para masticar", "Trabajo dental fallido", "Insatisfacción con la apariencia de la sonrisa"]
+        },
+        "plan": {
+            "en": ["Comprehensive evaluation", "3D imaging and digital planning", "Extractions where necessary", "Bone grafting if needed", "Implant placement", "Final restoration with crowns or fixed bridge"],
+            "es": ["Evaluación integral", "Imágenes 3D y planificación digital", "Extracciones cuando fue necesario", "Injerto óseo si fue necesario", "Colocación de implantes", "Restauración final con coronas o puente fijo"]
+        }
+    },
+    {
+        "id": 2,
+        "category": "implants",
+        "featured": true,
+        "title": {
+            "en": "Single Tooth Implant with Natural-Looking Crown",
+            "es": "Implante de un Solo Diente con Corona de Aspecto Natural"
+        },
+        "short_description": {
+            "en": "This patient needed to replace a missing tooth without compromising adjacent healthy teeth. A dental implant and custom restoration were used to achieve a seamless result.",
+            "es": "Este paciente necesitaba reemplazar un diente faltante sin comprometer los dientes sanos adyacentes. Se utilizó un implante dental y una restauración personalizada para lograr un resultado perfecto."
+        },
+        "treatment": {
+            "en": ["Single implant placement", "Crown restoration"],
+            "es": ["Colocación de implante único", "Restauración de corona"]
+        },
+        "outcome": {
+            "en": "Natural appearance, restored chewing function, and long-term stability.",
+            "es": "Apariencia natural, función masticatoria restaurada y estabilidad a largo plazo."
+        },
+        "killer_line": {
+            "en": "One tooth replaced the right way—strong, stable, and natural-looking.",
+            "es": "Un diente reemplazado de la manera correcta: fuerte, estable y de aspecto natural."
+        },
+        "before_image": "https://images.unsplash.com/photo-1600170311833-c2cfbc363599?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800",
+        "concerns": {
+            "en": ["Missing single tooth", "Difficulty chewing in specific area", "Aesthetic gap"],
+            "es": ["Diente único faltante", "Dificultad para masticar en un área específica", "Brecha estética"]
+        },
+        "plan": {
+            "en": ["Site evaluation", "Implant placement", "Healing period", "Abutment and custom crown"],
+            "es": ["Evaluación del sitio", "Colocación de implante", "Periodo de curación", "Pilar y corona personalizada"]
+        }
+    },
+    {
+        "id": 3,
+        "category": "cosmetic",
+        "featured": true,
+        "title": {
+            "en": "Porcelain Veneer Smile Makeover",
+            "es": "Cambio de Imagen de Sonrisa con Carillas de Porcelana"
+        },
+        "short_description": {
+            "en": "This smile makeover addressed discoloration, shape inconsistencies, and uneven proportions with a personalized veneer treatment plan.",
+            "es": "Este cambio de imagen de la sonrisa abordó la decoloración, las inconsistencias de forma y las proporciones desiguales con un plan de tratamiento de carillas personalizado."
+        },
+        "treatment": {
+            "en": ["Porcelain veneers", "Cosmetic smile design"],
+            "es": ["Carillas de porcelana", "Diseño cosmético de la sonrisa"]
+        },
+        "outcome": {
+            "en": "A brighter, balanced smile that still looks natural and fits the patient’s face.",
+            "es": "Una sonrisa más brillante y equilibrada que sigue luciendo natural y se adapta al rostro del paciente."
+        },
+        "killer_line": {
+            "en": "Beautifully refined results without looking overdone.",
+            "es": "Resultados bellamente refinados sin parecer exagerados."
+        },
+        "before_image": "https://images.unsplash.com/photo-1593059075122-728248df9bd2?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800",
+        "concerns": {
+            "en": ["Discolored teeth", "Uneven tooth shape", "Smile asymmetry"],
+            "es": ["Dientes decolorados", "Forma dental desigual", "Asimetría de la sonrisa"]
+        },
+        "plan": {
+            "en": ["Digital smile design", "Tooth preparation", "Temporary veneers", "Final porcelain veneer placement"],
+            "es": ["Diseño digital de la sonrisa", "Preparación dental", "Carillas temporales", "Colocación final de carillas de porcelana"]
+        }
+    }
+]

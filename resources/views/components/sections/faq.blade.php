@@ -11,8 +11,9 @@
 
         <!-- FAQ Grid -->
         <div class="grid grid-cols-1 md:grid-cols-1 gap-8 lg:gap-10">
+            @props(['faqFile' => 'data/faq.json'])
             @php
-                $faqData = json_decode(file_get_contents(resource_path('data/faq.json')), true);
+                $faqData = json_decode(file_get_contents(resource_path($faqFile)), true);
                 $questions = $faqData['questions'] ?? [];
             @endphp
 

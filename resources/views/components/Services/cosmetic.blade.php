@@ -36,40 +36,51 @@
 
             @php
                 $services = [
-                    ['img'=>'01.png','key'=>'veneers'],
-                    ['img'=>'02.png','key'=>'whitening'],
-                    ['img'=>'03.png','key'=>'fillings'],
-                    ['img'=>'01.png','key'=>'cleanings'],
-                    ['img'=>'02.png','key'=>'cosmetic_dentistry'],
-                    ['img'=>'03.png','key'=>'dental_crowns'],
-                    ['img'=>'04.png','key'=>'dental_implants'],
-                    ['img'=>'05.png','key'=>'zygomatic_implants'],
-                    ['img'=>'06.png','key'=>'dentures'],
-                    ['img'=>'07.png','key'=>'endodontics'],
-                    ['img'=>'08.png','key'=>'extractions'],
-                    ['img'=>'09.png','key'=>'fillings'],
-                    ['img'=>'10.png','key'=>'orthodontics'],
-                    ['img'=>'11.png','key'=>'pediatric_dentistry'],
-                    ['img'=>'12.png','key'=>'periodontics'],
+                    ['img'=>'01.png','key'=>'veneers', 'route' => 'porcelain-veneers'],
+                    ['img'=>'02.png','key'=>'whitening', 'route' => 'cosmetic-dentistry'],
+                    ['img'=>'03.png','key'=>'fillings', 'route' => 'general-dentistry'],
+                    ['img'=>'01.png','key'=>'cleanings', 'route' => 'general-dentistry'],
+                    ['img'=>'02.png','key'=>'cosmetic_dentistry', 'route' => 'cosmetic-dentistry'],
+                    ['img'=>'03.png','key'=>'dental_crowns', 'route' => 'crowns-bridges'],
+                    ['img'=>'04.png','key'=>'dental_implants', 'route' => 'dental-implants'],
+                    ['img'=>'05.png','key'=>'zygomatic_implants', 'route' => 'zygomatic-implants'],
+                    ['img'=>'03.png','key'=>'full_mouth_restoration', 'route' => 'full-mouth-restoration'],
+                    ['img'=>'06.png','key'=>'dentures', 'route' => 'dentures'],
+                    ['img'=>'01.png','key'=>'snap_on_dentures', 'route' => 'snap-on-dentures'],
+                    ['img'=>'07.png','key'=>'endodontics', 'route' => 'endodontics'],
+                    ['img'=>'08.png','key'=>'extractions', 'route' => 'general-dentistry'],
+                    ['img'=>'10.png','key'=>'orthodontics', 'route' => 'orthodontics'],
+                    ['img'=>'11.png','key'=>'pediatric_dentistry', 'route' => 'pediatric-dentistry'],
+                    ['img'=>'12.png','key'=>'periodontics', 'route' => 'periodontal-treatment'],
+                    ['img'=>'02.png','key'=>'maxillofacial_surgery', 'route' => 'maxillofacial-surgery'],
+                    ['img'=>'03.png','key'=>'bone_grafting', 'route' => 'bone-grafting'],
+                    ['img'=>'04.png','key'=>'sedation_dentistry', 'route' => 'sedation-dentistry'],
                 ];
             @endphp
 
             @foreach($services as $service)
-                <div class="relative border border-white border-[4px] pt-[120px] mt-[120px] p-6 md:p-8 rounded-[50px]
-                             w-[260px] sm:w-[300px] md:w-[350px] flex-shrink-0 bg-gray-300" style="padding-top: 120px !important;">
-                    <div class="absolute -top-[100px] right-[50%] translate-x-1/2 bg-white p-3 rounded-full">
+                <a href="{{ route($service['route']) }}" class="relative border border-white border-[4px] pt-[120px] mt-[120px] p-6 md:p-8 rounded-[50px]
+                             w-[260px] sm:w-[300px] md:w-[350px] flex-shrink-0 bg-gray-300 group hover:bg-white transition-all duration-500" style="padding-top: 120px !important;">
+                    <div class="absolute -top-[100px] right-[50%] translate-x-1/2 bg-white p-3 rounded-full group-hover:scale-110 transition-transform duration-500 shadow-lg">
                         <img src="{{ asset('images/cosmetic/'.$service['img']) }}"
                              class="w-[140px] md:w-[160px] h-[140px] md:h-[160px] object-contain" alt="">
                     </div>
 
-                    <div class="text-xl md:text-3xl font-bold text-[#293277] text-center">
+                    <div class="text-xl md:text-3xl font-bold text-[#293277] text-center group-hover:text-indigo-600 transition-colors">
                         {{ __('messages.cosmetic.services.'.$service['key'].'.title') }}
                     </div>
 
-                    <div class="text-base md:text-xl text-gray-500 text-center mt-2">
+                    <div class="text-base md:text-xl text-gray-500 text-center mt-2 mb-6">
                         {{ __('messages.cosmetic.services.'.$service['key'].'.description') }}
                     </div>
-                </div>
+
+                    <div class="text-center mt-auto">
+                        <span class="text-indigo-600 font-bold flex items-center justify-center gap-2 group-hover:gap-4 transition-all">
+                            {{ __('messages.global_sections.learn_more') ?? 'Learn More' }}
+                            <i class="fas fa-arrow-right text-sm"></i>
+                        </span>
+                    </div>
+                </a>
             @endforeach
 
         </div>

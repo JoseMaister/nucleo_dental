@@ -12,7 +12,13 @@
 <x-Services.preventive />
 <x-Services.orthodontics />
 <x-banner-smile-2 />
-<x-contact-map /> 
+
+<x-sections.service-pages.why-patients-choose />
+<x-sections.service-pages.what-to-expect />
+<x-sections.service-pages.travel-experience />
+<x-sections.service-pages.plan-visit />
+
+<x-contact-map />
 
 </main>
 

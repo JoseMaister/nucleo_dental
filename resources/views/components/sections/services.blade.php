@@ -82,6 +82,17 @@
                         <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
                     </div>
                 </div>
+
+                <!-- Service 5 -->
+                <div class="service-slide flex-shrink-0 w-full px-4">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('root_canal')">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
+                            <img src="{{ asset('images/tooth.png') }}" alt="Root Canal" class="w-full h-full object-contain">
+                        </div>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.root_canal.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.description') }}</span>
+                    </div>
+                </div>
                 
                 <!-- Duplicated slides for infinite loop effect -->
                 <!-- Service 1 (duplicate) -->
@@ -145,6 +156,17 @@
                         <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
                     </div>
                 </div>
+
+                <!-- Service 5 (duplicate) -->
+                <div class="service-slide flex-shrink-0 w-full px-4">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('root_canal')">
+                        <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
+                            <img src="{{ asset('images/tooth.png') }}" alt="Root Canal" class="w-full h-full object-contain">
+                        </div>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.root_canal.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.description') }}</span>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -156,8 +178,9 @@
     </div>
     
     <div class="flex justify-center mt-12">
-        <a href="#" class="inline-block border-2 border-white px-8 py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors">
-            {{ __('messages.services.learn_more') }}
+        <a href="{{ route('gallery') }}" class="inline-flex items-center gap-2 border-2 border-white px-10 py-4 rounded-full hover:bg-white hover:text-indigo-700 transition-all font-bold shadow-lg">
+            <i class="fas fa-images"></i>
+            {{ __('messages.services.view_gallery') }}
         </a>
     </div>
 </div>
@@ -172,9 +195,9 @@
             nextBtn: document.getElementById('services-next'),
             currentSlide: 0,
             slidesPerView: 1,
-            totalSlides: 4, // Original slides count
-            duplicatedSlides: 4, // Duplicated slides count
-            actualTotalSlides: 8, // Total slides in DOM
+            totalSlides: 5, // Original slides count
+            duplicatedSlides: 5, // Duplicated slides count
+            actualTotalSlides: 10, // Total slides in DOM
             
             init() {
                 this.updateSlidesPerView();
@@ -474,6 +497,56 @@
                     en: 'Starting from $1,500 for comprehensive treatment',
                     es: 'A partir de $1,500 para tratamiento integral'
                 }
+            },
+            root_canal: {
+                title: {
+                    en: 'Root Canal',
+                    es: 'Endodoncia'
+                },
+                // image: '{{ asset("images/root_canal.png") }}',
+                description: {
+                    en: 'A root canal is a procedure used to treat infection inside a tooth. It removes infected tissue, cleans the tooth, and seals it to save your natural tooth.',
+                    es: 'Una endodoncia es un procedimiento utilizado para tratar la infección dentro de un diente. Elimina el tejido infectado, limpia el diente y lo sella para salvar su diente natural.'
+                },
+                howItWorks: {
+                    en: [
+                        'Comprehensive evaluation and imaging',
+                        'Removal of infected pulp tissue',
+                        'Cleaning and disinfection of root canals',
+                        'Sealing and restoration'
+                    ],
+                    es: [
+                        'Evaluación integral e imágenes',
+                        'Eliminación del tejido pulpar infectado',
+                        'Limpieza y desisfección de conductos',
+                        'Sellado y restauración'
+                    ]
+                },
+                benefits: {
+                    en: [
+                        'Saves your natural tooth',
+                        'Eliminates severe tooth pain',
+                        'Prevents spread of infection',
+                        'Restores normal chewing function',
+                        'Cost-effective alternative to extraction'
+                    ],
+                    es: [
+                        'Salva su diente natural',
+                        'Elimina el dolor dental severo',
+                        'Previene la propagación de la infección',
+                        'Restaura la función normal de masticación',
+                        'Alternativa rentable a la extracción'
+                    ]
+                },
+                duration: {
+                    en: '1-2 visits (60-90 minutes each)',
+                    es: '1-2 visitas (60-90 minutos cada una)'
+                },
+                cost: {
+                    en: 'Starting from $250 per tooth',
+                    es: 'A partir de $250 por diente'
+                },
+                link: '{{ route("endodontics") }}'
             }
         };
 
@@ -534,6 +607,14 @@
                             <p class="text-gray-600">${service.cost[lang]}</p>
                         </div>
                     </div>
+
+                    ${service.link ? `
+                    <div class="pt-6 text-center">
+                        <a href="${service.link}" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition shadow-lg">
+                            ${lang === 'es' ? 'Ver Detalles Completos' : 'View Full Details'}
+                        </a>
+                    </div>
+                    ` : ''}
                 
                 </div>
             `;
@@ -639,6 +720,7 @@
                 <!-- Content will be dynamically inserted here -->
             </div>
         </div>
+
     </div>
 </div>
 

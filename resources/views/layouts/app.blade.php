@@ -20,6 +20,7 @@
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('styles')
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans flex flex-col min-h-screen">
@@ -69,12 +70,20 @@
                 {{ __('messages.nav.about') }}
             </a>
 
+            <a href="{{ route('gallery') }}" class="{{ request()->routeIs('gallery') ? $active : $link }}">
+                {{ __('messages.nav.gallery') }}
+            </a>
+
             <a href="{{ route('dental-implants') }}" class="{{ request()->routeIs('dental-implants') ? $active : $link }}">
                 {{ __('messages.nav.dental_implants') }}
             </a>
 
             <a href="{{ route('full-arch-implants') }}" class="{{ request()->routeIs('full-arch-implants') ? $active : $link }}">
                 {{ __('messages.nav.full_arch_implants') }}
+            </a>
+
+            <a href="{{ route('endodontics') }}" class="{{ request()->routeIs('endodontics') ? $active : $link }}">
+                {{ __('messages.nav.endodontics') }}
             </a>
 
             <a href="{{ route('safety') }}" class="{{ request()->routeIs('safety') ? $active : $link }}">
@@ -152,12 +161,20 @@
             {{ __('messages.nav.about') }}
         </a>
 
+        <a href="{{ route('gallery') }}" class="{{ request()->routeIs('gallery') ? $mobileActive : $mobile }}">
+            {{ __('messages.nav.gallery') }}
+        </a>
+
         <a href="{{ route('dental-implants') }}" class="{{ request()->routeIs('dental-implants') ? $mobileActive : $mobile }}">
             {{ __('messages.nav.dental_implants') }}
         </a>
 
         <a href="{{ route('full-arch-implants') }}" class="{{ request()->routeIs('full-arch-implants') ? $mobileActive : $mobile }}">
             {{ __('messages.nav.full_arch_implants') }}
+        </a>
+
+        <a href="{{ route('endodontics') }}" class="{{ request()->routeIs('endodontics') ? $mobileActive : $mobile }}">
+            {{ __('messages.nav.endodontics') }}
         </a>
 
         <a href="{{ route('safety') }}" class="{{ request()->routeIs('safety') ? $mobileActive : $mobile }}">
