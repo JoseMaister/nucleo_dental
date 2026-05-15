@@ -1,42 +1,43 @@
-<section class="relative">
-    <img src="images/IMG_100199.webp" 
-         class="w-full h-[600px] md:h-[500px] object-cover" 
-         alt="Dental Clinic">
+<section class="relative min-h-[600px] md:min-h-[500px] flex items-start">
+    <img src="images/IMG_100199.webp"
+         class="absolute inset-0 w-full h-full object-cover"
+         alt="Modern dental clinic near El Paso with patient and dentist consultation">
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-    <div class="absolute top-[40px] left-6 md:left-10 transform text-white max-w-4xl">
-    <h2 class="text-3xl md:text-5xl font-bold leading-tight">
-        {!! __('messages.hero.title') !!}
-    </h2>
-    
-    <p class="mt-4 text-lg md:text-xl font-light">
-        {!! __('messages.hero.subtitle') !!}
-    </p>
-        
-        <div class="mt-8 flex flex-wrap gap-4">
-            <a href="#contact" class="inline-block bg-indigo-700 hover:bg-indigo-800 text-white px-8 py-4 rounded-full shadow-xl font-bold transition-all">
+
+    <div class="relative z-10 w-full px-6 md:px-10 pt-10 pb-10 text-white max-w-4xl">
+        <h1 class="text-3xl md:text-5xl font-bold leading-tight">
+            {!! __('messages.hero.title') !!}
+        </h1>
+
+        <p class="mt-4 text-lg md:text-xl font-light">
+            {!! __('messages.hero.subtitle') !!}
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+            <a href="#contact" class="inline-block text-center bg-indigo-700 hover:bg-indigo-800 text-white px-8 py-4 rounded-full shadow-xl font-bold transition-all">
                 {{ __('messages.hero.cta_primary') }}
             </a>
-            <a href="#quote" class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-8 py-4 rounded-full shadow-lg font-bold transition-all">
+            <a href="#quote" class="inline-block text-center bg-transparent border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-8 py-4 rounded-full shadow-lg font-bold transition-all">
                 {{ __('messages.hero.cta_secondary') }}
             </a>
         </div>
 
-        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-sm">
-    <div class="flex items-center p-3 rounded-xl bg-white bg-opacity-10 border border-white border-opacity-20">
-        <i class="fa-solid fa-phone mr-3 opacity-70"></i>
-        <div>
-            <p class="text-[10px] uppercase tracking-widest opacity-60">United States</p>
-            <p class="text-base font-semibold">{{ __('messages.hero.phone.us') }}</p>
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-sm">
+            <div class="flex items-center p-3 rounded-xl bg-white bg-opacity-10 border border-white border-opacity-20">
+                <i class="fa-solid fa-phone mr-3 opacity-70"></i>
+                <div>
+                    <p class="text-[10px] uppercase tracking-widest opacity-60">United States</p>
+                    <p class="text-base font-semibold">{{ __('messages.hero.phone.us') }}</p>
+                </div>
+            </div>
+            <div class="flex items-center p-3 rounded-xl bg-white bg-opacity-10 border border-white border-opacity-20">
+                <i class="fa-solid fa-phone mr-3 opacity-70"></i>
+                <div>
+                    <p class="text-[10px] uppercase tracking-widest opacity-60">México</p>
+                    <p class="text-base font-semibold">{{ __('messages.hero.phone.mx') }}</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="flex items-center p-3 rounded-xl bg-white bg-opacity-10 border border-white border-opacity-20">
-        <i class="fa-solid fa-phone mr-3 opacity-70"></i>
-        <div>
-            <p class="text-[10px] uppercase tracking-widest opacity-60">México</p>
-            <p class="text-base font-semibold">{{ __('messages.hero.phone.mx') }}</p>
-        </div>
-    </div>
-</div>
     </div>
 </section>
 

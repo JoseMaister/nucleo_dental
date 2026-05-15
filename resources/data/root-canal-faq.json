@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "question": "Is a root canal painful?",
+            "answer": "No. Modern root canal treatment is designed to relieve pain, not cause it. With advanced techniques and local anesthesia, most patients feel little to no discomfort during the procedure. In many cases, patients feel immediate relief from the pain caused by infection."
+        },
+        {
+            "question": "How long does a root canal take?",
+            "answer": "Most root canal treatments can be completed in one or two visits, depending on the complexity of the case and the condition of the tooth. Each appointment typically lasts between 60 to 90 minutes."
+        },
+        {
+            "question": "Will I need a crown after a root canal?",
+            "answer": "In most cases, yes. A crown is recommended after a root canal to protect the tooth and restore its strength and function, especially for back teeth that handle chewing forces."
+        },
+        {
+            "question": "What happens if I don't get a root canal?",
+            "answer": "If left untreated, the infection can spread, leading to increased pain, swelling, bone loss, and ultimately tooth loss. In some cases, the infection can affect overall health. Early treatment helps prevent more serious complications."
+        },
+        {
+            "question": "Is it better to extract the tooth instead?",
+            "answer": "Saving your natural tooth is almost always the best option. A root canal allows you to keep your tooth, maintain proper chewing function, and avoid more complex treatments like implants or bridges."
+        },
+        {
+            "question": "How much does a root canal cost?",
+            "answer": "The cost of treatment depends on the tooth and the complexity of the case. At Núcleo Dental, we provide high-quality care at significantly lower costs than in the United States. A personalized treatment plan with exact pricing is provided after evaluation."
+        },
+        {
+            "question": "Do you offer sedation for root canal treatment?",
+            "answer": "Yes. Sedation options are available for patients who feel anxious or want a more relaxed experience. Our team will discuss the best option for your comfort during treatment."
+        },
+        {
+            "question": "How long does it take to recover from a root canal?",
+            "answer": "Most patients return to normal activities the same day or the next day. Mild soreness is normal for a few days and can typically be managed with over-the-counter medication."
+        },
+        {
+            "question": "Can I travel back to the U.S. after my treatment?",
+            "answer": "Yes. Many of our patients travel from the U.S. for treatment and return the same day or shortly after. Our team helps coordinate scheduling to make your visit as efficient and convenient as possible."
+        },
+        {
+            "question": "How do I know if I need a root canal or something else?",
+            "answer": "The best way to know is through a professional evaluation with digital imaging. Symptoms like pain, sensitivity, or swelling may indicate infection, but a proper diagnosis ensures the right treatment plan."
+        }
+    ]
+}
