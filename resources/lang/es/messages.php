@@ -217,6 +217,8 @@ return [
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
         'safety' => 'Seguridad Clínica',
+        'more' => 'Más',
+        'all_services' => 'Todos los Servicios',
     ],
     'hero' => [
     'title' => 'Implantes Dentales y Odontología Avanzada<br>— Bien Hechos desde la Primera Vez',
@@ -2031,5 +2033,200 @@ return [
                 'Fomenta la confianza y hábitos saludables de por vida'
             ]
         ],
+        'periodontal_treatment' => [
+            'title' => 'Tratamiento Periodontal',
+            'description' => 'Cuidado especializado para la enfermedad de las encías, la pérdida ósea y las estructuras de soporte de los dientes.',
+            'killer_line' => 'Las encías sanas son la base de cada sonrisa duradera.',
+            'who_is_for' => [
+                'Pacientes con encías sangrantes o enfermedad de las encías',
+                'Pacientes que experimentan pérdida ósea',
+                'Pacientes con dientes flojos o recesión de encías',
+                'Pacientes que necesitan cuidado especializado de encías'
+            ],
+            'why_choose_us' => [
+                'Experiencia en cuidado periodontal avanzado',
+                'Enfoque en salvar los dientes naturales cuando sea posible',
+                'Tratamiento diseñado para estabilizar la salud bucal a largo plazo',
+                'Base sólida para futuros trabajos restauradores'
+            ]
+        ],
+        'maxillofacial_surgery' => [
+            'title' => 'Cirugía Maxilofacial',
+            'description' => 'Tratamiento quirúrgico avanzado para condiciones dentales, óseas y faciales complejas.',
+            'killer_line' => 'Atención quirúrgica de precisión para casos avanzados y complejos.',
+            'who_is_for' => [
+                'Pacientes que necesitan extracciones complejas',
+                'Pacientes que requieren injertos óseos o elevación de seno',
+                'Pacientes que se preparan para implantes dentales',
+                'Pacientes con afecciones dentales avanzadas'
+            ],
+            'why_choose_us' => [
+                'Procedimientos quirúrgicos avanzados realizados internamente',
+                'Planificación y ejecución de precisión',
+                'Odontología bajo sedación para mayor comodidad',
+                'Atención integrada para mejores resultados'
+            ]
+        ],
+        'root_canal_treatment' => [
+            'title' => 'Tratamiento de Conducto',
+            'description' => 'Alivie el dolor y salve los dientes infectados con una terapia de conducto precisa.',
+            'killer_line' => 'Alivie el dolor, elimine la infección y salve su diente natural.',
+            'who_is_for' => [
+                'Pacientes con dolor dental o infección',
+                'Pacientes que desean salvar un diente natural',
+                'Pacientes con caries profunda o trauma',
+                'Pacientes que evitan la extracción cuando la restauración es viable'
+            ],
+            'why_choose_us' => [
+                'Enfoque en preservar los dientes naturales',
+                'Tratamiento preciso y eficiente',
+                'Control del dolor y de la infección',
+                'Seguimiento restaurador para el éxito a largo plazo'
+            ]
+        ],
+        'bone_grafting' => [
+            'title' => 'Injerto Óseo / Levantamiento de Seno',
+            'description' => 'Reconstruya la estructura ósea perdida y cree la base necesaria para un tratamiento de implantes exitoso.',
+            'killer_line' => 'La odontología de implantes exitosa comienza con la base adecuada.',
+            'who_is_for' => [
+                'Pacientes con pérdida ósea en la mandíbula',
+                'Pacientes que se preparan para implantes dentales',
+                'Pacientes a quienes se les dijo previamente que les falta hueso',
+                'Pacientes que necesitan soporte estructural para restauraciones'
+            ],
+            'why_choose_us' => [
+                'Técnicas avanzadas para reconstruir el hueso',
+                'Mejora el éxito y la longevidad de los implantes',
+                'Planificado cuidadosamente para la anatomía de cada paciente',
+                'Respalda los resultados restauradores a largo plazo'
+            ]
+        ],
+        'general_dentistry' => [
+            'title' => 'Odontología General',
+            'description' => 'Cuidado dental integral para la prevención, el mantenimiento y las necesidades diarias de salud bucal.',
+            'killer_line' => 'Todo lo que su sonrisa necesita, todo en un solo lugar de confianza.',
+            'who_is_for' => [
+                'Pacientes que necesitan cuidado dental de rutina',
+                'Pacientes centrados en la prevención y el mantenimiento',
+                'Pacientes con caries o inquietudes dentales menores',
+                'Familias que buscan atención dental continua'
+            ],
+            'why_choose_us' => [
+                'Atención integral en una sola ubicación',
+                'Enfoque preventivo para evitar problemas mayores',
+                'Diagnóstico temprano y tratamiento eficaz',
+                'Atención confiable para la salud bucal a largo plazo'
+            ]
+        ],
+        'sedation_dentistry' => [
+            'title' => 'Odontología bajo Sedación',
+            'description' => 'Una experiencia dental más relajada y cómoda para pacientes que se someten a tratamientos avanzados.',
+            'killer_line' => 'Cuidado dental avanzado con comodidad, relajación y tranquilidad.',
+            'who_is_for' => [
+                'Pacientes con ansiedad o miedo al dentista',
+                'Pacientes que se someten a procedimientos largos o complejos',
+                'Pacientes que desean una experiencia más cómoda',
+                'Pacientes que prefieren estar relajados durante el tratamiento'
+            ],
+            'why_choose_us' => [
+                'Sedación IV administrada por un anestesiólogo certificado',
+                'Ideal para implantes, cirugía y tratamientos de boca completa',
+                'Segura, controlada y monitoreada de cerca',
+                'Ayuda a los pacientes a completar el tratamiento con facilidad'
+            ]
+        ]
+    ],
+    'el_paso_transport' => [
+        'hero' => [
+            'headline' => 'Dentista cerca de El Paso con Transporte Gratuito',
+            'subheadline' => 'Atención Dental de Alta Calidad en Ciudad Juárez — A minutos de El Paso',
+            'intro' => '¿Busca un dentista cerca de El Paso que ofrezca atención experta, precios accesibles y transporte gratuito?',
+            'description' => 'En Núcleo Dental, brindamos tratamientos dentales avanzados a solo minutos cruzando la frontera en Ciudad Juárez, facilitando que los pacientes de El Paso y todo EE. UU. reciban atención de alta calidad sin los altos costos.'
+        ],
+        'transportation' => [
+            'title' => 'Transporte Gratuito desde El Paso',
+            'subtitle' => 'Seguro, Fácil y Completamente Gratuito',
+            'description' => 'Hacemos que su visita sea sencilla desde el momento en que llega.',
+            'features' => [
+                'Recogida en hoteles del área del aeropuerto de El Paso',
+                'Recogida en el centro de El Paso',
+                'Opción de reunirse en un lugar céntrico como Costco Wholesale',
+                'Vehículos cómodos (SUV o minivan)',
+                'Conductores profesionales y experimentados'
+            ],
+            'footer' => 'Sin auto de alquiler. Sin estrés. Sin costo extra.'
+        ],
+        'how_it_works' => [
+            'title' => 'Cómo Funciona',
+            'steps' => [
+                [
+                    'title' => 'Programe su Cita',
+                    'description' => 'Nuestro equipo coordina su visita y confirma todos los detalles con anticipación.'
+                ],
+                [
+                    'title' => 'Reúnase con su Conductor en El Paso',
+                    'description' => 'Le proporcionamos la hora exacta de recogida, la ubicación y los detalles del vehículo.'
+                ],
+                [
+                    'title' => 'Relájese — Nosotros Nos Encargamos del Resto',
+                    'description' => 'Lo transportamos de manera segura a nuestra clínica y de regreso, guiándolo durante todo el proceso.'
+                ]
+            ]
+        ],
+        'why_choose' => [
+            'title' => 'Por Qué los Pacientes de El Paso Eligen Núcleo Dental',
+            'reasons' => [
+                [
+                    'title' => 'Ahorre Miles en Tratamiento Dental',
+                    'description' => 'Obtenga la misma atención de alta calidad a una fracción de los precios de EE. UU.'
+                ],
+                [
+                    'title' => 'Especialistas Experimentados',
+                    'description' => 'Nuestro equipo incluye especialistas altamente capacitados en implantes, restauración de boca completa, odontología estética y cirugía oral.'
+                ],
+                [
+                    'title' => 'Ubicación Conveniente',
+                    'description' => 'Ubicados a solo minutos de la frontera, lo que hace posibles las visitas en el mismo día.'
+                ],
+                [
+                    'title' => 'Equipo Bilingüe',
+                    'description' => 'Comunicación clara y atención personalizada en inglés y español.'
+                ],
+                [
+                    'title' => 'Atención Integral',
+                    'description' => 'Desde la consulta hasta la restauración final, todo se hace en un solo lugar.'
+                ]
+            ]
+        ],
+        'popular_treatments' => [
+            'title' => 'Tratamientos Populares para Pacientes de El Paso',
+            'items' => [
+                'Implantes Dentales',
+                'Restauraciones de Arco Completo All-on-4 / All-on-6',
+                'Coronas y Puentes',
+                'Dentaduras y Dentaduras Snap-In',
+                'Endodoncias',
+                'Odontología Estética (Carillas y Diseño de Sonrisa)'
+            ]
+        ],
+        'safety' => [
+            'title' => '¿Es Seguro Visitar a un Dentista en México?',
+            'description' => 'Sí. Núcleo Dental sigue estrictos protocolos de esterilización y seguridad y cuenta con profesionales experimentados y acreditados. Nuestro equipo atiende a pacientes de EE. UU. todos los días y garantiza una experiencia segura y cómoda de principio a fin.'
+        ],
+        'patients_love' => [
+            'title' => 'Lo que a los Pacientes les Encanta de Nuestro Servicio de Transporte',
+            'items' => [
+                'No hay necesidad de navegar por la frontera',
+                'No hay necesidad de alquilar un auto',
+                'Conductores profesionales y confiables',
+                'Proceso fluido y organizado en cada visita'
+            ]
+        ],
+        'cta' => [
+            'headline' => 'Planifique Su Visita Hoy',
+            'subheadline' => 'Obtener atención dental asequible y de alta calidad cerca de El Paso nunca ha sido tan fácil.',
+            'primary_btn' => 'Llámenos hoy para programar',
+            'secondary_btn' => 'Envíenos un mensaje'
+        ]
     ]
 ];

@@ -226,6 +226,8 @@ return [
         'financing' => 'Financing',
         'contact' => 'Contact',
         'safety' => 'Safety',
+        'more' => 'More',
+        'all_services' => 'All Services',
 
     ],
     'hero' => [
@@ -1771,4 +1773,392 @@ return [
             'meta_description' => 'View real before and after dental cases from Núcleo Dental, including implants, full-mouth restorations, veneers, crowns, and All-on-4 smile transformations.',
         ],
     ],
+    'services_detail' => [
+        'dental_implants' => [
+            'title' => 'Dental Implants',
+            'description' => 'Replace missing teeth with strong, natural-looking dental implants designed for long-term function, stability, and aesthetics.',
+            'killer_line' => 'Permanent tooth replacement backed by precision and experience.',
+            'who_is_for' => [
+                'Patients missing one or more teeth',
+                'Patients tired of loose or uncomfortable dentures',
+                'Patients who want a permanent, long-term solution',
+                'Patients seeking a natural appearance and strong bite'
+            ],
+            'why_choose_us' => [
+                'Implants placed and restored in-house',
+                'Premium implant systems (Straumann, Nobel Biocare)',
+                'Advanced 3D imaging and precise planning',
+                '4-Year warranty on all dental work',
+                'Complimentary transportation from El Paso',
+                'Sedation available for a comfortable experience'
+            ]
+        ],
+        'zygomatic_implants' => [
+            'title' => 'Zygomatic Implants',
+            'description' => 'An advanced solution for patients with severe bone loss who may not qualify for traditional dental implants.',
+            'killer_line' => 'Advanced implant solutions for almost any situation.',
+            'who_is_for' => [
+                'Patients with significant bone loss',
+                'Patients told they are not candidates for traditional implants',
+                'Patients seeking an alternative to complex bone grafts',
+                'Patients who want a full-arch restoration'
+            ],
+            'why_choose_us' => [
+                'Specialists in complex implant cases',
+                'Cutting-edge technology for surgical planning',
+                'Predictable outcomes in challenging situations',
+                'Coordinated care by expert providers'
+            ]
+        ],
+        'full_mouth_restoration' => [
+            'title' => 'Full Mouth Restoration',
+            'description' => 'Comprehensive treatment designed to rebuild your smile, restore function, and improve overall oral health.',
+            'killer_line' => 'Complete dentistry for complex cases — planned with precision.',
+            'who_is_for' => [
+                'Patients with multiple failed or missing teeth',
+                'Patients with worn, broken, or heavily restored teeth',
+                'Patients experiencing bite issues or discomfort',
+                'Patients wanting a complete smile transformation'
+            ],
+            'why_choose_us' => [
+                'Fully customized treatment planning',
+                'Combines implants, restorative, and cosmetic dentistry',
+                'Experienced doctors who handle complex cases daily',
+                'Designed for long-term function',
+                'Sedation available for extensive treatments'
+            ]
+        ],
+        'all_on_4' => [
+            'title' => 'All-on-4 / Full Arch Implants',
+            'description' => 'A secure full-arch implant solution for patients missing most or all of their teeth.',
+            'killer_line' => 'A complete smile restored with strength, stability, and confidence.',
+            'who_is_for' => [
+                'Patients missing most or all teeth',
+                'Patients struggling with traditional dentures',
+                'Patients who want a fixed, non-removable solution',
+                'Patients looking for a complete smile restoration'
+            ],
+            'why_choose_us' => [
+                'Strategic implant placement for maximum stability',
+                'Fixed solutions that restore function and confidence',
+                'High-quality materials and precision restorations',
+                'Coordinated surgical and restorative care',
+                'Sedation available for a stress-free experience'
+            ]
+        ],
+        'cosmetic_dentistry' => [
+            'title' => 'Cosmetic Dentistry',
+            'description' => 'Beautiful, natural-looking smile enhancement designed around your features and goals.',
+            'killer_line' => 'Beautiful smiles should look natural and inspire confidence.',
+            'who_is_for' => [
+                'Patients unhappy with the appearance of their smile',
+                'Patients with discoloration, uneven teeth, or gaps',
+                'Patients preparing for life events or milestones',
+                'Patients wanting a more confident and polished look'
+            ],
+            'why_choose_us' => [
+                'Natural, personalized smile design',
+                'Focus on balance, proportion, and facial harmony',
+                'Combination of artistry and clinical precision',
+                'Results designed to look beautiful, not artificial'
+            ]
+        ],
+        'porcelain_veneers' => [
+            'title' => 'Porcelain Veneers',
+            'description' => 'Custom porcelain veneers designed to transform the shape, color, and symmetry of your smile.',
+            'killer_line' => 'A refined, polished smile crafted with artistry and precision.',
+            'who_is_for' => [
+                'Patients wanting a dramatic smile transformation',
+                'Patients with chipped, worn, or uneven teeth',
+                'Patients with discoloration that cannot be whitened',
+                'Patients seeking a long-lasting cosmetic solution'
+            ],
+            'why_choose_us' => [
+                'Custom-crafted veneers for a natural aesthetic',
+                'High-quality porcelain for durability and appearance',
+                'Smile design tailored to facial features',
+                'Precision planning for long-term results'
+            ]
+        ],
+        'crowns_bridges' => [
+            'title' => 'Dental Crowns & Bridges',
+            'description' => 'Restore damaged or missing teeth with durable, natural-looking restorations.',
+            'killer_line' => 'Strength, function, and aesthetics restored with precision.',
+            'who_is_for' => [
+                'Patients with damaged or weakened teeth',
+                'Patients with large fillings or fractures',
+                'Patients missing one or more teeth',
+                'Patients needing to restore bite strength'
+            ],
+            'why_choose_us' => [
+                'Strong, durable restorations built to last',
+                'Natural-looking materials that blend seamlessly',
+                'Precision fit for comfort and function',
+                'Comprehensive care from diagnosis to placement'
+            ]
+        ],
+        'dentures' => [
+            'title' => 'Dentures',
+            'description' => 'Custom full and partial dentures designed for comfort, function, and a natural appearance.',
+            'killer_line' => 'Natural-looking tooth replacement designed for confidence.',
+            'who_is_for' => [
+                'Patients missing several or all teeth',
+                'Patients seeking a removable tooth replacement option',
+                'Patients wanting to improve facial support and function',
+                'Patients looking for a cost-effective solution'
+            ],
+            'why_choose_us' => [
+                'Custom dentures designed for comfort',
+                'Improved function and natural appearance',
+                'Options for full and partial dentures',
+                'Support and adjustments for optimal fit'
+            ]
+        ],
+        'snap_on_dentures' => [
+            'title' => 'Snap-On Dentures',
+            'description' => 'Implant-supported dentures that provide greater stability, comfort, and confidence.',
+            'killer_line' => 'More security, more comfort, and more confidence in every smile.',
+            'who_is_for' => [
+                'Patients frustrated with loose dentures',
+                'Patients who want more stability without full implants',
+                'Patients seeking better comfort and function',
+                'Patients looking for a hybrid solution'
+            ],
+            'why_choose_us' => [
+                'Implant-supported stability for better performance',
+                'Reduced slippage and improved chewing ability',
+                'Greater confidence in daily life',
+                'Custom fit for comfort and security'
+            ]
+        ],
+        'orthodontics' => [
+            'title' => 'Orthodontics',
+            'description' => 'Straighten teeth and improve bite alignment with customized orthodontic treatment.',
+            'killer_line' => 'Straight teeth and a balanced bite create a stronger smile.',
+            'who_is_for' => [
+                'Patients with crooked or crowded teeth',
+                'Patients with spacing or bite issues',
+                'Teens and adults seeking alignment correction',
+                'Patients wanting both functional and aesthetic improvement'
+            ],
+            'why_choose_us' => [
+                'Customized treatment plans for each patient',
+                'Improved bite function and long-term oral health',
+                'Focus on both aesthetics and structural balance',
+                'Care guided by experienced dental professionals'
+            ]
+        ],
+        'pediatric_dentistry' => [
+            'title' => 'Pediatric Dentistry',
+            'description' => 'Gentle, comprehensive dental care for children in a welcoming environment.',
+            'killer_line' => 'Healthy smiles start early with compassionate care.',
+            'who_is_for' => [
+                'Children of all ages',
+                'Parents seeking preventive dental care',
+                'Children with early dental concerns',
+                'Families wanting a positive dental experience'
+            ],
+            'why_choose_us' => [
+                'Gentle, patient-centered approach',
+                'Focus on education and prevention',
+                'Comfortable and welcoming environment',
+                'Builds confidence and lifelong healthy habits'
+            ]
+        ],
+        'periodontal_treatment' => [
+            'title' => 'Periodontal Treatment',
+            'description' => 'Specialized care for gum disease, bone loss, and the supporting structures of the teeth.',
+            'killer_line' => 'Healthy gums are the foundation of every lasting smile.',
+            'who_is_for' => [
+                'Patients with bleeding gums or gum disease',
+                'Patients experiencing bone loss',
+                'Patients with loose teeth or gum recession',
+                'Patients needing specialized gum care'
+            ],
+            'why_choose_us' => [
+                'Expertise in advanced periodontal care',
+                'Focus on saving natural teeth when possible',
+                'Treatment designed to stabilize long-term oral health',
+                'Strong foundation for future restorative work'
+            ]
+        ],
+        'maxillofacial_surgery' => [
+            'title' => 'Maxillofacial Surgery',
+            'description' => 'Advanced surgical treatment for complex dental, bone, and facial conditions.',
+            'killer_line' => 'Precision surgical care for advanced and complex cases.',
+            'who_is_for' => [
+                'Patients needing complex extractions',
+                'Patients requiring bone grafts or sinus lifts',
+                'Patients preparing for dental implants',
+                'Patients with advanced dental conditions'
+            ],
+            'why_choose_us' => [
+                'Advanced surgical procedures performed in-house',
+                'Precision planning and execution',
+                'Sedation dentistry for greater comfort',
+                'Integrated care for better outcomes'
+            ]
+        ],
+        'root_canal_treatment' => [
+            'title' => 'Root Canal Treatment',
+            'description' => 'Relieve pain and save infected teeth with precise root canal therapy.',
+            'killer_line' => 'Relieve pain, stop infection, and save your natural tooth.',
+            'who_is_for' => [
+                'Patients with tooth pain or infection',
+                'Patients wanting to save a natural tooth',
+                'Patients with deep decay or trauma',
+                'Patients avoiding extraction when restoration is viable'
+            ],
+            'why_choose_us' => [
+                'Focus on preserving natural teeth',
+                'Precise and efficient treatment',
+                'Pain and infection management',
+                'Restorative follow-up for long-term success'
+            ]
+        ],
+        'bone_grafting' => [
+            'title' => 'Bone Grafting / Sinus Lift',
+            'description' => 'Rebuild lost bone structure and create the foundation needed for successful implant treatment.',
+            'killer_line' => 'Successful implant dentistry starts with the right foundation.',
+            'who_is_for' => [
+                'Patients with bone loss in the jaw',
+                'Patients preparing for dental implants',
+                'Patients previously told they lack enough bone',
+                'Patients needing structural support for restorations'
+            ],
+            'why_choose_us' => [
+                'Advanced techniques to rebuild bone',
+                'Improves implant success and longevity',
+                'Carefully planned for each patient\'s anatomy',
+                'Supports long-term restorative outcomes'
+            ]
+        ],
+        'general_dentistry' => [
+            'title' => 'General Dentistry',
+            'description' => 'Comprehensive dental care for prevention, maintenance, and everyday oral health needs.',
+            'killer_line' => 'Everything your smile needs, all in one trusted place.',
+            'who_is_for' => [
+                'Patients needing routine dental care',
+                'Patients focused on prevention and maintenance',
+                'Patients with cavities or minor dental concerns',
+                'Families seeking ongoing dental care'
+            ],
+            'why_choose_us' => [
+                'Comprehensive care in one location',
+                'Preventive focus to avoid larger problems',
+                'Early diagnosis and effective treatment',
+                'Reliable care for long-term oral health'
+            ]
+        ],
+        'sedation_dentistry' => [
+            'title' => 'Sedation Dentistry',
+            'description' => 'A more relaxed and comfortable dental experience for patients undergoing advanced treatments.',
+            'killer_line' => 'Advanced dental care with comfort, relaxation, and peace of mind.',
+            'who_is_for' => [
+                'Patients with dental anxiety or fear',
+                'Patients undergoing long or complex procedures',
+                'Patients wanting a more comfortable experience',
+                'Patients who prefer to be relaxed during treatment'
+            ],
+            'why_choose_us' => [
+                'IV sedation administered by a certified anesthesiologist',
+                'Ideal for implants, surgery, and full-mouth treatments',
+                'Safe, controlled, and closely monitored',
+                'Helps patients complete treatment with ease'
+            ]
+        ]
+    ],
+    'el_paso_transport' => [
+        'hero' => [
+            'headline' => 'Dentist Near El Paso with Free Transportation',
+            'subheadline' => 'High-Quality Dental Care in Ciudad Juárez — Minutes from El Paso',
+            'intro' => 'Looking for a dentist near El Paso that offers expert care, affordable pricing, and free transportation?',
+            'description' => 'At Núcleo Dental, we provide advanced dental treatments just minutes across the border in Ciudad Juárez—making it easy for patients from El Paso and across the U.S. to receive high-quality care without the high cost.'
+        ],
+        'transportation' => [
+            'title' => 'Free Transportation from El Paso',
+            'subtitle' => 'Safe, Easy & Completely Complimentary',
+            'description' => 'We make your visit simple from the moment you arrive.',
+            'features' => [
+                'Pick-up from El Paso airport-area hotels',
+                'Pick-up from downtown El Paso',
+                'Option to meet at a central location like Costco Wholesale',
+                'Comfortable vehicles (SUV or minivan)',
+                'Experienced, professional drivers'
+            ],
+            'footer' => 'No rental car. No stress. No extra cost.'
+        ],
+        'how_it_works' => [
+            'title' => 'How It Works',
+            'steps' => [
+                [
+                    'title' => 'Schedule Your Appointment',
+                    'description' => 'Our team coordinates your visit and confirms all details in advance.'
+                ],
+                [
+                    'title' => 'Meet Your Driver in El Paso',
+                    'description' => 'We provide your exact pick-up time, location, and vehicle details.'
+                ],
+                [
+                    'title' => 'Relax—We Handle the Rest',
+                    'description' => 'We transport you safely to our clinic and back, guiding you through the process every step of the way.'
+                ]
+            ]
+        ],
+        'why_choose' => [
+            'title' => 'Why Patients from El Paso Choose Núcleo Dental',
+            'reasons' => [
+                [
+                    'title' => 'Save Thousands on Dental Treatment',
+                    'description' => 'Get the same high-quality care at a fraction of U.S. prices.'
+                ],
+                [
+                    'title' => 'Experienced Specialists',
+                    'description' => 'Our team includes highly trained specialists in implants, full mouth restoration, cosmetic dentistry, and oral surgery.'
+                ],
+                [
+                    'title' => 'Convenient Location',
+                    'description' => 'Located just minutes from the U.S. border, making same-day visits possible.'
+                ],
+                [
+                    'title' => 'Bilingual Team',
+                    'description' => 'Clear communication and personalized care in English and Spanish.'
+                ],
+                [
+                    'title' => 'All-in-One Care',
+                    'description' => 'From consultation to final restoration, everything is done in one place.'
+                ]
+            ]
+        ],
+        'popular_treatments' => [
+            'title' => 'Popular Treatments for El Paso Patients',
+            'items' => [
+                'Dental Implants',
+                'All-on-4 / All-on-6 Full Arch Restorations',
+                'Crowns & Bridges',
+                'Dentures & Snap-In Dentures',
+                'Root Canals',
+                'Cosmetic Dentistry (Veneers & Smile Makeovers)'
+            ]
+        ],
+        'safety' => [
+            'title' => 'Is It Safe to Visit a Dentist in Mexico?',
+            'description' => 'Yes. Núcleo Dental follows strict sterilization and safety protocols and is staffed by experienced, credentialed professionals. Our team treats patients from the U.S. every day and ensures a safe, comfortable experience from start to finish.'
+        ],
+        'patients_love' => [
+            'title' => 'What Patients Love About Our Transportation Service',
+            'items' => [
+                'No need to navigate the border',
+                'No need to rent a car',
+                'Reliable, professional drivers',
+                'Smooth, organized process every visit'
+            ]
+        ],
+        'cta' => [
+            'headline' => 'Plan Your Visit Today',
+            'subheadline' => 'Getting high-quality, affordable dental care near El Paso has never been easier.',
+            'primary_btn' => 'Call us today to schedule',
+            'secondary_btn' => 'Send us a message'
+        ]
+    ]
 ];
