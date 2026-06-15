@@ -11,7 +11,7 @@
         <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12">
             <!-- Logo Column -->
             <div class="w-full md:w-1/6 flex justify-center md:justify-start">
-                <img src="{{ asset('images/logo.png') }}" alt="Núcleo Dental" class="h-24 w-auto object-contain">
+                <img src="{{ asset('images/logo.jpeg') }}" alt="Núcleo Dental" class="h-24 w-auto object-contain">
             </div>
         <!-- Contact Information -->
         <div class="space-y-3 max-w-[300px]">

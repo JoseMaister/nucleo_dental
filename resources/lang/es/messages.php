@@ -252,7 +252,7 @@ return [
     ],
 ],'why_choose' => [
     'headline' => 'No Solo Más Accesible — Significativamente Mejor',
-    'body' => 'Elegir dónde realizarse un trabajo dental es más que una cuestión de precio; se trata de precisión, experiencia y éxito a largo plazo. En Núcleo Dental, cada tratamiento se planea cuidadosamente mediante diagnósticos avanzados y materiales de alta gama.',
+    'body' => 'Elegir dónde realizarse un trabajo dental es más que una cuestión de precio; se trata de precisión, experiencia y éxito a largo plazo. <br/><br/>En Núcleo Dental, cada tratamiento se planea cuidadosamente mediante diagnósticos avanzados y materiales de alta gama confiables a nivel mundial. Nuestro enfoque garantiza que tus resultados no solo sean hermosos, sino diseñados para durar.',
     'highlight' => 'No reducimos costos — elevamos los estándares.',
     'features' => [
         ['title' => 'Planeación Avanzada', 'desc' => 'Diagnósticos 3D detallados para cada caso.'],
@@ -307,7 +307,6 @@ return [
     'services' => [
         'title' => 'Servicios',
         'subtitle' => 'Nuestros servicios',
-        'view_gallery' => 'Ver Nuestra Galería de Sonrisas',
     ],
     'about' => [
         'title' => 'Sobre Nosotros',
@@ -435,6 +434,7 @@ return [
     'title' => '<strong>Servicios</strong> Destacados',
     'subtitle' => 'Odontología avanzada enfocada en implantes, rehabilitación oral completa y tratamientos restaurativos premium diseñados para durar.',
     'learn_more' => 'Conoce más sobre nuestros servicios',
+    'view_gallery' => 'Ver Nuestra Galería de Sonrisas',
 
     'dental_implants' => [
         'title' => 'Implantes Dentales',
