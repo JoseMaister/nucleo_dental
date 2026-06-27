@@ -19,7 +19,7 @@ return [
     'team' => [
         'ernesto' => [
     'name' => 'Dr. Ernesto Moran',
-    'content' => '<p>La experiencia detrás de cada tratamiento. El estándar detrás de cada resultado.</p>',
+    'content' => 'Periodoncista Jefe e Implantólogo con décadas de experiencia en implantología avanzada y procedimientos quirúrgicos. El Dr. Morán ha capacitado, enseñado y liderado en los más altos niveles de la odontología, trayendo experiencia incomparable a cada caso. Su enfoque está en la precisión, el éxito a largo plazo y la rehabilitación completa de la boca.',
     'sections' => [
         'authority' => [
             'title' => 'Por qué los pacientes eligen Núcleo Dental — Liderado por Dr. Moran',
@@ -69,8 +69,8 @@ return [
 ],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
-            'julio_summary' => "• Maestría en Implantología Oral por ITAV Monterrey\n• Especialista en Prótesis Bucal Fija y Removible\n• Más de 25 años de experiencia en odontología",
-            'content' => '<p class="text-gray-600 text-[16px] leading-tight">Más de 25 años de experiencia</p>',
+            'julio_summary' => 'Prótesico, Dentista Cosmético y Especialista en Implantes con más de 25 años de experiencia. El Dr. Nevárez se especializa en restaurar función y estética, asegurando que cada implante y restauración se vea natural y funcione perfectamente.',
+            'content' => 'Prótesico, Dentista Cosmético y Especialista en Implantes con más de 25 años de experiencia. El Dr. Nevárez se especializa en restaurar función y estética, asegurando que cada implante y restauración se vea natural y funcione perfectamente.',
             'sections' => [
                 'applied_studies' => [
                     'title' => 'Estudios Aplicados',
@@ -384,7 +384,7 @@ return [
             ]
         ],
         'dr_name' => 'Dr. Ernesto Morán',
-        'bio' => 'Practicando desde 1979 en Periodoncia e Implantología Oral, es profesor y coordinador de programas en la U.A.C.J. y el ITAV. Asesora a empresas de implantes, imparte conferencias a nivel nacional e internacional y es miembro activo de las principales asociaciones dentales.',
+        'bio' => 'Periodoncista Jefe e Implantólogo con décadas de experiencia en implantología avanzada y procedimientos quirúrgicos. El Dr. Morán ha capacitado, enseñado y liderado en los más altos niveles de la odontología, trayendo experiencia incomparable a cada caso. Su enfoque está en la precisión, el éxito a largo plazo y la rehabilitación completa de la boca.',
         'cta' => 'Haz clic para más información'
     ],
     'techno' => [

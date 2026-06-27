@@ -379,7 +379,8 @@
                         {{ __('messages.cta_final.cta_primary') }}
                     </a>
 
-                    <a href="#quote"
+                    <a href="https://wa.me/526563674969?text=Hola%20Nucleo%20Dental,%20me%20gustaría%20agendar%20una%20cita"
+                       target="_blank"
                        class="inline-block border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-8 py-4 rounded-full font-bold transition-all text-center">
                         {{ __('messages.cta_final.cta_secondary') }}
                     </a>

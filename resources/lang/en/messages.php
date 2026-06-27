@@ -19,7 +19,7 @@ return [
     'team' => [
         'ernesto' => [
     'name' => 'Dr. Ernesto Moran',
-    'content' => '<p>The experience behind every treatment. The standard behind every result.</p>',
+    'content' => 'Chief Periodontist & Implantologist with decades of experience in advanced implantology and surgical procedures. Dr. Moran has trained, taught, and led at the highest levels of dentistry, bringing unmatched expertise to every case. His focus is on precision, long-term success, and complex full-mouth rehabilitation.',
     'sections' => [
         'authority' => [
             'title' => 'Why Patients Choose Núcleo Dental — Led by Dr. Moran',
@@ -77,9 +77,9 @@ return [
 ],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
-            'julio_summary' => "• Master's in Oral Implantology from ITAV Monterrey\n• Specialist in Fixed and Removable Oral Prosthesis\n• Over 25 years of experience in dentistry",
+            'julio_summary' => 'Prosthodontist, Cosmetic Dentist, and Implant Specialist with over 25 years of experience. Dr. Nevárez specializes in restoring function and aesthetics, ensuring that every implant and restoration looks natural and performs flawlessly.',
             
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Over 25 years of experience</p>",
+            'content' => 'Prosthodontist, Cosmetic Dentist, and Implant Specialist with over 25 years of experience. Dr. Nevárez specializes in restoring function and aesthetics, ensuring that every implant and restoration looks natural and performs flawlessly.',
             'sections' => [
                 'applied_studies' => [
                     'title' => 'Applied Studies',
@@ -382,7 +382,7 @@ return [
     ],
         'video' => 'Watch Video',
         'dr_name' => 'Dr. Ernesto Moran',
-        'bio' => 'Practicing since 1979 in Periodontal and Oral Implantology, he is a professor and program coordinator at U.A.C.J. and ITAV. He advises implant companies, lectures nationally and internationally, and is an active member of major dental associations.',
+        'bio' => 'Chief Periodontist & Implantologist with decades of experience in advanced implantology and surgical procedures. Dr. Moran has trained, taught, and led at the highest levels of dentistry, bringing unmatched expertise to every case. His focus is on precision, long-term success, and complex full-mouth rehabilitation.',
         'cta' => 'Click for detailed information',
         'banner' => [
             'meet_team' => 'Meet the',
