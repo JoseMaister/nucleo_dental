@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.jpeg') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo.jpeg') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo.jpeg') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.jpeg') }}">
     <link rel="manifest" href="{{ asset('site.webmanifest') }}">
     <meta name="theme-color" content="#ffffff">
     <title>@yield('title', 'Nucleo Dental')</title>
@@ -39,7 +39,7 @@
 
         <!-- Logo -->
         <a href="{{ route('home') }}" class="flex items-center flex-shrink-0">
-            <img src="{{ asset('images/logo.png') }}" alt="Núcleo Dental" class="h-12">
+            <img src="{{ asset('images/logo.jpeg') }}" alt="Núcleo Dental" class="h-12">
         </a>
 
         <!-- Mobile button -->
@@ -274,7 +274,7 @@
                 <!-- Header -->
                 <div class="bg-gradient-to-r from-green-500 to-green-600 p-3 sm:p-4 flex items-center">
                     <div class="relative flex-shrink-0">
-                        <img src="{{ asset('images/logo.png') }}" alt="Nucleo Dental" class="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover border-2 border-white bg-white">
+                        <img src="{{ asset('images/logo.jpeg') }}" alt="Nucleo Dental" class="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover border-2 border-white bg-white">
                         <span class="absolute bottom-0 right-0 h-2 w-2 sm:h-3 sm:w-3 bg-green-400 rounded-full border-2 border-white"></span>
                     </div>
                     <div class="ml-3 overflow-hidden">

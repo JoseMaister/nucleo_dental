@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Logo and Description -->
             <div class="space-y-4">
-                <img src="{{ asset('images/logo.png') }}" alt="Nucleo Dental" class="h-12">
+                <img src="{{ asset('images/logo.jpeg') }}" alt="Nucleo Dental" class="h-12">
                 <p class="text-gray-300">
                     {{ __('messages.footer.description', ['year' => date('Y')]) }}
                 </p>

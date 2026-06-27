@@ -29,6 +29,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.dental_implants.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.killer') }}</span>
                     </div>
                 </div>
                 
@@ -40,6 +41,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.porcelain_veneers.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.killer') }}</span>
                     </div>
                 </div>
                 
@@ -69,6 +71,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.teeth_whitening.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.killer') }}</span>
                     </div>
                 </div>
                  
@@ -80,6 +83,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.killer') }}</span>
                     </div>
                 </div>
 
@@ -91,6 +95,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.root_canal.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.killer') }}</span>
                     </div>
                 </div>
                 
@@ -103,6 +108,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.dental_implants.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.killer') }}</span>
                     </div>
                 </div>
                 
@@ -114,6 +120,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.porcelain_veneers.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.killer') }}</span>
                     </div>
                 </div>
                 
@@ -143,6 +150,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.teeth_whitening.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.killer') }}</span>
                     </div>
                 </div>
                 
@@ -154,6 +162,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.killer') }}</span>
                     </div>
                 </div>
 
@@ -165,6 +174,7 @@
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.root_canal.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.killer') }}</span>
                     </div>
                 </div>
             </div>
@@ -297,6 +307,26 @@
         };
         
         slider.init();
+
+        // Equalize all service card heights to the tallest one
+        function equalizeCardHeights() {
+            const cards = document.querySelectorAll('.service-card');
+            // Reset to auto so we can measure natural height
+            cards.forEach(card => card.style.height = 'auto');
+            // Find the tallest
+            let maxH = 0;
+            cards.forEach(card => {
+                const h = card.offsetHeight;
+                if (h > maxH) maxH = h;
+            });
+            // Apply to all
+            if (maxH > 0) {
+                cards.forEach(card => card.style.height = maxH + 'px');
+            }
+        }
+
+        equalizeCardHeights();
+        window.addEventListener('resize', equalizeCardHeights);
         
         // Service popup functionality
         const serviceData = {
@@ -684,7 +714,8 @@
     .service-card {
         width: 100%;
         max-width: 240px;
-        height: 280px;
+        min-height: 280px;
+        height: auto;
         position: relative;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         display: flex;

@@ -62,7 +62,7 @@
                     {{ __('messages.why_choose.headline') }}
                 </h2>
                 <p class="mt-6 text-lg text-gray-600 leading-relaxed">
-                    {{ __('messages.why_choose.body') }}
+                    {!! __('messages.why_choose.body') !!}
                 </p>
                 <div class="mt-8 p-4 border-l-4 border-indigo-700 bg-indigo-50">
                     <p class="text-indigo-900 font-bold italic text-lg">

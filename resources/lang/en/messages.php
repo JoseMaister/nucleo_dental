@@ -287,7 +287,7 @@ return [
     ],
     'hero' => [
     'title' => 'Dental Implants & Advanced Dentistry<br>Done Right the First Time',
-    'subtitle' => 'World-class dental care in Mexico, trusted by patients across the U.S. and Mexico. Precision treatment, premium materials, and seamless cross-border coordination.',
+    'subtitle' => 'World-class dental care in Mexico, trusted by patients across the U.S. and Mexico. Precision treatment, premium materials, and seamless cross-border coordination.  All in one place.',
     'cta_primary' => 'Schedule Your Consultation',
     'cta_secondary' => 'Request a Quote',
     'phone' => [
@@ -318,7 +318,8 @@ return [
 ],
 'why_choose' => [
     'headline' => 'Not Just More Affordable — Significantly Better',
-    'body' => 'Choosing where to get dental work done is about more than price — it’s about precision, experience, and long-term success. At Núcleo Dental, every treatment is carefully planned using advanced diagnostics and performed with high-end materials trusted worldwide.',
+    'body' => 'Choosing where to get dental work done is about more than price — it’s about precision, experience, and long-term success. <br/><br/> At Núcleo Dental, every treatment is carefully planned using advanced diagnostics and performed with high-end materials trusted worldwide.Our approach ensure that your results are not only beautiful, but built to last.
+                <br/> <br/> We specialize in complex cases, full mouth reconstructions, and dental implants <strong> delivering results that patients can trust for years to come<strong>.',
     'highlight' => 'We don’t cut costs — we elevate standards.',
     'features' => [
         ['title' => 'Advanced Planning', 'desc' => 'Detailed 3D diagnostics for every case.'],
@@ -368,7 +369,6 @@ return [
     'services' => [
         'title' => 'Services',
         'subtitle' => 'Did you know that your smile is the most important thing for us? We want you to feel confident every time you smile. Let us help you recover, offer the best treatments and personalized attention.',
-        'view_gallery' => 'View Our Smile Gallery',
         'hero' => [
             'title' => 'OUR DENTAL SERVICES',
             'description' => "Your teeth are one of a kind. A bright, beautiful smile can speak a thousand words, but unhealthy teeth speak volumes as well. If your teeth make you feel uncomfortable or self conscious, it's time to visit Nucleo Dental, today. Our team is adept at treating the entire spectrum of oral health issues and we will gladly help you achieve your dream smile.\nThe mouth constantly faces barrages of bacteria, plaque, and other negative elements. It is our team's goal to protect your oral landscape from all issues it may face. No matter the extent of your oral health issues, Nucleo Dental is ready to help."
