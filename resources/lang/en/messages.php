@@ -18,9 +18,63 @@ return [
     
     'team' => [
         'ernesto' => [
-            'name' => 'Dr. Ernesto Moran',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Moran has maintained a distinguished private practice since 1979, specializing primarily in Periodontology and Oral Implantology in Ciudad Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Throughout his academic career, he served as Director of the School of Dentistry and Director of the Institute of Biomedical Sciences at the Autonomous University of Ciudad Juárez (UACJ). He also served as a professor and course director of Oral Implantology in the postgraduate programs of Prosthodontics, Periodontics, and Maxillofacial Surgery at UACJ.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>In addition, he previously served as coordinator and professor of the Master's Program in Oral Implantology at the Institute of Advanced Technology (ITAV) in Monterrey, Nuevo León.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Currently, Dr. Moran acts as an advisor to several dental implant companies in the State of Chihuahua and is an active lecturer in Oral Implantology at national and international conferences.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>He is a founding member of the College of Periodontists of the State of Chihuahua and an active member of several professional organizations, including the American Academy of Implantology, the International College of Oral Implantologists, the Academy of Osseointegration, the Mexican Association of Periodontology, the College of Periodontists of Chihuahua, and the National College of Dental Surgeons, Ciudad Juárez Section.</p>"
+    'name' => 'Dr. Ernesto Moran',
+    'content' => '<p>The experience behind every treatment. The standard behind every result.</p>',
+    'sections' => [
+        'authority' => [
+            'title' => 'Why Patients Choose Núcleo Dental — Led by Dr. Moran',
+            'content' => '<ul class="list-disc pl-5 space-y-2">
+                <li>Founder and Clinical Director of Núcleo Dental</li>
+                <li>40+ years of experience in periodontics and implantology</li>
+                <li>Former Director of the School of Dentistry — UACJ</li>
+                <li>Former Director of the Institute of Biomedical Sciences — UACJ</li>
+                <li>Educator and mentor to postgraduate dental specialists</li>
+                <li>National and international lecturer in implant dentistry</li>
+                <li>Advisor to leading dental implant companies</li>
+                <li>Oversees and plans complex implant and full-mouth cases</li>
+            </ul>',
         ],
+        'about' => [
+            'title' => 'The Vision Behind Núcleo Dental',
+            'content' => '<p>Dr. Ernesto Moran is the founder and clinical director of Núcleo Dental, bringing over four decades of experience in periodontics and oral implantology.</p>',
+        ],
+        'education' => [
+            'title' => 'A Career Defined by Leadership and Impact',
+            'content' => '<ul class="list-disc pl-5">
+                <li>Private Practice in Ciudad Juárez since 1979</li>
+                <li>Former Director — School of Dentistry, UACJ</li>
+                <li>Former Director — Institute of Biomedical Sciences, UACJ</li>
+                <li>Coordinator & Professor — ITAV Monterrey</li>
+            </ul>',
+        ],
+        'recognition' => [
+            'title' => 'Recognition & Professional Affiliations',
+            'content' => '<ul class="list-disc pl-5">
+                <li>Founding Member — College of Periodontists of Chihuahua</li>
+                <li>Member — Academy of Osseointegration</li>
+                <li>International implant organizations</li>
+            </ul>',
+        ],
+        'expertise' => [
+            'title' => 'Advanced Areas of Expertise',
+            'content' => '<ul class="list-disc pl-5">
+                <li>Complex Dental Implant Cases</li>
+                <li>All-on-4 / All-on-X</li>
+                <li>Bone Grafting & Sinus Lift</li>
+                <li>Zygomatic Implants</li>
+                <li>Full Mouth Reconstruction</li>
+            </ul>',
+        ],
+        'confidence' => [
+            'title' => 'Confidence Comes From Experience',
+            'content' => '<p>Patients travel from across the United States and Mexico to receive care under Dr. Moran’s leadership.</p>',
+        ],
+        'cta' => [
+            'title' => 'Start Your Treatment With a Team Led by Experience',
+            'content' => '<p>Book your consultation today.</p>',
+        ],
+    ],
+],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
             'julio_summary' => "• Master's in Oral Implantology from ITAV Monterrey\n• Specialist in Fixed and Removable Oral Prosthesis\n• Over 25 years of experience in dentistry",
@@ -228,6 +282,7 @@ return [
         'safety' => 'Safety',
         'more' => 'More',
         'all_services' => 'All Services',
+        'meet_doctors' => 'Meet Doctors',
 
     ],
     'hero' => [
@@ -393,6 +448,8 @@ return [
         'technology' => 'Technology',
         'dental_tourism' => 'Dental Tourism',
         'home' => 'Home - Nucleo Dental',
+        'meet_doctors' => 'Meet Doctors',
+
     ],
     'services_hero' => [
         'title' => 'OUR DENTAL SERVICES',
@@ -446,6 +503,7 @@ return [
     'title' => 'Featured <strong>Services</strong>',
     'subtitle' => 'Advanced dentistry focused on implants, full-mouth rehabilitation, and high-end restorative care designed for long-term success.',
     'learn_more' => 'Learn more about our services',
+    'view_gallery' => 'View Our Smile Gallery',
 
     'dental_implants' => [
         'title' => 'Dental Implants',
@@ -876,28 +934,34 @@ return [
             ]
         ],
         'process' => [
-            'title' => 'The Dental Tourism Process',
-            'step_1' => [
-                'title' => 'Initial Consultation',
-                'description' => 'Contact us directly or via video call to discuss your case. We assess your needs and provide a detailed treatment plan with pricing.'
-            ],
-            'step_2' => [
-                'title' => 'Travel Arrangement',
-                'description' => 'We help with flight information, hotel recommendations, transportation, and all logistics to ensure a smooth trip.'
-            ],
-            'step_3' => [
-                'title' => 'Treatment Begins',
-                'description' => 'Upon arrival, you\'ll receive comprehensive dental care using our advanced technology in a comfortable setting.'
-            ],
-            'step_4' => [
-                'title' => 'Recovery & Enjoy',
-                'description' => 'Most patients can enjoy tourist activities within days. We provide detailed post-treatment care instructions for optimal results.'
-            ],
-            'step_5' => [
-                'title' => 'Ongoing Support',
-                'description' => 'Stay connected with our team for follow-up appointments and continued care support even after you return home.'
-            ]
-        ],
+    'title' => 'Your Visit, Simplified',
+    'description' => 'We make every step simple—from your first consultation to your safe return to El Paso.',
+
+    'step_1' => [
+        'title' => 'Connect From Home',
+        'description' => 'Send us your X-rays, photos, or concerns. Our team reviews your case and provides a clear, personalized treatment plan.'
+    ],
+    'step_2' => [
+        'title' => 'Plan With Confidence',
+        'description' => 'We coordinate your visit around your schedule and explain every detail in advance—no surprises, no guesswork.'
+    ],
+    'step_3' => [
+        'title' => 'Arrive in El Paso',
+        'description' => 'Stay at a hotel in the airport area or downtown El Paso, and we’ll take care of the rest.'
+    ],
+    'step_4' => [
+        'title' => 'Meet Your Driver',
+        'description' => 'We provide complimentary transportation from airport-area hotels, downtown El Paso, or a central meeting point near Costco Wholesale.'
+    ],
+    'step_5' => [
+        'title' => 'Receive Expert Care',
+        'description' => 'From consultation to treatment, everything is handled by our team of specialists using advanced technology—all in one location.'
+    ],
+    'step_6' => [
+        'title' => 'Return Relaxed & Confident',
+        'description' => 'We bring you back safely after your appointment—so you can focus on recovery and results.'
+    ]
+],
         'cost_benefits' => [
             'title' => 'Evaluating Costs vs Benefits',
             'procedure_comparison' => 'Procedure Cost Comparison',
@@ -2069,23 +2133,26 @@ return [
         ]
     ],
     'el_paso_transport' => [
-        'hero' => [
-            'headline' => 'Dentist Near El Paso with Free Transportation',
-            'subheadline' => 'High-Quality Dental Care in Ciudad Juárez — Minutes from El Paso',
-            'intro' => 'Looking for a dentist near El Paso that offers expert care, affordable pricing, and free transportation?',
-            'description' => 'At Núcleo Dental, we provide advanced dental treatments just minutes across the border in Ciudad Juárez—making it easy for patients from El Paso and across the U.S. to receive high-quality care without the high cost.'
-        ],
-        'transportation' => [
-            'title' => 'Free Transportation from El Paso',
-            'subtitle' => 'Safe, Easy & Completely Complimentary',
-            'description' => 'We make your visit simple from the moment you arrive.',
-            'features' => [
-                'Pick-up from El Paso airport-area hotels',
-                'Pick-up from downtown El Paso',
-                'Option to meet at a central location like Costco Wholesale',
-                'Comfortable vehicles (SUV or minivan)',
-                'Experienced, professional drivers'
-            ],
+    'hero' => [
+        // EN
+        'headline' => 'Dentistry Worth Traveling For',
+        'subheadline' => 'Advanced Care. Effortless Experience. Just Minutes from El Paso',
+        'intro' => 'You don’t have to settle, wait, or overpay to get the dental care you deserve.',
+        'description' => 'At Núcleo Dental, we’ve created a different kind of experience—where precision dentistry, personalized care, and seamless travel come together to give you results you can feel confident about. From complex full-mouth restorations to family, orthodontic, and emergency care, everything is designed around one goal: making your experience simple, comfortable, and exceptional from start to finish.'
+    ],
+       'transportation' => [
+    // EN
+    'title' => 'Free Transportation from El Paso',
+    'subtitle' => 'Safe, Easy & Completely Complimentary',
+    'description' => 'We make your visit simple from the moment you arrive.',
+    'features' => [
+        'No rental car. No stress. No extra cost.',
+        'Pick-up from El Paso airport-area hotels',
+        'Pick-up from downtown El Paso',
+        'Option to meet at a central location like Costco Wholesale',
+        'Comfortable vehicles (SUV or minivan)',
+        'Experienced, professional drivers'
+    ],
             'footer' => 'No rental car. No stress. No extra cost.'
         ],
         'how_it_works' => [
@@ -2105,31 +2172,31 @@ return [
                 ]
             ]
         ],
-        'why_choose' => [
-            'title' => 'Why Patients from El Paso Choose Núcleo Dental',
-            'reasons' => [
-                [
-                    'title' => 'Save Thousands on Dental Treatment',
-                    'description' => 'Get the same high-quality care at a fraction of U.S. prices.'
-                ],
-                [
-                    'title' => 'Experienced Specialists',
-                    'description' => 'Our team includes highly trained specialists in implants, full mouth restoration, cosmetic dentistry, and oral surgery.'
-                ],
-                [
-                    'title' => 'Convenient Location',
-                    'description' => 'Located just minutes from the U.S. border, making same-day visits possible.'
-                ],
-                [
-                    'title' => 'Bilingual Team',
-                    'description' => 'Clear communication and personalized care in English and Spanish.'
-                ],
-                [
-                    'title' => 'All-in-One Care',
-                    'description' => 'From consultation to final restoration, everything is done in one place.'
-                ]
-            ]
+       'why_choose' => [
+    'title' => 'Why Patients from El Paso Choose Núcleo Dental',
+    'reasons' => [
+        [
+            'title' => 'Save Thousands on Dental Treatment',
+            'description' => 'Get the same high-quality care at a fraction of U.S. prices.'
         ],
+        [
+            'title' => 'Experienced Specialists',
+            'description' => 'Our team includes highly trained specialists in implants, full-mouth restoration, cosmetic dentistry, and oral surgery.'
+        ],
+        [
+            'title' => 'Convenient Location',
+            'description' => 'Located just minutes from the U.S. border, making same-day visits possible.'
+        ],
+        [
+            'title' => 'Bilingual Team',
+            'description' => 'Clear communication and personalized care in English and Spanish.'
+        ],
+        [
+            'title' => 'All-in-One Care',
+            'description' => 'From consultation to final restoration, everything is done in one place.'
+        ]
+    ]
+],
         'popular_treatments' => [
             'title' => 'Popular Treatments for El Paso Patients',
             'items' => [
@@ -2159,6 +2226,160 @@ return [
             'subheadline' => 'Getting high-quality, affordable dental care near El Paso has never been easier.',
             'primary_btn' => 'Call us today to schedule',
             'secondary_btn' => 'Send us a message'
-        ]
+        ],
+        'experience' => [
+    'title' => 'More Than Dental Care—A Better Experience',
+    'subtitle' => 'Patients often expect dental tourism to feel complicated. Instead, what they find at Núcleo Dental is:',
+    'items' => [
+        'A calm, organized process',
+        'A team that communicates clearly and consistently',
+        'A level of attention that feels personal—not transactional',
+        'Care that prioritizes long-term results, not quick fixes'
     ]
+],
+
+        
+    ], 'global_sections' => [
+    'learn_more' => 'Learn More',
+
+    'what_to_expect' => [
+        'title' => 'What to Expect',
+        'subtitle' => 'From your first contact to your final results, we make your experience simple, organized, and stress-free.',
+        'steps' => [
+            [
+                'title' => 'Initial Consultation',
+                'description' => 'Share your photos, X-rays, or concerns with our team. We will review your case and provide a clear treatment recommendation.'
+            ],
+            [
+                'title' => 'Personalized Treatment Plan',
+                'description' => 'You will receive a detailed plan outlining your treatment options, timeline, and what to expect at every stage.'
+            ],
+            [
+                'title' => 'Travel Coordination',
+                'description' => 'Our team helps you plan your visit to Ciudad Juárez, including flight guidance, hotel recommendations, and scheduling.'
+            ],
+            [
+                'title' => 'Free Pickup in El Paso',
+                'description' => 'We provide safe and reliable transportation from El Paso directly to our clinic at no cost to you.'
+            ],
+            [
+                'title' => 'Treatment at Núcleo Dental',
+                'description' => 'All treatment is completed in one place by experienced doctors using advanced technology and high-quality materials.'
+            ],
+            [
+                'title' => 'Follow-Up & Support',
+                'description' => 'We stay connected after your visit to monitor healing, answer questions, and guide you through every step.'
+            ]
+        ]
+    ],
+
+    'travel_experience' => [
+        'title' => 'Travel Experience: From El Paso to Núcleo Dental',
+        'subtitle' => 'We specialize in treating patients from the United States and have created a smooth, safe, and comfortable cross-border experience.',
+        'sections' => [
+            'getting_here' => [
+                'title' => 'Getting to El Paso',
+                'description' => 'Most patients either fly into El Paso International Airport or drive from nearby cities.'
+            ],
+            'stay' => [
+                'title' => 'Where to Stay',
+                'description' => 'We recommend staying near the airport or downtown El Paso for convenience. Our team can suggest trusted hotel options.',
+                'list' => [
+                    'Hotels near the airport',
+                    'Downtown El Paso hotels',
+                    'Recommended options from our team'
+                ]
+            ],
+            'pickup' => [
+                'title' => 'Pickup & Transportation',
+                'description' => 'Our driver will meet you at a designated location in El Paso and transport you directly to our clinic in Ciudad Juárez.',
+                'list' => [
+                    'Safe and reliable service',
+                    'No cost to our patients',
+                    'Clear meeting instructions provided in advance'
+                ]
+            ],
+            'appointment_day' => [
+                'title' => 'Your Appointment Day',
+                'description' => 'You will be welcomed by our team and your treatment will be completed in a modern, fully equipped clinic.'
+            ],
+            'return' => [
+                'title' => 'Return to El Paso',
+                'description' => 'After your visit, we will guide you back to El Paso. Many patients choose to walk across the bridge, which usually takes about 10 minutes.'
+            ]
+        ]
+    ],
+
+    'why_choose_global' => [
+        'title' => 'Why Patients Choose Núcleo Dental',
+        'items' => [
+            'Experienced specialists in implants and restoration',
+            'Premium materials and advanced technology',
+            'All treatment completed in one location',
+            'Transparent and honest treatment planning',
+            '4-year warranty on all dental work',
+            'Trusted by patients from the U.S. and Mexico',
+            'Safe, reliable, complimentary transportation from El Paso'
+        ]
+    ],
+
+    'sedation_callout' => [
+        'title' => 'Your Comfort Comes First',
+        'description' => 'We offer IV sedation dentistry, administered by a certified anesthesiologist, to help you feel relaxed and comfortable during treatment. Ideal for implants, oral surgery, and patients with dental anxiety.'
+    ],
+
+    'plan_visit' => [
+        'title' => 'Plan Your Visit',
+        'description' => 'Our team is here to guide you every step of the way—from your first question to your final result.',
+        'cta_consultation' => 'Request Your Consultation',
+        'cta_xrays' => 'Send Us Your X-Rays'
+    ]
+],
+'meet_doctors' => [
+    'page' => [
+        'overline' => 'Meet Our Team',
+        'title_line_1' => 'Meet the Experts Behind Your Smile Transformation',
+        'title_line_2' => 'Advanced, Coordinated Dental Care',
+        'subtitle' => 'At Núcleo Dental, your care is led by highly experienced implant specialists who handle every phase of treatment in-house—from surgery to final restoration.',
+    ],
+
+    'higher_standard' => [
+        'title' => 'A Higher Standard of Care',
+        'content' => 'What sets Núcleo Dental apart is simple: your entire treatment is completed by a coordinated team of experienced specialists under one roof.',
+        'point_1' => 'Greater precision and long-term success',
+        'point_2' => 'Fewer complications and delays',
+        'point_3' => 'A more comfortable experience',
+        'point_4' => 'Better aesthetic and functional results',
+        'killer' => 'One team. One plan. One standard of excellence.',
+    ],
+
+    'working_together' => [
+        'title' => 'Surgical + Restorative Expertise, Fully Coordinated',
+        'content' => 'Dr. Ernesto Moran and Dr. Julio Nevárez work together on every case, combining surgical expertise with advanced restorative design.',
+        'killer' => 'Your entire smile, planned and completed by one expert team.',
+    ],
+
+    'technology' => [
+        'title' => 'Advanced Technology. Proven Standards.',
+        'item_1' => '3D CT Scan Technology',
+        'item_2' => 'Digital Treatment Planning',
+        'item_3' => 'Premium Implant Systems',
+        'item_4' => 'Sterilization & Safety Protocols',
+        'item_5' => 'Sedation Dentistry Available',
+        'item_6' => 'Long-Term Success',
+    ],
+    'trust' => [
+    'title' => 'Trusted by Patients Across the U.S. and Mexico',
+    'content' => 'Patients travel to Núcleo Dental for high-quality care, experienced doctors, and a seamless treatment experience. From your first consultation to your final results, our team ensures you feel informed, comfortable, and confident every step of the way. We also provide safe, reliable, and complimentary transportation between El Paso and our clinic in Ciudad Juárez, making your visit simple and stress-free.',
+],
+
+'cta' => [
+    'title' => 'Start Your Smile Transformation Today',
+    'content' => 'Whether you need a single implant or a full-mouth restoration, our experienced team is here to help you achieve long-lasting, natural-looking results.',
+    'button' => 'Schedule Your Consultation',
+    'button_secondary' => 'Contact Our Team',
+    'reassurance' => 'No pressure. Clear answers. Expert guidance.',
+],
+],
+
 ];

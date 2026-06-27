@@ -18,9 +18,55 @@ return [
     
     'team' => [
         'ernesto' => [
-            'name' => 'Dr. Ernesto Moran',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Cuenta con una destacada trayectoria en la práctica privada desde 1979, con enfoque principal en Periodoncia e Implantología Oral en Ciudad Juárez.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>A lo largo de su carrera académica, fue Director de la Escuela de Odontología y Director del Instituto de Ciencias Biomédicas de la Universidad Autónoma de Ciudad Juárez (UACJ). Asimismo, se desempeñó como profesor y titular del Curso de Implantología Oral en los programas de posgrado de Prótesis, Periodoncia y Cirugía Maxilofacial de la UACJ.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>También fue coordinador y profesor de la Maestría en Implantología Oral en el Instituto de Tecnología Avanzada (ITAV) en Monterrey, Nuevo León.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Actualmente, funge como asesor de diversas compañías de implantes dentales en el estado de Chihuahua y es conferencista en Implantología Oral en foros nacionales e internacionales.</p>\n\n<p class='text-gray-600 text-[16px] leading-tight'>Es miembro fundador del Colegio de Periodoncistas del Estado de Chihuahua y miembro activo de diversas asociaciones y colegios dentales, entre ellos: la Academia Americana de Implantología, el Colegio Internacional de Implantología Oral, la Academia de Integración Ósea, la Asociación Mexicana de Periodontología, el Colegio de Periodoncistas de Chihuahua y el Colegio Nacional de Cirujanos Dentistas, sección Ciudad Juárez.</p>"
+    'name' => 'Dr. Ernesto Moran',
+    'content' => '<p>La experiencia detrás de cada tratamiento. El estándar detrás de cada resultado.</p>',
+    'sections' => [
+        'authority' => [
+            'title' => 'Por qué los pacientes eligen Núcleo Dental — Liderado por Dr. Moran',
+            'content' => '<ul class="list-disc pl-5 space-y-2">
+                <li>Fundador y Director Clínico de Núcleo Dental</li>
+                <li>Más de 40 años de experiencia</li>
+                <li>Ex Director de Odontología UACJ</li>
+                <li>Ex Director del Instituto de Ciencias Biomédicas UACJ</li>
+            </ul>',
         ],
+        'about' => [
+            'title' => 'La visión detrás de Núcleo Dental',
+            'content' => '<p>Dr. Ernesto Moran es fundador y director clínico de Núcleo Dental.</p>',
+        ],
+        'education' => [
+            'title' => 'Una carrera definida por liderazgo',
+            'content' => '<ul class="list-disc pl-5">
+                <li>Práctica privada desde 1979</li>
+                <li>Director UACJ</li>
+                <li>Profesor y coordinador ITAV Monterrey</li>
+            </ul>',
+        ],
+        'recognition' => [
+            'title' => 'Reconocimientos y asociaciones',
+            'content' => '<ul class="list-disc pl-5">
+                <li>Miembro fundador Colegio de Periodoncistas</li>
+                <li>Academy of Osseointegration</li>
+            </ul>',
+        ],
+        'expertise' => [
+            'title' => 'Áreas avanzadas de experiencia',
+            'content' => '<ul class="list-disc pl-5">
+                <li>Casos complejos de implantes</li>
+                <li>All-on-4 / All-on-X</li>
+                <li>Injertos óseos</li>
+            </ul>',
+        ],
+        'confidence' => [
+            'title' => 'La confianza viene de la experiencia',
+            'content' => '<p>Pacientes viajan de EUA y México para atenderse con Dr. Moran.</p>',
+        ],
+        'cta' => [
+            'title' => 'Inicia tu tratamiento con experiencia',
+            'content' => '<p>Agenda tu consulta hoy.</p>',
+        ],
+    ],
+],
         'julio' => [
             'name' => 'Dr. Julio Nevárez',
             'julio_summary' => "• Maestría en Implantología Oral por ITAV Monterrey\n• Especialista en Prótesis Bucal Fija y Removible\n• Más de 25 años de experiencia en odontología",
@@ -219,9 +265,10 @@ return [
         'safety' => 'Seguridad Clínica',
         'more' => 'Más',
         'all_services' => 'Todos los Servicios',
+        'meet_doctors' => 'Conoce a los Doctores',
     ],
     'hero' => [
-    'title' => 'Implantes Dentales y Odontología Avanzada<br>— Bien Hechos desde la Primera Vez',
+    'title' => 'Implantes Dentales y Odontología Avanzada<br>Bien Hechos desde la Primera Vez',
     'subtitle' => 'Cuidado dental de clase mundial en México, con la confianza de pacientes de EE. UU. y México. Tratamiento de precisión, materiales premium y coordinación fronteriza sin fricciones.',
     'cta_primary' => 'Agendar tu Consulta',
     'cta_secondary' => 'Solicitar un Presupuesto',
@@ -381,6 +428,8 @@ return [
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
         'about' => 'Nosotros',
+            'meet_doctors' => 'Conoce a los Doctores',
+
         'technology' => 'Tecnología',        'dental_tourism' => 'Turismo Dental',        'home' => 'Inicio - Nucleo Dental',
     ],
     'services_hero' => [
@@ -860,28 +909,34 @@ return [
             ]
         ],
         'process' => [
-            'title' => 'El Proceso del Turismo Dental',
-            'step_1' => [
-                'title' => 'Consulta Inicial',
-                'description' => 'Contáctanos directamente o por videollamada para discutir tu caso. Evaluamos tus necesidades y proporcionamos un plan de tratamiento detallado con precios.'
-            ],
-            'step_2' => [
-                'title' => 'Organización del Viaje',
-                'description' => 'Te ayudamos con información de vuelos, recomendaciones hoteleras, transporte y todos los detalles logísticos para asegurar un viaje sin problemas.'
-            ],
-            'step_3' => [
-                'title' => 'Comienza el Tratamiento',
-                'description' => 'Al llegar, recibirás atención dental integral utilizando nuestra tecnología avanzada en un ambiente cómodo.'
-            ],
-            'step_4' => [
-                'title' => 'Recuperación y Disfrute',
-                'description' => 'La mayoría de pacientes pueden disfrutar de actividades turísticas en pocos días. Proporcionamos instrucciones detalladas de cuidado postratamiento para resultados óptimos.'
-            ],
-            'step_5' => [
-                'title' => 'Apoyo Continuo',
-                'description' => 'Mantente conectado con nuestro equipo para citas de seguimiento y soporte continuo de atención incluso después de regresar a casa.'
-            ]
-        ],
+    'title' => 'Tu visita, simplificada',
+    'description' => 'Hacemos que cada paso sea simple, desde tu primera consulta hasta tu regreso seguro a El Paso.',
+
+    'step_1' => [
+        'title' => 'Conéctate desde casa',
+        'description' => 'Envíanos tus radiografías, fotos o inquietudes. Nuestro equipo revisará tu caso y te brindará un plan de tratamiento claro y personalizado.'
+    ],
+    'step_2' => [
+        'title' => 'Planifica con confianza',
+        'description' => 'Coordinamos tu visita de acuerdo con tu agenda y te explicamos cada detalle con anticipación, sin sorpresas y sin incertidumbre.'
+    ],
+    'step_3' => [
+        'title' => 'Llega a El Paso',
+        'description' => 'Hospédate en un hotel cerca del aeropuerto o en el centro de El Paso, y nosotros nos encargamos del resto.'
+    ],
+    'step_4' => [
+        'title' => 'Conoce a tu conductor',
+        'description' => 'Ofrecemos transporte gratuito desde hoteles del área del aeropuerto, el centro de El Paso o un punto de encuentro cercano a Costco Wholesale.'
+    ],
+    'step_5' => [
+        'title' => 'Recibe atención especializada',
+        'description' => 'Desde la consulta hasta el tratamiento, todo es atendido por nuestro equipo de especialistas utilizando tecnología avanzada, todo en un solo lugar.'
+    ],
+    'step_6' => [
+        'title' => 'Regresa relajado y con confianza',
+        'description' => 'Te llevamos de regreso de forma segura después de tu cita, para que puedas enfocarte en tu recuperación y resultados.'
+    ]
+],
         'cost_benefits' => [
             'title' => 'Evaluando Costos vs Beneficios',
             'procedure_comparison' => 'Comparación de Costos de Procedimientos',
@@ -2138,22 +2193,23 @@ return [
     ],
     'el_paso_transport' => [
         'hero' => [
-            'headline' => 'Dentista cerca de El Paso con Transporte Gratuito',
-            'subheadline' => 'Atención Dental de Alta Calidad en Ciudad Juárez — A minutos de El Paso',
-            'intro' => '¿Busca un dentista cerca de El Paso que ofrezca atención experta, precios accesibles y transporte gratuito?',
-            'description' => 'En Núcleo Dental, brindamos tratamientos dentales avanzados a solo minutos cruzando la frontera en Ciudad Juárez, facilitando que los pacientes de El Paso y todo EE. UU. reciban atención de alta calidad sin los altos costos.'
-        ],
+        'headline' => 'Odontología por la que vale la pena viajar',
+        'subheadline' => 'Atención avanzada. Experiencia sin complicaciones. A solo minutos de El Paso',
+        'intro' => 'No tienes que conformarte, esperar o pagar de más para recibir la atención dental que mereces.',
+        'description' => 'En Núcleo Dental hemos creado una experiencia diferente, donde la odontología de precisión, la atención personalizada y un traslado sin complicaciones se unen para brindarte resultados en los que puedes confiar. Desde rehabilitaciones completas hasta atención familiar, ortodoncia y urgencias dentales, todo está diseñado con un solo objetivo: hacer tu experiencia simple, cómoda y excepcional de principio a fin.'
+    ],
         'transportation' => [
-            'title' => 'Transporte Gratuito desde El Paso',
-            'subtitle' => 'Seguro, Fácil y Completamente Gratuito',
-            'description' => 'Hacemos que su visita sea sencilla desde el momento en que llega.',
-            'features' => [
-                'Recogida en hoteles del área del aeropuerto de El Paso',
-                'Recogida en el centro de El Paso',
-                'Opción de reunirse en un lugar céntrico como Costco Wholesale',
-                'Vehículos cómodos (SUV o minivan)',
-                'Conductores profesionales y experimentados'
-            ],
+      'title' => 'Transporte Gratuito desde El Paso',
+    'subtitle' => 'Seguro, Fácil y Completamente Gratuito',
+    'description' => 'Hacemos que su visita sea simple desde el momento en que llega.',
+    'features' => [
+        'Sin auto de alquiler. Sin estrés. Sin costo extra.',
+        'Recogida en hoteles del área del aeropuerto de El Paso',
+        'Recogida en el centro de El Paso',
+        'Opción de reunirse en un lugar céntrico como Costco Wholesale',
+        'Vehículos cómodos (SUV o minivan)',
+        'Conductores profesionales y experimentados'
+    ],
             'footer' => 'Sin auto de alquiler. Sin estrés. Sin costo extra.'
         ],
         'how_it_works' => [
@@ -2222,11 +2278,69 @@ return [
                 'Proceso fluido y organizado en cada visita'
             ]
         ],
-        'cta' => [
-            'headline' => 'Planifique Su Visita Hoy',
-            'subheadline' => 'Obtener atención dental asequible y de alta calidad cerca de El Paso nunca ha sido tan fácil.',
-            'primary_btn' => 'Llámenos hoy para programar',
-            'secondary_btn' => 'Envíenos un mensaje'
+       'cta' => [
+    'headline' => 'Planifique Su Visita Hoy',
+    'subheadline' => 'Obtener atención dental asequible y de alta calidad cerca de El Paso nunca ha sido tan fácil.',
+    'primary_btn' => 'Llámenos hoy para programar',
+    'secondary_btn' => 'Envíenos un mensaje'
+],
+            'experience' => [
+            'title' => 'Más que atención dental: una mejor experiencia',
+            'subtitle' => 'Muchos pacientes esperan que el turismo dental sea complicado. En cambio, lo que encuentran en Núcleo Dental es:',
+            'items' => [
+                'Un proceso tranquilo y organizado',
+                'Un equipo que se comunica de forma clara y constante',
+                'Un nivel de atención que se siente personal, no transaccional',
+                'Atención enfocada en resultados a largo plazo, no soluciones rápidas'
+            ]
         ]
-    ]
-];
+    ],
+    'meet_doctors' => [
+    'page' => [
+        'overline' => 'Conoce a Nuestro Equipo',
+        'title_line_1' => 'Conoce a los Expertos Detrás de Tu Transformación Dental',
+        'title_line_2' => 'Atención Dental Avanzada y Coordinada',
+        'subtitle' => 'En Núcleo Dental, tu tratamiento es liderado por especialistas altamente experimentados que realizan cada fase del tratamiento internamente.',
+    ],
+
+    'higher_standard' => [
+        'title' => 'Un Estándar Superior de Atención',
+        'content' => 'Lo que distingue a Núcleo Dental es simple: todo tu tratamiento es realizado por un equipo coordinado de especialistas bajo un mismo techo.',
+        'point_1' => 'Mayor precisión y éxito a largo plazo',
+        'point_2' => 'Menos complicaciones y retrasos',
+        'point_3' => 'Una experiencia más cómoda',
+        'point_4' => 'Mejores resultados estéticos y funcionales',
+        'killer' => 'Un equipo. Un plan. Un estándar de excelencia.',
+    ],
+
+    'working_together' => [
+        'title' => 'Experiencia Quirúrgica + Restaurativa Totalmente Coordinada',
+        'content' => 'El Dr. Ernesto Moran y el Dr. Julio Nevárez trabajan juntos en cada caso, combinando experiencia quirúrgica y diseño restaurativo avanzado.',
+        'killer' => 'Tu sonrisa completa, planeada y realizada por un solo equipo experto.',
+    ],
+
+    'technology' => [
+        'title' => 'Tecnología Avanzada. Estándares Comprobados.',
+        'item_1' => 'Tomografía 3D',
+        'item_2' => 'Planeación Digital',
+        'item_3' => 'Sistemas Premium de Implantes',
+        'item_4' => 'Protocolos de Esterilización',
+        'item_5' => 'Sedación Disponible',
+        'item_6' => 'Éxito a Largo Plazo',
+    ],
+
+    'trust' => [
+    'title' => 'Pacientes de EE.UU. y México confían en nosotros',
+    'content' => 'Los pacientes viajan a Núcleo Dental por atención de alta calidad, médicos con experiencia y una experiencia de tratamiento sin complicaciones. Desde su primera consulta hasta sus resultados finales, nuestro equipo se asegura de que se sienta informado, cómodo y seguro en cada paso. También ofrecemos transporte seguro, confiable y gratuito entre El Paso y nuestra clínica en Ciudad Juárez para que su visita sea simple y sin estrés.',
+],
+
+'cta' => [
+    'title' => 'Comienza Hoy la Transformación de Tu Sonrisa',
+    'content' => 'Ya sea que necesite un solo implante o una restauración completa, nuestro equipo está aquí para ayudarle a lograr resultados duraderos y naturales.',
+    'button' => 'Agenda Tu Consulta',
+    'button_secondary' => 'Contacta a Nuestro Equipo',
+    'reassurance' => 'Sin presión. Respuestas claras. Guía experta.',
+],
+],
+
+    ];

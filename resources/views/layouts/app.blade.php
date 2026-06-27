@@ -102,7 +102,9 @@
             <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? $active : $link }}">
                 {{ __('messages.nav.about') }}
             </a>
-
+<a href="{{ route('meet-doctors') }}" class="{{ request()->routeIs('meet-doctors') ? $active : $link }}">
+    {{ __('messages.nav.meet_doctors') }}
+</a>
             <a href="{{ route('gallery') }}" class="{{ request()->routeIs('gallery') ? $active : $link }}">
                 {{ __('messages.nav.gallery') }}
             </a>
@@ -219,7 +221,9 @@
         <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? $mobileActive : $mobile }}">
             {{ __('messages.nav.about') }}
         </a>
-
+        <a href="{{ route('meet-doctors') }}" class="{{ request()->routeIs('meet-doctors') ? $mobileActive : $mobile }}">
+    {{ __('messages.nav.meet_doctors') }}
+</a>
         <a href="{{ route('gallery') }}" class="{{ request()->routeIs('gallery') ? $mobileActive : $mobile }}">
             {{ __('messages.nav.gallery') }}
         </a>

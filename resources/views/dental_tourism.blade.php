@@ -136,7 +136,8 @@
                             'step_2' => '🎫',
                             'step_3' => '🏥',
                             'step_4' => '😊',
-                            'step_5' => '📞'
+                            'step_5' => '📞',
+                            'step_6' => '😊'
                         ];
                     @endphp
 
@@ -224,7 +225,33 @@
             </div>
         </div>
     </section>
+<!-- LUXURY EXPERIENCE -->
+<section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
+            {{ __('messages.el_paso_transport.experience.title') }}
+        </h2>
+
+        <p class="text-xl text-slate-600 max-w-3xl mx-auto mb-12">
+            {{ __('messages.el_paso_transport.experience.subtitle') }}
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8 text-left">
+            @foreach(__('messages.el_paso_transport.experience.items') as $item)
+                <div class="flex items-start gap-4 bg-slate-50 p-6 rounded-2xl shadow-sm">
+                    <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-check text-blue-600"></i>
+                    </div>
+                    <p class="text-lg text-slate-700 font-medium">
+                        {{ $item }}
+                    </p>
+                </div>
+            @endforeach
+        </div>
+
+    </div>
+</section>
     <!-- POPULAR TREATMENTS & PATIENTS LOVE -->
     <section class="py-20 bg-slate-50 mt-10 lg:mt-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

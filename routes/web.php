@@ -71,6 +71,10 @@ Route::group([
         return view('gallery');
     })->name('gallery');
 
+    Route::get('/meet-doctors', function () {
+    return view('meet-doctors');
+})->name('meet-doctors');
+
     // Individual Service Pages
     Route::get('/services/dental-implants', function () { return view('services.dental-implants'); })->name('dental-implants');
     Route::get('/services/zygomatic-implants', function () { return view('services.zygomatic-implants'); })->name('zygomatic-implants');
