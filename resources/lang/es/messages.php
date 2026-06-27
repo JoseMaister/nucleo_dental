@@ -222,7 +222,7 @@ return [
     ],
     'hero' => [
     'title' => 'Implantes Dentales y Odontología Avanzada<br>— Bien Hechos desde la Primera Vez',
-    'subtitle' => 'Cuidado dental de clase mundial en México, con la confianza de pacientes de EE. UU. y México. Tratamiento de precisión, materiales premium y coordinación fronteriza sin fricciones.',
+    'subtitle' => 'Cuidado dental de clase mundial en México, con la confianza de pacientes de EE. UU. y México. Tratamiento de precisión, materiales premium y coordinación fronteriza sin fricciones. Todo en un solo lugar.',
     'cta_primary' => 'Agendar tu Consulta',
     'cta_secondary' => 'Solicitar un Presupuesto',
     'phone' => [

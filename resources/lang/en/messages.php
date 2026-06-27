@@ -232,7 +232,7 @@ return [
     ],
     'hero' => [
     'title' => 'Dental Implants & Advanced Dentistry<br>Done Right the First Time',
-    'subtitle' => 'World-class dental care in Mexico, trusted by patients across the U.S. and Mexico. Precision treatment, premium materials, and seamless cross-border coordination.',
+    'subtitle' => 'World-class dental care in Mexico, trusted by patients across the U.S. and Mexico. Precision treatment, premium materials, and seamless cross-border coordination.  All in one place.',
     'cta_primary' => 'Schedule Your Consultation',
     'cta_secondary' => 'Request a Quote',
     'phone' => [
@@ -263,7 +263,8 @@ return [
 ],
 'why_choose' => [
     'headline' => 'Not Just More Affordable — Significantly Better',
-    'body' => 'Choosing where to get dental work done is about more than price — it’s about precision, experience, and long-term success. <br/><br/> At Núcleo Dental, every treatment is carefully planned using advanced diagnostics and performed with high-end materials trusted worldwide.Our approach ensure that your results are not only beautiful, but built to last.',
+    'body' => 'Choosing where to get dental work done is about more than price — it’s about precision, experience, and long-term success. <br/><br/> At Núcleo Dental, every treatment is carefully planned using advanced diagnostics and performed with high-end materials trusted worldwide.Our approach ensure that your results are not only beautiful, but built to last.
+                <br/> <br/> We specialize in complex cases, full mouth reconstructions, and dental implants <strong> delivering results that patients can trust for years to come<strong>.',
     'highlight' => 'We don’t cut costs — we elevate standards.',
     'features' => [
         ['title' => 'Advanced Planning', 'desc' => 'Detailed 3D diagnostics for every case.'],
