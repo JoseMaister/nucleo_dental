@@ -86,7 +86,7 @@
             "es": ["Carillas de porcelana", "Diseño cosmético de la sonrisa"]
         },
         "outcome": {
-            "en": "A brighter, balanced smile that still looks natural and fits the patient’s face.",
+            "en": "A brighter, balanced smile that still looks natural and fits the patient's face.",
             "es": "Una sonrisa más brillante y equilibrada que sigue luciendo natural y se adapta al rostro del paciente."
         },
         "killer_line": {
@@ -102,6 +102,286 @@
         "plan": {
             "en": ["Digital smile design", "Tooth preparation", "Temporary veneers", "Final porcelain veneer placement"],
             "es": ["Diseño digital de la sonrisa", "Preparación dental", "Carillas temporales", "Colocación final de carillas de porcelana"]
+        }
+    },
+    {
+        "id": 4,
+        "category": "full_mouth",
+        "featured": false,
+        "title": {
+            "en": "Full Mouth Rehabilitation with Implants and Crowns",
+            "es": "Rehabilitación de Boca Completa con Implantes y Coronas"
+        },
+        "short_description": {
+            "en": "Decades of wear, multiple failing restorations, and bite collapse brought this patient to us for a full-mouth rehabilitation. Every aspect of the smile was rebuilt from the foundation up using implants, zirconia crowns, and precise bite correction.",
+            "es": "Décadas de desgaste, múltiples restauraciones fallidas y el colapso de la mordida llevaron a este paciente a buscar una rehabilitación completa de boca. Cada aspecto de la sonrisa fue reconstruido desde la base usando implantes, coronas de zirconio y corrección precisa de la mordida."
+        },
+        "treatment": {
+            "en": ["Full mouth evaluation", "Implant placement", "Zirconia crowns", "Bite correction"],
+            "es": ["Evaluación de boca completa", "Colocación de implantes", "Coronas de zirconio", "Corrección de mordida"]
+        },
+        "outcome": {
+            "en": "Restored bite, improved facial aesthetics, and a fully functional, natural-looking smile.",
+            "es": "Mordida restaurada, estética facial mejorada y una sonrisa completamente funcional y de aspecto natural."
+        },
+        "killer_line": {
+            "en": "Every tooth rebuilt. Every function restored. A completely new smile.",
+            "es": "Cada diente reconstruido. Cada función restaurada. Una sonrisa completamente nueva."
+        },
+        "before_image": "https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800",
+        "concerns": {
+            "en": ["Worn and broken teeth", "Multiple failing restorations", "Bite collapse", "Loss of vertical dimension"],
+            "es": ["Dientes desgastados y rotos", "Múltiples restauraciones fallidas", "Colapso de mordida", "Pérdida de dimensión vertical"]
+        },
+        "plan": {
+            "en": ["Comprehensive records and 3D imaging", "Full treatment planning", "Implants where needed", "Temporary restorations for bite testing", "Final zirconia crowns and fixed restorations"],
+            "es": ["Registros completos e imágenes 3D", "Planificación completa del tratamiento", "Implantes donde se necesitaban", "Restauraciones temporales para prueba de mordida", "Coronas de zirconio finales y restauraciones fijas"]
+        }
+    },
+    {
+        "id": 5,
+        "category": "crowns_bridges",
+        "featured": false,
+        "title": {
+            "en": "Three-Unit Zirconia Bridge Replacing a Missing Molar",
+            "es": "Puente de Zirconio de Tres Unidades para Reemplazar un Molar Faltante"
+        },
+        "short_description": {
+            "en": "After losing a molar to infection, this patient needed a strong, aesthetic solution that would not involve implant surgery. A three-unit zirconia bridge was designed to restore chewing ability and seamlessly match the surrounding teeth.",
+            "es": "Después de perder un molar por infección, este paciente necesitaba una solución fuerte y estética que no implicara cirugía de implantes. Se diseñó un puente de zirconio de tres unidades para restaurar la capacidad de masticación y coincidir perfectamente con los dientes circundantes."
+        },
+        "treatment": {
+            "en": ["Crown preparation on adjacent teeth", "Zirconia bridge fabrication", "Final cementation"],
+            "es": ["Preparación de corona en dientes adyacentes", "Fabricación de puente de zirconio", "Cementación final"]
+        },
+        "outcome": {
+            "en": "Restored chewing function and a seamless, natural-looking bridge that blends perfectly with surrounding teeth.",
+            "es": "Función masticatoria restaurada y un puente natural que se mezcla perfectamente con los dientes circundantes."
+        },
+        "killer_line": {
+            "en": "Strength, function, and beauty—precisely fitted and built to last.",
+            "es": "Fuerza, función y belleza: ajustado con precisión y construido para durar."
+        },
+        "before_image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1621798836624-d2c3b88a9ce6?q=80&w=800",
+        "concerns": {
+            "en": ["Missing molar", "Difficulty chewing on that side", "Gap affecting bite alignment"],
+            "es": ["Molar faltante", "Dificultad para masticar en ese lado", "Brecha que afecta la alineación de la mordida"]
+        },
+        "plan": {
+            "en": ["Extraction site evaluation", "Preparation of adjacent teeth", "Impressions and digital design", "Zirconia bridge fabrication", "Final cementation and bite check"],
+            "es": ["Evaluación del sitio de extracción", "Preparación de dientes adyacentes", "Impresiones y diseño digital", "Fabricación del puente de zirconio", "Cementación final y verificación de mordida"]
+        }
+    },
+    {
+        "id": 6,
+        "category": "dentures",
+        "featured": false,
+        "title": {
+            "en": "Snap-On Dentures Secured with Dental Implants",
+            "es": "Dentaduras de Presión Fijadas con Implantes Dentales"
+        },
+        "short_description": {
+            "en": "This patient had worn loose traditional dentures for years and was frustrated with instability while eating and speaking. Snap-on implant-supported dentures provided a secure, comfortable solution without the cost of a full fixed arch.",
+            "es": "Este paciente había usado dentaduras tradicionales sueltas durante años y estaba frustrado con la inestabilidad al comer y hablar. Las dentaduras de presión con soporte de implantes proporcionaron una solución segura y cómoda sin el costo de una arcada fija completa."
+        },
+        "treatment": {
+            "en": ["Implant placement", "Custom snap-on denture fabrication", "Fit and adjustment"],
+            "es": ["Colocación de implantes", "Fabricación de dentadura a presión personalizada", "Ajuste y adaptación"]
+        },
+        "outcome": {
+            "en": "Stable, comfortable dentures with improved chewing ability and significantly better quality of life.",
+            "es": "Dentaduras estables y cómodas con mejor capacidad de masticación y una calidad de vida significativamente mejor."
+        },
+        "killer_line": {
+            "en": "No more slipping. No more adhesives. Just confidence every day.",
+            "es": "No más resbalamiento. No más adhesivos. Solo confianza cada día."
+        },
+        "before_image": "https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1559060017-445fb9722f2a?q=80&w=800",
+        "concerns": {
+            "en": ["Loose and unstable dentures", "Difficulty eating", "Social embarrassment", "Bone loss under traditional denture"],
+            "es": ["Dentaduras sueltas e inestables", "Dificultad para comer", "Vergüenza social", "Pérdida ósea bajo la dentadura tradicional"]
+        },
+        "plan": {
+            "en": ["Evaluation and bone assessment", "Implant placement", "Healing and integration period", "Custom denture fabrication", "Attachment and adjustment"],
+            "es": ["Evaluación y evaluación ósea", "Colocación de implantes", "Período de curación e integración", "Fabricación de dentadura personalizada", "Fijación y ajuste"]
+        }
+    },
+    {
+        "id": 7,
+        "category": "complex",
+        "featured": false,
+        "title": {
+            "en": "Bone Grafting and Implant Rehabilitation in a Complex Case",
+            "es": "Injerto Óseo y Rehabilitación con Implantes en un Caso Complejo"
+        },
+        "short_description": {
+            "en": "Significant bone loss following multiple extractions had made this patient a poor candidate for standard implants elsewhere. Through strategic bone grafting and careful surgical planning, we were able to restore an entire arch with a fixed solution.",
+            "es": "La pérdida ósea significativa tras múltiples extracciones había hecho que este paciente fuera un mal candidato para implantes estándar en otros lugares. Mediante injertos óseos estratégicos y una planificación quirúrgica cuidadosa, pudimos restaurar una arcada completa con una solución fija."
+        },
+        "treatment": {
+            "en": ["Bone grafting", "Guided bone regeneration", "Delayed implant placement", "Full-arch restoration"],
+            "es": ["Injerto óseo", "Regeneración ósea guiada", "Colocación tardía de implantes", "Restauración de arcada completa"]
+        },
+        "outcome": {
+            "en": "A fully restored arch on a patient who had been told implants were not possible. Long-term stability achieved.",
+            "es": "Una arcada completamente restaurada en un paciente al que le habían dicho que los implantes no eran posibles. Se logró estabilidad a largo plazo."
+        },
+        "killer_line": {
+            "en": "When others said no, we found a way. Complex cases are what we do.",
+            "es": "Cuando otros dijeron que no, encontramos la manera. Los casos complejos son nuestra especialidad."
+        },
+        "before_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800",
+        "concerns": {
+            "en": ["Significant bone loss", "Multiple missing teeth", "Previously failed implants", "Told by other doctors implants were not possible"],
+            "es": ["Pérdida ósea significativa", "Múltiples dientes faltantes", "Implantes previamente fallidos", "Otros médicos dijeron que los implantes no eran posibles"]
+        },
+        "plan": {
+            "en": ["3D cone beam CT scan", "Comprehensive treatment planning", "Bone grafting and regeneration", "Healing period", "Implant placement", "Final restoration"],
+            "es": ["Tomografía computarizada de haz cónico 3D", "Planificación integral del tratamiento", "Injerto óseo y regeneración", "Período de curación", "Colocación de implantes", "Restauración final"]
+        }
+    },
+    {
+        "id": 8,
+        "category": "cosmetic",
+        "featured": false,
+        "title": {
+            "en": "Composite Bonding and Whitening Smile Refresh",
+            "es": "Restauración con Composite y Blanqueamiento para una Sonrisa Renovada"
+        },
+        "short_description": {
+            "en": "This patient wanted a brighter, more even smile without the commitment of veneers. A combination of professional whitening and targeted composite bonding reshaped chipped edges and closed minor gaps for a dramatically improved result.",
+            "es": "Este paciente quería una sonrisa más brillante y uniforme sin el compromiso de las carillas. Una combinación de blanqueamiento profesional y composite específico reformó los bordes astillados y cerró pequeños espacios para un resultado notablemente mejorado."
+        },
+        "treatment": {
+            "en": ["Professional whitening", "Composite bonding", "Edge reshaping"],
+            "es": ["Blanqueamiento profesional", "Composite de unión", "Remodelado de bordes"]
+        },
+        "outcome": {
+            "en": "A whiter, more symmetrical smile achieved in minimal visits with no permanent tooth alteration.",
+            "es": "Una sonrisa más blanca y simétrica lograda en visitas mínimas sin alteración permanente de los dientes."
+        },
+        "killer_line": {
+            "en": "A fresh, radiant smile—achieved conservatively and beautifully.",
+            "es": "Una sonrisa fresca y radiante, lograda de forma conservadora y hermosa."
+        },
+        "before_image": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1621798836624-d2c3b88a9ce6?q=80&w=800",
+        "concerns": {
+            "en": ["Yellowed or stained teeth", "Chipped front teeth", "Minor spacing issues", "Uneven tooth edges"],
+            "es": ["Dientes amarillentos o manchados", "Dientes frontales astillados", "Pequeños problemas de espaciado", "Bordes dentales desiguales"]
+        },
+        "plan": {
+            "en": ["Whitening treatment", "Shade selection", "Composite application and sculpting", "Final polishing"],
+            "es": ["Tratamiento de blanqueamiento", "Selección de tono", "Aplicación y esculpido de composite", "Pulido final"]
+        }
+    },
+    {
+        "id": 9,
+        "category": "implants",
+        "featured": false,
+        "title": {
+            "en": "Multiple Implants Replacing Several Missing Back Teeth",
+            "es": "Múltiples Implantes para Reemplazar Varios Dientes Posteriores Faltantes"
+        },
+        "short_description": {
+            "en": "Years of avoiding treatment left this patient with multiple missing posterior teeth, bone loss, and difficulty eating on either side. Individual implants with custom crowns restored function and prevented further bone deterioration.",
+            "es": "Años sin tratamiento dejaron a este paciente con múltiples dientes posteriores faltantes, pérdida ósea y dificultad para comer de cualquier lado. Implantes individuales con coronas personalizadas restauraron la función y previnieron mayor deterioro óseo."
+        },
+        "treatment": {
+            "en": ["Multiple implant placement", "Bone grafting at sites", "Custom zirconia crowns"],
+            "es": ["Colocación de múltiples implantes", "Injerto óseo en los sitios", "Coronas de zirconio personalizadas"]
+        },
+        "outcome": {
+            "en": "Full posterior chewing function restored. Bone loss halted. Comfortable eating on both sides.",
+            "es": "Función masticatoria posterior completamente restaurada. Pérdida ósea detenida. Comer cómodo en ambos lados."
+        },
+        "killer_line": {
+            "en": "More than replacement—a foundation for long-term oral health.",
+            "es": "Más que un reemplazo: una base para la salud oral a largo plazo."
+        },
+        "before_image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800",
+        "concerns": {
+            "en": ["Multiple missing back teeth", "Bone loss", "Difficulty chewing", "Shifting of remaining teeth"],
+            "es": ["Múltiples dientes posteriores faltantes", "Pérdida ósea", "Dificultad para masticar", "Desplazamiento de los dientes restantes"]
+        },
+        "plan": {
+            "en": ["3D imaging for bone assessment", "Staged implant placement", "Bone grafting where indicated", "Healing periods", "Final crown placement and occlusion check"],
+            "es": ["Imágenes 3D para evaluación ósea", "Colocación de implantes en etapas", "Injerto óseo cuando esté indicado", "Períodos de curación", "Colocación final de coronas y verificación de oclusión"]
+        }
+    },
+    {
+        "id": 10,
+        "category": "crowns_bridges",
+        "featured": false,
+        "title": {
+            "en": "Full Upper Arch Crowned for Wear and Aesthetics",
+            "es": "Arcada Superior Completamente Coronada por Desgaste y Estética"
+        },
+        "short_description": {
+            "en": "Severe bruxism had worn this patient's upper teeth to stubs, destroying enamel and altering facial proportions. Full coverage ceramic crowns rebuilt every upper tooth, restoring bite height, facial support, and a natural-looking smile.",
+            "es": "El bruxismo severo había desgastado los dientes superiores de este paciente hasta dejarlos como muñones, destruyendo el esmalte y alterando las proporciones faciales. Coronas cerámicas de cobertura completa reconstruyeron cada diente superior, restaurando la altura de mordida, el soporte facial y una sonrisa natural."
+        },
+        "treatment": {
+            "en": ["Full upper arch crowns", "Bite opening", "Ceramic restoration"],
+            "es": ["Coronas de arcada superior completa", "Apertura de mordida", "Restauración cerámica"]
+        },
+        "outcome": {
+            "en": "Restored vertical dimension, improved facial profile, and a full upper arch of natural-looking ceramic crowns.",
+            "es": "Dimensión vertical restaurada, perfil facial mejorado y arcada superior completa de coronas cerámicas de aspecto natural."
+        },
+        "killer_line": {
+            "en": "Worn down by years of grinding—rebuilt to last a lifetime.",
+            "es": "Desgastado por años de rechinar: reconstruido para durar toda la vida."
+        },
+        "before_image": "https://images.unsplash.com/photo-1620557782229-b3e5aba3d8fd?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800",
+        "concerns": {
+            "en": ["Severely worn teeth from bruxism", "Loss of bite height", "Aesthetic dissatisfaction", "Tooth sensitivity"],
+            "es": ["Dientes gravemente desgastados por bruxismo", "Pérdida de altura de mordida", "Insatisfacción estética", "Sensibilidad dental"]
+        },
+        "plan": {
+            "en": ["Bite analysis and records", "Temporary crowns to test new bite height", "Shade selection", "Full upper arch preparation", "Final ceramic crown placement"],
+            "es": ["Análisis de mordida y registros", "Coronas temporales para probar nueva altura de mordida", "Selección de tono", "Preparación de arcada superior completa", "Colocación final de coronas cerámicas"]
+        }
+    },
+    {
+        "id": 11,
+        "category": "full_arch",
+        "featured": false,
+        "title": {
+            "en": "Lower Arch All-on-4 for a Patient with Advanced Bone Loss",
+            "es": "All-on-4 en Arcada Inferior para Paciente con Pérdida Ósea Avanzada"
+        },
+        "short_description": {
+            "en": "Advanced periodontal disease had left this patient with failing lower teeth and significant bone loss. The All-on-4 technique allowed us to place four strategic implants and deliver a fixed lower arch restoration in a single surgical phase.",
+            "es": "La enfermedad periodontal avanzada había dejado a este paciente con dientes inferiores fallidos y una pérdida ósea significativa. La técnica All-on-4 nos permitió colocar cuatro implantes estratégicos y entregar una restauración de arcada inferior fija en una sola fase quirúrgica."
+        },
+        "treatment": {
+            "en": ["All-on-4 implant placement", "Immediate temporary arch", "Final fixed zirconia arch"],
+            "es": ["Colocación de implantes All-on-4", "Arcada temporal inmediata", "Arcada de zirconio fija final"]
+        },
+        "outcome": {
+            "en": "A fixed lower arch delivered in minimal visits. No more pain. No more loose teeth. Confident chewing restored.",
+            "es": "Una arcada inferior fija entregada en visitas mínimas. Sin más dolor. Sin más dientes sueltos. Masticación segura restaurada."
+        },
+        "killer_line": {
+            "en": "Four implants. One surgery. A complete smile transformation.",
+            "es": "Cuatro implantes. Una cirugía. Una transformación completa de la sonrisa."
+        },
+        "before_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800",
+        "after_image": "https://images.unsplash.com/photo-1559060017-445fb9722f2a?q=80&w=800",
+        "concerns": {
+            "en": ["Advanced periodontal disease", "Multiple failing lower teeth", "Significant bone loss", "Pain and discomfort when eating"],
+            "es": ["Enfermedad periodontal avanzada", "Múltiples dientes inferiores fallidos", "Pérdida ósea significativa", "Dolor e incomodidad al comer"]
+        },
+        "plan": {
+            "en": ["3D imaging for strategic planning", "Extractions of failing teeth", "All-on-4 implant placement", "Immediate temporary fixed arch", "Final zirconia restoration"],
+            "es": ["Imágenes 3D para planificación estratégica", "Extracciones de dientes fallidos", "Colocación de implantes All-on-4", "Arcada fija temporal inmediata", "Restauración final de zirconio"]
         }
     }
 ]

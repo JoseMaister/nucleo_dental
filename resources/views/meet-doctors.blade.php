@@ -85,10 +85,27 @@
                     <img src="{{ asset('images/IMG_100188.webp') }}" alt="Dr. Ernesto Moran"
                          class="w-full h-full object-cover object-top">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 right-6">
-                        <span class="inline-block bg-white/20 backdrop-blur text-white text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
+                    <div class="absolute top-6 left-6 right-6">
+                        <span class="inline-block bg-white/20 backdrop-blur text-black text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
                             {{ __('messages.meet_doctors.ernesto_spotlight.experience_tagline') }}
                         </span>
+                    </div>
+
+                    
+                    <div class="absolute bottom-4 inset-x-0 flex justify-center z-50">
+                        <button
+                            type="button"
+                            onclick="openDoctorVideo('moran-spotlight')"
+                            class="flex items-center gap-2 px-5 py-3 rounded-full bg-white text-blue-700 font-medium shadow-lg"
+                        >
+                            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="w-4 h-4 ml-0.5 fill-white">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </span>
+                            <span>{{ __('messages.about.video') }}</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -134,10 +151,45 @@
                         "{{ __('messages.meet_doctors.ernesto_spotlight.killer') }}"
                     </p>
                 </div>
+
+                <div class="mt-6">
+                    <a href="{{ route('dr-ernesto-moran') }}" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all duration-300 transform hover:-translate-y-0.5 shadow-md shadow-blue-600/15">
+                        {{ __('messages.global_sections.learn_more') }} <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+{{-- Ernesto Moran Spotlight Video Modal --}}
+<div
+    id="modal-moran-spotlight"
+    class="fixed inset-0 bg-black/80 z-[999] hidden flex items-center justify-center p-2 sm:p-4 md:p-6"
+>
+    <div class="relative bg-black rounded-lg overflow-hidden w-full h-full sm:h-auto sm:w-[90%] md:w-[85%] lg:w-[80%] xl:max-w-5xl sm:aspect-video max-w-[95vw]">
+        <button
+            onclick="closeDoctorVideo('moran-spotlight')"
+            class="absolute top-2 right-2 sm:top-3 sm:right-3 z-30 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-black/70 text-white text-lg sm:text-xl"
+        >✕</button>
+
+        <div class="swiper h-full w-full" id="swiper-moran-spotlight">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex items-center justify-center bg-black">
+                    <video class="w-full h-full object-contain max-w-full max-h-full" playsinline preload="auto" muted controls>
+                        <source src="{{ asset('images/videos/moran_ortodoncia.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+                <div class="swiper-slide flex items-center justify-center bg-black">
+                    <video class="w-full h-full object-contain max-w-full max-h-full" playsinline preload="auto" muted controls>
+                        <source src="{{ asset('images/videos/moran_implantes.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
 
 <!-- DR. JULIO NEVÁREZ SPOTLIGHT -->
 <section class="py-20 bg-slate-50 border-t border-slate-100">
@@ -149,10 +201,26 @@
                     <img src="{{ asset('images/IMG_100190.webp') }}" alt="Dr. Julio Nevárez"
                          class="w-full h-full object-cover object-top">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
-                    <div class="absolute bottom-6 left-6 right-6">
-                        <span class="inline-block bg-white/20 backdrop-blur text-white text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
+                    <div class="absolute top-6 left-6 right-6">
+                        <span class="inline-block bg-white/30 backdrop-blur text-black text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
                             {{ __('messages.meet_doctors.julio_spotlight.experience_tagline') }}
                         </span>
+                    </div>
+
+                    <div class="absolute bottom-4 inset-x-0 flex justify-center z-50">
+                        <button
+                            type="button"
+                            onclick="openDoctorVideo('julio-spotlight')"
+                            class="flex items-center gap-2 px-5 py-3 rounded-full bg-white text-blue-700 font-medium shadow-lg"
+                        >
+                            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="w-4 h-4 ml-0.5 fill-white">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </span>
+                            <span>{{ __('messages.about.video') }}</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -202,6 +270,35 @@
         </div>
     </div>
 </section>
+
+{{-- Julio Nevárez Spotlight Video Modal --}}
+<div
+    id="modal-julio-spotlight"
+    class="fixed inset-0 bg-black/80 z-[999] hidden flex items-center justify-center p-2 sm:p-4 md:p-6"
+>
+    <div class="relative bg-black rounded-lg overflow-hidden w-full h-full sm:h-auto sm:w-[90%] md:w-[85%] lg:w-[80%] xl:max-w-5xl sm:aspect-video max-w-[95vw]">
+        <button
+            onclick="closeDoctorVideo('julio-spotlight')"
+            class="absolute top-2 right-2 sm:top-3 sm:right-3 z-30 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-black/70 text-white text-lg sm:text-xl"
+        >✕</button>
+
+        <div class="swiper h-full w-full" id="swiper-julio-spotlight">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex items-center justify-center bg-black">
+                    <video class="w-full h-full object-contain max-w-full max-h-full" playsinline preload="auto" muted controls>
+                        <source src="{{ asset('images/videos/julio_cosmetics.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+                <div class="swiper-slide flex items-center justify-center bg-black">
+                    <video class="w-full h-full object-contain max-w-full max-h-full" playsinline preload="auto" muted controls>
+                        <source src="{{ asset('images/videos/julio_implants.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
 
 <!-- WORKING TOGETHER -->
 <section class="py-20 bg-indigo-950 text-white">
@@ -380,32 +477,6 @@ $lilianaContent = __('messages.team.liliana.content');
 $lilianaSections = [];
 @endphp
 
-    <x-doctor-profile 
-    :imageUrl="asset('images/IMG_100188.webp')"
-    :name="$ernestoName"   
-    :specialties="$ernestoSpecialties"
-    :content="$ernestoContent"
-    :sections="$ernestoSections"
-    :showVideo="true"
-    :videos="[
-        asset('images/videos/moran_ortodoncia.mp4'),
-        asset('images/videos/moran_implantes.mp4'),
-    ]"
-    :profileUrl="route('dr-ernesto-moran')"
-/>
-
-<x-doctor-profile 
-    :imageUrl="asset('images/IMG_100190.webp')"
-    :name="__('messages.team.julio.name')"
-    :specialties="$julioSpecialties"
-    :content="$julioContent"
-    :sections="$julioSections"
-    :showVideo="true"
-    :videos="[
-        asset('images/videos/julio_cosmetics.mp4'),
-        asset('images/videos/julio_implants.mp4'),
-    ]"
-/>
 
 <x-doctor-profile 
     :imageUrl="asset('images/SAM_0004_JPG.avif')"
@@ -518,4 +589,30 @@ $lilianaSections = [];
 <x-contact-map />
 
 </main>
+<script>
+    function openDoctorVideo(id) {
+    const modal = document.getElementById('modal-' + id);
+    modal.classList.remove('hidden');
+
+    if (!doctorSwipers[id]) {
+        doctorSwipers[id] = new Swiper('#swiper-' + id, {
+            loop: true,
+            pagination: {
+                el: '#swiper-' + id + ' .swiper-pagination',
+                clickable: true,
+            },
+            on: {
+                slideChangeTransitionEnd() {
+                    playActiveVideo(id);
+                }
+            }
+        });
+    }
+
+    setTimeout(() => {
+        playActiveVideo(id);
+    }, 200);
+}
+</script>
 @endsection
+

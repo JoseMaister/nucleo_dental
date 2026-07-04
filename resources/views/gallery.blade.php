@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title', __('messages.gallery.seo.meta_title'))
+@section('meta_description', __('messages.gallery.seo.meta_description'))
 
 @section('content')
     <!-- JSON Data Loading -->
@@ -61,7 +62,8 @@
                             {{ __('messages.gallery.intro.title') }}
                         </h2>
                         <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
-                            <p>{{ __('messages.gallery.intro.content') }}</p>
+                            <p>{{ __('messages.gallery.intro.content_1') }}</p>
+                            <p>{{ __('messages.gallery.intro.content_2') }}</p>
                         </div>
                         
                         <div class="mt-10 p-8 bg-gray-50 rounded-3xl border border-gray-100 italic text-gray-700">
@@ -71,7 +73,7 @@
                     </div>
                     <div class="relative">
                         <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-                            <img src="https://images.unsplash.com/photo-1593059075122-728248df9bd2?q=80&w=1200" class="w-full h-full object-cover">
+                            <img src="https://images.unsplash.com/photo-1593059075122-728248df9bd2?q=80&w=1200" loading="lazy" class="w-full h-full object-cover">
                         </div>
                         <!-- Floating Badge -->
                         <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-2xl border border-gray-50 flex items-center gap-4 max-w-xs">

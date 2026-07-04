@@ -1858,7 +1858,8 @@ return [
         ],
         'intro' => [
             'title' => 'Results That Speak for Themselves',
-            'content' => 'Choosing dental treatment is a big decision. Our smile gallery gives you a closer look at the quality, precision, and attention to detail behind our work. Every case is unique, and every treatment plan is customized based on the patient’s oral health, goals, and long-term needs. Whether you are looking for dental implants, a cosmetic smile makeover, or a full-mouth reconstruction, our team is focused on delivering results that look beautiful, feel natural, and function properly.',
+            'content_1' => 'Choosing dental treatment is a big decision. Our smile gallery gives you a closer look at the quality, precision, and attention to detail behind our work.',
+            'content_2' => 'Every case is unique, and every treatment plan is customized based on the patient\'s oral health, goals, and long-term needs. Whether you are looking for dental implants, a cosmetic smile makeover, or a full-mouth reconstruction, our team is focused on delivering results that look beautiful, feel natural, and function properly.',
             'quote' => 'Every transformation is a partnership between patient and specialist. We don\'t just fix teeth; we restore quality of life.',
             'quote_author' => 'Dr. Ernesto Moran',
             'experience_badge' => 'Over 40 years of restorative experience in Juárez.',
@@ -1887,7 +1888,8 @@ return [
         'case_detail' => [
             'before_label' => 'Before',
             'after_label' => 'After Transformation',
-            'intro_summary' => 'This patient came to Núcleo Dental seeking a long-term solution for damaged and missing teeth. The treatment plan focused on restoring oral health, bite stability, and a natural-looking smile.',
+            'intro_summary' => 'About This Case',
+            'intro_summary_text' => 'This patient came to Núcleo Dental seeking a long-term solution for damaged and missing teeth. The treatment plan focused on restoring oral health, bite stability, and a natural-looking smile.',
             'concerns' => 'Patient Concerns',
             'plan' => 'Treatment Plan',
             'result' => 'Result',

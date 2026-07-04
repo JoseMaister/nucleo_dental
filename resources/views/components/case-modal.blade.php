@@ -93,7 +93,8 @@
                     <!-- Right: Details -->
                     <div class="space-y-8">
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-4">{{ __('messages.gallery.intro.title') }}</h3>
+                            <p class="text-xs text-indigo-600 font-bold uppercase tracking-widest mb-2">{{ __('messages.gallery.case_detail.intro_summary') }}</p>
+                            <p class="text-gray-600 leading-relaxed mb-4">{{ __('messages.gallery.case_detail.intro_summary_text') }}</p>
                             <p class="text-gray-600 leading-relaxed" x-text="currentCase.short_description[locale]"></p>
                         </div>
 
