@@ -21,7 +21,8 @@
     'content' => '',
     'sections' => [],
     'showVideo' => false,
-    'videos' => []
+    'videos' => [],
+    'profileUrl' => null
 ])
 
 @php
@@ -90,6 +91,14 @@
                             @endif
 
                             {!! $content !!}
+
+                            @if($profileUrl)
+                                <div class="mt-6">
+                                    <a href="{{ $profileUrl }}" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all duration-300 transform hover:-translate-y-0.5 shadow-md shadow-blue-600/15">
+                                        {{ __('messages.global_sections.learn_more') }} <i class="fas fa-arrow-right text-xs"></i>
+                                    </a>
+                                </div>
+                            @endif
                         </div>
                     </div>
 

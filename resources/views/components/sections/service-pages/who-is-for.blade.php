@@ -1,15 +1,22 @@
 @props([
     'title' => 'Who This Is For',
-    'items' => []
+    'items' => [],
+    'fullDescription' => null
 ])
 
 <section class="py-24 bg-white">
     <div class="container mx-auto px-4">
         <div class="flex flex-col lg:flex-row gap-16 items-center">
             <div class="lg:w-1/2">
-                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-8">
+                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
                     {{ $title }}
                 </h2>
+                
+                @if($fullDescription)
+                    <p class="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
+                        {{ $fullDescription }}
+                    </p>
+                @endif
                 <div class="space-y-6">
                     @foreach($items as $item)
                         <div class="flex items-start gap-5 group">

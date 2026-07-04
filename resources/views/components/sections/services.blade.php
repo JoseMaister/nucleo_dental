@@ -25,7 +25,7 @@
                 <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('dental_implants')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/implants.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/04.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.dental_implants.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.description') }}</span>
@@ -35,67 +35,49 @@
                 
                 <!-- Service 2 -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64  max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('porcelain_veneers')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('full_mouth_restoration')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/03.png') }}" alt="Full Mouth Restoration" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.porcelain_veneers.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.full_mouth_restoration.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.full_mouth_restoration.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.full_mouth_restoration.killer') }}</span>
                     </div>
                 </div>
                 
                 <!-- Service 3 -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('teeth_whitening')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('zygomatic_implants')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.11 143.4"
-                            class="w-full h-full object-contain">
-                                <defs>
-                                    <style>
-                                    .cls-1 {
-                                        fill: #ffffff;
-                                    }
-                                    </style>
-                                </defs>
-                                <g id="Capa_1-2" data-name="Capa 1">
-                                    <g id="tJd8e3.tif">
-                                    <g>
-                                        <path class="cls-1" d="M31.17,12.66c.42.43,2.11,1.1,2.75,1.09C83.44.56,138.33-.3,187.88,13.39c7.44,2.06,15.5,3.59,16.63,12.84,1.37,11.27-.85,24.93.01,36.46-1.48,6.75-7.68,11.61-14.69,10.69v10.92c6.51-.66,13.57,4.23,14.61,10.77.93,5.9.83,25.37.13,31.52-.85,7.57-6.79,10.5-13.45,11.65-33.29,5.77-73.68,5.73-107.43,4.45-16.71-.64-36.51-1.36-52.85-4.45-5.6-1.06-10.19-3.46-12.08-9.21-1.48-4.5-1.4-26.98-.77-32.41.92-7.94,7.37-12.87,15.22-12.34v-10.92c-8.28.82-14.46-4.6-15.28-12.83-.59-5.91,1.09-15.2-.26-20.48-.17-.64-4.44-8.75-4.8-9.11-1.84-1.84-9.3-4.05-11.46-6.13-2.41-2.31-1.45-4.38.73-6.25,2.57-2.2,8.88-4.08,10.73-5.92.97-.96,3.46-6.96,4.62-8.75,7.3-11.28,10.01,5.06,13.68,8.75ZM189.83,65.74c3.43.37,6.4-1.06,7.06-4.67-.86-10.47,1.27-23.06.05-33.27-.47-3.97-2.64-4.48-5.9-5.56-39.24-13.04-92.99-13.55-133.37-5.98-1.88.35-14.1,2.59-14.64,3.11-.17.17,1.39,2.43.04,4.67s-9.86,4.89-11.89,6.93c-.41.41-5.36,9.49-5.48,10.07-.62,3.01-.42,18.31.57,21.02,1.19,3.27,3.61,4.06,6.95,3.69v-10.64c0-.33,1.71-3.85,2.08-4.47,5.76-9.68,19.47-9.44,25.52-.18,6.33-4.5,14.57-4.61,20.15,1.09,6.14-8.49,17.73-10.9,26.43-4.59.96.7,3.18,3.62,4.06,3.47,8.3-9.43,22.89-9.51,30.1,1.14,6.27-5.56,13.83-5.73,20.7-1.06,6.37-10.73,22.58-8.74,26.61,2.85.19.55.97,3.13.97,3.39v9ZM22.29,31.9c1.27-5.4,4.83-7.55,9.27-10.09-4.82-2.4-7.66-4.93-9.54-10.1-2.22,5.13-4.78,8.08-10.1,10.1l6.29,3.53,4.07,6.56ZM55.58,73.38v-15.55c0-4.25-5.27-7.49-9.31-6.59-1.75.39-5.42,3.2-5.42,4.95v17.19h14.73ZM107.43,80.48v-21.01c0-1.02-2.38-4.6-3.31-5.42-5.13-4.58-13.76-3.66-17.12,2.46-.29.53-1.4,2.68-1.4,2.97v21.01h21.83ZM137.44,80.48v-19.92c0-.55-1.3-3.59-1.73-4.28-4.46-7.22-15.38-6.9-19.23.78-.27.53-1.42,3.76-1.42,4.04v19.37h22.37ZM182.19,73.38v-16.1c0-2.9-4.49-6.23-7.39-6.31-2.65-.07-7.34,3-7.34,5.76v16.64h14.73ZM77.96,80.48v-18.83c0-4.33-5.17-7.46-9.31-6.58-1.89.4-5.43,3.05-5.43,4.94v20.47h14.73ZM159.81,80.48v-19.37c0-2.57-4.16-6.12-6.83-6.31-2.98-.21-7.91,2.66-7.91,5.76v19.92h14.73ZM55.58,81.02h-14.73v16.64c0,.73,2.46,3.84,3.32,4.32,2.66,1.49,6.85,1.26,9.05-.96.71-.72,2.37-4.16,2.37-5v-15.01ZM182.19,81.02h-14.73v16.64c0,.16,1.34,2.4,1.63,2.74,2.74,3.19,8.4,3.48,11.16.22.37-.44,1.95-3.75,1.95-4.05v-15.55ZM63.22,88.12v17.19c0,1.89,3.54,4.54,5.43,4.94,4.14.88,9.31-2.25,9.31-6.58v-14.73c0-.06-.76-.82-.82-.82h-13.92ZM107.43,88.12h-21.83v17.74c0,.29,1.11,2.44,1.4,2.97,3.44,6.23,11.93,7.1,17.12,2.46.93-.83,3.31-4.41,3.31-5.42v-17.74ZM137.44,88.12h-22.37v16.64c0,4.8,6.56,9.59,11.19,9.59s11.19-4.79,11.19-9.59v-16.64ZM159.81,88.12h-14.73v16.64c0,3.25,4.9,5.98,7.91,5.76,2.67-.19,6.83-3.74,6.83-6.31v-16.1ZM33.21,91.94c-5.42-.31-7.23,2.3-7.66,7.35-.51,5.94-.66,19.82.16,25.53.59,4.08,1.89,4.96,5.73,5.73,16.12,3.25,36.8,3.84,53.36,4.49,32.61,1.27,73.13,1.35,105.23-4.42,3.26-.59,6.07-.85,6.77-4.69.75-4.16.78-25.06.1-29.31-.49-3.09-4.06-5.08-7.06-4.67,1.85,13.39-11.14,23.42-23.2,16.43-4.3,9.79-16.72,13.52-24.56,5.42h-.8c-2.43,5.12-10.01,8.37-15.57,8.21-6.02-.17-10.26-3.53-14.66-7.09-8.32,9.75-22.51,9.22-30.09-1.11-7.39,7.71-21.22,4.76-24.29-5.48-12.57,6.79-25.55-2.25-23.46-16.37Z"/>
-                                        <path class="cls-1" d="M122.57,29.32c-4.13.56-16.3,5.85-12.66,11.29,2.96,4.42,7.31-1.34,10.41-2.62,3.62-1.5,7.4-1.64,11.1-.33,2.88,1.02,8.18,7.1,10.52,1.76,1.61-3.69-1.72-5.67-4.49-7.24-4.75-2.69-9.39-3.6-14.88-2.85Z"/>
-                                        <path class="cls-1" d="M122.57,29.32c5.48-.75,10.13.16,14.88,2.85,2.77,1.57,6.1,3.55,4.49,7.24-2.33,5.34-7.64-.74-10.52-1.76-3.7-1.31-7.48-1.17-11.1.33-3.09,1.28-7.45,7.05-10.41,2.62-3.64-5.44,8.53-10.73,12.66-11.29Z"/>
-                                    </g>
-                                    </g>
-                                </g>
-                                </svg>
+                            <img src="{{ asset('images/cosmetic/05.png') }}" alt="Zygomatic Implants" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.teeth_whitening.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.zygomatic_implants.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.zygomatic_implants.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.zygomatic_implants.killer') }}</span>
                     </div>
                 </div>
                  
                 <!-- Service 4 -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('orthodontics')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('cosmetic_dentistry')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Orthodontics" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/02.png') }}" alt="Cosmetic Dentistry" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.cosmetic_dentistry.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.cosmetic_dentistry.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.cosmetic_dentistry.killer') }}</span>
                     </div>
                 </div>
 
                 <!-- Service 5 -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('root_canal')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('sedation')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/tooth.png') }}" alt="Root Canal" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/04.png') }}" alt="Sedation Dentistry" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.root_canal.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.sedation.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.sedation.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.sedation.killer') }}</span>
                     </div>
                 </div>
                 
@@ -104,7 +86,7 @@
                 <div class="service-slide flex-shrink-0 w-full px-4">
                     <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('dental_implants')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/implants.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/04.png') }}" alt="Dental Implants" class="w-full h-full object-contain">
                         </div>
                         <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.dental_implants.title') }}</p>
                         <span class="text-sm text-center mt-2">{{ __('messages.services.dental_implants.description') }}</span>
@@ -114,67 +96,49 @@
                 
                 <!-- Service 2 (duplicate) -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64  max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('porcelain_veneers')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('full_mouth_restoration')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/porcelain_veneers.png') }}" alt="Porcelain Veneers" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/03.png') }}" alt="Full Mouth Restoration" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.porcelain_veneers.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.porcelain_veneers.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.full_mouth_restoration.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.full_mouth_restoration.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.full_mouth_restoration.killer') }}</span>
                     </div>
                 </div>
                 
                 <!-- Service 3 (duplicate) -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('teeth_whitening')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('zygomatic_implants')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <svg id="Capa_2" data-name="Capa_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.11 143.4"
-                            class="w-full h-full object-contain">
-                                <defs>
-                                    <style>
-                                    .cls-1 {
-                                        fill: #ffffff;
-                                    }
-                                    </style>
-                                </defs>
-                                <g id="Capa_1-2" data-name="Capa 1">
-                                    <g id="tJd8e3.tif">
-                                    <g>
-                                        <path class="cls-1" d="M31.17,12.66c.42.43,2.11,1.1,2.75,1.09C83.44.56,138.33-.3,187.88,13.39c7.44,2.06,15.5,3.59,16.63,12.84,1.37,11.27-.85,24.93.01,36.46-1.48,6.75-7.68,11.61-14.69,10.69v10.92c6.51-.66,13.57,4.23,14.61,10.77.93,5.9.83,25.37.13,31.52-.85,7.57-6.79,10.5-13.45,11.65-33.29,5.77-73.68,5.73-107.43,4.45-16.71-.64-36.51-1.36-52.85-4.45-5.6-1.06-10.19-3.46-12.08-9.21-1.48-4.5-1.4-26.98-.77-32.41.92-7.94,7.37-12.87,15.22-12.34v-10.92c-8.28.82-14.46-4.6-15.28-12.83-.59-5.91,1.09-15.2-.26-20.48-.17-.64-4.44-8.75-4.8-9.11-1.84-1.84-9.3-4.05-11.46-6.13-2.41-2.31-1.45-4.38.73-6.25,2.57-2.2,8.88-4.08,10.73-5.92.97-.96,3.46-6.96,4.62-8.75,7.3-11.28,10.01,5.06,13.68,8.75ZM189.83,65.74c3.43.37,6.4-1.06,7.06-4.67-.86-10.47,1.27-23.06.05-33.27-.47-3.97-2.64-4.48-5.9-5.56-39.24-13.04-92.99-13.55-133.37-5.98-1.88.35-14.1,2.59-14.64,3.11-.17.17,1.39,2.43.04,4.67s-9.86,4.89-11.89,6.93c-.41.41-5.36,9.49-5.48,10.07-.62,3.01-.42,18.31.57,21.02,1.19,3.27,3.61,4.06,6.95,3.69v-10.64c0-.33,1.71-3.85,2.08-4.47,5.76-9.68,19.47-9.44,25.52-.18,6.33-4.5,14.57-4.61,20.15,1.09,6.14-8.49,17.73-10.9,26.43-4.59.96.7,3.18,3.62,4.06,3.47,8.3-9.43,22.89-9.51,30.1,1.14,6.27-5.56,13.83-5.73,20.7-1.06,6.37-10.73,22.58-8.74,26.61,2.85.19.55.97,3.13.97,3.39v9ZM22.29,31.9c1.27-5.4,4.83-7.55,9.27-10.09-4.82-2.4-7.66-4.93-9.54-10.1-2.22,5.13-4.78,8.08-10.1,10.1l6.29,3.53,4.07,6.56ZM55.58,73.38v-15.55c0-4.25-5.27-7.49-9.31-6.59-1.75.39-5.42,3.2-5.42,4.95v17.19h14.73ZM107.43,80.48v-21.01c0-1.02-2.38-4.6-3.31-5.42-5.13-4.58-13.76-3.66-17.12,2.46-.29.53-1.4,2.68-1.4,2.97v21.01h21.83ZM137.44,80.48v-19.92c0-.55-1.3-3.59-1.73-4.28-4.46-7.22-15.38-6.9-19.23.78-.27.53-1.42,3.76-1.42,4.04v19.37h22.37ZM182.19,73.38v-16.1c0-2.9-4.49-6.23-7.39-6.31-2.65-.07-7.34,3-7.34,5.76v16.64h14.73ZM77.96,80.48v-18.83c0-4.33-5.17-7.46-9.31-6.58-1.89.4-5.43,3.05-5.43,4.94v20.47h14.73ZM159.81,80.48v-19.37c0-2.57-4.16-6.12-6.83-6.31-2.98-.21-7.91,2.66-7.91,5.76v19.92h14.73ZM55.58,81.02h-14.73v16.64c0,.73,2.46,3.84,3.32,4.32,2.66,1.49,6.85,1.26,9.05-.96.71-.72,2.37-4.16,2.37-5v-15.01ZM182.19,81.02h-14.73v16.64c0,.16,1.34,2.4,1.63,2.74,2.74,3.19,8.4,3.48,11.16.22.37-.44,1.95-3.75,1.95-4.05v-15.55ZM63.22,88.12v17.19c0,1.89,3.54,4.54,5.43,4.94,4.14.88,9.31-2.25,9.31-6.58v-14.73c0-.06-.76-.82-.82-.82h-13.92ZM107.43,88.12h-21.83v17.74c0,.29,1.11,2.44,1.4,2.97,3.44,6.23,11.93,7.1,17.12,2.46.93-.83,3.31-4.41,3.31-5.42v-17.74ZM137.44,88.12h-22.37v16.64c0,4.8,6.56,9.59,11.19,9.59s11.19-4.79,11.19-9.59v-16.64ZM159.81,88.12h-14.73v16.64c0,3.25,4.9,5.98,7.91,5.76,2.67-.19,6.83-3.74,6.83-6.31v-16.1ZM33.21,91.94c-5.42-.31-7.23,2.3-7.66,7.35-.51,5.94-.66,19.82.16,25.53.59,4.08,1.89,4.96,5.73,5.73,16.12,3.25,36.8,3.84,53.36,4.49,32.61,1.27,73.13,1.35,105.23-4.42,3.26-.59,6.07-.85,6.77-4.69.75-4.16.78-25.06.1-29.31-.49-3.09-4.06-5.08-7.06-4.67,1.85,13.39-11.14,23.42-23.2,16.43-4.3,9.79-16.72,13.52-24.56,5.42h-.8c-2.43,5.12-10.01,8.37-15.57,8.21-6.02-.17-10.26-3.53-14.66-7.09-8.32,9.75-22.51,9.22-30.09-1.11-7.39,7.71-21.22,4.76-24.29-5.48-12.57,6.79-25.55-2.25-23.46-16.37Z"/>
-                                        <path class="cls-1" d="M122.57,29.32c-4.13.56-16.3,5.85-12.66,11.29,2.96,4.42,7.31-1.34,10.41-2.62,3.62-1.5,7.4-1.64,11.1-.33,2.88,1.02,8.18,7.1,10.52,1.76,1.61-3.69-1.72-5.67-4.49-7.24-4.75-2.69-9.39-3.6-14.88-2.85Z"/>
-                                        <path class="cls-1" d="M122.57,29.32c5.48-.75,10.13.16,14.88,2.85,2.77,1.57,6.1,3.55,4.49,7.24-2.33,5.34-7.64-.74-10.52-1.76-3.7-1.31-7.48-1.17-11.1.33-3.09,1.28-7.45,7.05-10.41,2.62-3.64-5.44,8.53-10.73,12.66-11.29Z"/>
-                                    </g>
-                                    </g>
-                                </g>
-                                </svg>
+                            <img src="{{ asset('images/cosmetic/05.png') }}" alt="Zygomatic Implants" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.teeth_whitening.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.teeth_whitening.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.zygomatic_implants.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.zygomatic_implants.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.zygomatic_implants.killer') }}</span>
                     </div>
                 </div>
                 
                 <!-- Service 4 (duplicate) -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('orthodontics')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('cosmetic_dentistry')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/orthodontics.png') }}" alt="Orthodontics" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/02.png') }}" alt="Cosmetic Dentistry" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.orthodontics.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.orthodontics.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.cosmetic_dentistry.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.cosmetic_dentistry.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.cosmetic_dentistry.killer') }}</span>
                     </div>
                 </div>
-
+ 
                 <!-- Service 5 (duplicate) -->
                 <div class="service-slide flex-shrink-0 w-full px-4">
-                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('root_canal')">
+                    <div class="relative flex flex-col items-center justify-center min-h-64 max-w-60 mx-auto border-l border-r border-b border-white rounded-b-[50px] pt-16 pb-6 px-6 bg-white bg-opacity-10 service-card cursor-pointer hover:bg-opacity-20 transition-all duration-300" onclick="openServicePopup('sedation')">
                         <div class="absolute -top-10 w-24 h-24 flex items-center justify-center p-2">
-                            <img src="{{ asset('images/tooth.png') }}" alt="Root Canal" class="w-full h-full object-contain">
+                            <img src="{{ asset('images/cosmetic/04.png') }}" alt="Sedation Dentistry" class="w-full h-full object-contain">
                         </div>
-                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.root_canal.title') }}</p>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.description') }}</span>
-                        <span class="text-sm text-center mt-2">{{ __('messages.services.root_canal.killer') }}</span>
+                        <p class="text-2xl font-bold mt-4 text-center">{{ __('messages.services.sedation.title') }}</p>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.sedation.description') }}</span>
+                        <span class="text-sm text-center mt-2">{{ __('messages.services.sedation.killer') }}</span>
                     </div>
                 </div>
             </div>
@@ -335,20 +299,19 @@
                     en: 'Dental Implants',
                     es: 'Implantes Dentales'
                 },
-                // image: '{{ asset("images/implants.png") }}',
                 description: {
-                    en: 'Dental implants are titanium posts that are surgically positioned into the jawbone beneath your gums. Once in place, they allow your dentist to mount replacement teeth onto them.',
-                    es: 'Los implantes dentales son postes de titanio que se colocan quirúrgicamente en el hueso maxilar debajo de las encías. Una vez colocados, permiten a su dentista montar dientes de reemplazo sobre ellos.'
+                    en: 'Dental implants are titanium posts surgically positioned into the jawbone beneath your gums. They serve as a permanent, strong, and natural-looking replacement for missing teeth.',
+                    es: 'Los implantes dentales son postes de titanio colocados quirúrgicamente en el hueso maxilar debajo de las encías. Sirven como un reemplazo permanente, fuerte y de aspecto natural para los dientes perdidos.'
                 },
                 howItWorks: {
                     en: [
-                        'Consultation and planning with 3D imaging',
+                        'Consultation and planning with 3D CT imaging',
                         'Surgical placement of titanium implant',
                         'Healing period (3-6 months) for osseointegration',
                         'Abutment placement and final crown attachment'
                     ],
                     es: [
-                        'Consulta y planificación con imágenes 3D',
+                        'Consulta y planificación con tomografía 3D',
                         'Colocación quirúrgica del implante de titanio',
                         'Período de curación (3-6 meses) para oseointegración',
                         'Colocación del pilar y fijación de la corona final'
@@ -377,206 +340,196 @@
                 cost: {
                     en: 'Starting from $650 per implant',
                     es: 'A partir de $650 por implante'
-                }
-            },
-            porcelain_veneers: {
-                title: {
-                    en: 'Porcelain Veneers',
-                    es: 'Carillas de Porcelana'
                 },
-                // image: '{{ asset("images/porcelain_veneers.png") }}',
+                link: '{{ route("dental-implants") }}'
+            },
+            full_mouth_restoration: {
+                title: {
+                    en: 'Full Mouth Restoration',
+                    es: 'Rehabilitación Oral Completa'
+                },
                 description: {
-                    en: 'Porcelain veneers are thin, custom-made shells of tooth-colored materials designed to cover the front surface of teeth to improve your appearance.',
-                    es: 'Las carillas de porcelana son cáscaras delgadas y personalizadas de materiales del color de los dientes diseñadas para cubrir la superficie frontal de los dientes para mejorar tu apariencia.'
+                    en: 'Complete smile reconstruction designed for patients with extensive dental needs, combining implants, crowns, and advanced treatment planning to restore function and aesthetics.',
+                    es: 'Reconstrucción total de sonrisa para pacientes con necesidades dentales extensas, combinando implantes, coronas y planeación avanzada para restaurar la función y la estética.'
                 },
                 howItWorks: {
                     en: [
-                        'Initial consultation and smile design',
-                        'Minimal tooth preparation (0.3-0.5mm)',
-                        'Digital impressions and custom fabrication',
-                        'Bonding and final adjustments'
+                        'Comprehensive dental analysis and 3D diagnostics',
+                        'Customized multi-disciplinary treatment design',
+                        'Surgical placement of implants and preparatory work',
+                        'Fabrication and placement of final crowns or bridges'
                     ],
                     es: [
-                        'Consulta inicial y diseño de sonrisa',
-                        'Preparación mínima del diente (0.3-0.5mm)',
-                        'Impresiones digitales y fabricación personalizada',
-                        'Adhesión y ajustes finales'
+                        'Análisis dental completo y diagnóstico 3D',
+                        'Diseño personalizado de tratamiento multidisciplinario',
+                        'Colocación quirúrgica de implantes y fase preparatoria',
+                        'Fabricación y colocación de coronas o puentes finales'
                     ]
                 },
                 benefits: {
                     en: [
-                        'Instant smile transformation',
-                        'Stain-resistant and durable',
-                        'Natural translucency and appearance',
-                        'Minimal tooth alteration',
-                        'Lasts 10-15 years with proper care'
+                        'Restores complete chewing function and bite alignment',
+                        'Complete smile transformation',
+                        'Premium materials for natural, long-lasting results',
+                        'Coordinated care under one roof'
                     ],
                     es: [
-                        'Transformación instantánea de la sonrisa',
-                        'Resistente a las manchas y duradero',
-                        'Translucidez y apariencia natural',
-                        'Alteración mínima del diente',
-                        'Duración de 10-15 años con cuidado adecuado'
+                        'Restaura la función masticatoria completa y la mordida',
+                        'Transformación completa de la sonrisa',
+                        'Materiales premium para resultados naturales y duraderos',
+                        'Atención coordinada bajo un mismo techo'
                     ]
                 },
                 duration: {
-                    en: '2-3 weeks from start to finish',
-                    es: '2-3 semanas de inicio a fin'
+                    en: '2-4 weeks active treatment',
+                    es: '2-4 semanas de tratamiento activo'
                 },
                 cost: {
-                    en: 'Starting from $250 per veneer',
-                    es: 'A partir de $250 por carilla'
-                }
-            },
-            teeth_whitening: {
-                title: {
-                    en: 'Teeth Whitening',
-                    es: 'Blanqueamiento Dental'
+                    en: 'Request a personalized treatment plan',
+                    es: 'Solicite un plan de tratamiento personalizado'
                 },
-                // image: '{{ asset("images/teeth_whitening.png") }}',
+                link: '{{ route("full-mouth-restoration") }}'
+            },
+            zygomatic_implants: {
+                title: {
+                    en: 'Zygomatic Implants',
+                    es: 'Implantes Cigomáticos'
+                },
                 description: {
-                    en: 'Professional teeth whitening is a cosmetic procedure that lightens teeth and helps remove stains and discoloration.',
-                    es: 'El blanqueamiento dental profesional es un procedimiento cosmético que aclara los dientes y ayuda a eliminar manchas y decoloración.'
+                    en: 'A highly advanced solution for patients with severe bone loss in the upper jaw, anchoring implants directly in the cheekbone (zygoma) to avoid complex bone grafting.',
+                    es: 'Una solución muy avanzada para pacientes con pérdida ósea severa en el maxilar superior, anclando los implantes en el hueso del pómulo (cigoma) para evitar injertos óseos complejos.'
                 },
                 howItWorks: {
                     en: [
-                        'Dental examination and cleaning',
-                        'Protective barrier application on gums',
-                        'Professional whitening gel application',
-                        'LED light activation (15-20 minutes per session)'
+                        'Advanced 3D CBCT imaging for surgical mapping',
+                        'Precise guided implant placement in zygomatic bone',
+                        'Immediate temporary prosthesis attachment',
+                        'Healing phase followed by final permanent restoration'
                     ],
                     es: [
-                        'Examen dental y limpieza',
-                        'Aplicación de barrera protectora en encías',
-                        'Aplicación de gel blanqueador profesional',
-                        'Activación con luz LED (15-20 minutos por sesión)'
+                        'Imágenes CBCT 3D avanzadas para mapeo quirúrgico',
+                        'Colocación guiada precisa en el hueso cigomático',
+                        'Colocación inmediata de prótesis temporal',
+                        'Fase de curación seguida de la restauración permanente'
                     ]
                 },
                 benefits: {
                     en: [
-                        'Immediate results (2-8 shades lighter)',
-                        'Safe and effective treatment',
-                        'Boosts confidence and self-esteem',
-                        'Long-lasting results with maintenance',
-                        'Minimal sensitivity with modern techniques'
+                        'Eliminates the need for long bone graft procedures',
+                        'Provides solutions when others have said no',
+                        'Faster overall recovery and teeth-in-a-day option',
+                        'Highly predictable outcomes for severe bone loss'
                     ],
                     es: [
-                        'Resultados inmediatos (2-8 tonos más claros)',
-                        'Tratamiento seguro y efectivo',
-                        'Aumenta la confianza y la autoestima',
-                        'Resultados duraderos con mantenimiento',
-                        'Sensibilidad mínima con técnicas modernas'
+                        'Elimina la necesidad de largos injertos de hueso',
+                        'Ofrece soluciones cuando otros dicen no',
+                        'Recuperación general más rápida con opción de dientes en un día',
+                        'Resultados predecibles en pérdida ósea severa'
                     ]
                 },
                 duration: {
-                    en: 'Single 60-90 minute session',
-                    es: 'Sesión única de 60-90 minutos'
+                    en: '1-3 sessions (varies per patient)',
+                    es: '1-3 sesiones (varía por paciente)'
                 },
                 cost: {
-                    en: 'Starting from $150 per session',
-                    es: 'A partir de $150 por sesión'
-                }
-            },
-            orthodontics: {
-                title: {
-                    en: 'Orthodontics',
-                    es: 'Ortodoncia'
+                    en: 'Contact us for a detailed evaluation',
+                    es: 'Contáctenos para una evaluación detallada'
                 },
-                // image: '{{ asset("images/orthodontics.png") }}',
+                link: '{{ route("zygomatic-implants") }}'
+            },
+            cosmetic_dentistry: {
+                title: {
+                    en: 'Cosmetic Dentistry',
+                    es: 'Odontología Cosmética'
+                },
                 description: {
-                    en: 'Orthodontic treatment involves the use of braces, aligners, and other appliances to correct misaligned teeth and jaws.',
-                    es: 'El tratamiento ortodóncico implica el uso de brackets, alineadores y otros aparatos para corregir dientes y mandíbulas desalineados.'
+                    en: 'Enhance the beauty of your smile with veneers, crowns, and aesthetic treatments custom-designed for natural, beautiful, and confident results.',
+                    es: 'Mejore la belleza de su sonrisa con carillas, coronas y tratamientos estéticos diseñados a la medida para resultados naturales y hermosos.'
                 },
                 howItWorks: {
                     en: [
-                        'Comprehensive orthodontic evaluation',
-                        'Digital scans and treatment planning',
-                        'Appliance placement (braces or aligners)',
-                        'Regular adjustments and progress monitoring',
-                        'Retainer placement after treatment'
+                        'Smile analysis and personalized design planning',
+                        'Preparation of teeth for veneers/crowns (if needed)',
+                        'Digital impressions and lab fabrication',
+                        'Bonding, placement, and bite refinement'
                     ],
                     es: [
-                        'Evaluación ortodóncica integral',
-                        'Escaneos digitales y planificación del tratamiento',
-                        'Colocación de aparatos (brackets o alineadores)',
-                        'Ajustes regulares y monitoreo del progreso',
-                        'Colocación de retenedor después del tratamiento'
+                        'Análisis de sonrisa y planificación de diseño personalizado',
+                        'Preparación de dientes para carillas/coronas (si aplica)',
+                        'Impresiones digitales y fabricación en laboratorio',
+                        'Adhesión, colocación y refinamiento de mordida'
                     ]
                 },
                 benefits: {
                     en: [
-                        'Straight, beautiful smile',
-                        'Improved oral health and hygiene',
-                        'Better bite function and comfort',
-                        'Enhanced facial aesthetics',
-                        'Long-term stability with proper retention'
+                        'Corrects chips, gaps, and severe discoloration',
+                        'Refined, natural look made to look effortless',
+                        'Boosts self-esteem and smile confidence',
+                        'Long-lasting durable restorations'
                     ],
                     es: [
-                        'Sonrisa recta y hermosa',
-                        'Mejora de la salud e higiene oral',
-                        'Mejor función de mordida y comodidad',
-                        'Estética facial mejorada',
-                        'Estabilidad a largo plazo con retención adecuada'
+                        'Corrige astillas, espacios y decoloración severa',
+                        'Aspecto refinado y natural sin esfuerzo visible',
+                        'Mejora la autoestima y la confianza al sonreír',
+                        'Restauraciones duraderas y resistentes'
                     ]
                 },
                 duration: {
-                    en: '6-24 months depending on case complexity',
-                    es: '6-24 meses dependiendo de la complejidad del caso'
-                },
-                cost: {
-                    en: 'Starting from $1,500 for comprehensive treatment',
-                    es: 'A partir de $1,500 para tratamiento integral'
-                }
-            },
-            root_canal: {
-                title: {
-                    en: 'Root Canal',
-                    es: 'Endodoncia'
-                },
-                // image: '{{ asset("images/root_canal.png") }}',
-                description: {
-                    en: 'A root canal is a procedure used to treat infection inside a tooth. It removes infected tissue, cleans the tooth, and seals it to save your natural tooth.',
-                    es: 'Una endodoncia es un procedimiento utilizado para tratar la infección dentro de un diente. Elimina el tejido infectado, limpia el diente y lo sella para salvar su diente natural.'
-                },
-                howItWorks: {
-                    en: [
-                        'Comprehensive evaluation and imaging',
-                        'Removal of infected pulp tissue',
-                        'Cleaning and disinfection of root canals',
-                        'Sealing and restoration'
-                    ],
-                    es: [
-                        'Evaluación integral e imágenes',
-                        'Eliminación del tejido pulpar infectado',
-                        'Limpieza y desisfección de conductos',
-                        'Sellado y restauración'
-                    ]
-                },
-                benefits: {
-                    en: [
-                        'Saves your natural tooth',
-                        'Eliminates severe tooth pain',
-                        'Prevents spread of infection',
-                        'Restores normal chewing function',
-                        'Cost-effective alternative to extraction'
-                    ],
-                    es: [
-                        'Salva su diente natural',
-                        'Elimina el dolor dental severo',
-                        'Previene la propagación de la infección',
-                        'Restaura la función normal de masticación',
-                        'Alternativa rentable a la extracción'
-                    ]
-                },
-                duration: {
-                    en: '1-2 visits (60-90 minutes each)',
-                    es: '1-2 visitas (60-90 minutos cada una)'
+                    en: '1-2 weeks',
+                    es: '1-2 semanas'
                 },
                 cost: {
                     en: 'Starting from $250 per tooth',
                     es: 'A partir de $250 por diente'
                 },
-                link: '{{ route("endodontics") }}'
+                link: '{{ route("cosmetic-dentistry") }}'
+            },
+            sedation: {
+                title: {
+                    en: 'Sedation Dentistry',
+                    es: 'Odontología con Sedación'
+                },
+                description: {
+                    en: 'Relaxed, comfortable treatment options for patients who want a stress-free experience. Administered by a certified anesthesiologist for maximum safety.',
+                    es: 'Opciones cómodas y relajadas para pacientes que desean una experiencia sin estrés. Administrada por un anestesiólogo certificado para máxima seguridad.'
+                },
+                howItWorks: {
+                    en: [
+                        'Medical history evaluation and consultation',
+                        'Administration of conscious or IV sedation',
+                        'Continuous monitoring of vital signs during treatment',
+                        'Safe recovery phase under professional supervision'
+                    ],
+                    es: [
+                        'Evaluación de historial médico y consulta',
+                        'Administración de sedación consciente o intravenosa',
+                        'Monitoreo continuo de signos vitales durante el tratamiento',
+                        'Fase de recuperación segura bajo supervisión profesional'
+                    ]
+                },
+                benefits: {
+                    en: [
+                        'Completely eliminates dental anxiety and fear',
+                        'Allows complex treatments to be finished in fewer visits',
+                        'No memory of the sounds or discomfort of the procedure',
+                        'Highly safe and supervised by specialists'
+                    ],
+                    es: [
+                        'Elimina por completo la ansiedad y el miedo dental',
+                        'Permite completar tratamientos complejos en menos visitas',
+                        'Sin recuerdos de ruidos ni molestias del procedimiento',
+                        'Altamente seguro y supervisado por especialistas'
+                    ]
+                },
+                duration: {
+                    en: 'Coincides with procedure duration',
+                    es: 'Coincide con la duración del procedimiento'
+                },
+                cost: {
+                    en: 'Varies based on session length',
+                    es: 'Varía según la duración de la sesión'
+                },
+                link: '{{ route("sedation-dentistry") }}'
             }
         };
 

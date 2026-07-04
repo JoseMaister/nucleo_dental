@@ -6,12 +6,12 @@
 <main>
 
 <!-- HERO -->
-<div class="relative w-full h-[500px] bg-cover bg-center flex items-center justify-center"
+<div class="relative w-full min-h-[540px] bg-cover bg-center flex items-center justify-center"
      style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=2070&q=80');">
 
-    <div class="absolute inset-0 bg-indigo-950/70"></div>
+    <div class="absolute inset-0 bg-indigo-950/75"></div>
 
-    <div class="relative z-10 max-w-6xl mx-auto px-6 lg:px-8 text-center text-white">
+    <div class="relative z-10 max-w-6xl mx-auto px-6 lg:px-8 text-center text-white py-24">
         <p class="uppercase tracking-[0.3em] text-sm md:text-base font-semibold text-indigo-200 mb-5">
             {{ __('messages.meet_doctors.page.overline') }}
         </p>
@@ -24,54 +24,215 @@
             </span>
         </h1>
 
-        <p class="text-lg md:text-xl max-w-4xl mx-auto text-indigo-100">
+        <p class="text-lg md:text-xl max-w-4xl mx-auto text-indigo-100 mb-6">
             {{ __('messages.meet_doctors.page.subtitle') }}
         </p>
+
+        <p class="text-base text-indigo-300 italic mb-8">
+            {{ __('messages.meet_doctors.page.trust_line') }}
+        </p>
+
+        <a href="{{ route('contact') }}"
+           class="inline-block bg-white text-indigo-900 font-bold px-8 py-4 rounded-xl hover:bg-indigo-50 transition-colors shadow-lg">
+            {{ __('messages.meet_doctors.page.cta_button') }}
+        </a>
     </div>
 </div>
 
 <!-- HIGHER STANDARD -->
 <section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-6 text-center">
+    <div class="max-w-4xl mx-auto px-6 text-center">
         <h2 class="text-4xl font-bold mb-6">
             {{ __('messages.meet_doctors.higher_standard.title') }}
         </h2>
 
-        <p class="text-lg text-gray-600 mb-10">
+        <p class="text-lg text-gray-600 mb-4">
             {{ __('messages.meet_doctors.higher_standard.content') }}
         </p>
 
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.higher_standard.point_1') }}</div>
-            <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.higher_standard.point_2') }}</div>
-            <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.higher_standard.point_3') }}</div>
-            <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.higher_standard.point_4') }}</div>
+        <p class="text-lg text-gray-600 mb-4">
+            {{ __('messages.meet_doctors.higher_standard.content_2') }}
+        </p>
+
+        <p class="text-base font-semibold text-gray-800 mb-6">
+            {{ __('messages.meet_doctors.higher_standard.content_3') }}
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-5 mb-10">
+            @foreach(['point_1','point_2','point_3','point_4'] as $p)
+                <div class="flex items-center gap-3 p-5 shadow-sm border border-gray-100 rounded-xl text-left">
+                    <span class="w-7 h-7 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-check text-xs"></i>
+                    </span>
+                    <span class="text-gray-700 font-medium">{{ __("messages.meet_doctors.higher_standard.$p") }}</span>
+                </div>
+            @endforeach
         </div>
 
-        <p class="mt-10 text-2xl font-bold text-indigo-700">
+        <p class="text-2xl font-bold text-indigo-700">
             {{ __('messages.meet_doctors.higher_standard.killer') }}
         </p>
     </div>
 </section>
 
-{{-- TUS DOCTORES AQUI --}}
+<!-- DR. ERNESTO MORAN SPOTLIGHT -->
+<section class="py-20 bg-white border-t border-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col lg:flex-row gap-14 items-start">
+            <!-- Image -->
+            <div class="lg:w-5/12 flex-shrink-0">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] w-full max-w-md mx-auto lg:mx-0">
+                    <img src="{{ asset('images/IMG_100188.webp') }}" alt="Dr. Ernesto Moran"
+                         class="w-full h-full object-cover object-top">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <span class="inline-block bg-white/20 backdrop-blur text-white text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
+                            {{ __('messages.meet_doctors.ernesto_spotlight.experience_tagline') }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="lg:w-7/12">
+                <div class="inline-flex items-center gap-2 text-indigo-600 text-xs font-bold uppercase tracking-widest mb-4">
+                    <span class="w-8 h-px bg-indigo-400"></span>
+                    Chief Periodontist • Implantologist
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+                    Dr. Ernesto Moran
+                </h2>
+                <p class="text-lg text-indigo-700 font-semibold mb-6">
+                    {{ __('messages.meet_doctors.ernesto_spotlight.short_intro') }}
+                </p>
+
+                <div class="space-y-4 text-gray-600 text-base leading-relaxed mb-8">
+                    <p>{{ __('messages.meet_doctors.ernesto_spotlight.bio_1') }}</p>
+                    <p>{{ __('messages.meet_doctors.ernesto_spotlight.bio_2') }}</p>
+                    <p>{{ __('messages.meet_doctors.ernesto_spotlight.bio_3') }}</p>
+                    <p>{{ __('messages.meet_doctors.ernesto_spotlight.bio_4') }}</p>
+                </div>
+
+                <!-- Expertise -->
+                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
+                    {{ __('messages.meet_doctors.ernesto_spotlight.expertise_title') }}
+                </p>
+                <ul class="space-y-2 mb-8">
+                    @foreach(__('messages.meet_doctors.ernesto_spotlight.expertise_items') as $item)
+                        <li class="flex items-center gap-3 text-slate-700 font-medium">
+                            <span class="w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0 text-xs">
+                                <i class="fas fa-check"></i>
+                            </span>
+                            {{ $item }}
+                        </li>
+                    @endforeach
+                </ul>
+
+                <!-- Killer line -->
+                <div class="border-l-4 border-indigo-500 pl-5">
+                    <p class="text-xl font-bold text-slate-900 italic leading-snug">
+                        "{{ __('messages.meet_doctors.ernesto_spotlight.killer') }}"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DR. JULIO NEVÁREZ SPOTLIGHT -->
+<section class="py-20 bg-slate-50 border-t border-slate-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col lg:flex-row-reverse gap-14 items-start">
+            <!-- Image -->
+            <div class="lg:w-5/12 flex-shrink-0">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] w-full max-w-md mx-auto lg:mx-0">
+                    <img src="{{ asset('images/IMG_100190.webp') }}" alt="Dr. Julio Nevárez"
+                         class="w-full h-full object-cover object-top">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <span class="inline-block bg-white/20 backdrop-blur text-white text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
+                            {{ __('messages.meet_doctors.julio_spotlight.experience_tagline') }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="lg:w-7/12">
+                <div class="inline-flex items-center gap-2 text-indigo-600 text-xs font-bold uppercase tracking-widest mb-4">
+                    <span class="w-8 h-px bg-indigo-400"></span>
+                    Prosthodontist • Cosmetic Dentist • Implantologist
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+                    Dr. Julio Nevárez
+                </h2>
+                <p class="text-lg text-indigo-700 font-semibold mb-6">
+                    {{ __('messages.meet_doctors.julio_spotlight.short_intro') }}
+                </p>
+
+                <div class="space-y-4 text-gray-600 text-base leading-relaxed mb-8">
+                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_1') }}</p>
+                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_2') }}</p>
+                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_3') }}</p>
+                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_4') }}</p>
+                </div>
+
+                <!-- Expertise -->
+                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
+                    {{ __('messages.meet_doctors.julio_spotlight.expertise_title') }}
+                </p>
+                <ul class="space-y-2 mb-8">
+                    @foreach(__('messages.meet_doctors.julio_spotlight.expertise_items') as $item)
+                        <li class="flex items-center gap-3 text-slate-700 font-medium">
+                            <span class="w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0 text-xs">
+                                <i class="fas fa-check"></i>
+                            </span>
+                            {{ $item }}
+                        </li>
+                    @endforeach
+                </ul>
+
+                <!-- Killer line -->
+                <div class="border-l-4 border-indigo-500 pl-5">
+                    <p class="text-xl font-bold text-slate-900 italic leading-snug">
+                        "{{ __('messages.meet_doctors.julio_spotlight.killer') }}"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- WORKING TOGETHER -->
-<section class="py-20 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <h2 class="text-4xl font-bold mb-6">
+<section class="py-20 bg-indigo-950 text-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-8">
             {{ __('messages.meet_doctors.working_together.title') }}
         </h2>
 
-        <p class="text-lg text-gray-600">
-            {{ __('messages.meet_doctors.working_together.content') }}
-        </p>
+        <div class="space-y-4 text-indigo-100 text-lg mb-10 max-w-3xl mx-auto">
+            <p>{{ __('messages.meet_doctors.working_together.content_1') }}</p>
+            <p>{{ __('messages.meet_doctors.working_together.content_2') }}</p>
+            <p class="font-semibold text-white">{{ __('messages.meet_doctors.working_together.content_3') }}</p>
+        </div>
 
-        <p class="mt-8 text-2xl font-bold text-indigo-700">
+        <div class="grid md:grid-cols-2 gap-5 mb-10 max-w-3xl mx-auto">
+            @foreach(['item_1','item_2','item_3','item_4'] as $item)
+                <div class="flex items-center gap-4 bg-white/10 border border-white/10 rounded-xl p-5 text-left">
+                    <span class="w-7 h-7 rounded-full bg-indigo-400/30 text-indigo-200 flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-check text-xs"></i>
+                    </span>
+                    <span class="text-indigo-100 font-medium">{{ __("messages.meet_doctors.working_together.$item") }}</span>
+                </div>
+            @endforeach
+        </div>
+
+        <p class="text-2xl font-bold text-indigo-200">
             {{ __('messages.meet_doctors.working_together.killer') }}
         </p>
     </div>
 </section>
+
 
 <!-- TECHNOLOGY -->
 <section class="py-20 bg-white">
@@ -230,6 +391,7 @@ $lilianaSections = [];
         asset('images/videos/moran_ortodoncia.mp4'),
         asset('images/videos/moran_implantes.mp4'),
     ]"
+    :profileUrl="route('dr-ernesto-moran')"
 />
 
 <x-doctor-profile 

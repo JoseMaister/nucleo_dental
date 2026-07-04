@@ -72,8 +72,12 @@ Route::group([
     })->name('gallery');
 
     Route::get('/meet-doctors', function () {
-    return view('meet-doctors');
-})->name('meet-doctors');
+        return view('meet-doctors');
+    })->name('meet-doctors');
+
+    Route::get('/meet-doctors/dr-ernesto-moran', function () {
+        return view('dr-ernesto-moran');
+    })->name('dr-ernesto-moran');
 
     // Individual Service Pages
     Route::get('/services/dental-implants', function () { return view('services.dental-implants'); })->name('dental-implants');

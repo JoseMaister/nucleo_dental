@@ -12,6 +12,7 @@
 
     <x-sections.service-pages.who-is-for 
         :items="__('messages.services_detail.bone_grafting.who_is_for')"
+        :fullDescription="__('messages.services_detail.bone_grafting.full_description')"
     />
 
     <x-sections.service-pages.why-choose-us 
