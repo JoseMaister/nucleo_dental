@@ -67,7 +67,7 @@ return [
         ],
     ],
 ],
-        'julio' => [
+    'julio' => [
             'name' => 'Dr. Julio Nevárez',
             'julio_summary' => 'Prótesico, Dentista Cosmético y Especialista en Implantes con más de 25 años de experiencia. El Dr. Nevárez se especializa en restaurar función y estética, asegurando que cada implante y restauración se vea natural y funcione perfectamente.',
             'content' => 'Prótesico, Dentista Cosmético y Especialista en Implantes con más de 25 años de experiencia. El Dr. Nevárez se especializa en restaurar función y estética, asegurando que cada implante y restauración se vea natural y funcione perfectamente.',
@@ -392,32 +392,127 @@ return [
     ],
     'techno' => [
         'hero' => [
-            'title' => 'TECNOLOGÍA DENTAL <strong>AVANZADA</strong>',
-            'subtitle' => 'TECNOLOGÍA DE VANGUARDIA PARA TU SONRISA',
-            'description' => 'En Nucleo Dental, contamos con el equipo más avanzado en odontología moderna. Invertimos en tecnología de punta para ofrecerte diagnósticos más precisos, tratamientos más cómodos y resultados más seguros. Tu bienestar es nuestra prioridad.'
+            'title' => 'Tecnología Dental Avanzada en Ciudad Juárez',
+            'subtitle' => 'Odontología Digital cerca de El Paso | Precisión, Comodidad y Resultados Más Rápidos',
+            'description' => 'En Núcleo Dental combinamos tecnología dental avanzada con atención experta para ofrecer resultados excepcionales para pacientes que viajan desde El Paso y todo Estados Unidos. Nuestro flujo de trabajo completamente digital permite diagnósticos más precisos, tiempos de tratamiento más rápidos, mayor comodidad (sin moldes desordenados) y resultados predecibles y duraderos. Si buscas odontología digital en México cerca de El Paso, estás en el lugar correcto.',
         ],
         'op3d_pro' => [
             'name' => 'ORTOPANTOMÓGRAFO™',
             'subname' => 'OP 3D Pro',
-            'title' => 'Imágenes 3D de Alta Calidad',
-            'description' => 'Tecnología 3D de Alta Precisión Nuestro escáner OP 3D Pro nos permite obtener imágenes 3D de alta calidad con radiación mínima. Ideal para diagnósticos precisos y tratamientos seguros en implantología, endodoncia, ortodoncia y más.'
+            'title' => 'Escáner CT 3D – OP 3D Pro',
+            'subtitle' => 'Imágenes Dentales 3D Avanzadas con Radiación Mínima',
+            'description' => 'Nuestro ORTOPANTOMÓGRAFO™ OP 3D Pro proporciona imágenes 3D de alta resolución para un diagnóstico preciso y planificación del tratamiento.',
+            'why_matters' => [
+                'title' => 'Por qué importa',
+                'items' => [
+                    'Colocación de implantes dentales más segura y precisa',
+                    'Detección temprana de problemas dentales ocultos',
+                    'Mejores resultados para casos quirúrgicos y complejos',
+                ]
+            ],
+            'ideal_for' => [
+                'title' => 'Ideal para',
+                'items' => [
+                    'Implantes dentales',
+                    'Conductos radiculares',
+                    'Ortodoncia',
+                    'Rehabilitación de boca completa',
+                ]
+            ]
         ],
         'rayface' => [
             'name' => 'RAYFACE 3D',
             'subname' => 'Escáner Facial',
-            'title' => 'Tu Sonrisa Completa en 3D',
-            'description' => 'Con RayFace, visualizamos tu sonrisa completa en 3D para ofrecerte un tratamiento más natural, estético y personalizado, para una planificación digital más completa y estética.'
+            'title' => 'Vea Su Nueva Sonrisa Antes de Comenzar el Tratamiento',
+            'subtitle' => 'Diseño de Sonrisa 3D – Escáner RayFace',
+            'description' => 'Nuestro escáner facial RayFace 3D nos permite diseñar su sonrisa teniendo en cuenta la armonía facial completa.',
+            'benefits' => [
+                'title' => 'Beneficios',
+                'items' => [
+                    'Diseño de sonrisa personalizado',
+                    'Resultados naturales y estéticos',
+                    'Vea sus resultados antes de comenzar el tratamiento',
+                    'Mejor comunicación y planificación',
+                ]
+            ],
+            'closing' => 'Esta es una parte clave de nuestro proceso de transformación estética y de boca completa.'
         ],
         'cerec' => [
             'name' => 'CEREC',
             'subname' => 'Primescan',
-            'title' => 'Tecnología Dental Avanzada',
-            'description' => 'Experimenta la odontología de vanguardia con nuestra tecnología CEREC de última generación. Nuestros sistemas avanzados proporcionan restauraciones el mismo día con una precisión y comodidad excepcionales. Escaneamos tu boca con una cámara 3D, diseñamos tu pieza en una computadora y la fabricamos en minutos con precisión milimétrica.'
+            'title' => 'Odontología Digital Sin Espera',
+            'subtitle' => 'Coronas el Mismo Día – CEREC Primescan',
+            'description' => 'Con CEREC Primescan, podemos diseñar y crear su restauración dental en una sola visita.',
+            'how_it_works' => [
+                'title' => 'Cómo funciona',
+                'items' => [
+                    'Escaneo 3D digital (sin moldes)',
+                    'Restauración diseñada por computadora',
+                    'Fresado in situ con precisión extrema',
+                ]
+            ],
+            'benefits' => [
+                'title' => 'Beneficios',
+                'items' => [
+                    'Coronas el mismo día',
+                    'Menos citas',
+                    'Ajuste altamente preciso',
+                    'Resultados de aspecto natural',
+                ]
+            ]
         ],
         'banner_bottom' => [
             'line1' => 'El Equipo Más',
             'line2' => 'Avanzado en la',
             'line3' => 'Odontología Moderna'
+        ],
+        'why_advanced_tech' => [
+            'title' => 'Por Qué Importa la Tecnología Avanzada',
+            'intro' => 'Elegir una clínica dental con tecnología moderna significa:',
+            'benefits' => [
+                'Tratamientos más precisos y seguros',
+                'Recuperación más rápida y menos visitas',
+                'Mejores resultados a largo plazo',
+                'Experiencia de paciente más cómoda',
+            ],
+            'closing' => 'En Núcleo Dental, la tecnología nos permite ofrecer atención de nivel estadounidense a una fracción del costo.'
+        ],
+        'before_vs_digital' => [
+            'title' => 'Vea Su Sonrisa Antes de Tratarla',
+            'traditional' => [
+                'title' => 'Odontología tradicional:',
+                'items' => [
+                    'Especulación sobre los resultados finales',
+                    'Visualización limitada',
+                    'Múltiples ajustes necesarios',
+                ]
+            ],
+            'nucleo' => [
+                'title' => 'En Núcleo Dental:',
+                'items' => [
+                    'Escaneos faciales y dentales 3D completos',
+                    'Vista previa digital de la sonrisa antes del tratamiento',
+                    'Planificación precisa y personalizada',
+                    'Resultados estéticos predecibles',
+                ]
+            ],
+            'closing' => 'A los pacientes les saber exactamente qué esperar antes de que comience el tratamiento.'
+        ],
+        'cta_section' => [
+            'title' => 'Experimente Atención Dental Avanzada cerca de El Paso',
+            'subtitle' => 'Obtenga los beneficios de la tecnología dental de vanguardia sin el alto costo de Estados Unidos.',
+            'phone_cta' => '📞 Llame ahora para programar su consulta',
+            'xrays_cta' => '💬 O envíenos sus rayos X para un plan de tratamiento personalizado',
+        ],
+        'homepage_highlights' => [
+            'title' => 'Tecnología Dental Moderna para Mejores Resultados',
+            'items' => [
+                'Escáneres CT 3D para diagnóstico preciso',
+                'Diseño de Sonrisa Digital (vea resultados antes del tratamiento)',
+                'Coronas el mismo día con CEREC',
+                'Sin moldes desordenados',
+            ],
+            'tagline' => 'Atención avanzada. Tratamiento más rápido. Mejores resultados.'
         ]
     ],
     'resume' => [
@@ -432,9 +527,10 @@ return [
         'financing' => 'Financiamiento',
         'contact' => 'Contacto',
         'about' => 'Nosotros',
-            'meet_doctors' => 'Conoce a los Doctores',
-
-        'technology' => 'Tecnología',        'dental_tourism' => 'Turismo Dental',        'home' => 'Inicio - Nucleo Dental',
+        'meet_doctors' => 'Conoce a los Doctores',
+        'technology' => 'Tecnología',
+        'dental_tourism' => 'Turismo Dental',
+        'home' => 'Inicio - Nucleo Dental',
     ],
     'services_hero' => [
         'title' => 'NUESTROS SERVICIOS DENTALES',
@@ -1822,6 +1918,16 @@ return [
             'cta_primary' => 'Agenda tu Cita',
             'cta_secondary' => 'Contáctanos Hoy',
         ],
+        'faq' => [
+            'title' => 'Tratamiento de Endodoncia — Preguntas Frecuentes',
+            'intro' => 'Obtén respuestas claras sobre el tratamiento de endodoncia, qué esperar y cómo hacemos que el proceso sea cómodo y efectivo.',
+        ],
+        'faq_cta' => [
+            'headline' => '¿Todavía Tienes Preguntas?',
+            'description' => 'Nuestro equipo está aquí para ayudarte a entender tus opciones de tratamiento y sentirte confiado con tu cuidado.',
+            'cta_primary' => 'Haz una Pregunta',
+            'cta_secondary' => 'Agenda tu Cita',
+        ],
     ],
 
     'gallery' => [
@@ -2312,10 +2418,10 @@ return [
     ],
     'el_paso_transport' => [
         'hero' => [
-        'headline' => 'Odontología por la que vale la pena viajar',
-        'subheadline' => 'Atención avanzada. Experiencia sin complicaciones. A solo minutos de El Paso',
-        'intro' => 'No tienes que conformarte, esperar o pagar de más para recibir la atención dental que mereces.',
-        'description' => 'En Núcleo Dental hemos creado una experiencia diferente, donde la odontología de precisión, la atención personalizada y un traslado sin complicaciones se unen para brindarte resultados en los que puedes confiar. Desde rehabilitaciones completas hasta atención familiar, ortodoncia y urgencias dentales, todo está diseñado con un solo objetivo: hacer tu experiencia simple, cómoda y excepcional de principio a fin.'
+        'headline' => 'Dentista cerca de El Paso con Transporte Gratuito',
+        'subheadline' => 'Atención Dental de Alta Calidad en Ciudad Juárez — Minutos de El Paso',
+        'intro' => '¿Buscas un dentista cerca de El Paso que ofrezca atención experta, precios asequibles y transporte gratuito?',
+        'description' => 'En Núcleo Dental ofrecemos tratamientos dentales avanzados a solo minutos de la frontera en Ciudad Juárez, facilitando que los pacientes de El Paso y de todo Estados Unidos reciban atención de alta calidad sin el alto costo.',
     ],
         'transportation' => [
       'title' => 'Transporte Gratuito desde El Paso',
@@ -2397,20 +2503,21 @@ return [
                 'Proceso fluido y organizado en cada visita'
             ]
         ],
-       'cta' => [
-    'headline' => 'Planifique Su Visita Hoy',
-    'subheadline' => 'Obtener atención dental asequible y de alta calidad cerca de El Paso nunca ha sido tan fácil.',
-    'primary_btn' => 'Llámenos hoy para programar',
-    'secondary_btn' => 'Envíenos un mensaje'
-],
-            'experience' => [
+        'cta' => [
+            'headline' => 'Planifique Su Visita Hoy',
+            'subheadline' => 'Obtener atención dental asequible y de alta calidad cerca de El Paso nunca ha sido tan fácil.',
+            'primary_btn' => 'Llámenos hoy para programar',
+            'secondary_btn' => 'Envíenos un mensaje'
+        ],
+        'experience' => [
             'title' => 'Más que atención dental: una mejor experiencia',
             'subtitle' => 'Muchos pacientes esperan que el turismo dental sea complicado. En cambio, lo que encuentran en Núcleo Dental es:',
             'items' => [
                 'Un proceso tranquilo y organizado',
                 'Un equipo que se comunica de forma clara y constante',
                 'Un nivel de atención que se siente personal, no transaccional',
-        ],
+            ]
+        ]
     ],
     'meet_doctors' => [
         'page' => [
@@ -2506,7 +2613,7 @@ return [
         'meta_title' => 'Conozca al Dr. Ernesto Moran | Fundador y Especialista en Implantes Jefe',
         'meta_description' => 'Conozca al Dr. Ernesto Moran, fundador y director clínico de Núcleo Dental. Más de 40 años de experiencia en periodoncia avanzada, implantes cigomáticos y reconstrucción bucal completa.',
         'headline' => 'Conozca al Dr. Ernesto Moran',
-        'subheadline' => "Fundador • Director Clínico • Periodoncista & Implantólogo Jefe\nMás de 40 Años de Experiencia",
+        'subheadline' => 'Fundador • Director Clínico • Periodoncista & Implantólogo Jefe' . "\n" . 'Más de 40 Años de Experiencia',
         'trust_line' => 'La experiencia detrás de cada tratamiento. El estándar detrás de cada resultado.',
         'cta_consultation' => 'Programe Su Consulta',
         'cta_video' => 'Ver Video',
@@ -2568,5 +2675,5 @@ return [
         'final_cta_body' => 'En Núcleo Dental, su atención está guiada por décadas de experiencia, capacitación avanzada y un compromiso con los resultados a largo plazo.',
         'final_cta_primary' => 'Reserve Su Consulta',
         'final_cta_secondary' => 'Contacte a Nuestro Equipo',
-    ],
+    ]
 ];

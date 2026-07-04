@@ -82,7 +82,7 @@
     </section>
 
     <!-- HOW IT WORKS (3 STEPS) -->
-    <!-- <section class="py-20 bg-slate-50">
+    <section class="py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
@@ -112,7 +112,7 @@
                 @endforeach
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- THE FULL PROCESS -->
     <section class="py-16 md:py-24 px-4 md:px-8 bg-white">

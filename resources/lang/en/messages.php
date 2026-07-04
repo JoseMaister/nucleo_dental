@@ -408,32 +408,128 @@ return [
     ],
     'techno' => [
         'hero' => [
-            'title' => 'ADVANCED DENTAL <strong>TECHNOLOGY</strong>',
-            'subtitle' => 'CUTTING - EDGE TECHNOLOGY FOR YOUR SMILE',
-            'description' => 'At Nucleo Dental, we have the most advanced equipment in modern dentistry. We invest in cutting-edge technology to offer you more accurate diagnoses, more comfortable treatments, and safer results. Your well-being is our priority.'
+            'title' => 'Advanced Dental Technology in Ciudad Juárez',
+            'subtitle' => 'Digital Dentistry Near El Paso | Precision, Comfort & Faster Results',
+            'description' => 'At Núcleo Dental. We combine advanced dental technology with expert care to deliver exceptional results for patients traveling from El Paso and across the U.S. Our fully digital workflow allows for more accurate diagnoses, faster treatment times, greater comfort (no messy impressions), and predictable, long-lasting results. If you are searching for digital dentistry in Mexico near El Paso, you are in the right place.',
         ],
+
         'op3d_pro' => [
             'name' => 'ORTHOPANTOMOGRAPH™',
             'subname' => 'OP 3D Pro',
-            'title' => 'High Quality 3D Images',
-            'description' => 'High-Precision 3D Technology Our OP 3D Pro CT scanner allows us to obtain high-quality 3D images with minimal radiation. Ideal for accurate diagnoses and safe treatments in implantology, endodontics, orthodontics, and more.'
+            'title' => '3D CT Scan – OP 3D Pro',
+            'subtitle' => 'Advanced 3D Dental Imaging with Minimal Radiation',
+            'description' => 'Our ORTHOPANTOMOGRAPH™ OP 3D Pro provides high-resolution 3D imaging for precise diagnosis and treatment planning.',
+            'why_matters' => [
+                'title' => 'Why it matters',
+                'items' => [
+                    'Safer, more accurate dental implant placement',
+                    'Early detection of hidden dental issues',
+                    'Better outcomes for surgical and complex cases',
+                ]
+            ],
+            'ideal_for' => [
+                'title' => 'Ideal for',
+                'items' => [
+                    'Dental implants',
+                    'Root canals',
+                    'Orthodontics',
+                    'Full-mouth rehabilitation',
+                ]
+            ]
         ],
         'rayface' => [
             'name' => 'RAYFACE 3D',
             'subname' => 'Facial Scanner',
-            'title' => 'Your Entire Smile in 3D',
-            'description' => 'With RayFace, we visualize your entire smile in 3D to offer you a more natural, aesthetic, and personalized treatment, for more complete and aesthetic digital planning.'
+            'title' => 'See Your New Smile Before Treatment Begins',
+            'subtitle' => '3D Smile Design – RayFace Scanner',
+            'description' => 'Our RayFace 3D Facial Scanner allows us to design your smile with complete facial harmony in mind.',
+            'benefits' => [
+                'title' => 'Benefits',
+                'items' => [
+                    'Personalized smile design',
+                    'Natural, aesthetic results',
+                    'Preview your results before starting treatment',
+                    'Better communication and planning',
+                ]
+            ],
+            'closing' => 'This is a key part of our cosmetic and full-mouth transformation process.'
         ],
         'cerec' => [
             'name' => 'CEREC',
             'subname' => 'Primescan',
-            'title' => 'Advanced Dental Technology',
-            'description' => 'Experience cutting-edge dental care with our state-of-the-art CEREC technology. Our advanced systems provide precise, same-day restorations with exceptional accuracy and comfort. We scan your mouth with a 3D camera, design your piece on a computer, and shape it in minutes with millimeter precision.'
+            'title' => 'Digital Dentistry Without the Wait',
+            'subtitle' => 'Same-Day Crowns – CEREC Primescan',
+            'description' => 'With CEREC Primescan, we can design and create your dental restoration in a single visit.',
+            'how_it_works' => [
+                'title' => 'How it works',
+                'items' => [
+                    'Digital 3D scan (no impressions)',
+                    'Computer-designed restoration',
+                    'On-site milling with extreme precision',
+                ]
+            ],
+            'benefits' => [
+                'title' => 'Benefits',
+                'items' => [
+                    'Same-day crowns',
+                    'Fewer appointments',
+                    'Highly accurate fit',
+                    'Natural-looking results',
+                ]
+            ]
         ],
         'banner_bottom' => [
             'line1' => 'Most Advanced',
             'line2' => 'equipment in modern',
             'line3' => 'dentistry'
+        ],
+        'why_advanced_tech' => [
+            'title' => 'Why Advanced Technology Matters',
+            'intro' => 'Choosing a dental clinic with modern technology means:',
+            'benefits' => [
+                'More precise and safer treatments',
+                'Faster recovery and fewer visits',
+                'Better long-term results',
+                'More comfortable patient experience',
+            ],
+            'closing' => 'At Núcleo Dental, technology allows us to deliver U.S.-level care at a fraction of the cost.'
+        ],
+        'before_vs_digital' => [
+            'title' => 'See Your Smile Before We Treat It',
+            'traditional' => [
+                'title' => 'Traditional dentistry:',
+                'items' => [
+                    'Guesswork in final results',
+                    'Limited visualization',
+                    'Multiple adjustments needed',
+                ]
+            ],
+            'nucleo' => [
+                'title' => 'At Núcleo Dental:',
+                'items' => [
+                    'Full 3D facial and dental scans',
+                    'Digital smile preview before treatment',
+                    'Precise, customized planning',
+                    'Predictable, aesthetic outcomes',
+                ]
+            ],
+            'closing' => 'Patients love knowing exactly what to expect—before treatment even begins.'
+        ],
+        'cta_section' => [
+            'title' => 'Experience Advanced Dental Care Near El Paso',
+            'subtitle' => 'Get the benefits of cutting-edge dental technology without the high U.S. cost.',
+            'phone_cta' => '📞 Call now to schedule your consultation',
+            'xrays_cta' => '💬 Or send us your X-rays for a personalized treatment plan',
+        ],
+        'homepage_highlights' => [
+            'title' => 'Modern Dental Technology for Better Results',
+            'items' => [
+                '3D CT Scans for precise diagnosis',
+                'Digital Smile Design (see results before treatment)',
+                'Same-day crowns with CEREC',
+                'No messy impressions',
+            ],
+            'tagline' => 'Advanced care. Faster treatment. Better outcomes.'
         ]
     ],
     'resume' => [
@@ -1845,6 +1941,16 @@ return [
             'cta_primary' => 'Schedule Your Appointment',
             'cta_secondary' => 'Contact Us Today',
         ],
+        'faq' => [
+            'title' => 'Root Canal Treatment — Frequently Asked Questions',
+            'intro' => 'Get clear answers about root canal treatment, what to expect, and how we make the process comfortable and effective.',
+        ],
+        'faq_cta' => [
+            'headline' => 'Still Have Questions?',
+            'description' => 'Our team is here to help you understand your treatment options and feel confident about your care.',
+            'cta_primary' => 'Ask a Question',
+            'cta_secondary' => 'Schedule Your Appointment',
+        ],
     ],
 
     'gallery' => [
@@ -2256,10 +2362,10 @@ return [
     'el_paso_transport' => [
     'hero' => [
         // EN
-        'headline' => 'Dentistry Worth Traveling For',
-        'subheadline' => 'Advanced Care. Effortless Experience. Just Minutes from El Paso',
-        'intro' => 'You don’t have to settle, wait, or overpay to get the dental care you deserve.',
-        'description' => 'At Núcleo Dental, we’ve created a different kind of experience—where precision dentistry, personalized care, and seamless travel come together to give you results you can feel confident about. From complex full-mouth restorations to family, orthodontic, and emergency care, everything is designed around one goal: making your experience simple, comfortable, and exceptional from start to finish.'
+        'headline' => 'Dentist Near El Paso with Free Transportation',
+        'subheadline' => 'High-Quality Dental Care in Ciudad Juárez — Minutes from El Paso',
+        'intro' => 'Looking for a dentist near El Paso that offers expert care, affordable pricing, and free transportation?',
+        'description' => 'At Núcleo Dental, we provide advanced dental treatments just minutes across the border in Ciudad Juárez—making it easy for patients from El Paso and across the U.S. to receive high-quality care without the high cost.',
     ],
        'transportation' => [
     // EN

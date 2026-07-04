@@ -261,7 +261,7 @@
             </div>
 
             <x-doctor-profile 
-                :imageUrl="asset('images/doctor.png')" 
+                :imageUrl="asset('images/IMG_100188.webp')" 
                 :name="__('messages.team.mario.name')"
                 :specialties="[__('messages.specialties.endodontist')]"
                 :content="__('messages.root_canal.doctor.content')"
@@ -347,7 +347,33 @@
 
 
     <!-- FAQ SECTION -->
-    <x-sections.faq faqFile="data/root-canal-faq.json" />
+    <x-sections.faq 
+        faqFile="data/root-canal-faq.json" 
+        :title="__('messages.root_canal.faq.title')"
+        :intro="__('messages.root_canal.faq.intro')"
+    />
+
+    <!-- FINAL FAQ CTA -->
+    <section class="py-20 px-6 bg-gray-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-indigo-800 mb-6">
+                {{ __('messages.root_canal.faq_cta.headline') }}
+            </h2>
+            <p class="text-lg text-gray-700 mb-10 leading-relaxed">
+                {{ __('messages.root_canal.faq_cta.description') }}
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="{{ route('contact') }}"
+                   class="bg-white text-indigo-800 font-bold px-10 py-4 rounded-full hover:bg-gray-100 transition shadow-2xl border-2 border-indigo-800">
+                    {{ __('messages.root_canal.faq_cta.cta_primary') }}
+                </a>
+                <a href="{{ route('contact') }}"
+                   class="bg-indigo-800 text-white font-bold px-10 py-4 rounded-full hover:bg-indigo-900 transition shadow-2xl">
+                    {{ __('messages.root_canal.faq_cta.cta_secondary') }}
+                </a>
+            </div>
+        </div>
+    </section>
 
     <x-contact-map /> 
 
