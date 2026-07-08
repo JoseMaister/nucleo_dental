@@ -1,7 +1,8 @@
 @props([
     'title' => 'Who This Is For',
     'items' => [],
-    'fullDescription' => null
+    'fullDescription' => null,
+    'image' => 'images/banner-smile-1.webp'
 ])
 
 <section class="py-24 bg-white">
@@ -32,7 +33,7 @@
             </div>
             <div class="lg:w-1/2 relative">
                 <div class="absolute inset-0 bg-blue-600 rounded-[40px] rotate-3 scale-95 opacity-10"></div>
-                <img src="{{ asset('images/banner-smile-1.webp') }}" class="relative z-10 rounded-[40px] shadow-2xl w-full object-cover aspect-video" alt="Patient Care">
+                <img src="{{ asset($image) }}" class="relative z-10 rounded-[40px] shadow-2xl w-full object-cover aspect-video" alt="Patient Care">
                 <!-- Trust Badge -->
                 <div class="absolute -bottom-10 -right-10 z-20 bg-white p-8 rounded-3xl shadow-2xl max-w-[240px] hidden md:block border border-slate-100">
                     <div class="flex items-center gap-3 mb-4">

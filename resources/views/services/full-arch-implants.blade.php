@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/IMG_100203.webp"
         :items="__('messages.services_detail.all_on_4.who_is_for')"
         :fullDescription="__('messages.services_detail.all_on_4.full_description')"
     />

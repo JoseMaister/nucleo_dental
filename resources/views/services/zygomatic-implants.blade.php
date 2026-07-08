@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/100329.webp"
         :items="__('messages.services_detail.zygomatic_implants.who_is_for')"
         :fullDescription="__('messages.services_detail.zygomatic_implants.full_description')"
     />

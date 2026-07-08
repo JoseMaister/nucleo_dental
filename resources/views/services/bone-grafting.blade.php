@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/100328.webp"
         :items="__('messages.services_detail.bone_grafting.who_is_for')"
         :fullDescription="__('messages.services_detail.bone_grafting.full_description')"
     />

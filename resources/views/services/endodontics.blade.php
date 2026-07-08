@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/100313.webp"
         :items="__('messages.services_detail.root_canal_treatment.who_is_for')"
         :fullDescription="__('messages.services_detail.root_canal_treatment.full_description')"
     />

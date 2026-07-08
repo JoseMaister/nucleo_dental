@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/100330.webp"
         :items="__('messages.services_detail.sedation_dentistry.who_is_for')"
         :fullDescription="__('messages.services_detail.sedation_dentistry.full_description')"
     />

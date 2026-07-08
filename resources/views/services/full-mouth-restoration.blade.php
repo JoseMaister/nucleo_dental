@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/100315.webp"
         :items="__('messages.services_detail.full_mouth_restoration.who_is_for')"
         :fullDescription="__('messages.services_detail.full_mouth_restoration.full_description')"
     />

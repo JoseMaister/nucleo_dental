@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/100325.webp"
         :items="__('messages.services_detail.maxillofacial_surgery.who_is_for')"
         :fullDescription="__('messages.services_detail.maxillofacial_surgery.full_description')"
     />

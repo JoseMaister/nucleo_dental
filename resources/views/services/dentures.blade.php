@@ -11,6 +11,7 @@
     />
 
     <x-sections.service-pages.who-is-for 
+        image="images/IMG_100213.webp"
         :items="__('messages.services_detail.dentures.who_is_for')"
         :fullDescription="__('messages.services_detail.dentures.full_description')"
     />
