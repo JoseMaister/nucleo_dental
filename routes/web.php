@@ -44,6 +44,10 @@ Route::group([
         return view('contact');
     })->name('contact');
 
+    Route::get('transportation', function () {
+        return view('transportation');
+    })->name('transportation');
+
     Route::get('dental-tourism', function () {
         return view('dental_tourism');
     })->name('dental-tourism');
@@ -54,15 +58,15 @@ Route::group([
     
     Route::get('/dental-implants', function () {
         return view('dental-implants');
-    })->name('dental-implants');
+    })->name('dental-implants-landing');
     
     Route::get('/full-arch-implants', function () {
         return view('full-arch-implants');
-    })->name('full-arch-implants');
+    })->name('full-arch-implants-landing');
 
     Route::get('/root-canal-treatment', function () {
         return view('endodontics');
-    })->name('endodontics');
+    })->name('endodontics-landing');
     Route::get('/safety-clinical-standards', function () {
         return view('safety'); // o 'pages.safety'
     })->name('safety');
@@ -72,8 +76,12 @@ Route::group([
     })->name('gallery');
 
     Route::get('/meet-doctors', function () {
-    return view('meet-doctors');
-})->name('meet-doctors');
+        return view('meet-doctors');
+    })->name('meet-doctors');
+
+    Route::get('/meet-doctors/dr-ernesto-moran', function () {
+        return view('dr-ernesto-moran');
+    })->name('dr-ernesto-moran');
 
     // Individual Service Pages
     Route::get('/services/dental-implants', function () { return view('services.dental-implants'); })->name('dental-implants');

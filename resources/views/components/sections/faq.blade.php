@@ -4,9 +4,14 @@
         <!-- Section Title -->
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">
-                {{ __('messages.faq.title') }}
+                {{ $title ?? __('messages.faq.title') }}
             </h2>
-            <div class="w-20 h-1 bg-indigo-700 mx-auto rounded"></div>
+            @if(isset($intro))
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto mt-4">
+                {{ $intro }}
+            </p>
+            @endif
+            <div class="w-20 h-1 bg-indigo-700 mx-auto rounded mt-6"></div>
         </div>
 
         <!-- FAQ Grid -->

@@ -21,7 +21,7 @@
                             <p class="text-base md:text-lg lg:text-xl mb-6">
                                 {{ __('messages.about.bio') }}
                             </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
+                            <a href="{{ route('meet-doctors') }}#dr-ernesto-moran" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
                                 {{ __('messages.about.cta') }}
                             </a>
                         </div>
@@ -39,102 +39,12 @@
                             <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
                                 {{ __('messages.team.julio.julio_summary') }}
                             </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
+                            <a href="{{ route('meet-doctors') }}#dr-julio-nevarez" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
                                 {{ __('messages.about.cta') }}
                             </a>
                         </div>
                         <div class="flex justify-center">
                             <img src="{{ asset('images/IMG_100190-removebg.png') }}" alt="Dr. Julio Nevárez" class="max-h-[400px] w-auto object-contain">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dra. Adriana Armendáriz -->
-                <div class="swiper-slide">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-4">
-                        <div class="text-center lg:text-left">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.adriana_armendariz.name') }}</h2>
-                            <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
-                                {{ __('messages.team.adriana_armendariz.adriana_armendariz_summary') }}
-                            </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
-                                {{ __('messages.about.cta') }}
-                            </a>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="{{ asset('images/IMG_100183-removebg.png') }}" alt="Dra. Adriana Armendáriz" class="max-h-[400px] w-auto object-contain">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dra. Adriana Escalante -->
-                <div class="swiper-slide">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-4">
-                        <div class="text-center lg:text-left">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.adriana_escalante.name') }}</h2>
-                            <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
-                                {{ __('messages.team.adriana_escalante.adriana_escalante_summary') }}
-                            </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
-                                {{ __('messages.about.cta') }}
-                            </a>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="{{ asset('images/IMG_100198-removebg.png') }}" alt="Dra. Adriana Escalante" class="max-h-[400px] w-auto object-contain">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dr. Mario Torres -->
-                <div class="swiper-slide">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-4">
-                        <div class="text-center lg:text-left">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.mario.name') }}</h2>
-                            <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
-                                {{ __('messages.team.mario.mario_summary') }}
-                            </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
-                                {{ __('messages.about.cta') }}
-                            </a>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="{{ asset('images/IMG_100191-removebg.png') }}" alt="Dr. Mario Torres" class="max-h-[400px] w-auto object-contain">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dra. monica -->
-                <div class="swiper-slide">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-4">
-                        <div class="text-center lg:text-left">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.monica.name') }}</h2>
-                            <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
-                                {{ __('messages.team.monica.monica_summary') }}
-                            </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
-                                {{ __('messages.about.cta') }}
-                            </a>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="{{ asset('images/IMG_100184-removebg.png') }}" alt="Dra. Monica Limas" class="max-h-[400px] w-auto object-contain">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dra. Paloma -->
-                <div class="swiper-slide">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-4">
-                        <div class="text-center lg:text-left">
-                            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{{ __('messages.team.paloma.name') }}</h2>
-                            <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
-                                {{ __('messages.team.paloma.paloma_summary') }}
-                            </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
-                                {{ __('messages.about.cta') }}
-                            </a>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="{{ asset('images/IMG_100181-removebg.png') }}" alt="Dra. Paloma" class="max-h-[400px] w-auto object-contain">
                         </div>
                     </div>
                 </div>
@@ -146,6 +56,30 @@
             
             {{-- <!-- Pagination -->
             <div class="swiper-pagination mt-8"></div> --}}
+        </div>
+    </div>
+
+    <!-- Combined Advantage callout -->
+    <div class="max-w-4xl mx-auto mt-12 px-6">
+        <div class="bg-white rounded-3xl p-8 md:p-10 shadow-2xl border border-gray-100 text-gray-800 text-center">
+            <!-- Icon Row -->
+            <div class="w-16 h-16 mx-auto rounded-full bg-indigo-50 flex items-center justify-center text-indigo-700 mb-4">
+                <i class="fa-solid fa-people-group text-3xl"></i>
+            </div>
+            <!-- Title Row -->
+            <h3 class="text-xl md:text-2xl font-extrabold text-gray-900 mb-3">
+                {{ __('messages.about.combined_title') }}
+            </h3>
+            <!-- Description Row -->
+            <p class="text-gray-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+                {{ __('messages.about.combined_advantage') }}
+            </p>
+            <!-- Killer Line Row -->
+            <div class="inline-block border-l-4 border-indigo-500 bg-indigo-50 px-6 py-3 rounded-r-xl">
+                <p class="text-indigo-700 font-bold italic text-lg md:text-xl">
+                    "{{ __('messages.about.doctors_killer') }}"
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -199,7 +133,7 @@
 
             {{-- Right Side --}}
             <div class="relative">
-                <img src="{{ asset(__('messages.us_patients.image')) }}"
+                <img src="{{ asset('images/IMG_100205.webp') }}"
                      alt="{{ __('messages.us_patients.image_alt') }}"
                      class="w-full rounded-3xl shadow-2xl object-cover h-[500px]">
 
@@ -224,7 +158,7 @@
 
             <!-- Image -->
             <div class="order-2 md:order-1">
-                <img src="{{ asset(__('messages.technology.image')) }}"
+                <img src="{{ asset('images/IMG_100202.webp') }}"
                      alt="{{ __('messages.technology.title') }}"
                      class="w-full h-[500px] object-cover rounded-3xl shadow-2xl">
             </div>
@@ -284,7 +218,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             <div>
-                <img src="{{ __('messages.social_proof.image') }}"
+                <img src="{{ asset('images/100338.jpg') }}"
                      alt="Trusted Patients"
                      class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
             </div>

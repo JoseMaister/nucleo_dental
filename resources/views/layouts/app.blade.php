@@ -15,6 +15,9 @@
     <link rel="manifest" href="{{ asset('site.webmanifest') }}">
     <meta name="theme-color" content="#ffffff">
     <title>@yield('title', 'Nucleo Dental')</title>
+    @hasSection('meta_description')
+    <meta name="description" content="@yield('meta_description')">
+    @endif
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     
@@ -41,7 +44,7 @@
         <a href="{{ route('home') }}" class="flex items-center flex-shrink-0">
             <img src="{{ asset('images/logo.jpeg') }}" alt="Núcleo Dental" class="h-12">
         </a>
-
+        @if(!isset($hideNav) || !$hideNav)
         <!-- Mobile button -->
         <div class="md:hidden">
             <button id="mobile-menu-button" class="text-gray-700 hover:text-indigo-600 focus:outline-none">
@@ -65,7 +68,7 @@
             <!-- Services dropdown -->
             <div class="relative" id="services-dropdown-wrap">
                 <button id="services-dropdown-btn"
-                    class="flex items-center gap-1 {{ request()->routeIs('services') || request()->routeIs('dental-implants') || request()->routeIs('full-arch-implants') || request()->routeIs('endodontics') ? $active : $link }} focus:outline-none">
+                    class="flex items-center gap-1 {{ request()->routeIs('services') || request()->routeIs('dental-implants-landing') || request()->routeIs('full-arch-implants-landing') || request()->routeIs('endodontics-landing') ? $active : $link }} focus:outline-none">
                     {{ __('messages.nav.services') }}
                     <i class="fas fa-chevron-down text-xs transition-transform duration-200" id="services-chevron"></i>
                 </button>
@@ -79,20 +82,20 @@
                         {{ __('messages.nav.all_services') }}
                     </a>
 
-                    <a href="{{ route('dental-implants') }}"
-                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('dental-implants') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                    <a href="{{ route('dental-implants-landing') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('dental-implants-landing') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-tooth w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.dental_implants') }}
                     </a>
 
-                    <a href="{{ route('full-arch-implants') }}"
-                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('full-arch-implants') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                    <a href="{{ route('full-arch-implants-landing') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('full-arch-implants-landing') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-teeth-open w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.full_arch_implants') }}
                     </a>
 
-                    <a href="{{ route('endodontics') }}"
-                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('endodontics') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                    <a href="{{ route('endodontics-landing') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('endodontics-landing') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-syringe w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.endodontics') }}
                     </a>
@@ -130,6 +133,12 @@
                         class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('technology') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-microscope w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.technology') }}
+                    </a>
+
+                    <a href="{{ route('transportation') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('transportation') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                        <i class="fas fa-car w-4 text-center opacity-60"></i>
+                        {{ __('messages.nav.transportation') }}
                     </a>
 
                     <a href="{{ route('dental-tourism') }}"
@@ -182,74 +191,119 @@
             </div>
 
         </div>
-    </div>
+        @else
+        <!-- Minimized Landing Page Header Actions -->
+        <div class="flex items-center gap-4">
+            <!-- Call Button -->
+            <a href="tel:+19153080101" class="hidden sm:flex bg-indigo-700 hover:bg-indigo-800 text-white px-5 py-2 rounded-full transition text-sm font-bold items-center gap-2">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call +1 (915) 308-0101</span>
+            </a>
+            
+            <!-- Language switcher -->
+            <div class="relative flex-shrink-0">
+                <button id="languageDropdown" class="flex items-center gap-2 border px-3 py-1 rounded hover:bg-gray-100">
+                    @if(app()->getLocale() === 'es')
+                        <img src="https://flagcdn.com/w20/mx.png" class="w-5 h-4">
+                        <span>ES</span>
+                    @else
+                        <img src="https://flagcdn.com/w20/us.png" class="w-5 h-4">
+                        <span>EN</span>
+                    @endif
+                    <i class="fas fa-chevron-down text-xs"></i>
+                </button>
 
-    <!-- Mobile menu -->
-    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2">
-
-        @php
-            $mobile = 'block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100';
-            $mobileActive = 'block px-3 py-2 rounded-md bg-indigo-50 text-indigo-700 font-semibold';
-        @endphp
-
-        <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.home') }}
-        </a>
-
-        <!-- Services Mobile Dropdown -->
-        <div>
-            <button id="mobile-services-btn" class="w-full text-left flex justify-between items-center px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none {{ request()->routeIs('services') || request()->routeIs('dental-implants') || request()->routeIs('full-arch-implants') || request()->routeIs('endodontics') ? 'bg-indigo-50 text-indigo-700 font-semibold' : '' }}">
-                {{ __('messages.nav.services') }}
-                <i class="fas fa-chevron-down text-xs transition-transform duration-200" id="mobile-services-chevron"></i>
-            </button>
-            <div id="mobile-services-menu" class="hidden pl-4 space-y-1 mt-1">
-                <a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? $mobileActive : $mobile }}">
-                    {{ __('messages.nav.all_services') }}
-                </a>
-                <a href="{{ route('dental-implants') }}" class="{{ request()->routeIs('dental-implants') ? $mobileActive : $mobile }}">
-                    {{ __('messages.nav.dental_implants') }}
-                </a>
-                <a href="{{ route('full-arch-implants') }}" class="{{ request()->routeIs('full-arch-implants') ? $mobileActive : $mobile }}">
-                    {{ __('messages.nav.full_arch_implants') }}
-                </a>
-                <a href="{{ route('endodontics') }}" class="{{ request()->routeIs('endodontics') ? $mobileActive : $mobile }}">
-                    {{ __('messages.nav.endodontics') }}
-                </a>
+                <div id="lang-menu" class="hidden absolute right-0 mt-2 w-28 bg-white rounded-md shadow-lg z-50">
+                    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                        <a href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
+                           class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 {{ app()->getLocale() === $localeCode ? 'bg-gray-100' : '' }}">
+                            @if($localeCode === 'es')
+                                <img src="https://flagcdn.com/w20/mx.png" class="w-5 h-4">
+                                <span>ES</span>
+                            @else
+                                <img src="https://flagcdn.com/w20/us.png" class="w-5 h-4">
+                                <span>EN</span>
+                            @endif
+                        </a>
+                    @endforeach
+                </div>
             </div>
         </div>
-
-        <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.about') }}
-        </a>
-        <a href="{{ route('meet-doctors') }}" class="{{ request()->routeIs('meet-doctors') ? $mobileActive : $mobile }}">
-    {{ __('messages.nav.meet_doctors') }}
-</a>
-        <a href="{{ route('gallery') }}" class="{{ request()->routeIs('gallery') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.gallery') }}
-        </a>
-
-        <a href="{{ route('safety') }}" class="{{ request()->routeIs('safety') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.safety') }}
-        </a>
-
-        <a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.technology') }}
-        </a>
-
-        <a href="{{ route('dental-tourism') }}" class="{{ request()->routeIs('dental-tourism') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.dental_tourism') }}
-        </a>
-
-        <a href="{{ route('blog-educativo') }}" class="{{ request()->routeIs('blog-educativo') ? $mobileActive : $mobile }}">
-            {{ __('messages.nav.blog_educativo') }}
-        </a>
-
-        <a href="{{ route('contact') }}" class="block px-3 py-2 rounded-md bg-indigo-700 text-white font-semibold text-center">
-            {{ __('messages.nav.contact') }}
-        </a>
-
+        @endif
     </div>
 </nav>
+
+@if(!isset($hideNav) || !$hideNav)
+<!-- Mobile menu -->
+<div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2">
+
+    @php
+        $mobile = 'block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100';
+        $mobileActive = 'block px-3 py-2 rounded-md bg-indigo-50 text-indigo-700 font-semibold';
+    @endphp
+
+    <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.home') }}
+    </a>
+
+    <!-- Services Mobile Dropdown -->
+    <div>
+        <button id="mobile-services-btn" class="w-full text-left flex justify-between items-center px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none {{ request()->routeIs('services') || request()->routeIs('dental-implants-landing') || request()->routeIs('full-arch-implants-landing') || request()->routeIs('endodontics-landing') ? 'bg-indigo-50 text-indigo-700 font-semibold' : '' }}">
+            {{ __('messages.nav.services') }}
+            <i class="fas fa-chevron-down text-xs transition-transform duration-200" id="mobile-services-chevron"></i>
+        </button>
+        <div id="mobile-services-menu" class="hidden pl-4 space-y-1 mt-1">
+            <a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? $mobileActive : $mobile }}">
+                {{ __('messages.nav.all_services') }}
+            </a>
+            <a href="{{ route('dental-implants-landing') }}" class="{{ request()->routeIs('dental-implants-landing') ? $mobileActive : $mobile }}">
+                {{ __('messages.nav.dental_implants') }}
+            </a>
+            <a href="{{ route('full-arch-implants-landing') }}" class="{{ request()->routeIs('full-arch-implants-landing') ? $mobileActive : $mobile }}">
+                {{ __('messages.nav.full_arch_implants') }}
+            </a>
+            <a href="{{ route('endodontics-landing') }}" class="{{ request()->routeIs('endodontics-landing') ? $mobileActive : $mobile }}">
+                {{ __('messages.nav.endodontics') }}
+            </a>
+        </div>
+    </div>
+
+    <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.about') }}
+    </a>
+    <a href="{{ route('meet-doctors') }}" class="{{ request()->routeIs('meet-doctors') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.meet_doctors') }}
+    </a>
+    <a href="{{ route('gallery') }}" class="{{ request()->routeIs('gallery') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.gallery') }}
+    </a>
+
+    <a href="{{ route('safety') }}" class="{{ request()->routeIs('safety') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.safety') }}
+    </a>
+
+    <a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.technology') }}
+    </a>
+
+    <a href="{{ route('transportation') }}" class="{{ request()->routeIs('transportation') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.transportation') }}
+    </a>
+
+    <a href="{{ route('dental-tourism') }}" class="{{ request()->routeIs('dental-tourism') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.dental_tourism') }}
+    </a>
+
+    <a href="{{ route('blog-educativo') }}" class="{{ request()->routeIs('blog-educativo') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.blog_educativo') }}
+    </a>
+
+    <a href="{{ route('contact') }}" class="block px-3 py-2 rounded-md bg-indigo-700 text-white font-semibold text-center">
+        {{ __('messages.nav.contact') }}
+    </a>
+
+</div>
+@endif>
 
     <!-- Page Content -->
     <main class="flex-1">
@@ -418,10 +472,15 @@
     <!-- Scripts -->
     <script>
         // Mobile menu toggle
-        document.getElementById('mobile-menu-button').addEventListener('click', function() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        });
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                const menu = document.getElementById('mobile-menu');
+                if (menu) {
+                    menu.classList.toggle('hidden');
+                }
+            });
+        }
 
         // Services dropdown toggle (Desktop)
         document.addEventListener('DOMContentLoaded', function() {

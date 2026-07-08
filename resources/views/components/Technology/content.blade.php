@@ -4,8 +4,14 @@
     'name' => '',
     'subName' => '',
     'title' => [],
+    'subtitle' => '',
     'content' => '',
-    'style' => ''
+    'style' => '',
+    'whyMatters' => null,
+    'idealFor' => null,
+    'benefits' => null,
+    'howItWorks' => null,
+    'closing' => ''
 ])
 
 <div class="relative w-full flex-1 mb-12 lg:mb-0 mt-8 border-indigo-800 border border-[4px] my-16">
@@ -14,9 +20,62 @@
 </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center py-8">
         <!-- Left Column - Text Content -->
-        <div class="space-y-4 pt-14 md:pl-14 pl-4">
-            <h2 class="text-4xl font-bold text-indigo-900  text-center md:text-right">{{ $title }}</h2>
-            {!! $content !!}
+        <div class="space-y-3 pt-14 md:pl-14 pl-4">
+            @if($subtitle)
+                <p class="text-lg font-semibold text-indigo-700 text-center md:text-right">{{ $subtitle }}</p>
+            @endif
+            <h2 class="text-4xl font-bold text-indigo-900 text-center md:text-right">{{ $title }}</h2>
+            @if($content)
+                <div class="text-lg text-gray-700 leading-relaxed text-center md:text-right">{!! $content !!}</div>
+            @endif
+            
+            @if($whyMatters)
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold text-indigo-900 text-center md:text-right">{{ $whyMatters['title'] }}</h3>
+                    <ul class="list-disc pl-5 mt-2 text-gray-700 text-lg text-center md:text-right">
+                        @foreach($whyMatters['items'] as $item)
+                            <li>{{ $item }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            
+            @if($idealFor)
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold text-indigo-900 text-center md:text-right">{{ $idealFor['title'] }}</h3>
+                    <ul class="list-disc pl-5 mt-2 text-gray-700 text-lg text-center md:text-right">
+                        @foreach($idealFor['items'] as $item)
+                            <li>{{ $item }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            
+            @if($howItWorks)
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold text-indigo-900 text-center md:text-right">{{ $howItWorks['title'] }}</h3>
+                    <ul class="list-disc pl-5 mt-2 text-gray-700 text-lg text-center md:text-right">
+                        @foreach($howItWorks['items'] as $item)
+                            <li>{{ $item }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            
+            @if($benefits)
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold text-indigo-900 text-center md:text-right">{{ $benefits['title'] }}</h3>
+                    <ul class="list-disc pl-5 mt-2 text-gray-700 text-lg text-center md:text-right">
+                        @foreach($benefits['items'] as $item)
+                            <li>{{ $item }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            
+            @if($closing)
+                <p class="mt-4 text-gray-600 italic text-center md:text-right">{{ $closing }}</p>
+            @endif
         </div>
 
         <!-- Right Column - Overlapping Image -->

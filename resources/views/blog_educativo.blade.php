@@ -29,124 +29,94 @@
                     // Map procedure titles to Unsplash/illustrative images and (optionally) video/model URLs
                     $procedureMedia = [
                         'Dental Implants' => [
-                            'img' => 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=400&q=80',
-                            'video' => '', // Example: 'https://www.youtube.com/embed/VIDEO_ID'
+                            'img' => asset('images/100310.webp'),
                         ],
                         'Implantes Dentales' => [
-                            'img' => 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100310.webp'),
                         ],
                         'Porcelain Crowns' => [
-                            'img' => 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100311.webp'),
                         ],
                         'Coronas de Porcelana' => [
-                            'img' => 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100311.webp'),
                         ],
                         'Porcelain Veneers' => [
-                            'img' => 'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100312.webp'),
                         ],
                         'Carillas de Porcelana' => [
-                            'img' => 'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100312.webp'),
                         ],
                         'Root Canal Therapy' => [
-                            'img' => 'https://images.unsplash.com/photo-1464983953574-0892a716854b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100313.webp'),
                         ],
                         'Endodoncia' => [
-                            'img' => 'https://images.unsplash.com/photo-1464983953574-0892a716854b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100313.webp'),
                         ],
                         'Full Mouth Rehabilitation' => [
-                            'img' => 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100315.webp'),
                         ],
                         'Rehabilitación de Boca Completa' => [
-                            'img' => 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100315.webp'),
                         ],
                         'Dental Cleaning & Checkup' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100316.webp'),
                         ],
                         'Limpieza y Revisión Dental' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100316.webp'),
                         ],
                         'Orthodontics (Braces & Aligners)' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100317.webp'),
                         ],
                         'Ortodoncia (Brackets y Alineadores)' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100317.webp'),
                         ],
                         'Tooth Extractions' => [
-                            'img' => 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100318.webp'),
                         ],
                         'Extracciones Dentales' => [
-                            'img' => 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100318.webp'),
                         ],
                         'Periodontal (Gum) Treatment' => [
-                            'img' => 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100319.webp'),
                         ],
                         'Tratamiento Periodontal (Encías)' => [
-                            'img' => 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100319.webp'),
                         ],
                         'Teeth Whitening' => [
-                            'img' => 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100322.webp'),
                         ],
                         'Blanqueamiento Dental' => [
-                            'img' => 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100322.webp'),
                         ],
                         'Dental Prosthetics' => [
-                            'img' => 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100323.webp'),
                         ],
                         'Prótesis Dentales' => [
-                            'img' => 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100323.webp'),
                         ],
                         'Pediatric Dentistry' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100324.webp'),
                         ],
                         'Odontopediatría' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100324.webp'),
                         ],
                         'Maxillofacial Surgery' => [
-                            'img' => 'https://images.unsplash.com/photo-1464983953574-0892a716854b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100325.webp'),
                         ],
                         'Cirugía Maxilofacial' => [
-                            'img' => 'https://images.unsplash.com/photo-1464983953574-0892a716854b?fit=crop&w=400&q=80',
-                            'video' => '',
+                            'img' => asset('images/100325.webp'),
                         ],
                         'Composite Fillings' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100326.webp'),
                         ],
                         'Resinas y Restauraciones' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100326.webp'),
                         ],
                         'Preventive Treatments' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100327.webp'),
                         ],
                         'Tratamientos Preventivos' => [
-                               'img' => 'images/CompositeFillings.jpg',
-                            'video' => '',
+                            'img' => asset('images/100327.webp'),
                         ],
                     ];
                 @endphp
@@ -164,7 +134,7 @@
                                     }
                                 }
                                  // If image is missing or empty, use local asset
-                                 $imgUrl = (!empty($media['img'])) ? asset($media['img']) : asset('images/CompositeFillings.jpg');
+                                 $imgUrl = (!empty($media['img'])) ? $media['img'] : asset('images/100310.webp');
                             @endphp
                             {{-- DEBUG: Show article title and resolved image URL --}}
                             <div style="display:none">
@@ -175,10 +145,10 @@
                                 <img src="{{ $imgUrl }}" alt="{{ $article['title'] }}" class="rounded-lg mb-4 w-full h-40 object-cover">
                             <h3 class="text-xl font-bold text-indigo-800 mb-3">{{ $article['title'] }}</h3>
                             <ul class="text-gray-700 text-sm space-y-2">
-                                <li><span class="font-semibold text-indigo-700">{{ __('¿Qué es?') }}:</span> {{ $article['what'] ?? '' }}</li>
-                                <li><span class="font-semibold text-indigo-700">{{ __('¿Cómo funciona?') }}:</span> {{ $article['how'] ?? '' }}</li>
-                                <li><span class="font-semibold text-indigo-700">{{ __('¿Para quién es?') }}:</span> {{ $article['who'] ?? '' }}</li>
-                                <li><span class="font-semibold text-indigo-700">{{ __('Beneficios') }}:</span> {{ $article['benefits'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('messages.blog_educativo.treatments.labels.what') }}:</span> {{ $article['what'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('messages.blog_educativo.treatments.labels.how') }}:</span> {{ $article['how'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('messages.blog_educativo.treatments.labels.who') }}:</span> {{ $article['who'] ?? '' }}</li>
+                                <li><span class="font-semibold text-indigo-700">{{ __('messages.blog_educativo.treatments.labels.benefits') }}:</span> {{ $article['benefits'] ?? '' }}</li>
                             </ul>
                             {{--
                             @if($media && !empty($media['video']))

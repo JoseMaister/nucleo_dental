@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title', __('messages.gallery.seo.meta_title'))
+@section('meta_description', __('messages.gallery.seo.meta_description'))
 
 @section('content')
     <!-- JSON Data Loading -->
@@ -18,7 +19,7 @@
         <!-- HERO SECTION -->
         <section class="relative bg-gray-900 pt-32 pb-24 overflow-hidden">
             <div class="absolute inset-0 z-0">
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2000" class="w-full h-full object-cover opacity-20 scale-105">
+                <img src="{{ asset('images/100312.webp') }}" class="w-full h-full object-cover opacity-20 scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-gray-900"></div>
             </div>
 
@@ -61,7 +62,8 @@
                             {{ __('messages.gallery.intro.title') }}
                         </h2>
                         <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
-                            <p>{{ __('messages.gallery.intro.content') }}</p>
+                            <p>{{ __('messages.gallery.intro.content_1') }}</p>
+                            <p>{{ __('messages.gallery.intro.content_2') }}</p>
                         </div>
                         
                         <div class="mt-10 p-8 bg-gray-50 rounded-3xl border border-gray-100 italic text-gray-700">
@@ -71,7 +73,7 @@
                     </div>
                     <div class="relative">
                         <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-                            <img src="https://images.unsplash.com/photo-1593059075122-728248df9bd2?q=80&w=1200" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/100312.webp') }}" loading="lazy" class="w-full h-full object-cover">
                         </div>
                         <!-- Floating Badge -->
                         <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-2xl border border-gray-50 flex items-center gap-4 max-w-xs">
@@ -146,7 +148,7 @@
             <div class="max-w-7xl mx-auto px-6">
                 <div class="bg-gray-900 rounded-[3rem] p-10 md:p-20 relative overflow-hidden shadow-3xl">
                     <div class="absolute top-0 right-0 w-1/2 h-full opacity-10">
-                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1000" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/100330.webp') }}" class="w-full h-full object-cover">
                     </div>
                     
                     <div class="relative z-10">
@@ -192,7 +194,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div class="order-2 lg:order-1">
                         <div class="aspect-video rounded-3xl overflow-hidden shadow-2xl relative group">
-                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                            <img src="{{ asset('images/IMG_100225.webp') }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
                             <div class="absolute inset-0 bg-indigo-900/20 group-hover:bg-transparent transition duration-500"></div>
                         </div>
                     </div>
