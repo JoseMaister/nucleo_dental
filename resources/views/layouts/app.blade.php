@@ -303,7 +303,7 @@
     </a>
 
 </div>
-@endif>
+@endif
 
     <!-- Page Content -->
     <main class="flex-1">

@@ -166,12 +166,7 @@
                         <p class="text-xl font-bold text-indigo-400">{{ __('messages.dental_tourism_new.luxury.footer_2') }}</p>
                     </div>
                 </div>
-                
-                <!-- <div class="relative">
-                    <div class="absolute inset-0 bg-indigo-500 transform translate-x-4 translate-y-4 rounded-3xl opacity-50"></div>
-                    <img src="{{ asset('images/IMG_9771.webp') }}" 
-                         alt="Luxury Clinic" class="rounded-3xl shadow-2xl relative z-10 border-4 border-slate-800">
-                </div> -->
+            
             </div>
         </div>
     </section>
