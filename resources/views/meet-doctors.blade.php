@@ -7,7 +7,7 @@
 
 <!-- HERO -->
 <div class="relative w-full min-h-[540px] bg-cover bg-center flex items-center justify-center"
-     style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=2070&q=80');">
+     style="background-image: url('{{ asset('images/IMG_100216.webp') }}');">
 
     <div class="absolute inset-0 bg-indigo-950/75"></div>
 
@@ -76,7 +76,7 @@
 </section>
 
 <!-- DR. ERNESTO MORAN SPOTLIGHT -->
-<section class="py-20 bg-white border-t border-gray-100">
+<section id="dr-ernesto-moran" class="py-20 bg-white border-t border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex flex-col lg:flex-row gap-14 items-start">
             <!-- Image -->
@@ -192,7 +192,7 @@
 </div>
 
 <!-- DR. JULIO NEVÁREZ SPOTLIGHT -->
-<section class="py-20 bg-slate-50 border-t border-slate-100">
+<section id="dr-julio-nevarez" class="py-20 bg-slate-50 border-t border-slate-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex flex-col lg:flex-row-reverse gap-14 items-start">
             <!-- Image -->
@@ -338,13 +338,18 @@
             {{ __('messages.meet_doctors.technology.title') }}
         </h2>
 
+        <div class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto space-y-6 mb-12 text-center md:text-left">
+            <p>{{ __('messages.meet_doctors.technology.description_1') }}</p>
+            <p>{{ __('messages.meet_doctors.technology.description_2') }}</p>
+        </div>
+
         <div class="grid md:grid-cols-3 gap-6">
             <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_1') }}</div>
             <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_2') }}</div>
             <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_3') }}</div>
             <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_4') }}</div>
             <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_5') }}</div>
-            <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_6') }}</div>
+            <!-- <div class="p-6 shadow rounded-xl">{{ __('messages.meet_doctors.technology.item_6') }}</div> -->
         </div>
     </div>
 </section>
@@ -356,7 +361,7 @@
         </h2>
 
         <p class="text-lg text-gray-600 max-w-4xl mx-auto">
-            {{ __('messages.meet_doctors.trust.content') }}
+            {!! __('messages.meet_doctors.trust.content') !!}
         </p>
     </div>
 </section>
@@ -448,7 +453,19 @@ $loriContent = __('messages.team.lori.content');
 // Mario
 $marioName = __('messages.team.mario.name');
 $marioSpecialties = [__('messages.specialties.endodontist')];
-$marioSections = [];
+$marioContent = __('messages.root_canal.doctor.content');
+$marioSections = [
+    [
+        'title' => __('messages.team.mario.sections.associations.title'),
+        'icon' => '<i class="fa-solid fa-id-card text-indigo-600 text-xl"></i>',
+        'content' => __('messages.team.mario.sections.associations.content')
+    ],
+    [
+        'title' => __('messages.team.mario.sections.courses.title'),
+        'icon' => '<i class="fa-solid fa-graduation-cap text-indigo-600 text-xl"></i>',
+        'content' => __('messages.team.mario.sections.courses.content')
+    ]
+];
 
 // Monica
 $monicaName = __('messages.team.monica.name');
@@ -512,10 +529,12 @@ $lilianaSections = [];
 
 
 
+<div id="dr-mario-torres" class="scroll-mt-24"></div>
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100191.webp')"
     :name="$marioName"
     :specialties="$marioSpecialties"
+    :content="$marioContent"
     :sections="$marioSections"
     :showVideo="true"
     :videos="[

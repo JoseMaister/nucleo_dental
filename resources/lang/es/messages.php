@@ -252,6 +252,7 @@ return [
     'nav' => [
         'home' => 'Inicio',
         'services' => 'Servicios',
+        'transportation' => 'Transporte',
         'dental_tourism' => 'Turismo Dental',
         'blog_educativo' => 'Blog Educativo',
         'about' => 'Nosotros',
@@ -394,7 +395,14 @@ return [
         'hero' => [
             'title' => 'Tecnología Dental Avanzada en Ciudad Juárez',
             'subtitle' => 'Odontología Digital cerca de El Paso | Precisión, Comodidad y Resultados Más Rápidos',
-            'description' => 'En Núcleo Dental combinamos tecnología dental avanzada con atención experta para ofrecer resultados excepcionales para pacientes que viajan desde El Paso y todo Estados Unidos. Nuestro flujo de trabajo completamente digital permite diagnósticos más precisos, tiempos de tratamiento más rápidos, mayor comodidad (sin moldes desordenados) y resultados predecibles y duraderos. Si buscas odontología digital en México cerca de El Paso, estás en el lugar correcto.',
+            'description_1' => 'En Núcleo Dental, combinamos tecnología dental avanzada con atención experta para ofrecer resultados excepcionales para pacientes que viajan desde El Paso y todo Estados Unidos. Nuestro flujo de trabajo completamente digital permite:',
+            'description_list' => [
+                'Diagnósticos más precisos',
+                'Tiempos de tratamiento más rápidos',
+                'Mayor comodidad (sin moldes desordenados)',
+                'Resultados predecibles y duraderos',
+            ],
+            'description_2' => 'Si buscas odontología digital en México cerca de El Paso, estás en el lugar correcto.',
         ],
         'op3d_pro' => [
             'name' => 'ORTOPANTOMÓGRAFO™',
@@ -520,7 +528,8 @@ return [
         'description' => 'Nuestro equipo experimentado utiliza tecnología de vanguardia para ofrecer tratamientos personalizados para cada nivel de necesidad dental. Aceptamos nuevos pacientes, seguros americanos (con reembolso directo) y todas las tarjetas de crédito principales. Ubicados para fácil acceso, nuestro objetivo es que su visita sea cómoda y efectiva para que pueda lograr la sonrisa perfecta con confianza.'
     ],
     'services_banner' => [
-        'contact_us' => 'Contáctenos para más información'
+        'contact_us' => 'Contáctenos para más información',
+        'specialized_title' => 'Cuidado Especializado y Avanzado'
     ],
     'page_titles' => [
         'services' => 'Servicios',
@@ -655,6 +664,10 @@ return [
             'dental_implants' => [
                 'title' => 'Implantes Dentales',
                 'description' => 'Reemplace dientes perdidos con implantes fuertes y naturales diseñados para durar.'
+            ],
+            'all_on_4' => [
+                'title' => 'Implantes de Arcada Completa (All-on-4)',
+                'description' => 'Restauración permanente de arcada completa asegurada por cuatro o más implantes dentales colocados estratégicamente.'
             ],
             'zygomatic_implants' => [
                 'title' => 'Implantes Cigomáticos',
@@ -1240,6 +1253,12 @@ return [
         ],
         'treatments' => [
             'title' => 'Guías de Tratamientos',
+            'labels' => [
+                'what' => '¿Qué es?',
+                'how' => '¿Cómo funciona?',
+                'who' => '¿Para quién es?',
+                'benefits' => 'Beneficios',
+            ],
             'articles' => [
                 [
                     'title' => 'Implantes Dentales',
@@ -1424,7 +1443,6 @@ return [
     'cta_primary' => 'Agenda Tu Consulta',
     'cta_secondary' => 'Solicita una Cotización',
 
-    'image' => 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80',
     'image_alt' => 'Pacientes viajando desde Estados Unidos',
 
     'card_label' => 'Experiencia Sin Fronteras',
@@ -1443,7 +1461,6 @@ return [
 
     'killer' => 'Planeado digitalmente. Ejecutado con precisión.',
 
-    'image' => 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1400&q=80',
 ],
 'social_proof' => [
     'label' => 'Resultados de Confianza',
@@ -1458,7 +1475,6 @@ return [
 
     'killer' => 'La confianza se gana con resultados.',
 
-    'image' => 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1400&q=80',
 ],
 'cta_final' => [
     'label' => '¿Listo para comenzar?',
@@ -1466,7 +1482,6 @@ return [
     'description' => 'Ya sea que necesite un implante individual o una rehabilitación completa, nuestro equipo está listo para guiarle en cada paso del proceso.',
     'cta_primary' => 'Agende su Consulta',
     'cta_secondary' => 'Solicite un Plan de Tratamiento Personalizado',
-    'image' => 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1400&q=80',
 ],
 'aboutus' => [
 
@@ -1479,14 +1494,14 @@ return [
         'subtitle' => 'Atención dental avanzada, experiencia élite en implantes y coordinación transfronteriza diseñada para brindarte resultados excepcionales sin estrés ni costos inflados.',
 
         // INTRO
-        'intro_title' => 'Por Qué Elegir <strong>Núcleo Dental</strong>',
-        'intro_text_1' => 'En Núcleo Dental somos más que una clínica dental — somos el destino para pacientes que buscan precisión, experiencia y resultados duraderos.',
-        'intro_text_2' => 'Ubicados en Ciudad Juárez, México, a minutos de El Paso, Texas, atendemos con orgullo a pacientes de Estados Unidos y México con tratamientos dentales avanzados.',
-        'intro_text_3' => 'Desde implantes unitarios hasta rehabilitaciones completas, cada tratamiento se realiza con planeación meticulosa, materiales de alta gama y compromiso con la excelencia.',
-        'intro_text_4' => 'Nuestro equipo combina décadas de experiencia con tecnología moderna para brindar una atención que cumple — y a menudo supera — los estándares internacionales.',
+        'intro_title' => 'Por qué los pacientes eligen <strong>Núcleo Dental</strong>',
+        'intro_text_1' => 'En Núcleo Dental somos más que una clínica dental — somos un destino para pacientes que buscan precisión, experiencia y resultados a largo plazo.',
+        'intro_text_2' => 'Ubicados en Ciudad Juárez, México, a solo minutos de El Paso, Texas, atendemos con orgullo tanto a pacientes de EE.UU. como de México con una gama completa de tratamientos dentales avanzados. Desde implantes individuales hasta restauraciones de boca completa, cada tratamiento se realiza con una planificación meticulosa, materiales premium y un compromiso con la excelencia.',
+        'intro_text_3' => 'Nuestro equipo combina décadas de experiencia con tecnología moderna para brindar una atención que cumple — 
+y a menudo supera — los <strong>estándares internacionales.</strong>',
 
         // CARDS
-        'why_title' => 'Por Qué Eligen los Pacientes a Núcleo Dental',
+        'why_title' => 'Por qué los pacientes eligen <strong>Núcleo Dental</strong>',
         'why_subtitle' => 'Odontología moderna enfocada en calidad, comodidad y resultados duraderos.',
 
         'card_1_title' => 'Expertos en Implantes',
@@ -1534,11 +1549,10 @@ return [
         'mx_patients_body_1' => 'Estamos igualmente comprometidos a brindar atención dental accesible y de alta calidad para nuestra comunidad local.',
         'mx_patients_body_2' => 'Nuestros pacientes en México reciben el mismo nivel de tratamiento avanzado, tecnología y atención al detalle, porque la odontología excepcional nunca debería estar limitada por la ubicación.',
 
-        // PHILOSOPHY
         'philosophy_title' => 'Nuestra Filosofía',
-        'philosophy_text_1' => 'No creemos en soluciones rápidas ni en tratamientos genéricos.',
-        'philosophy_text_2' => 'Cada paciente recibe un plan personalizado según sus necesidades únicas, salud oral a largo plazo y objetivos.',
-        'philosophy_text_3' => 'Ya sea que esté restaurando un solo diente o reconstruyendo su sonrisa completa, nuestra meta siempre es la misma: ofrecer resultados que luzcan naturales, funcionen perfectamente y duren.',
+        'philosophy_text_1' => 'No creemos en soluciones rápidas ni en una odontología genérica o de "talla única".',
+        'philosophy_text_2' => 'Cada paciente recibe un plan de tratamiento cuidadosamente diseñado según sus necesidades únicas, salud bucal a largo plazo y el resultado deseado. Ya sea que esté restaurando un solo diente o reconstruyendo su sonrisa completa, nuestra meta siempre es la misma: ofrecer resultados que luzcan naturales, funcionen perfectamente y duren.',
+        'philosophy_text_3' => 'Ofrecer resultados que luzcan naturales, funcionen perfectamente y duren.',
 
         // CTA
         'cta_title' => 'Elige Más Que Ahorro',
@@ -1560,11 +1574,13 @@ return [
         'trust_4' => 'Atención a pacientes de EE.UU.',
     ],
 
-    'pain_title' => '¿Cansado de perder dientes, trabajos dentales fallidos o precios altos en EE.UU.?',
-    'pain_text' => 'Si te han dicho que necesitas implantes dentales, probablemente enfrentas altos costos o múltiples visitas. Muchos pacientes retrasan su tratamiento o eligen soluciones temporales que no duran. Mereces una solución permanente que restaure tu confianza y calidad de vida sin estrés innecesario.',
+    'pain_title' => '¿Cansado de la falta de dientes, trabajos dentales fallidos o los altos costos en EE.UU.?',
+    'pain_text' => 'Si le han dicho que necesita implantes dentales, es posible que se enfrente a costos elevados, múltiples citas o incertidumbre sobre a dónde acudir. Muchos pacientes retrasan el tratamiento debido al precio— <strong>o se conforman con soluciones temporales que no duran</strong>.',
+    'pain_text_2' => 'Merece una solución permanente que restaure su confianza, función y calidad de vida— <strong>sin estrés innecesario</strong>.',
 
-    'solution_title' => 'Una Mejor Experiencia en Implantes—Todo en Un Solo Lugar',
-    'solution_text' => 'En Núcleo Dental realizamos todo el tratamiento de implantes en un solo lugar. Desde el diagnóstico hasta la colocación y restauración final, tu caso es atendido por especialistas con tecnología avanzada y materiales premium. También ofrecemos sedación para una experiencia cómoda.',
+    'solution_title' => 'Una mejor experiencia en implantes—Todo en un solo lugar',
+    'solution_text' => 'En Núcleo Dental, brindamos un tratamiento completo de implantes dentales bajo un mismo techo. Desde la consulta y las imágenes hasta la colocación quirúrgica y la restauración final, su atención está a cargo de médicos experimentados que utilizan tecnología avanzada y sistemas de implantes premium.',
+    'solution_text_2' => 'La odontología bajo sedación está disponible para una experiencia cómoda y <strong>libre de estrés</strong>.',
 
     'why_title' => 'Por Qué Pacientes de EE.UU. Nos Eligen',
     'why_1' => 'Implantes colocados y restaurados en la misma clínica',
@@ -1584,22 +1600,23 @@ return [
     'value_6' => 'Atención completa de principio a fin',
 
     'process_title' => 'Proceso Simple Paso a Paso',
-    'step_1' => 'Envía tus radiografías o fotos',
+    'step_1' => '1. Envía tus radiografías o fotos',
     'step_1_text' => 'Analizamos tu caso y te damos una recomendación.',
-    'step_2' => 'Recibe tu plan de tratamiento',
+    'step_2' => '2. Recibe tu plan de tratamiento',
     'step_2_text' => 'Te explicamos opciones, tiempos y pasos.',
-    'step_3' => 'Viaja a El Paso',
+    'step_3' => '3. Viaja a El Paso',
     'step_3_text' => 'Te guiamos en todo el proceso.',
-    'step_4' => 'Transporte gratuito',
+    'step_4' => '4. Transporte gratuito',
     'step_4_text' => 'Te llevamos de forma segura a la clínica.',
-    'step_5' => 'Colocación del implante',
+    'step_5' => '5. Colocación del implante',
     'step_5_text' => 'Realizado por especialistas en implantología.',
-    'step_6' => 'Cicatrización y restauración final',
+    'step_6' => '6. Cicatrización y restauración final',
     'step_6_text' => 'Corona final para resultados naturales.',
+    'process_final_text' => 'Después de la cicatrización, colocamos tu corona final para una sonrisa natural y duradera.',
 
     'cost_title' => 'Alta Calidad Sin Precios de EE.UU.',
-    'cost_text' => 'Los implantes en EE.UU. pueden costar mucho más. En Núcleo Dental obtienes materiales premium y atención completa a una fracción del costo.',
-    'cost_callout' => 'Ahorra miles sin comprometer calidad ni durabilidad.',
+    'cost_text' => 'Los implantes dentales en los Estados Unidos pueden costar significativamente más — <strong>a menudo sin los beneficios adicionales de una atención personalizada o un tratamiento coordinado.</strong> <br><br> En Núcleo Dental, recibes materiales premium y una atención integral a una fracción del costo.',
+    'cost_callout' => 'Ahorra miles mientras obtienes resultados de alta calidad y larga duración.',
 
     'travel_title' => 'Hacemos Fácil tu Viaje para Tratamiento',
     'travel_1' => 'Vuelo a El Paso International Airport',
@@ -1618,7 +1635,8 @@ return [
     ],
 
     'trust_title' => 'La Experiencia Importa en Implantes Dentales',
-    'trust_text' => 'Pacientes de EE.UU. y México confían en nosotros para tratamientos avanzados de implantes.',
+    'trust_text' => 'Elegir al proveedor adecuado para los implantes dentales es fundamental. En Núcleo Dental, su tratamiento está a cargo de profesionales experimentados que se centran en la precisión, el éxito a largo plazo y la comodidad del paciente.',
+    'trust_text_2' => 'Pacientes de todo Estados Unidos y México confían en nosotros para una atención avanzada de implantes.',
 
     'final_title' => 'Comienza tu Tratamiento de Implantes Hoy',
     'final_text' => 'Envíanos tus radiografías o cuéntanos tu caso y te guiaremos paso a paso.',
@@ -1637,12 +1655,16 @@ return [
     ],
 
     'pain_title' => 'Si vives con dientes perdidos o dentaduras… ya lo sabes',
-    'pain_text' => 'Las dentaduras flojas, la dificultad para comer y la incomodidad afectan tu vida diaria. Mereces una solución permanente que te devuelva la confianza.',
+    'pain_text' => 'Las dentaduras flojas, la dificultad para comer, ocultar tu sonrisa y la incomodidad constante pueden afectar cada aspecto de tu vida. Muchos pacientes se sienten frustrados, cohibidos y cansados de soluciones temporales que nunca se sienten realmente seguras.',
+    'pain_text_2' => 'Mereces una solución permanente que te devuelva la confianza, la capacidad de comer cómodamente y tu calidad de vida.',
 
-    'solution_title' => 'Una sonrisa fija, segura y duradera',
-    'solution_text' => 'All-on-4 permite restaurar toda la arcada con implantes estratégicos, ofreciendo una solución estable y natural.',
+    'solution_title' => 'Una sonrisa fija y segura—diseñada para durar',
+    'solution_text' => 'Los implantes de arcada completa y All-on-4 nos permiten restaurar una dentadura superior o inferior completa utilizando implantes colocados estratégicamente. Esta solución fija reemplaza las dentaduras tradicionales con una sonrisa estable y de aspecto natural que se siente segura y funciona como dientes reales.',
+    'solution_text_2' => 'En Núcleo Dental, todo su tratamiento—<strong>desde la planificación hasta la restauración final</strong>—se realiza en una sola ubicación por médicos experimentados que utilizan tecnología avanzada.',
 
     'compare_title' => 'Por qué es mejor que las dentaduras',
+    'compare_left_title' => 'Dentaduras Tradicionales',
+    'compare_right_title' => 'Implantes de Arcada Completa (All-on-4):',
 
     'denture_1' => 'Se pueden mover',
     'denture_2' => 'Dificultan la masticación',
@@ -1693,9 +1715,9 @@ return [
     'step_6' => 'Sonrisa final',
     'step_6_text' => 'Resultado definitivo.',
 
-    'cost_title' => 'Sonrisa completa sin precios de USA',
-    'cost_text' => 'La misma calidad a menor costo.',
-    'cost_callout' => 'Alta calidad. Gran ahorro.',
+    'cost_title' => 'Restauración de sonrisa completa sin precios de EE.UU.',
+    'cost_text' => 'Los implantes dentales de arcada completa en los EE.UU. pueden costar significativamente más, lo que a menudo pone el tratamiento fuera del alcance de muchos pacientes. <br><br> En Núcleo Dental, brindamos el mismo nivel de atención avanzada a una fracción del costo.',
+    'cost_callout' => 'Atención de alta calidad. Ahorros significativos. Resultados que cambian la vida.',
 
     'travel_title' => 'Viaje fácil desde El Paso',
 
@@ -1715,10 +1737,10 @@ return [
     ],
 
     'result_title' => 'Esto Es Más Que Dientes—Es Recuperar Tu Confianza',
-    'result_text' => 'Los pacientes describen los implantes de arcada completa como algo que cambia la vida: coma, sonría y viva con confianza nuevamente.',
+    'result_text' => 'Los pacientes que eligen implantes de arcada completa a menudo lo describen como algo que cambia la vida. Comer cómodamente, sonreír libremente y sentirse seguro de nuevo—se trata de algo más que odontología. Se trata de recuperar tu vida.',
 
     'final_title' => 'Comience Su Transformación De Sonrisa Completa',
-    'final_text' => 'Envíenos sus radiografías o cuéntenos su situación. Nuestro equipo lo guiará en cada paso del camino.',
+    'final_text' => 'Envíenos sus radiografías o cuéntenos su situación. Nuestro equipo lo guiará a través de sus opciones y lo ayudará a dar el siguiente paso con confianza.',
 
     'faq_title' => 'Preguntas Frecuentes',
     'faq_items' => [
@@ -1771,7 +1793,7 @@ return [
         'Sistemas de barrera de protección',
         'Supervisión continua del control de infecciones',
     ],
-    'sterilization_footer' => 'Nuestros procedimientos de esterilización se realizan de acuerdo con las pautas de atención médica nacionales establecidas. La limpieza y la organización son prioridades visibles en nuestro entorno clínico.',
+    'sterilization_footer' => 'Nuestros procedimientos de esterilización se realizan de acuerdo con las pautas de atención médica nacionales establecidas. <br><br>La limpieza y la organización son prioridades visibles en nuestro entorno clínico.',
 
     // Technology
     'technology_title' => 'Tecnología de Diagnóstico Avanzada',
@@ -1798,11 +1820,11 @@ return [
 
     // Radiographic
     'radiographic_title' => 'Estándares de Equipamiento y Radiografía',
-    'radiographic_desc' => 'Todos los procedimientos radiográficos se realizan utilizando equipos regulados y protocolos de seguridad. Las imágenes digitales reducen la exposición a la radiación al tiempo que mejoran la claridad del diagnóstico. Nuestro equipo se mantiene de acuerdo con las normas de los fabricantes y reguladores.',
+    'radiographic_desc' => 'Todos los procedimientos radiográficos se realizan utilizando equipos regulados y protocolos de seguridad. <br> <br> Las imágenes digitales reducen la exposición a la radiación al tiempo que mejoran la claridad del diagnóstico. <br> <br> Nuestro equipo se mantiene de acuerdo con las normas de los fabricantes y reguladores.',
 
     // Cross Border
     'cross_border_title' => 'Tranquilidad Para Pacientes de EE. UU. (Cruce Fronterizo)',
-    'cross_border_desc' => 'Para los pacientes que viajan desde los Estados Unidos, entendemos que las preguntas sobre seguridad y regulación son importantes. Nuestra clínica opera bajo estándares de salud mexicanos establecidos, que regulan:',
+    'cross_border_desc' => 'Para los pacientes que viajan desde los Estados Unidos, entendemos que las preguntas sobre seguridad y regulación son importantes. <br> <br> Nuestra clínica opera bajo estándares de salud mexicanos establecidos, que regulan:',
     'cross_border_points' => [
         'Licencias y certificaciones profesionales',
         'Operaciones de las instalaciones',
@@ -2082,6 +2104,20 @@ return [
             ]
         ],
         'why_choose_global' => [
+            'title' => 'Por Qué los Pacientes Viajan a Núcleo Dental',
+            'subtitle' => 'Los pacientes eligen Núcleo Dental no solo por su costo accesible, sino por la calidad, experiencia y resultados.',
+            'items' => [
+                'Médicos experimentados que colocan y restauran implantes en la misma clínica',
+                'Tecnología avanzada y planificación precisa del tratamiento',
+                'Sistemas de implantes premium (Straumann, Nobel Biocare, BioHorizons)',
+                'Garantía de 4 años en todo el trabajo dental',
+                'Transporte seguro y de cortesía desde El Paso',
+                'Atención personalizada y comunicación clara',
+                'De confianza para pacientes tanto de EE. UU. como de México'
+            ]
+        ],
+
+        'why_choose_us_global' => [
             'title' => 'Por Qué los Pacientes Eligen Núcleo Dental',
             'items' => [
                 'Especialistas experimentados en implantes y restauración',
@@ -2094,12 +2130,19 @@ return [
             ]
         ],
         'sedation_callout' => [
-            'title' => 'Su Comodidad es lo Primero',
-            'description' => 'Ofrecemos odontología bajo sedación intravenosa, administrada por un anestesiólogo certificado, para ayudarlo a sentirse relajado y cómodo durante su tratamiento. Ideal para implantes, cirugía oral y pacientes con ansiedad dental.'
+            'title' => 'Su Comodidad Importa',
+            'description' => 'Entendemos que el tratamiento dental<strong>—especialmente los procedimientos complejos—</strong>puede resultar abrumador. <br><br>Por eso ofrecemos odontología bajo sedación intravenosa (IV), administrada por un anestesiólogo certificado, para ayudarlo a sentirse relajado y cómodo durante todo su tratamiento.',
+            'ideal_for' => 'Esta opción es ideal para:',
+            'points' => [
+                'Implantes dentales',
+                'Restauración de boca completa',
+                'Cirugía oral',
+                'Pacientes con ansiedad dental'
+            ]
         ],
         'plan_visit' => [
             'title' => 'Planifique su Visita',
-            'description' => 'Nuestro equipo está aquí para guiarlo en cada paso, desde su primera pregunta hasta su resultado final.',
+            'description' => 'Nuestro equipo está aquí para guiarlo en cada paso, desde su primera pregunta hasta su resultado final. <br><br> Estamos comprometidos a hacer que su experiencia sea fluida, segura y cómoda, brindándole una odontología en la que puede confiar.',
             'cta_consultation' => 'Solicite su Consulta',
             'cta_xrays' => 'Envíenos sus Radiografías'
         ]
@@ -2428,10 +2471,9 @@ return [
     'subtitle' => 'Seguro, Fácil y Completamente Gratuito',
     'description' => 'Hacemos que su visita sea simple desde el momento en que llega.',
     'features' => [
-        'Sin auto de alquiler. Sin estrés. Sin costo extra.',
-        'Recogida en hoteles del área del aeropuerto de El Paso',
-        'Recogida en el centro de El Paso',
-        'Opción de reunirse en un lugar céntrico como Costco Wholesale',
+        'Recogida en <strong>hoteles del área del aeropuerto de El Paso</strong>',
+        'Recogida en el <strong>centro de El Paso</strong>',
+        'Opción de reunirse en un lugar céntrico como <strong>Costco Wholesale</strong>',
         'Vehículos cómodos (SUV o minivan)',
         'Conductores profesionales y experimentados'
     ],
@@ -2506,8 +2548,9 @@ return [
         'cta' => [
             'headline' => 'Planifique Su Visita Hoy',
             'subheadline' => 'Obtener atención dental asequible y de alta calidad cerca de El Paso nunca ha sido tan fácil.',
-            'primary_btn' => 'Llámenos hoy para programar',
-            'secondary_btn' => 'Envíenos un mensaje'
+            'primary_btn' => 'Llámenos hoy para programar su cita',
+            'secondary_btn' => 'O envíenos un mensaje para recibir un plan de tratamiento personalizado',
+            'footer' => 'Núcleo Dental — Con la confianza de pacientes de El Paso y más allá'
         ],
         'experience' => [
             'title' => 'Más que atención dental: una mejor experiencia',
@@ -2590,6 +2633,8 @@ return [
 
         'technology' => [
             'title' => 'Tecnología Avanzada. Estándares Comprobados.',
+            'description_1' => 'Nuestros doctores utilizan imágenes avanzadas, planificación digital y sistemas de implantes de alta calidad para garantizar precisión y éxito a largo plazo.',
+            'description_2' => 'Seguimos estrictos protocolos clínicos y de esterilización en cumplimiento con las regulaciones de salud mexicanas, proporcionando un entorno seguro y profesional para cada paciente.',
             'item_1' => 'Tomografía 3D',
             'item_2' => 'Planeación Digital',
             'item_3' => 'Sistemas Premium de Implantes',
@@ -2599,7 +2644,7 @@ return [
         ],
         'trust' => [
             'title' => 'Pacientes de EE.UU. y México confían en nosotros',
-            'content' => 'Los pacientes viajan a Núcleo Dental por atención de alta calidad, médicos con experiencia y una experiencia de tratamiento sin complicaciones. Desde su primera consulta hasta sus resultados finales, nuestro equipo se asegura de que se sienta informado, cómodo y seguro en cada paso. También ofrecemos transporte seguro, confiable y gratuito entre El Paso y nuestra clínica en Ciudad Juárez para que su visita sea simple y sin estrés.',
+            'content' => 'Los pacientes viajan a Núcleo Dental por atención de alta calidad, médicos con experiencia y una experiencia de tratamiento sin complicaciones. <br/> <br/> Desde su primera consulta hasta sus resultados finales, nuestro equipo se asegura de que se sienta informado, cómodo y seguro en cada paso. <br/> <br/> También ofrecemos transporte seguro, confiable y gratuito entre El Paso y nuestra clínica en Ciudad Juárez para que su visita sea simple y sin estrés.',
         ],
         'cta' => [
             'title' => 'Comienza Hoy la Transformación de Tu Sonrisa',
@@ -2675,5 +2720,131 @@ return [
         'final_cta_body' => 'En Núcleo Dental, su atención está guiada por décadas de experiencia, capacitación avanzada y un compromiso con los resultados a largo plazo.',
         'final_cta_primary' => 'Reserve Su Consulta',
         'final_cta_secondary' => 'Contacte a Nuestro Equipo',
-    ]
+    ],
+    'dental_tourism_new' => [
+        'hero' => [
+            'headline' => 'Odontología por la que Vale la Pena Viajar',
+            'subheadline' => 'Atención Avanzada. Experiencia sin Esfuerzo. A solo minutos de El Paso.',
+            'intro' => 'No tiene que conformarse, esperar ni pagar de más para obtener la atención dental que merece.',
+            'description_1' => 'En Núcleo Dental, hemos creado un tipo de experiencia diferente, donde la odontología de precisión, la atención personalizada y los viajes sin contratiempos se unen para brindarle resultados con los que puede sentirse seguro.',
+            'description_2' => 'Desde complejas restauraciones de toda la boca hasta atención familiar, ortodoncia y emergencias, todo está diseñado en torno a un objetivo: hacer que su experiencia sea simple, cómoda y excepcional de principio a fin.',
+        ],
+        'journey' => [
+            'title' => 'Su Visita, Simplificada',
+            'steps' => [
+                'step_1' => [
+                    'title' => 'Conecte Desde Casa',
+                    'description' => 'Envíenos sus radiografías, fotos o inquietudes. Nuestro equipo revisará su caso y le proporcionará un plan de tratamiento claro y personalizado.',
+                ],
+                'step_2' => [
+                    'title' => 'Planifique Con Confianza',
+                    'description' => 'Coordinamos su visita según su horario y le explicamos cada detalle por adelantado—sin sorpresas, sin adivinanzas.',
+                ],
+                'step_3' => [
+                    'title' => 'Llegada a El Paso',
+                    'description' => 'Hospédese en un hotel en el área del aeropuerto o en el centro de El Paso, y nosotros nos encargaremos del resto.',
+                ],
+                'step_4' => [
+                    'title' => 'Conozca a su Chofer',
+                    'description' => 'Ofrecemos transporte complementario desde: <ul class="list-disc pl-5 mt-2 space-y-1"><li>Hoteles en el área del aeropuerto</li><li>Centro de El Paso</li><li>O un punto de encuentro central cerca de Costco Wholesale</li></ul><p class="mt-2">Recibirá detalles exactos de tiempo y vehículo para que lo recojan sin problemas.</p>',
+                ],
+                'step_5' => [
+                    'title' => 'Reciba Atención Experta',
+                    'description' => 'Desde la consulta hasta el tratamiento, todo es manejado por nuestro equipo de especialistas utilizando tecnología avanzada—todo en un solo lugar.',
+                ],
+                'step_6' => [
+                    'title' => 'Regrese Relajado y Confiado',
+                    'description' => 'Lo traemos de regreso a salvo después de su cita—para que pueda concentrarse en su recuperación y resultados.',
+                ],
+            ],
+        ],
+        'services' => [
+            'title' => 'Atención Dental Integral Para Cada Paciente',
+            'intro' => 'Ya sea que viaje para procedimientos avanzados o atención de rutina, Núcleo Dental ofrece una gama completa de servicios:',
+            'items' => [
+                'advanced' => [
+                    'title' => 'Atención Avanzada y de Especialidad',
+                    'list' => [
+                        'Implantes dentales',
+                        'Restauración de boca completa (All-on-4 / All-on-6)',
+                        'Periodoncia y cirugía oral',
+                    ],
+                ],
+                'cosmetic' => [
+                    'title' => 'Odontología Estética y Restaurativa',
+                    'list' => [
+                        'Coronas, puentes y carillas',
+                        'Diseño de sonrisa y tratamientos estéticos',
+                    ],
+                ],
+                'general' => [
+                    'title' => 'Odontología General',
+                    'list' => [
+                        'Exámenes y limpiezas',
+                        'Empastes y cuidado preventivo',
+                        'Tratamiento de conducto (Endodoncia)',
+                    ],
+                ],
+                'orthodontics' => [
+                    'title' => 'Ortodoncia',
+                    'list' => [
+                        'Brackets y tratamientos con alineadores transparentes',
+                        'Tratamiento personalizado para adolescentes y adultos',
+                    ],
+                ],
+                'pediatric' => [
+                    'title' => 'Odontología Pediátrica',
+                    'list' => [
+                        'Cuidado suave y especializado para niños',
+                        'Tratamientos preventivos y de desarrollo',
+                        'Experiencias dentales positivas y sin estrés',
+                    ],
+                ],
+                'emergency' => [
+                    'title' => 'Atención Dental de Emergencia',
+                    'list' => [
+                        'Citas el mismo día cuando sea posible',
+                        'Tratamiento para el dolor, infecciones o trauma dental',
+                    ],
+                ],
+            ],
+        ],
+        'luxury' => [
+            'title' => 'Más que Atención Dental—Una Mejor Experiencia',
+            'intro' => 'Los pacientes a menudo esperan que el turismo dental parezca complicado. En cambio, lo que encuentran en Núcleo Dental es:',
+            'items' => [
+                'Un proceso tranquilo y organizado',
+                'Un equipo que se comunica de manera clara y constante',
+                'Un nivel de atención que se siente personal—no transaccional',
+                'Cuidado que prioriza resultados a largo plazo, no soluciones rápidas',
+            ],
+            'footer_1' => 'No se trata solo de ahorrar dinero.',
+            'footer_2' => 'Se trata de finalmente sentirse seguro en su decisión.',
+        ],
+        'cta' => [
+            'title' => '¿Listo Para Dar el Primer Paso?',
+            'intro' => 'Ya sea que esté explorando opciones o listo para avanzar, estamos aquí para hacer el proceso simple.',
+            'items' => [
+                'phone' => 'Llame para hablar con nuestro equipo',
+                'whatsapp' => 'Envíe sus radiografías para una evaluación personalizada',
+            ],
+            'footer' => 'Núcleo Dental — Donde la atención de calidad se encuentra con una mejor experiencia',
+        ],
+    ],
+    'dental_implants' => [
+        'travel_title' => 'Facilitamos Su Viaje Para Recibir Tratamiento',
+        'travel_1' => 'Vuele al Aeropuerto Internacional de El Paso',
+        'travel_2' => 'Hospédese cerca del aeropuerto o en el centro (lo orientamos)',
+        'travel_3' => 'Proporcionamos transporte seguro y gratuito a nuestra clínica',
+        'travel_4' => 'Regreso rápido y sencillo a El Paso después del tratamiento',
+        'travel_5' => 'Acompañamiento continuo antes y después de su visita',
+    ],
+    'full_arch_implants' => [
+        'travel_title' => 'Facilitamos Su Viaje Para Recibir Tratamiento',
+        'travel_1' => 'Vuele al Aeropuerto Internacional de El Paso',
+        'travel_2' => 'Hospédese cerca del aeropuerto o en el centro (lo orientamos)',
+        'travel_3' => 'Proporcionamos transporte seguro y gratuito a nuestra clínica',
+        'travel_4' => 'Regreso rápido y sencillo a El Paso después del tratamiento',
+        'travel_5' => 'Acompañamiento continuo antes y después de su visita',
+    ],
 ];

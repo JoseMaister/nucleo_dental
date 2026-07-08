@@ -1,14 +1,20 @@
 @props([
     'title' => __('messages.global_sections.why_choose_global.title'),
+    'subtitle' => __('messages.global_sections.why_choose_global.subtitle'),
     'items' => __('messages.global_sections.why_choose_global.items')
 ])
 
 <section class="py-24 bg-slate-50">
     <div class="container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
                 {{ $title }}
             </h2>
+            @if($subtitle)
+                <p class="text-lg text-slate-600 mb-6 max-w-2xl mx-auto leading-relaxed">
+                    {{ $subtitle }}
+                </p>
+            @endif
             <div class="w-24 h-1.5 bg-blue-600 mx-auto rounded-full"></div>
         </div>
 

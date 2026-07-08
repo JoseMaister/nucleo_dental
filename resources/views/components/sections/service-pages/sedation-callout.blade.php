@@ -6,23 +6,30 @@
     <div class="container mx-auto px-4 relative z-10">
         <div class="bg-white rounded-[40px] p-12 md:p-20 shadow-2xl flex flex-col lg:flex-row items-center gap-12">
             <div class="lg:w-2/3">
-                <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold tracking-widest uppercase mb-6">
+                <!-- <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold tracking-widest uppercase mb-6">
                     Comfort First
-                </div>
+                </div> -->
                 <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
                     {{ __('messages.global_sections.sedation_callout.title') }}
                 </h2>
-                <p class="text-xl text-slate-600 leading-relaxed">
-                    {{ __('messages.global_sections.sedation_callout.description') }}
+                <p class="text-xl text-slate-600 leading-relaxed mb-8">
+                    {!! __('messages.global_sections.sedation_callout.description') !!}
                 </p>
+                
             </div>
             <div class="lg:w-1/3 w-full">
-                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100 flex flex-col items-center text-center">
-                    <div class="w-16 h-16 rounded-2xl bg-blue-600 flex items-center justify-center text-white mb-6 shadow-lg shadow-blue-600/20">
-                        <i class="fas fa-user-md text-2xl"></i>
-                    </div>
-                    <span class="text-slate-400 text-xs uppercase tracking-widest font-bold mb-2">Administered By</span>
-                    <span class="text-slate-900 font-bold text-lg leading-tight">Licensed Anesthesiologists</span>
+                <div class="border-t border-slate-100 pt-6">
+                    <h4 class="font-bold text-slate-800 text-lg mb-4">
+                        {{ __('messages.global_sections.sedation_callout.ideal_for') }}
+                    </h4>
+                    <ul class="grid sm:grid-cols-2 gap-3 text-slate-600">
+                        @foreach(__('messages.global_sections.sedation_callout.points') as $point)
+                            <li class="flex items-center gap-2 font-medium">
+                                <span class="w-2 h-2 rounded-full bg-blue-600"></span>
+                                <span>{{ $point }}</span>
+                            </li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </div>

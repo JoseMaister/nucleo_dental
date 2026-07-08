@@ -223,8 +223,8 @@
                 </div>
                 <div class="lg:w-1/2 relative w-full">
                     <!-- Image collage/frame -->
-                    <div class="absolute inset-0 bg-blue-600/5 rounded-[40px] rotate-3 scale-98"></div>
-                    <img src="{{ asset('images/banner-smile-1.webp') }}" class="rounded-[40px] shadow-2xl relative z-10 w-full object-cover aspect-video" alt="Patient Trust">
+                    <div class="absolute inset-0 bg-blue-600/5 rounded-[40px] rotate-3 scale-98  "></div>
+                    <img src="{{ asset('images/100338.webp') }}" class="rounded-[40px] shadow-2xl relative z-10 w-full object-cover aspect-video object-position-top" alt="Patient Trust">
                 </div>
             </div>
         </div>

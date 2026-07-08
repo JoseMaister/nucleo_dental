@@ -19,9 +19,10 @@
         :items="__('messages.services_detail.dentures.why_choose_us')"
     />
 
-    <x-sections.service-pages.why-patients-choose />
     <x-sections.service-pages.what-to-expect />
     <x-sections.service-pages.travel-experience />
+    <x-sections.service-pages.why-patients-choose />
+    <x-sections.service-pages.sedation-callout />
     <x-sections.service-pages.plan-visit />
 
     <x-contact-map />

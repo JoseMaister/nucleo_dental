@@ -7,15 +7,10 @@
     <div class="py-20 px-6">
         <div class="max-w-6xl mx-auto">
 
-            <div class="bg-indigo-800 text-white text-center text-3xl md:text-5xl font-light rounded-[50px] py-6 px-10 md:px-20 mb-14">
-                {!! __('messages.aboutus.page.intro_title') !!}
-            </div>
-
             <div class="max-w-5xl mx-auto text-center space-y-7 text-lg md:text-xl text-gray-700 leading-relaxed">
                 <p>{{ __('messages.aboutus.page.intro_text_1') }}</p>
                 <p>{{ __('messages.aboutus.page.intro_text_2') }}</p>
-                <p>{{ __('messages.aboutus.page.intro_text_3') }}</p>
-                <p>{{ __('messages.aboutus.page.intro_text_4') }}</p>
+                <p>{!! __('messages.aboutus.page.intro_text_3') !!}</p>
             </div>
 
         </div>
@@ -28,7 +23,7 @@
 
             <div class="text-center mb-14">
                 <h2 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">
-                    {{ __('messages.aboutus.page.why_title') }}
+                    {!! __('messages.aboutus.page.why_title') !!}
                 </h2>
 
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">

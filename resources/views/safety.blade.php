@@ -9,7 +9,7 @@
 <!-- HERO -->
 <section class="relative bg-black text-white">
     <div class="relative w-full min-h-[650px] bg-cover bg-center flex items-center justify-center"
-         style="background-image: url('https://images.unsplash.com/photo-1588776814546-ec7e6f4d6c3c?auto=format&fit=crop&w=2070&q=80');">
+         style="background-image: url('{{ asset('images/IMG_100210.webp') }}');">
 
         <div class="absolute inset-0 bg-indigo-950/70"></div>
 
@@ -84,7 +84,7 @@
 
                 <div class="bg-indigo-50/50 border-l-4 border-indigo-600 p-4 rounded-r-xl">
                     <p class="text-indigo-950 font-medium italic text-base">
-                        {{ __('messages.safety.sterilization_footer') }}
+                        {{!! __('messages.safety.sterilization_footer') !!}}
                     </p>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                     {{ __('messages.safety.radiographic_title') }}
                 </h2>
                 <p class="text-gray-600 text-lg leading-relaxed mb-0">
-                    {{ __('messages.safety.radiographic_desc') }}
+                    {!! __('messages.safety.radiographic_desc') !!}
                 </p>
             </div>
         </div>
@@ -163,7 +163,7 @@
                     {{ __('messages.safety.cross_border_title') }}
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                    {{ __('messages.safety.cross_border_desc') }}
+                    {!! __('messages.safety.cross_border_desc') !!}
                 </p>
 
                 <ul class="grid md:grid-cols-2 gap-4 mb-8">

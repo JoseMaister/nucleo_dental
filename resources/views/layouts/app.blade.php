@@ -68,7 +68,7 @@
             <!-- Services dropdown -->
             <div class="relative" id="services-dropdown-wrap">
                 <button id="services-dropdown-btn"
-                    class="flex items-center gap-1 {{ request()->routeIs('services') || request()->routeIs('dental-implants') || request()->routeIs('full-arch-implants') || request()->routeIs('endodontics') ? $active : $link }} focus:outline-none">
+                    class="flex items-center gap-1 {{ request()->routeIs('services') || request()->routeIs('dental-implants-landing') || request()->routeIs('full-arch-implants-landing') || request()->routeIs('endodontics-landing') ? $active : $link }} focus:outline-none">
                     {{ __('messages.nav.services') }}
                     <i class="fas fa-chevron-down text-xs transition-transform duration-200" id="services-chevron"></i>
                 </button>
@@ -82,20 +82,20 @@
                         {{ __('messages.nav.all_services') }}
                     </a>
 
-                    <a href="{{ route('dental-implants') }}"
-                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('dental-implants') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                    <a href="{{ route('dental-implants-landing') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('dental-implants-landing') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-tooth w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.dental_implants') }}
                     </a>
 
-                    <a href="{{ route('full-arch-implants') }}"
-                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('full-arch-implants') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                    <a href="{{ route('full-arch-implants-landing') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('full-arch-implants-landing') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-teeth-open w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.full_arch_implants') }}
                     </a>
 
-                    <a href="{{ route('endodontics') }}"
-                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('endodontics') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                    <a href="{{ route('endodontics-landing') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('endodontics-landing') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-syringe w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.endodontics') }}
                     </a>
@@ -133,6 +133,12 @@
                         class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('technology') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
                         <i class="fas fa-microscope w-4 text-center opacity-60"></i>
                         {{ __('messages.nav.technology') }}
+                    </a>
+
+                    <a href="{{ route('transportation') }}"
+                        class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors {{ request()->routeIs('transportation') ? 'bg-indigo-50 text-indigo-600 font-semibold' : '' }}">
+                        <i class="fas fa-car w-4 text-center opacity-60"></i>
+                        {{ __('messages.nav.transportation') }}
                     </a>
 
                     <a href="{{ route('dental-tourism') }}"
@@ -242,7 +248,7 @@
 
     <!-- Services Mobile Dropdown -->
     <div>
-        <button id="mobile-services-btn" class="w-full text-left flex justify-between items-center px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none {{ request()->routeIs('services') || request()->routeIs('dental-implants') || request()->routeIs('full-arch-implants') || request()->routeIs('endodontics') ? 'bg-indigo-50 text-indigo-700 font-semibold' : '' }}">
+        <button id="mobile-services-btn" class="w-full text-left flex justify-between items-center px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none {{ request()->routeIs('services') || request()->routeIs('dental-implants-landing') || request()->routeIs('full-arch-implants-landing') || request()->routeIs('endodontics-landing') ? 'bg-indigo-50 text-indigo-700 font-semibold' : '' }}">
             {{ __('messages.nav.services') }}
             <i class="fas fa-chevron-down text-xs transition-transform duration-200" id="mobile-services-chevron"></i>
         </button>
@@ -250,13 +256,13 @@
             <a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? $mobileActive : $mobile }}">
                 {{ __('messages.nav.all_services') }}
             </a>
-            <a href="{{ route('dental-implants') }}" class="{{ request()->routeIs('dental-implants') ? $mobileActive : $mobile }}">
+            <a href="{{ route('dental-implants-landing') }}" class="{{ request()->routeIs('dental-implants-landing') ? $mobileActive : $mobile }}">
                 {{ __('messages.nav.dental_implants') }}
             </a>
-            <a href="{{ route('full-arch-implants') }}" class="{{ request()->routeIs('full-arch-implants') ? $mobileActive : $mobile }}">
+            <a href="{{ route('full-arch-implants-landing') }}" class="{{ request()->routeIs('full-arch-implants-landing') ? $mobileActive : $mobile }}">
                 {{ __('messages.nav.full_arch_implants') }}
             </a>
-            <a href="{{ route('endodontics') }}" class="{{ request()->routeIs('endodontics') ? $mobileActive : $mobile }}">
+            <a href="{{ route('endodontics-landing') }}" class="{{ request()->routeIs('endodontics-landing') ? $mobileActive : $mobile }}">
                 {{ __('messages.nav.endodontics') }}
             </a>
         </div>
@@ -278,6 +284,10 @@
 
     <a href="{{ route('technology') }}" class="{{ request()->routeIs('technology') ? $mobileActive : $mobile }}">
         {{ __('messages.nav.technology') }}
+    </a>
+
+    <a href="{{ route('transportation') }}" class="{{ request()->routeIs('transportation') ? $mobileActive : $mobile }}">
+        {{ __('messages.nav.transportation') }}
     </a>
 
     <a href="{{ route('dental-tourism') }}" class="{{ request()->routeIs('dental-tourism') ? $mobileActive : $mobile }}">

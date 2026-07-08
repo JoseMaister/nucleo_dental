@@ -1,6 +1,6 @@
 <!-- HERO -->
 <div class="relative w-full h-[500px] bg-cover bg-center flex items-center justify-center"
-     style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaWdlfDB8fHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');">
+     style="background-image: url('{{ asset('images/100313.webp') }}');">
 
     <!-- Overlay -->
     <div class="absolute inset-0 bg-indigo-950/70"></div>

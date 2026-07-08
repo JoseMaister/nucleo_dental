@@ -43,6 +43,7 @@
                     ['img'=>'02.png','key'=>'cosmetic_dentistry', 'route' => 'cosmetic-dentistry'],
                     ['img'=>'03.png','key'=>'dental_crowns', 'route' => 'crowns-bridges'],
                     ['img'=>'04.png','key'=>'dental_implants', 'route' => 'dental-implants'],
+                    ['img'=>'05.png','key'=>'all_on_4', 'route' => 'full-arch-implants'],
                     ['img'=>'05.png','key'=>'zygomatic_implants', 'route' => 'zygomatic-implants'],
                     ['img'=>'03.png','key'=>'full_mouth_restoration', 'route' => 'full-mouth-restoration'],
                     ['img'=>'06.png','key'=>'dentures', 'route' => 'dentures'],

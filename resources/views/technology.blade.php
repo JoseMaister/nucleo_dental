@@ -98,19 +98,19 @@
             <h2 class="text-4xl font-bold mb-6">{{ __('messages.techno.cta_section.title') }}</h2>
             <p class="text-xl mb-8">{{ __('messages.techno.cta_section.subtitle') }}</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="tel:+19153080101" class="inline-block bg-white text-indigo-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
-                    {{ __('messages.techno.cta_section.phone_cta') }}
+                <a href="https://wa.me/526563674969" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-indigo-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">
+                    <i class="fab fa-whatsapp mr-2"></i> {{ __('messages.techno.cta_section.phone_cta') }}
                 </a>
-                <a href="#contact" class="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-indigo-900 transition-colors">
-                    {{ __('messages.techno.cta_section.xrays_cta') }}
+                <a href="https://wa.me/526563674969" target="_blank" rel="noopener noreferrer" class="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-indigo-900 transition-colors">
+                    <i class="fab fa-whatsapp mr-2"></i> {{ __('messages.techno.cta_section.xrays_cta') }}
                 </a>
             </div>
         </div>
     </div>
     
-    <x-Technology.banner-bottom />
+    <!-- <x-Technology.banner-bottom />
 
-    <x-banner-smile-1 />
+    <x-banner-smile-1 /> -->
     <x-contact-map /> 
 </main>
 @endsection

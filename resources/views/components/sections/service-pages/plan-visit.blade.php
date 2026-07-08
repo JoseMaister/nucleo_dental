@@ -13,7 +13,7 @@
                     {{ $title }}
                 </h2>
                 <p class="text-xl text-slate-400 mb-12 leading-relaxed">
-                    {{ $description }}
+                    {!! $description !!}
                 </p>
                 <div class="flex flex-wrap justify-center gap-6">
                     <a href="#contact" class="px-10 py-5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-600/20 text-lg">

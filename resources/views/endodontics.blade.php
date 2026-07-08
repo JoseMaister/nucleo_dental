@@ -10,11 +10,15 @@
     <section class="relative bg-black text-white">
 
         <div class="relative w-full min-h-[650px] bg-cover bg-center flex items-center justify-center"
-             style="background-image: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=2070&q=80');">
+             style="background-image: url('{{ asset('images/100311.webp') }}');">
 
             <div class="absolute inset-0 bg-indigo-950/70"></div>
 
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
+
+                <span class="block text-indigo-300 font-bold tracking-widest uppercase mb-4 text-sm md:text-base">
+                    {{ __('messages.root_canal.hero.page_title') }}
+                </span>
 
                 <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                     {{ __('messages.root_canal.hero.headline') }}
@@ -91,7 +95,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=80" 
+                    <img src="{{ asset('images/100313.webp') }}" 
                          alt="Root Canal Procedure" 
                          class="rounded-3xl shadow-2xl">
                     <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl shadow-lg hidden md:block">
@@ -219,7 +223,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109c055?auto=format&fit=crop&w=1000&q=80" 
+                    <img src="{{ asset('images/100336.webp') }}" 
                          alt="Travel to Mexico" 
                          class="rounded-[50px] shadow-2xl">
                 </div>
@@ -260,29 +264,20 @@
                 <div class="w-20 h-1.5 bg-indigo-600 mx-auto rounded-full"></div>
             </div>
 
-            <x-doctor-profile 
-                :imageUrl="asset('images/IMG_100188.webp')" 
-                :name="__('messages.team.mario.name')"
-                :specialties="[__('messages.specialties.endodontist')]"
-                :content="__('messages.root_canal.doctor.content')"
-                :sections="[
-                    [
-                        'title' => __('messages.team.mario.sections.associations.title'),
-                        'icon' => '<i class=\'fa-solid fa-id-card text-indigo-600 text-xl\'></i>',
-                        'content' => __('messages.team.mario.sections.associations.content')
-                    ],
-                    [
-                        'title' => __('messages.team.mario.sections.courses.title'),
-                        'icon' => '<i class=\'fa-solid fa-graduation-cap text-indigo-600 text-xl\'></i>',
-                        'content' => __('messages.team.mario.sections.courses.content')
-                    ]
-                ]"
-            />
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 max-w-5xl mx-auto">
+                <div class="flex-shrink-0">
+                    <img src="{{ asset('images/IMG_100191.webp') }}" alt="Dr. Mario Torres" class="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-indigo-50">
+                </div>
+                
+                <div class="text-center md:text-left">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                        {{ __('messages.root_canal.doctor.content') }}
+                    </p>
 
-            <div class="text-center mt-10">
-                <a href="{{ route('about') }}" class="inline-block bg-indigo-800 text-white px-10 py-4 rounded-full font-bold hover:bg-indigo-900 transition shadow-xl">
-                    {{ __('messages.root_canal.doctor.cta') }}
-                </a>
+                    <a href="{{ route('meet-doctors') }}#dr-mario-torres" class="inline-block bg-indigo-800 text-white px-10 py-4 rounded-full font-bold hover:bg-indigo-900 transition shadow-xl">
+                        {{ __('messages.root_canal.doctor.cta') }}
+                    </a>
+                </div>
             </div>
         </div>
     </section>

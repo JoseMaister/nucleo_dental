@@ -21,7 +21,7 @@
                             <p class="text-base md:text-lg lg:text-xl mb-6">
                                 {{ __('messages.about.bio') }}
                             </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
+                            <a href="{{ route('meet-doctors') }}#dr-ernesto-moran" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
                                 {{ __('messages.about.cta') }}
                             </a>
                         </div>
@@ -39,7 +39,7 @@
                             <p class="text-base md:text-lg lg:text-xl mb-6 whitespace-pre-line">
                                 {{ __('messages.team.julio.julio_summary') }}
                             </p>
-                            <a href="{{ route('about') }}" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
+                            <a href="{{ route('meet-doctors') }}#dr-julio-nevarez" class="inline-block border-2 border-white px-6 py-2 md:px-8 md:py-3 rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-300 text-base md:text-lg font-medium">
                                 {{ __('messages.about.cta') }}
                             </a>
                         </div>
@@ -133,7 +133,7 @@
 
             {{-- Right Side --}}
             <div class="relative">
-                <img src="{{ asset(__('messages.us_patients.image')) }}"
+                <img src="{{ asset('images/IMG_100205.webp') }}"
                      alt="{{ __('messages.us_patients.image_alt') }}"
                      class="w-full rounded-3xl shadow-2xl object-cover h-[500px]">
 
@@ -158,7 +158,7 @@
 
             <!-- Image -->
             <div class="order-2 md:order-1">
-                <img src="{{ asset(__('messages.technology.image')) }}"
+                <img src="{{ asset('images/IMG_100202.webp') }}"
                      alt="{{ __('messages.technology.title') }}"
                      class="w-full h-[500px] object-cover rounded-3xl shadow-2xl">
             </div>
@@ -218,7 +218,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             <div>
-                <img src="{{ __('messages.social_proof.image') }}"
+                <img src="{{ asset('images/100338.jpg') }}"
                      alt="Trusted Patients"
                      class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
             </div>

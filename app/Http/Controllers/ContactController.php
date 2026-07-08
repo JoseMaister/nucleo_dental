@@ -46,11 +46,11 @@ $validated = $request->validate([
             // // Get the current locale or default to 'en'
             // $locale = app()->getLocale();
             
-            // // Send email to admin
-            // $adminEmail = config('nucleo.admin_email');
+            // Send email to admin
+            // $adminEmail = config('mail.from.address');
             // Mail::to($adminEmail)->send(new ContactFormMail($validated, $locale));
             
-            // // Send confirmation email to the user
+            // Send confirmation email to the user
             // if (!empty($validated['email'])) {
             //     Mail::to($validated['email'])->send(new ContactFormMail($validated, $locale));
             // }
