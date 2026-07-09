@@ -68,23 +68,45 @@
                     @endphp
 
                     @foreach($journeySteps as $key => $data)
-                        <div class="relative flex flex-col md:flex-row items-center justify-between group">
-                            
-                            <!-- Content Box -->
-                            <div class="w-full md:w-5/12 {{ $data['side'] === 'right' ? 'md:order-2' : '' }} mb-8 md:mb-0">
-                                <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1">
-                                    <div class="text-indigo-600 font-bold text-lg mb-2">Step {{ $stepCount }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}</div>
-                                    <div class="text-slate-600 leading-relaxed text-lg">{!! __("messages.dental_tourism_new.journey.steps.{$key}.description") !!}</div>
-                                </div>
-                            </div>
+    <div class="relative flex flex-col md:flex-row items-center">
 
-                            <!-- Center Icon -->
-                            <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-indigo-600 border-4 border-slate-50 text-white text-2xl z-10 shadow-lg group-hover:scale-110 transition-transform hidden md:flex">
-                                <i class="fas {{ $data['icon'] }}"></i>
-                            </div>
-                        </div>
-                        @php $stepCount++; @endphp
-                    @endforeach
+        <!-- Left Side -->
+        <div class="w-full md:w-5/12">
+            @if($data['side'] === 'left')
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition-all duration-300">
+                    <div class="text-indigo-600 font-bold text-lg mb-2">
+                        Step {{ $stepCount }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}
+                    </div>
+                    <div class="text-slate-600 leading-relaxed text-lg">
+                        {!! __("messages.dental_tourism_new.journey.steps.{$key}.description") !!}
+                    </div>
+                </div>
+            @endif
+        </div>
+
+        <!-- Center Icon -->
+        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-indigo-600 border-4 border-slate-50 items-center justify-center text-white text-2xl shadow-lg z-10">
+            <i class="fas {{ $data['icon'] }}"></i>
+        </div>
+
+        <!-- Right Side -->
+        <div class="w-full md:w-5/12 md:ml-auto mt-8 md:mt-0">
+            @if($data['side'] === 'right')
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition-all duration-300">
+                    <div class="text-indigo-600 font-bold text-lg mb-2">
+                        Step {{ $stepCount }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}
+                    </div>
+                    <div class="text-slate-600 leading-relaxed text-lg">
+                        {!! __("messages.dental_tourism_new.journey.steps.{$key}.description") !!}
+                    </div>
+                </div>
+            @endif
+        </div>
+
+    </div>
+
+    @php $stepCount++; @endphp
+@endforeach
                 </div>
             </div>
         </div>

@@ -217,12 +217,7 @@
     <div class="max-w-7xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-            <div>
-                <img src="{{ asset('images/100338.jpg') }}"
-                     alt="Trusted Patients"
-                     class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
-            </div>
-
+            {{-- Texto --}}
             <div>
                 <p class="text-sm font-bold uppercase tracking-widest text-indigo-700">
                     {{ __('messages.social_proof.label') }}
@@ -277,10 +272,16 @@
                 </div>
             </div>
 
+            {{-- Imagen --}}
+            <div>
+                <img src="{{ asset('images/100338.jpg') }}"
+                     alt="Trusted Patients"
+                     class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
+            </div>
+
         </div>
     </div>
 </section>
-
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-6">
         <div class="relative overflow-hidden rounded-3xl bg-indigo-900">
