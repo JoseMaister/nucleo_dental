@@ -134,7 +134,7 @@
                                 </div>
                                 <div>
                                     <h3 class="text-xl font-bold text-slate-900 mb-2">{{ $reason['title'] }}</h3>
-                                    <p class="text-slate-600">{{ $reason['description'] }}</p>
+                                    <p class="text-slate-600">{!! $reason['description'] !!}</p>
                                 </div>
                             </div>
                         @endforeach

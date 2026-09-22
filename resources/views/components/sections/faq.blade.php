@@ -58,13 +58,14 @@
             element.classList.add('border-indigo-200');
         } else {
             // Open the FAQ
-            // Get the natural height of the content
-            const contentHeight = answerContent.scrollHeight;
-            answer.style.maxHeight = contentHeight + 'px';
-            
-            // Add responsive max-height classes for different screen sizes
-            answer.classList.remove('max-h-0');
-            answer.classList.add('max-h-96', 'lg:max-h-[400px]');
+            // Remove max-height limits first
+// Remove max-height limits first
+answer.classList.remove('max-h-0');
+answer.classList.remove('max-h-96', 'max-h-[500px]', 'lg:max-h-[400px]');
+
+// Calculate full content height
+const contentHeight = answer.scrollHeight;
+answer.style.maxHeight = contentHeight + 'px';
             
             // Rotate icon
             icon.textContent = '−';
@@ -151,10 +152,8 @@
         }
         
         .faq-answer:not(.max-h-0) {
-            opacity: 1;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-        }
+    opacity: 1;
+}
         
         .faq-icon span {
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),

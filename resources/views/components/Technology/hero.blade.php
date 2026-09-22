@@ -11,7 +11,7 @@
             </p>
             <div class="border-t border-white border-[2px] my-5 w-[90%] mx-auto"></div>
             <p class="text-lg md:text-xl lg:text-2xl mb-6 leading-relaxed">
-                {{ __('messages.techno.hero.description_1') }}
+                {!! __('messages.techno.hero.description_1') !!}
             </p>
             <ul class="text-lg md:text-xl lg:text-2xl mb-6 leading-relaxed list-disc text-left max-w-2xl mx-auto space-y-2">
                 @foreach(__('messages.techno.hero.description_list') as $item)

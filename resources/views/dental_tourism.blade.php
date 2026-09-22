@@ -166,7 +166,7 @@
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <h2 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                        {{ __('messages.dental_tourism_new.luxury.title') }}
+                        {!! __('messages.dental_tourism_new.luxury.title') !!}
                     </h2>
                     <p class="text-xl text-indigo-300 font-medium mb-10">
                         {{ __('messages.dental_tourism_new.luxury.intro') }}

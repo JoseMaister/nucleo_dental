@@ -154,7 +154,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
 
                 @php
-                    $stepIcons = ['magnifying-glass', 'scissors', 'sparkles', 'lock', 'crown'];
+                    $stepIcons = ['magnifying-glass', 'scissors', 'tooth-sparkles', 'lock', 'crown'];
                 @endphp
 
                 @foreach(__('messages.root_canal.process.steps') as $index => $step)

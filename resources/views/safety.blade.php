@@ -43,7 +43,7 @@
                     {{ __('messages.safety.licensed_title') }}
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                    {{ __('messages.safety.licensed_desc') }}
+                    {!! __('messages.safety.licensed_desc') !!}
                 </p>
 
                 <ul class="grid md:grid-cols-2 gap-4 mb-8">
@@ -97,7 +97,7 @@
                     {{ __('messages.safety.technology_title') }}
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                    {{ __('messages.safety.technology_desc') }}
+                    {!! __('messages.safety.technology_desc') !!}
                 </p>
 
                 <ul class="grid md:grid-cols-2 gap-4 mb-8">
@@ -124,7 +124,7 @@
                     {{ __('messages.safety.implant_title') }}
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                    {{ __('messages.safety.implant_desc') }}
+                    {!! __('messages.safety.implant_desc') !!}
                 </p>
 
                 <ul class="grid md:grid-cols-2 gap-4 mb-8">
@@ -190,7 +190,7 @@
                     {{ __('messages.safety.ethics_title') }}
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                    {{ __('messages.safety.ethics_desc') }}
+                    {!! __('messages.safety.ethics_desc') !!}
                 </p>
 
                 <ul class="grid md:grid-cols-2 gap-4 mb-8">

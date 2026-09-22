@@ -5,7 +5,9 @@
         
         <!-- Content container -->
         <div class="relative z-10 max-w-6xl mx-auto text-center text-white">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 text-left -pl-2"><span class="text-white font-bold">{!! str_replace(' ', ' <br> ', __('messages.services_hero.title')) !!}</span></h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl mb-6 text-left -pl-2">
+    <span class="text-white font-bold">{{ __('messages.services_hero.title') }}</span>
+</h1>
             <p class="px-4 sm:px-6 lg:px-8 text-lg md:text-xl lg:text-2xl mb-8 text-justify leading-relaxed">
                 {{ __('messages.services_hero.description') }}
             </p>

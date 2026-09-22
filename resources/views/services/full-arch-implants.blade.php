@@ -3,6 +3,16 @@
 @section('title', __('messages.services_detail.all_on_4.title') . ' - ' . config('app.name'))
 
 @section('content')
+
+@php
+    $fullDescription = __(
+        'messages.services_detail.all_on_4.full_description',
+        [
+            'sedation_link' => '<a href="' . route('sedation-dentistry') . '" class="text-blue-600 underline hover:text-blue-800">Sedation dentistry</a>',
+        ]
+    );
+@endphp
+
 <main>
     <x-sections.service-pages.hero 
         :title="__('messages.services_detail.all_on_4.title')"
@@ -13,7 +23,7 @@
     <x-sections.service-pages.who-is-for 
         image="images/IMG_100203.webp"
         :items="__('messages.services_detail.all_on_4.who_is_for')"
-        :fullDescription="__('messages.services_detail.all_on_4.full_description')"
+        :fullDescription="$fullDescription"
     />
 
     <x-sections.service-pages.why-choose-us 

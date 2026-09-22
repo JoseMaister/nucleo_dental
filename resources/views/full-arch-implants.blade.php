@@ -22,7 +22,7 @@
                 <!-- Left Content Column -->
                 <div class="lg:col-span-7 text-center lg:text-left">
                     <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-white drop-shadow-md">
-                        {{ __('messages.full_arch_implants.hero.headline') }}
+                        {!! __('messages.full_arch_implants.hero.headline') !!}
                     </h1>
 
                     <p class="text-lg md:text-xl text-indigo-100 max-w-2xl mx-auto lg:mx-0 mb-6 leading-relaxed">
@@ -227,7 +227,7 @@
         {{ __('messages.full_arch_implants.cost_title') }}
     </h2>
     <p class="mb-6">
-        {{!! __('messages.full_arch_implants.cost_text') !!}}
+        {!! __('messages.full_arch_implants.cost_text') !!}
     </p>
     <div class="font-bold">
         {{ __('messages.full_arch_implants.cost_callout') }}

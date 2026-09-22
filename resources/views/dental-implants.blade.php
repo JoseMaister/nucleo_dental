@@ -255,7 +255,7 @@
             </h2>
 
             <p class="text-lg text-indigo-100 mb-6">
-                {{!! __('messages.dental_implants.cost_text') !!}}
+                {!! __('messages.dental_implants.cost_text') !!}
             </p>
 
             <div class="text-xl font-bold">

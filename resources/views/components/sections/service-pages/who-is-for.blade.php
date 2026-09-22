@@ -15,8 +15,7 @@
                 
                 @if($fullDescription)
                     <p class="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
-                        {{ $fullDescription }}
-                    </p>
+{!! $fullDescription !!}                    </p>
                 @endif
                 <div class="space-y-6">
                     @foreach($items as $item)
