@@ -439,6 +439,12 @@ $sandraSpecialties = [__('messages.specialties.pediatric_dentist')];
 $sandraContent = __('messages.team.sandra.content');
 $sandraSections = [];
 
+// Liliana
+$lilianaName = __('messages.team.liliana.name');
+$lilianaSpecialties = [__('messages.specialties.pediatric_dentist')];
+$lilianaContent = __('messages.team.liliana.content');
+$lilianaSections = [];
+
 // Adriana
 $adrianaArmendarizName = __('messages.team.adriana_armendariz.name');
 $adrianaArmendarizSpecialties = [__('messages.specialties.general_dentist')];
@@ -467,15 +473,10 @@ $marioSections = [
     ]
 ];
 
-// Monica
-$monicaName = __('messages.team.monica.name');
-$monicaSpecialties = [__('messages.specialties.pediatric_dentist')];
-$monicaSections = [];
-
 // Paloma
 $palomaName = __('messages.team.paloma.name');
 $palomaSpecialties = [__('messages.specialties.orthodontist')];
-$palomaContent = '';
+$palomaContent = __('messages.team.paloma.content');
 $palomaSections = [];
 
 // Valeria
@@ -486,12 +487,6 @@ $valeriaSpecialties = [
 ];
 $valeriaContent = __('messages.team.valeria.content');
 $valeriaSections = [];
-
-// Liliana
-$lilianaName = __('messages.team.liliana.name');
-$lilianaSpecialties = [__('messages.specialties.pediatric_dentist')];
-$lilianaContent = __('messages.team.liliana.content');
-$lilianaSections = [];
 @endphp
 
 
@@ -512,6 +507,14 @@ $lilianaSections = [];
 />
 
 <x-doctor-profile 
+    :imageUrl="asset('images/liliana.avif')"
+    :name="$lilianaName"
+    :specialties="$lilianaSpecialties"
+    :content="$lilianaContent"
+    :sections="$lilianaSections"
+/>
+
+<x-doctor-profile 
     :imageUrl="asset('images/IMG_100183.webp')"
     :name="$adrianaArmendarizName"
     :specialties="$adrianaArmendarizSpecialties"
@@ -527,8 +530,6 @@ $lilianaSections = [];
     :sections="[]"
 />
 
-
-
 <div id="dr-mario-torres" class="scroll-mt-24"></div>
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100191.webp')"
@@ -540,13 +541,6 @@ $lilianaSections = [];
     :videos="[
         asset('images/videos/mario_endodoncia.mp4')
     ]"
-/>
-
-<x-doctor-profile 
-    :imageUrl="asset('images/IMG_100184.webp')"
-    :name="$monicaName"
-    :specialties="$monicaSpecialties"
-    :sections="$monicaSections"
 />
 
 <x-doctor-profile 
@@ -567,15 +561,6 @@ $lilianaSections = [];
     :specialties="$valeriaSpecialties"
     :content="$valeriaContent"
     :sections="$valeriaSections"
-/>
-
-
-<x-doctor-profile 
-    :imageUrl="asset('images/liliana.avif')"
-    :name="$lilianaName"
-    :specialties="$lilianaSpecialties"
-    :content="$lilianaContent"
-    :sections="$lilianaSections"
 />
 
 <section class="py-24 bg-indigo-900 text-white text-center">

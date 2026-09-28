@@ -158,8 +158,7 @@ return [
             'sections' => [
                 'applied_studies' => [
                     'title' => 'Estudios Aplicados',
-                    'content' => "
-                    <ul class='list-disc pl-5 space-y-0.5'>
+                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
                         <li class='text-gray-600 text-[15px] leading-snug'>Graduada de la Universidad Autónoma de Ciudad Juárez, Chihuahua</li>
                         <li class='text-gray-600 text-[15px] leading-snug'>Especialista en Ortodoncia</li>
                         <li class='text-gray-600 text-[15px] leading-snug'>Certificada en Cirugía Dental</li>
@@ -269,12 +268,11 @@ return [
         'meet_doctors' => 'Conoce a los Doctores',
     ],
     'hero' => [
-    'title' => 'Implantes Dentales y Odontología Avanzada<br>Bien Hechos desde la Primera Vez',
-    'subtitle' => 'Cuidado dental de clase mundial en México, con la confianza de pacientes de EE. UU. y México. Tratamiento de precisión, materiales premium y coordinación fronteriza sin fricciones.',
-    'title' => 'Implantes Dentales y Odontología Avanzada<br>— Bien Hechos desde la Primera Vez',
-    'subtitle' => 'Cuidado dental de clase mundial en México, con la confianza de pacientes de EE. UU. y México. Tratamiento de precisión, materiales premium y coordinación fronteriza sin fricciones. Todo en un solo lugar.',
-    'cta_primary' => 'Agendar tu Consulta',
-    'cta_secondary' => 'Solicitar un Presupuesto',
+    'title' => 'Atención Dental Completa. Un Equipo de Confianza.',
+    'subtitle' => 'Desde odontología general y restauradora hasta implantes dentales, transformaciones cosméticas, ortodoncia, periodoncia, cirugía oral y rehabilitación de boca completa — nuestros especialistas brindan atención coordinada y de alta calidad bajo un mismo techo en Ciudad Juárez.<br><br>Odontología de clase mundial con materiales premium, tecnología avanzada y soporte transfronterizo sin fricciones para pacientes de EE. UU. y México.',
+    'cta_primary' => 'Solicitar una Consulta',
+    'cta_secondary' => 'Explorar Nuestros Servicios',
+    'financing_badge' => 'SONRÍE AHORA, PAGA DESPUÉS',
     'phone' => [
         'us' => '+1 (915) 308 - 0101',
         'mx' => '+52 (656) 625 - 9250'
@@ -524,8 +522,9 @@ return [
         ]
     ],
     'resume' => [
-        'title' => 'Nucleo Dental ofrece servicios de salud bucal de alta calidad en una ubicación conveniente.',
-        'description' => 'Nuestro equipo experimentado utiliza tecnología de vanguardia para ofrecer tratamientos personalizados para cada nivel de necesidad dental. Aceptamos nuevos pacientes, seguros americanos (con reembolso directo) y todas las tarjetas de crédito principales. Ubicados para fácil acceso, nuestro objetivo es que su visita sea cómoda y efectiva para que pueda lograr la sonrisa perfecta con confianza.'
+        'title' => 'Atención Dental Completa Bajo un Mismo Techo',
+        'description' => '<p>Núcleo Dental ofrece atención dental integral en una ubicación conveniente. Nuestro experimentado equipo de especialistas utiliza tecnología avanzada y materiales de primera calidad para crear planes de tratamiento personalizados para cada nivel de necesidad dental.</p><p>Damos la bienvenida a nuevos pacientes, aceptamos la mayoría de las tarjetas de crédito principales y asistimos a pacientes de EE.UU. con la presentación de reclamos de seguros fuera del país para reembolso directo de su proveedor de seguros. Tenga en cuenta que CareCredit no se acepta en México.</p><p>Convenientemente ubicados en Ciudad Juárez, hacemos que la atención dental de alta calidad sea cómoda, coordinada y fácil de acceder.</p>',
+        'view_gallery' => 'Ver Galería de Sonrisas'
     ],
     'services_banner' => [
         'contact_us' => 'Contáctenos para más información',
@@ -907,128 +906,44 @@ return [
         'title' => 'Preguntas Frecuentes',
         'why_juarez' => [
             'question' => '¿Por qué debería considerar ir a Juárez para atención dental?',
-            'answer' => 'Una de las atracciones principales es el significativo ahorro de costos; los procedimientos dentales en Juárez pueden ser mucho más económicos que en los Estados Unidos o Canadá, a menudo con paquetes integrales que incluyen transporte y alojamiento. Además, la calidad de la atención en Juárez es notable, ya que muchas clínicas están equipadas con instalaciones modernas y cumplen con estándares internacionales, con dentistas que a menudo están capacitados en los Estados Unidos o Europa. La gama de servicios disponibles también es impresionante, abarcando odontología general y cosmética, ortodoncia y cirugía oral.\n\nLa proximidad de Juárez con los Estados Unidos lo hace fácilmente accesible para pacientes norteamericanos, con opciones de transporte convenientes y tiempos de espera mínimos para citas, permitiendo una programación más flexible. Además, el turismo dental en Juárez ofrece a los pacientes la oportunidad de explorar una cultura vibrante, disfrutar de una deliciosa cocina y visitar atracciones locales, combinando efectivamente el tratamiento con unas vacaciones. Muchos pacientes reportan altas tasas de satisfacción y experiencias positivas, respaldadas por recomendaciones de amigos o familiares que han recibido tratamiento.'
+            'answer' => "<p>La atención dental en Juárez puede ofrecer ahorros significativos en comparación con el tratamiento en los Estados Unidos, sin sacrificar la calidad ni la atención personalizada. Su cercanía a El Paso también hace que las citas sean convenientes y accesibles para los pacientes que viajan desde todo EE. UU.</p><p class='mt-3'>En Núcleo Dental, recibirá atención coordinada de especialistas experimentados que utilizan tecnología avanzada de diagnóstico y tratamiento. Ofrecemos servicios integrales bajo un mismo techo, desde odontología preventiva y pediátrica hasta ortodoncia, cirugía bucal, implantes dentales y reconstrucción completa de la boca.</p><p class='mt-3'>Para facilitar su visita, también ofrecemos transporte gratuito desde El Paso y le ayudamos a coordinar cada paso de su tratamiento.</p>",
         ],
         'safety' => [
-            'question' => '¿Es seguro viajar a Juárez para atención dental?',
-            'answer' => 'Viajar a Juárez para atención dental puede ser seguro si tomas las precauciones necesarias y te mantienes informado. Beyond Borders Dental ha estado refiriendo pacientes desde 2016 que han recibido exitosamente tratamiento dental de calidad en Juárez, beneficiándose de significativos ahorros de costos y acceso a instalaciones modernas.\n\nBeyond Borders Dental toma medidas adicionales para mejorar tu seguridad haciendo arreglos de viaje por adelantado con la clínica dental, asegurando que tu seguridad sea una prioridad máxima. Al estar consciente de tu entorno, puedes tener una experiencia segura y positiva mientras recibes atención dental en Juárez.'
+            'question' => '¿Es seguro viajar a Juárez para recibir atención dental?',
+            'answer' => "<p>Entendemos que visitar otro país para recibir atención dental puede resultar desconocido, especialmente la primera vez. Es por eso que hacemos que la experiencia sea lo más cómoda, organizada y tranquilizadora posible.</p><p class='mt-3'>Nuestro servicio de transporte gratuito puede recogerlo en El Paso, llevarlo directamente a Núcleo Dental y de regreso después de su cita, para que no tenga que desplazarse por la ciudad por su cuenta. Nuestro equipo se mantiene en contacto, le explica qué esperar y lo apoya durante toda su visita.</p><p class='mt-3'>Miles de personas cruzan diariamente entre El Paso y Juárez por trabajo, familia, compras y atención médica. Con su visita cuidadosamente coordinada por nuestro equipo, recibir atención dental en Juárez puede sentirse simple, acogedor y mucho más cerca de casa de lo que espera.</p>",
         ],
         'first_visit' => [
-            'question' => '¿Qué debo esperar durante mi primera visita a la clínica?',
-            'answer' => 'En tu primer día en Juárez para trabajo dental, puedes esperar una experiencia estructurada y de apoyo. Al llegar, prepárate para los procedimientos de cruce fronterizo y ten tu identificación lista. El transporte será arreglado por tu clínica dental por adelantado, con un representante saludándote para ayudarte a llegar a tu alojamiento o directamente a la clínica.\n\nUna vez en la clínica, conocerás al equipo dental para una consulta inicial, que incluye un examen exhaustivo de tus dientes y encías, posiblemente acompañado de rayos X y/o tomografías computarizadas para evaluar tus necesidades dentales. El dentista luego discutirá tu plan de tratamiento, explicando los procedimientos recomendados, resultados esperados y costos asociados, dándote la oportunidad de hacer cualquier pregunta. Dependiendo de tu plan de tratamiento, podrías comenzar tu trabajo dental el mismo día, con el equipo dental asegurando tu comodidad throughout proporcionando anestesia o sedación según sea necesario. Después, recibirás instrucciones de cuidado post-tratamiento para facilitar una curación adecuada, junto con cualquier programación de citas de seguimiento si es necesario. En general, tu primer día se centrará en consultas y posiblemente el inicio de tu tratamiento, asegurando una experiencia fluida y positiva.'
+            'question' => '¿Qué debo esperar durante mi primera visita?',
+            'answer' => "<p>Su primera visita está diseñada para sentirse cómoda, informativa y sin prisas. Si utiliza nuestro servicio de transporte gratuito, nuestro chofer lo recibirá en el lugar acordado en El Paso y lo llevará directamente a Núcleo Dental. Asegúrese de traer la identificación adecuada para cruzar la frontera.</p><p class='mt-3'>Una vez que llegue, nuestro equipo le dará la bienvenida y lo guiará en cada paso. Su visita puede incluir:</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Una conversación sobre sus inquietudes, objetivos e historial médico</li><li>Un examen integral con uno o más de nuestros especialistas</li><li>Radiografías digitales o una tomografía 3D (CBCT), si es necesario</li><li>Una explicación clara de su diagnóstico y opciones de tratamiento</li><li>Un plan de tratamiento personalizado, cronograma y estimación de costos</li><li>Tiempo para hacer preguntas antes de tomar cualquier decisión</li></ul><p class='mt-3'>Dependiendo de sus necesidades y horario, el tratamiento puede comenzar el mismo día. Antes de irse, revisaremos las instrucciones de cuidado posterior, organizaremos su próxima cita y le brindaremos transporte de regreso a El Paso. Nuestro objetivo es que se sienta informado, seguro y bien atendido desde el momento en que llega.</p>",
         ],
         'duration' => [
-            'question' => '¿Cuánto tiempo debo planear quedarme en México para tratamiento dental?',
-            'answer' => 'La duración de tu estancia en México para tratamiento dental puede variar basándose en varios factores, incluyendo el tipo de procedimiento, la complejidad de tu caso, y las visitas de seguimiento recomendadas. Aquí hay una guía general:\n\nProcedimientos Menores (p. ej., blanqueamiento dental, obturaciones): Típicamente requieren aproximadamente 3 a 5 días.\n\nProcedimientos Mayores (p. ej., coronas, implantes, restauración de boca completa): Usualmente requieren una estancia de 5 a 10 días para permitir la recuperación inicial y citas de seguimiento.\n\nCuidado de Seguimiento: Dependiendo de tu plan de tratamiento, visitas de seguimiento adicionales pueden ser necesarias para algunos pacientes, lo que podría extender tu estancia.\n\nBeyond Borders Dental trabaja estrechamente con nuestras clínicas asociadas para proporcionarte un itinerario de tratamiento detallado adaptado a tus necesidades específicas. Este plan personalizado ayudará a asegurar que tengas una comprensión clara de tu cronograma y procedimientos. ¡La planificación ayudará a asegurar una experiencia dental fluida y exitosa!'
+            'question' => '¿Cuánto tiempo debo planear quedarme para el tratamiento dental?',
+            'answer' => "<p>La duración de su estancia depende del tipo y la complejidad de su tratamiento. Muchos procedimientos se pueden completar en una sola visita, mientras que otros requieren varios días o múltiples viajes para una cicatrización adecuada.</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Los exámenes, limpiezas, empastes y procedimientos simples se pueden completar el mismo día.</li><li>Las coronas de circonio a menudo se pueden completar al día siguiente cuando su primera cita se programa temprano.</li><li>Puentes, prótesis dentales y tratamientos restauradores más extensos pueden requerir varias citas durante varios días.</li><li>Los implantes dentales se completan por etapas. Después de una extracción o injerto óseo, la cicatrización puede tomar aproximadamente tres meses antes de la colocación del implante, seguido de otro período de cicatrización antes de la corona o restauración final.</li><li>La reconstrucción de boca completa requiere un calendario personalizado según los procedimientos involucrados.</li></ul><p class='mt-3'>Muchos de nuestros pacientes fuera de la ciudad se hospedan en El Paso y utilizan nuestro servicio de transporte gratuito para las citas. Una vez que nuestros doctores revisen sus expedientes o completen su evaluación, le proporcionaremos un cronograma de tratamiento personalizado para que pueda planificar su viaje con confianza.</p>",
         ],
         'upfront_payment' => [
-            'question' => '¿Necesitaré pagar por adelantado por los servicios?',
-            'answer' => 'Dependiendo del procedimiento, nuestra clínica en Juárez requiere pago al momento del servicio. En algunos casos, si necesitan ordenar partes personalizadas, pueden requerir un depósito. Discutiremos opciones de pago con la clínica antes de tu visita para entender los costos involucrados.'
+            'question' => '¿Tendré que pagar por adelantado el tratamiento?',
+            'answer' => "<p>Para la mayoría de los planes de tratamiento, el 50% se paga al iniciar el tratamiento. El saldo restante se puede ir pagando a medida que avanza su tratamiento y debe liquidarse en su totalidad al finalizar el mismo.</p><p class='mt-3'>Recibirá un presupuesto claro antes de comenzar el tratamiento, y nuestro equipo le explicará los costos y el calendario de pagos para que sepa exactamente qué esperar. El pago se realiza directamente a Núcleo Dental en el momento de la prestación de los servicios.</p><p class='mt-3'>Aceptamos efectivo, cheques de caja, transferencias bancarias y la mayoría de las tarjetas de crédito y débito principales. Tenga en cuenta que no podemos aceptar CareCredit ni Discover en México.</p>",
         ],
         'payment_options' => [
             'question' => '¿Qué opciones de pago están disponibles?',
-            'answer' => 'Aceptan varios métodos de pago, incluyendo efectivo, tarjetas de crédito/débito principales, Zelle (para estadounidenses), y TransferWise (ahora Wise) o Interac e-Transfer, una opción popular en Canadá que permite a los usuarios enviar dinero directamente de una cuenta bancaria a otra vía correo electrónico o teléfono móvil. Aunque Venmo se usa principalmente en los Estados Unidos, algunos turistas canadienses pueden tener acceso a Venmo. Permite pagos fáciles de persona a persona a través de una aplicación móvil. Por favor pregunta sobre planes de pago antes de tu primera visita.'
+            'answer' => "<p>Núcleo Dental acepta varias formas de pago convenientes:</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Efectivo o cheque de caja</li><li>Transferencias bancarias y electrónicas</li><li>La mayoría de las tarjetas de crédito y débito principales</li></ul><p class='mt-3'>Para la mayoría de los planes de tratamiento integrales, el 50% se paga al comenzar el tratamiento. El saldo restante se puede ir pagando a medida que avanza su tratamiento y debe pagarse en su totalidad al finalizar el tratamiento.</p><p class='mt-3'>No ofrecemos financiamiento tradicional ni planes de pago mensuales generales. CareCredit no se puede utilizar en México y no podemos aceptar Discover. Nuestro equipo revisará su presupuesto y calendario de pagos con usted antes de comenzar el tratamiento para que no haya sorpresas.</p>",
         ],
         'follow_up' => [
-            'question' => '¿Qué pasa si necesito cuidado de seguimiento después de mi tratamiento?',
-            'answer' => 'Si vas a nuestra clínica dental aprobada en Juárez para un procedimiento invasivo, como implantes dentales, la clínica te proporcionará instrucciones integrales de cuidado postoperatorio. Después de tu procedimiento, el equipo dental se asegurará de que entiendas cómo cuidar tus implantes y manejar cualquier molestia o complicaciones potenciales.\n\nQué Esperar en tus Instrucciones de Cuidado Postoperatorio:\n\nGuías Detalladas: Recibirás instrucciones claras y escritas sobre el cuidado de tu sitio quirúrgico, incluyendo recomendaciones para higiene oral, dieta y restricciones de actividad.\n\nManejo del Dolor: La clínica proporcionará información sobre el manejo del dolor y la hinchazón, incluyendo medicamentos y dosis recomendados.\n\nSignos de Complicaciones: Se te informará sobre signos de complicaciones potenciales, como sangrado excesivo, infección, o dolor inusual, y cuándo buscar atención médica adicional.\n\nCitas de Seguimiento: La clínica discutirá cualquier visita de seguimiento necesaria para monitorear tu progreso de curación y asegurar que los implantes se estén integrando correctamente con tu hueso maxilar.\n\nInformación de Contacto: Si tienes alguna pregunta o preocupación después de regresar a casa, la clínica proporcionará información de contacto para asistencia adicional.\n\nEn general, el equipo dental priorizará tu recuperación y se asegurará de que tengas toda la información necesaria para apoyar un proceso de curación exitoso después de tus implantes dentales. Es esencial seguir estas instrucciones de cerca para lograr el mejor resultado posible. Además, si necesitas asistencia acelerada o tienes alguna pregunta después de tu procedimiento, los pacientes también pueden contactar a Beyond Borders Dental para soporte. Esto asegura que tengas acceso a la ayuda que necesitas, incluso después de regresar a casa, para facilitar una recuperación fluida.'
+            'question' => '¿Qué pasa si necesito atención de seguimiento después de mi tratamiento?',
+            'answer' => "<p>Su atención no termina cuando sale de Núcleo Dental. Antes de regresar a casa, le brindaremos instrucciones claras posteriores al tratamiento, sobre cómo cuidar el área tratada, controlar las molestias y reconocer cualquier detalle que requiera atención.</p><p class='mt-3'>Programaremos las citas de seguimiento necesarias como parte de su plan de tratamiento. Una vez en casa, puede comunicarse directamente con nuestro equipo por teléfono, mensaje de texto, WhatsApp o correo electrónico para resolver dudas. Cuando sea apropiado, también puede enviar fotos para que nuestros médicos revisen su progreso de cicatrización.</p><p class='mt-3'>Si se requiere un examen presencial, organizaremos una cita en nuestra clínica lo antes posible. En Núcleo Dental, mantenemos nuestro compromiso con su atención durante todo su tratamiento y recuperación.</p>",
         ],
         'insurance' => [
-            'question' => '¿Aceptan seguro dental?',
-            'answer' => 'Nuestra clínica dental en Juárez no procesa reclamos de seguro dental extranjero directamente. Sin embargo, si tienes seguro dental que reembolsa tratamientos realizados en el extranjero, nuestro personal estará más que feliz de asistirte. Podemos proporcionarte la documentación necesaria, incluyendo facturas detalladas, para ayudarte a presentar un reclamo al regresar a casa. Esto asegura que puedas aprovechar al máximo los beneficios de tu seguro para los tratamientos que recibes en nuestra clínica.'
+            'question' => '¿Aceptan seguro dental de EE. UU.?',
+            'answer' => "<p>Núcleo Dental acepta muchos planes de seguro dental de EE. UU. sobre la base de reembolso fuera del país y fuera de la red. Pagará a nuestra clínica directamente al completar el tratamiento y podemos presentar su reclamo con las facturas desglosadas y la documentación de respaldo necesaria.</p><p class='mt-3'>Cualquier reembolso elegible es determinado por su compañía de seguros y se le paga directamente a usted. Debido a que la cobertura varía según el plan, recomendamos comunicarse con su proveedor de seguros antes del tratamiento para confirmar sus beneficios fuera del país y fuera de la red.</p>",
         ],
         'emergency' => [
-            'question' => '¿Qué debo hacer en caso de emergencia dental?',
-            'answer' => 'Si experimentas una emergencia dental, por favor contáctanos inmediatamente. Contactaremos la clínica dental en tu nombre para expedir una cita del mismo día o de emergencia para casos urgentes.'
+            'question' => '¿Qué debo hacer en caso de una emergencia dental?',
+            'answer' => "<p>Si experimenta una emergencia dental, comuníquese con Núcleo Dental de inmediato por teléfono, mensaje de texto o WhatsApp. Nuestro equipo le preguntará sobre sus síntomas y trabajará para organizar la cita disponible más próxima, a menudo el mismo día para casos urgentes.</p><p class='mt-3'>Si tiene hinchazón facial grave, sangrado no controlado, dificultad para respirar o tragar, u otro síntoma que ponga en peligro su vida, busque atención médica de emergencia de inmediato.</p>",
         ],
         'getting_started' => [
-            'question' => '¿Cómo Puedo Comenzar con Beyond Borders Dental?',
-            'answer' => '¡Comenzar con Beyond Borders Dental es fácil! Sigue estos pasos:\n\nContáctanos: Alcanza a nosotros vía nuestro sitio web o llámanos para discutir tus necesidades y objetivos dentales.\n\nConsulta: Programaremos una consulta para entender tus requisitos específicos y responder cualquier pregunta que puedas tener.\n\nPlan de Tratamiento Personalizado: Basado en tu consulta, te proporcionaremos un plan de tratamiento e itinerario personalizados.\n\nReserva tu Viaje: Una vez que estés listo, te ayudaremos a organizar tu viaje y alojamientos.\n\n¡Nuestro equipo está aquí para guiarte a través de cada paso del proceso, asegurando una experiencia dental fluida y positiva en México!'
+            'question' => '¿Cómo puedo comenzar con Núcleo Dental?',
+            'answer' => "<p>Comenzar es sencillo. Contáctenos a través de nuestro sitio web, por teléfono, mensaje de texto o WhatsApp, y cuéntenos sobre sus necesidades y objetivos dentales. Si tiene radiografías recientes, tomografía (CT), plan de tratamiento u otros registros dentales, puede enviarlos para que nuestros doctores los revisen antes de su visita.</p><p class='mt-3'>Luego le ayudaremos a:</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Programar su consulta y examen presencial</li><li>Comprender sus opciones de tratamiento, cronograma y costos estimados</li><li>Planificar las citas requeridas para su tratamiento</li><li>Coordinar el transporte gratuito desde El Paso</li><li>Prepararse para su visita y responder cualquier pregunta en el camino</li></ul><p class='mt-3'>Una vez que llegue, nuestros especialistas completarán una evaluación minuciosa y crearán un plan de tratamiento personalizado según sus necesidades. Desde su primera conversación hasta su resultado final, el equipo de Núcleo Dental estará aquí para guiarlo con claridad, atención y confianza.</p>",
         ]
-    ],
-    'dental_tourism' => [
-        'page_title' => 'Turismo Dental - Sonríe Ahora, Paga Menos',
-        'hero' => [
-            'title' => 'Sonríe Ahora, Paga Menos',
-            'subtitle' => 'Combina atención dental de clase mundial con una experiencia de vacaciones memorable',
-            'description' => 'Disfruta de tratamientos dentales de alta calidad a una fracción del costo, con el beneficio adicional de recuperarte en un hermoso destino mexicano.'
-        ],
-        'what_is' => [
-            'title' => '¿Qué es el Turismo Dental?',
-            'description' => 'El turismo dental es un servicio único que te permite combinar un procedimiento dental con unas vacaciones relajantes. Es una forma de recibir atención dental de alta calidad mientras ahorras dinero y disfrutas de la belleza de México.',
-            'benefits_intro' => 'En Núcleo Dental, nos especializamos en hacer el turismo dental accesible, cómodo y gratificante para pacientes internacionales.',
-            'savings' => 'Ahorra hasta el 70% en comparación con tratamientos en EE.UU.',
-            'quality' => 'Dentistas capacitados internacionalmente con instalaciones modernas',
-            'convenience' => 'Programación eficiente y planificación de atención integral',
-            'experience' => 'Combina tratamiento con turismo y experiencias culturales'
-        ],
-        'why_choose' => [
-            'title' => '¿Por Qué Elegir Núcleo Dental para Turismo Dental?',
-            'intro' => 'Proporcionamos una experiencia de turismo dental excepcional que combina atención de calidad con conveniencia y valor.',
-            'consultation' => [
-                'title' => '1. Programar tu Consulta',
-                'description' => 'Discute tus necesidades dentales con uno de nuestros especialistas y recibe un plan de tratamiento integral con estimación de costos.'
-            ],
-            'planning' => [
-                'title' => '2. Planifica tu Viaje',
-                'description' => 'Te ayudamos a organizar alojamientos, transporte y cronograma para hacer tu visita sin estrés.'
-            ],
-            'treatment' => [
-                'title' => '3. Recibe el Tratamiento',
-                'description' => 'Experimenta atención dental de clase mundial con tecnología de vanguardia en un ambiente cómodo y acogedor.'
-            ],
-            'recovery' => [
-                'title' => '4. Disfruta tu Sonrisa',
-                'description' => 'Recuperate y disfruta tu nueva sonrisa mientras exploras nuestro hermoso destino, con instrucciones completas de cuidado postratamiento.'
-            ]
-        ],
-        'services_offered' => [
-            'title' => 'Servicios Populares de Turismo Dental',
-            'description' => 'Ofrecemos una amplia gama de procedimientos dentales con valor excepcional:',
-            'dental_implants' => [
-                'title' => 'Implantes Dentales',
-                'cost_us' => '$3,000 - $6,000',
-                'cost_mexico' => '$650 - $1,500',
-                'savings' => 'Ahorra 70-80%'
-            ],
-            'crowns' => [
-                'title' => 'Coronas de Porcelana',
-                'cost_us' => '$1,000 - $1,600',
-                'cost_mexico' => '$300 - $450',
-                'savings' => 'Ahorra 70%'
-            ],
-            'veneers' => [
-                'title' => 'Carillas de Porcelana',
-                'cost_us' => '$800 - $1,000',
-                'cost_mexico' => '$250 - $400',
-                'savings' => 'Ahorra 60-70%'
-            ],
-            'root_canal' => [
-                'title' => 'Tratamiento de Conducto',
-                'cost_us' => '$1,000 - $1,500',
-                'cost_mexico' => '$250 - $550',
-                'savings' => 'Ahorra 75%'
-            ],
-            'full_mouth' => [
-                'title' => 'Rehabilitación de Boca Completa',
-                'cost_us' => '$15,000+',
-                'cost_mexico' => '$4,000 - $8,000',
-                'savings' => 'Ahorra 70%+'
-            ],
-            'cleanings' => [
-                'title' => 'Limpieza y Revisión',
-                'cost_us' => '$150 - $300',
-                'cost_mexico' => '$35 - $60',
-                'savings' => 'Ahorra 80%'
-            ]
-        ],
-        'process' => [
-    'title' => 'Tu visita, simplificada',
-    'description' => 'Hacemos que cada paso sea simple, desde tu primera consulta hasta tu regreso seguro a El Paso.',
-
-    'step_1' => [
-        'title' => 'Conéctate desde casa',
-        'description' => 'Envíanos tus radiografías, fotos o inquietudes. Nuestro equipo revisará tu caso y te brindará un plan de tratamiento claro y personalizado.'
     ],
     'step_2' => [
         'title' => 'Planifica con confianza',
@@ -1049,8 +964,8 @@ return [
     'step_6' => [
         'title' => 'Regresa relajado y con confianza',
         'description' => 'Te llevamos de regreso de forma segura después de tu cita, para que puedas enfocarte en tu recuperación y resultados.'
-    ]
-],
+    ],
+
         'cost_benefits' => [
             'title' => 'Evaluando Costos vs Beneficios',
             'procedure_comparison' => 'Comparación de Costos de Procedimientos',
@@ -1242,7 +1157,6 @@ return [
             'description' => 'Comienza tu viaje de turismo dental con Núcleo Dental. Estamos aquí para hacerlo fácil, asequible y memorable.',
             'button' => 'Programa tu Consulta Gratuita',
             'subtext' => 'Combina atención dental excepcional con una experiencia de vacaciones memorable.'
-        ]
     ],
     'blog_educativo' => [
         'page_title' => 'Blog Educativo - Nucleo Dental',
@@ -1941,15 +1855,47 @@ y a menudo supera — los <strong>estándares internacionales.</strong>',
             'cta_secondary' => 'Contáctanos Hoy',
         ],
         'faq' => [
-            'title' => 'Tratamiento de Endodoncia — Preguntas Frecuentes',
-            'intro' => 'Obtén respuestas claras sobre el tratamiento de endodoncia, qué esperar y cómo hacemos que el proceso sea cómodo y efectivo.',
+        'title' => 'Preguntas Frecuentes',
+        'why_juarez' => [
+            'question' => '¿Por qué debería considerar ir a Juárez para atención dental?',
+            'answer' => "<p>La atención dental en Juárez puede ofrecer ahorros significativos en comparación con el tratamiento en los Estados Unidos, sin sacrificar la calidad ni la atención personalizada. Su cercanía a El Paso también hace que las citas sean convenientes y accesibles para los pacientes que viajan desde todo EE. UU.</p><p class='mt-3'>En Núcleo Dental, recibirá atención coordinada de especialistas experimentados que utilizan tecnología avanzada de diagnóstico y tratamiento. Ofrecemos servicios integrales bajo un mismo techo, desde odontología preventiva y pediátrica hasta ortodoncia, cirugía bucal, implantes dentales y reconstrucción completa de la boca.</p><p class='mt-3'>Para facilitar su visita, también ofrecemos transporte gratuito desde El Paso y le ayudamos a coordinar cada paso de su tratamiento.</p>",
         ],
-        'faq_cta' => [
-            'headline' => '¿Todavía Tienes Preguntas?',
-            'description' => 'Nuestro equipo está aquí para ayudarte a entender tus opciones de tratamiento y sentirte confiado con tu cuidado.',
-            'cta_primary' => 'Haz una Pregunta',
-            'cta_secondary' => 'Agenda tu Cita',
+        'safety' => [
+            'question' => '¿Es seguro viajar a Juárez para recibir atención dental?',
+            'answer' => "<p>Entendemos que visitar otro país para recibir atención dental puede resultar desconocido, especialmente la primera vez. Es por eso que hacemos que la experiencia sea lo más cómoda, organizada y tranquilizadora posible.</p><p class='mt-3'>Nuestro servicio de transporte gratuito puede recogerlo en El Paso, llevarlo directamente a Núcleo Dental y de regreso después de su cita, para que no tenga que desplazarse por la ciudad por su cuenta. Nuestro equipo se mantiene en contacto, le explica qué esperar y lo apoya durante toda su visita.</p><p class='mt-3'>Miles de personas cruzan diariamente entre El Paso y Juárez por trabajo, familia, compras y atención médica. Con su visita cuidadosamente coordinada por nuestro equipo, recibir atención dental en Juárez puede sentirse simple, acogedor y mucho más cerca de casa de lo que espera.</p>",
         ],
+        'first_visit' => [
+            'question' => '¿Qué debo esperar durante mi primera visita?',
+            'answer' => "<p>Su primera visita está diseñada para sentirse cómoda, informativa y sin prisas. Si utiliza nuestro servicio de transporte gratuito, nuestro chofer lo recibirá en el lugar acordado en El Paso y lo llevará directamente a Núcleo Dental. Asegúrese de traer la identificación adecuada para cruzar la frontera.</p><p class='mt-3'>Una vez que llegue, nuestro equipo le dará la bienvenida y lo guiará en cada paso. Su visita puede incluir:</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Una conversación sobre sus inquietudes, objetivos e historial médico</li><li>Un examen integral con uno o más de nuestros especialistas</li><li>Radiografías digitales o una tomografía 3D (CBCT), si es necesario</li><li>Una explicación clara de su diagnóstico y opciones de tratamiento</li><li>Un plan de tratamiento personalizado, cronograma y estimación de costos</li><li>Tiempo para hacer preguntas antes de tomar cualquier decisión</li></ul><p class='mt-3'>Dependiendo de sus necesidades y horario, el tratamiento puede comenzar el mismo día. Antes de irse, revisaremos las instrucciones de cuidado posterior, organizaremos su próxima cita y le brindaremos transporte de regreso a El Paso. Nuestro objetivo es que se sienta informado, seguro y bien atendido desde el momento en que llega.</p>",
+        ],
+        'duration' => [
+            'question' => '¿Cuánto tiempo debo planear quedarme para el tratamiento dental?',
+            'answer' => "<p>La duración de su estancia depende del tipo y la complejidad de su tratamiento. Muchos procedimientos se pueden completar en una sola visita, mientras que otros requieren varios días o múltiples viajes para una cicatrización adecuada.</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Los exámenes, limpiezas, empastes y procedimientos simples se pueden completar el mismo día.</li><li>Las coronas de circonio a menudo se pueden completar al día siguiente cuando su primera cita se programa temprano.</li><li>Puentes, prótesis dentales y tratamientos restauradores más extensos pueden requerir varias citas durante varios días.</li><li>Los implantes dentales se completan por etapas. Después de una extracción o injerto óseo, la cicatrización puede tomar aproximadamente tres meses antes de la colocación del implante, seguido de otro período de cicatrización antes de la corona o restauración final.</li><li>La reconstrucción de boca completa requiere un calendario personalizado según los procedimientos involucrados.</li></ul><p class='mt-3'>Muchos de nuestros pacientes fuera de la ciudad se hospedan en El Paso y utilizan nuestro servicio de transporte gratuito para las citas. Una vez que nuestros doctores revisen sus expedientes o completen su evaluación, le proporcionaremos un cronograma de tratamiento personalizado para que pueda planificar su viaje con confianza.</p>",
+        ],
+        'upfront_payment' => [
+            'question' => '¿Tendré que pagar por adelantado el tratamiento?',
+            'answer' => "<p>Para la mayoría de los planes de tratamiento, el 50% se paga al iniciar el tratamiento. El saldo restante se puede ir pagando a medida que avanza su tratamiento y debe liquidarse en su totalidad al finalizar el mismo.</p><p class='mt-3'>Recibirá un presupuesto claro antes de comenzar el tratamiento, y nuestro equipo le explicará los costos y el calendario de pagos para que sepa exactamente qué esperar. El pago se realiza directamente a Núcleo Dental en el momento de la prestación de los servicios.</p><p class='mt-3'>Aceptamos efectivo, cheques de caja, transferencias bancarias y la mayoría de las tarjetas de crédito y débito principales. Tenga en cuenta que no podemos aceptar CareCredit ni Discover en México.</p>",
+        ],
+        'payment_options' => [
+            'question' => '¿Qué opciones de pago están disponibles?',
+            'answer' => "<p>Núcleo Dental acepta varias formas de pago convenientes:</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Efectivo o cheque de caja</li><li>Transferencias bancarias y electrónicas</li><li>La mayoría de las tarjetas de crédito y débito principales</li></ul><p class='mt-3'>Para la mayoría de los planes de tratamiento integrales, el 50% se paga al comenzar el tratamiento. El saldo restante se puede ir pagando a medida que avanza su tratamiento y debe pagarse en su totalidad al finalizar el tratamiento.</p><p class='mt-3'>No ofrecemos financiamiento tradicional ni planes de pago mensuales generales. CareCredit no se puede utilizar en México y no podemos aceptar Discover. Nuestro equipo revisará su presupuesto y calendario de pagos con usted antes de comenzar el tratamiento para que no haya sorpresas.</p>",
+        ],
+        'follow_up' => [
+            'question' => '¿Qué pasa si necesito atención de seguimiento después de mi tratamiento?',
+            'answer' => "<p>Su atención no termina cuando sale de Núcleo Dental. Antes de regresar a casa, le brindaremos instrucciones claras posteriores al tratamiento, sobre cómo cuidar el área tratada, controlar las molestias y reconocer cualquier detalle que requiera atención.</p><p class='mt-3'>Programaremos las citas de seguimiento necesarias como parte de su plan de tratamiento. Una vez en casa, puede comunicarse directamente con nuestro equipo por teléfono, mensaje de texto, WhatsApp o correo electrónico para resolver dudas. Cuando sea apropiado, también puede enviar fotos para que nuestros médicos revisen su progreso de cicatrización.</p><p class='mt-3'>Si se requiere un examen presencial, organizaremos una cita en nuestra clínica lo antes posible. En Núcleo Dental, mantenemos nuestro compromiso con su atención durante todo su tratamiento y recuperación.</p>",
+        ],
+        'insurance' => [
+            'question' => '¿Aceptan seguro dental de EE. UU.?',
+            'answer' => "<p>Núcleo Dental acepta muchos planes de seguro dental de EE. UU. sobre la base de reembolso fuera del país y fuera de la red. Pagará a nuestra clínica directamente al completar el tratamiento y podemos presentar su reclamo con las facturas desglosadas y la documentación de respaldo necesaria.</p><p class='mt-3'>Cualquier reembolso elegible es determinado por su compañía de seguros y se le paga directamente a usted. Debido a que la cobertura varía según el plan, recomendamos comunicarse con su proveedor de seguros antes del tratamiento para confirmar sus beneficios fuera del país y fuera de la red.</p>",
+        ],
+        'emergency' => [
+            'question' => '¿Qué debo hacer en caso de una emergencia dental?',
+            'answer' => "<p>Si experimenta una emergencia dental, comuníquese con Núcleo Dental de inmediato por teléfono, mensaje de texto o WhatsApp. Nuestro equipo le preguntará sobre sus síntomas y trabajará para organizar la cita disponible más próxima, a menudo el mismo día para casos urgentes.</p><p class='mt-3'>Si tiene hinchazón facial grave, sangrado no controlado, dificultad para respirar o tragar, u otro síntoma que ponga en peligro su vida, busque atención médica de emergencia de inmediato.</p>",
+        ],
+        'getting_started' => [
+            'question' => '¿Cómo puedo comenzar con Núcleo Dental?',
+            'answer' => "<p>Comenzar es sencillo. Contáctenos a través de nuestro sitio web, por teléfono, mensaje de texto o WhatsApp, y cuéntenos sobre sus necesidades y objetivos dentales. Si tiene radiografías recientes, tomografía (CT), plan de tratamiento u otros registros dentales, puede enviarlos para que nuestros doctores los revisen antes de su visita.</p><p class='mt-3'>Luego le ayudaremos a:</p><ul class='list-disc pl-5 mt-2 space-y-1'><li>Programar su consulta y examen presencial</li><li>Comprender sus opciones de tratamiento, cronograma y costos estimados</li><li>Planificar las citas requeridas para su tratamiento</li><li>Coordinar el transporte gratuito desde El Paso</li><li>Prepararse para su visita y responder cualquier pregunta en el camino</li></ul><p class='mt-3'>Una vez que llegue, nuestros especialistas completarán una evaluación minuciosa y crearán un plan de tratamiento personalizado según sus necesidades. Desde su primera conversación hasta su resultado final, el equipo de Núcleo Dental estará aquí para guiarlo con claridad, atención y confianza.</p>",
+        ]
     ],
 
     'gallery' => [
@@ -2647,9 +2593,9 @@ y a menudo supera — los <strong>estándares internacionales.</strong>',
             'content' => 'Los pacientes viajan a Núcleo Dental por atención de alta calidad, médicos con experiencia y una experiencia de tratamiento sin complicaciones. <br/> <br/> Desde su primera consulta hasta sus resultados finales, nuestro equipo se asegura de que se sienta informado, cómodo y seguro en cada paso. <br/> <br/> También ofrecemos transporte seguro, confiable y gratuito entre El Paso y nuestra clínica en Ciudad Juárez para que su visita sea simple y sin estrés.',
         ],
         'cta' => [
-            'title' => 'Comienza Hoy la Transformación de Tu Sonrisa',
-            'content' => 'Ya sea que necesite un solo implante o una restauración completa, nuestro equipo está aquí para ayudarle a lograr resultados duraderos y naturales.',
-            'button' => 'Agenda Tu Consulta',
+            'title' => 'Comienza Tu Camino Hacia una Sonrisa Más Saludable',
+            'content' => 'Ya sea que necesite atención dental de rutina, ortodoncia, un solo implante o una restauración de boca completa, nuestro equipo experimentado está aquí para ayudarle a lograr resultados naturales y duraderos.',
+            'button' => 'Solicitar una Evaluación',
             'button_secondary' => 'Contacta a Nuestro Equipo',
             'reassurance' => 'Sin presión. Respuestas claras. Guía experta.',
         ],
@@ -2658,7 +2604,7 @@ y a menudo supera — los <strong>estándares internacionales.</strong>',
         'meta_title' => 'Conozca al Dr. Ernesto Moran | Fundador y Especialista en Implantes Jefe',
         'meta_description' => 'Conozca al Dr. Ernesto Moran, fundador y director clínico de Núcleo Dental. Más de 40 años de experiencia en periodoncia avanzada, implantes cigomáticos y reconstrucción bucal completa.',
         'headline' => 'Conozca al Dr. Ernesto Moran',
-        'subheadline' => 'Fundador • Director Clínico • Periodoncista & Implantólogo Jefe' . "\n" . 'Más de 40 Años de Experiencia',
+        'subheadline' => "Fundador • Director Clínico • Periodoncista & Implantólogo Jefe' . '\n' . 'Más de 40 Años de Experiencia",
         'trust_line' => 'La experiencia detrás de cada tratamiento. El estándar detrás de cada resultado.',
         'cta_consultation' => 'Programe Su Consulta',
         'cta_video' => 'Ver Video',
@@ -2846,5 +2792,4 @@ y a menudo supera — los <strong>estándares internacionales.</strong>',
         'travel_3' => 'Proporcionamos transporte seguro y gratuito a nuestra clínica',
         'travel_4' => 'Regreso rápido y sencillo a El Paso después del tratamiento',
         'travel_5' => 'Acompañamiento continuo antes y después de su visita',
-    ],
-];
+    ]]];

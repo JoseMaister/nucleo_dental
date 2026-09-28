@@ -8,8 +8,14 @@
         <div class="text-2xl font-medium text-gray-800">
             {{ __('messages.resume.title') }}
         </div>
-        <div class="text-gray-600 leading-relaxed">
-            {{ __('messages.resume.description') }}
+        <div class="text-gray-600 leading-relaxed space-y-4">
+            {!! __('messages.resume.description') !!}
+        </div>
+        <div class="pt-2">
+            <a href="{{ route('gallery') }}" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow-md">
+                <i class="fas fa-images"></i>
+                {{ __('messages.resume.view_gallery') }}
+            </a>
         </div>
     </div>
     <div class="relative w-[80%] md:w-[300px] h-[500px] max-w-md mx-auto bg-gray-200 rounded-lg overflow-hidden group">

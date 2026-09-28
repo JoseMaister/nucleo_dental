@@ -15,8 +15,8 @@
 
     <!-- Answer (Hidden by default with smooth transition) -->
     <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
-        <div class="mt-4 text-gray-600 text-base leading-relaxed">
-            {{ __($answer) }}
+        <div class="mt-4 text-gray-600 text-base leading-relaxed space-y-3">
+            {!! __($answer) !!}
         </div>
     </div>
 </div>

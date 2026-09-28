@@ -5,6 +5,13 @@
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
 
     <div class="relative z-10 w-full px-6 md:px-10 pt-10 pb-10 text-white max-w-4xl">
+
+        {{-- Financing badge --}}
+        <div class="inline-flex items-center gap-2 mb-5 px-4 py-1.5 rounded-full bg-amber-400/20 border border-amber-300/50 backdrop-blur-sm">
+            <span class="w-2 h-2 rounded-full bg-amber-300 animate-pulse"></span>
+            <span class="text-amber-200 text-xs font-bold uppercase tracking-widest">{{ __('messages.hero.financing_badge') }}</span>
+        </div>
+
         <h1 class="text-3xl md:text-5xl font-bold leading-tight">
             {!! __('messages.hero.title') !!}
         </h1>
