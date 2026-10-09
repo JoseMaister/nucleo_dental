@@ -12,11 +12,13 @@
 
     <!-- <x-sections.cta-bar text="Request Your Consultation" link="{{ route('contact') }}" /> -->
 
-    <x-sections.service-pages.who-is-for 
-        image="images/IMG_100208.webp"
-        :items="__('messages.services_detail.porcelain_veneers.who_is_for')"
-        :fullDescription="__('messages.services_detail.porcelain_veneers.full_description')"
-    />
+   <x-sections.service-pages.who-is-for
+    :title="__('messages.services_detail.porcelain_veneers.who_is_for_title')"
+    :subtitle="__('messages.services_detail.porcelain_veneers.who_is_for_subtitle')"
+    image="images/IMG_100208.webp"
+    :items="__('messages.services_detail.porcelain_veneers.who_is_for')"
+    :fullDescription="__('messages.services_detail.porcelain_veneers.full_description')"
+/>
 
     <!-- <x-sections.cta-bar text="Send Us Your X-Rays" link="{{ route('contact') }}" /> -->
 

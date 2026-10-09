@@ -1,5 +1,6 @@
 @props([
-    'title' => 'Who This Is For',
+    'title' => '',
+    'subtitle' => '',
     'items' => [],
     'fullDescription' => null,
     'image' => 'images/banner-smile-1.webp'
@@ -9,14 +10,21 @@
     <div class="container mx-auto px-4">
         <div class="flex flex-col lg:flex-row gap-16 items-center">
             <div class="lg:w-1/2">
-                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
-                    {{ $title }}
-                </h2>
+               @if($title)
+    <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">
+        {{ $title }}
+    </h2>
+@endif
                 
                 @if($fullDescription)
                     <p class="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
 {!! $fullDescription !!}                    </p>
                 @endif
+                @if($subtitle)
+    <p class="text-lg font-semibold text-slate-900 mb-6">
+        {{ $subtitle }}
+    </p>
+@endif
                 <div class="space-y-6">
                     @foreach($items as $item)
                         <div class="flex items-start gap-5 group">

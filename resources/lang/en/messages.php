@@ -886,7 +886,16 @@ teeth, creating a beautifully balanced and natural-looking smile.'
 
 'dentures' => [
     'title' => 'Dentures and Full-Arch Solutions',
-    'description' => 'We offer several solutions for replacing multiple missing teeth or a complete arch, depending on your needs, bone health, lifestyle, and budget.<br><br><strong>Traditional dentures:</strong> Removable full or partial dentures that rest on the gums and do not require dental implants.<br><br><strong>Snap-on overdentures:</strong> Removable dentures that attach securely to dental implants for greater stability while eating and speaking.<br><br><strong>Fixed full-arch teeth:</strong> A non-removable restoration supported by dental implants, such as an All-on-4 or All-on-6 solution, designed to feel and function more like natural teeth.<br><br>Our specialists will evaluate your oral health and explain which option can provide the best combination of comfort, function, appearance, and long-term stability.'
+    'description' => 'We offer several solutions for replacing multiple missing teeth or a complete arch, depending on your needs, bone health, lifestyle, and budget. <br><br>
+
+<div class="pl-6 md:pl-8 space-y-4">
+    <div><strong>Traditional dentures:</strong> Removable full or partial dentures that rest on the gums and do not require dental implants.</div>
+    <div><strong>Snap-on overdentures:</strong> Removable dentures that attach securely to dental implants for greater stability while eating and speaking.</div>
+    <div><strong>Fixed full-arch teeth:</strong> A non-removable restoration supported by dental implants, such as an All-on-4 or All-on-6 solution, designed to feel and function more like natural teeth.</div>
+</div>
+<br>
+Our specialists will evaluate your oral health and explain which option can provide the best combination of comfort, function, appearance, and long-term stability.',
+
 ],
         ]
     ],
@@ -2069,20 +2078,22 @@ experienced treatment at a fraction of the cost without compromising results.',
         'porcelain_veneers' => [
             'title' => 'Porcelain Veneers',
             'description' => 'Custom porcelain veneers can enhance the shape, color, size, and symmetry of your
-teeth, creating a beautifully balanced and natural-looking smile.',
-            'full_description' => 'Porcelain veneers are thin, custom-made restorations bonded to the front of the teeth
-to improve their color, shape, size, spacing, and overall symmetry. Each smile is
-carefully designed to complement your facial features and create a balanced, elegant,
-and natural-looking result.',
-            'killer_line' => 'A refined, confident smile designed with artistry, precision, and careful attention to
-every detail.',
-'who_is_for' => [
-    'Patients seeking a noticeable smile transformation',
-    'Chipped, worn, uneven, or misshapen teeth',
-    'Stubborn discoloration that does not respond to whitening',
-    'Small gaps or minor alignment concerns',
-    'Patients looking for a durable, long-lasting cosmetic solution',
-],
+            teeth, creating a beautifully balanced and natural-looking smile.',
+                        'full_description' => 'Porcelain veneers are thin, custom-made restorations bonded to the front of the teeth
+            to improve their color, shape, size, spacing, and overall symmetry. Each smile is
+            carefully designed to complement your facial features and create a balanced, elegant,
+            and natural-looking result.',
+                        'killer_line' => 'A refined, confident smile designed with artistry, precision, and careful attention to every detail.',
+                        'who_is_for_title' => 'Who Porcelain Veneers Are For',
+                        'who_is_for_subtitle' => 'Porcelain veneers may be ideal for:',
+
+            'who_is_for' => [
+                'Patients seeking a noticeable smile transformation',
+                'Chipped, worn, uneven, or misshapen teeth',
+                'Stubborn discoloration that does not respond to whitening',
+                'Small gaps or minor alignment concerns',
+                'Patients looking for a durable, long-lasting cosmetic solution',
+            ],
 
             'why_choose_us' => [
                 'Custom-designed veneers for natural aesthetics',
@@ -2423,7 +2434,7 @@ experience simple, organized, and comfortable.',
     ],
     [
         'title' => 'Complimentary Transportation',
-        'description' => 'We provide safe, reliable transportation from El Paso to our clinic in Ciudad Juárez and back—at no additional cost.',
+        'description' => 'We provide safe, reliable transportation between El Paso and Núcleo Dental at no additional cost. Depending on your location and schedule, our driver may pick you up from your hotel or meet you at a convenient, designated location.<br>You will receive clear pickup times, meeting instructions, and contact information before your appointment.',
     ],
     [
         'title' => 'Treatment at Núcleo Dental',

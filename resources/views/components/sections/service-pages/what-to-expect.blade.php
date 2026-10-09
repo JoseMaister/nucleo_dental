@@ -38,8 +38,8 @@
                             {{ $step['title'] }}
                         </h3>
                         <p class="text-slate-600 leading-relaxed">
-                            {{ $step['description'] }}
-                        </p>
+    {!! $step['description'] !!}
+</p>
                     </div>
                 @endforeach
             </div>
