@@ -16,6 +16,9 @@
         <p class="text-lg md:text-2xl text-gray-500 text-justify">
             {{ __('messages.cosmetic.description3') }}
         </p>
+        <p class="text-lg md:text-2xl text-gray-500 text-justify">
+            {{ __('messages.cosmetic.description4') }}
+        </p>
     </div>
 
     <!-- SLIDER -->

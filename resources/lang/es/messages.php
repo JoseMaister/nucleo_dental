@@ -1371,7 +1371,7 @@ return [
     'point_1' => 'Imágenes CBCT 3D para diagnósticos completos',
     'point_2' => 'Planificación digital para ejecución precisa',
     'point_3' => 'Procedimientos más seguros, rápidos y predecibles',
-    'point_4' => 'Mejores resultados a largo plazo con planificación detallada',
+    'point_' => 'Mejores resultados a largo plazo con planificación detallada',
 
     'killer' => 'Planeado digitalmente. Ejecutado con precisión.',
 

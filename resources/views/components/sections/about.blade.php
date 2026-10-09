@@ -201,6 +201,10 @@
                         <i class="fa-solid fa-circle-check text-indigo-700 mt-1"></i>
                         <span class="text-gray-700">{{ __('messages.technology.point_4') }}</span>
                     </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-indigo-700 mt-1"></i>
+                        <span class="text-gray-700">{{ __('messages.technology.point_5') }}</span>
+                    </div>
                 </div>
 
                 <div class="mt-8 p-5 rounded-2xl bg-indigo-50 border-l-4 border-indigo-700">
@@ -304,8 +308,8 @@
                     </h2>
 
                     <p class="mt-6 text-lg text-indigo-100 leading-relaxed max-w-2xl">
-                        {{ __('messages.cta_final.description') }}
-                    </p>
+    {!! __('messages.cta_final.description') !!}
+</p>
                 </div>
 
                 <div class="flex flex-col sm:flex-row lg:flex-col gap-4 lg:items-end">

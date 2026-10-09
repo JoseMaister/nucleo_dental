@@ -9,8 +9,8 @@
     <span class="text-white font-bold">{{ __('messages.services_hero.title') }}</span>
 </h1>
             <p class="px-4 sm:px-6 lg:px-8 text-lg md:text-xl lg:text-2xl mb-8 text-justify leading-relaxed">
-                {{ __('messages.services_hero.description') }}
-            </p>
+    {!! __('messages.services_hero.description') !!}
+</p>
         </div>
     </div>
 </div>

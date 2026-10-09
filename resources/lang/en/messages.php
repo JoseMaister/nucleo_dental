@@ -236,7 +236,7 @@ return [
     'hero' => [
     'title' => 'Complete Dental Care. One Trusted Team.',
     'subtitle' => 'From routine and restorative dentistry to dental implants, cosmetic transformations, orthodontics, periodontics, oral surgery, and full-mouth rehabilitation—our experienced specialists provide coordinated, high-quality care under one roof in Ciudad Juárez.<br><br><strong>World-class dentistry with premium materials, advanced technology, and seamless cross-border support for patients from the U.S. and Mexico.</strong>',
-    'cta_primary' => 'Request a Consultation',
+    'cta_primary' => 'Schedule Your Consultation',
     'cta_secondary' => 'Explore Our Services',
     'financing_badge' => 'SMILE NOW, PAY LATER',
     'phone' => [
@@ -266,21 +266,24 @@ return [
     ],
 ],
 'why_choose' => [
-    'headline' => 'Not Just More Affordable — Significantly Better',
-    'body' => 'Choosing where to get dental work done is about more than price — it’s about precision, experience, and long-term success. <br/><br/> At Núcleo Dental, every treatment is carefully planned using advanced diagnostics and performed with high-end materials trusted worldwide.Our approach ensure that your results are not only beautiful, but built to last.
-                <br/> <br/> We specialize in complex cases, full mouth reconstructions, and dental implants <strong> delivering results that patients can trust for years to come<strong>.',
-    'highlight' => 'We don’t cut costs — we elevate standards.',
-    'features' => [
-        ['title' => 'Advanced Planning', 'desc' => 'Detailed 3D diagnostics for every case.'],
-        ['title' => 'Premium Materials', 'desc' => 'High-end systems trusted worldwide.'],
-        ['title' => 'Proven Success', 'desc' => 'Results built to last for years to come.']
-    ]
+'headline' => 'More Than Affordable — Quality You Can Trust',
+'body' => 'Choosing where to receive dental care is about more than price. It’s about the experience of your doctors, thoughtful treatment planning, and the quality behind your results. <br/><br/>
+At Núcleo Dental, we combine advanced diagnostics with trusted materials and experienced specialists to provide care tailored to your needs. From dental implants to complex full-mouth reconstruction, our focus is on restoring comfort, function, and a natural-looking smile—with long-term oral health in mind. <br/><br/>
+Patients from Ciudad Juárez and across the United States choose us for personalized attention, clear guidance, and a commitment to quality at every stage of treatment.',
+'highlight' => 'Accessible care. Exceptional attention to detail.',
+'features' => [
+['title' => 'Advanced Planning', 'desc' => 'Comprehensive evaluations, with 3D imaging when needed, guide precise, personalized treatment.'],
+['title' => 'Trusted Materials', 'desc' => 'Quality restorative materials and internationally recognized implant systems support your care.'],
+['title' => 'Experienced Specialists', 'desc' => 'A skilled team plans and treats complex cases with a focus on function, appearance, and long-term health.']
+]
 ],
-    'financing' => [
-    'title' => 'Smile with confidence',
-    'subtitle' => 'Payment options available',
-    'cta' => 'Learn about our payment options'
+
+  'financing' => [
+'title' => 'Smile with Confidence',
+'subtitle' => 'Clear pricing and payment information, so you can plan your care with confidence.',
+'cta' => 'View Payment Information'
 ],
+
 
     /*'financing' => [
         'title' => 'Smile now... :pay_later',
@@ -288,12 +291,13 @@ return [
         'subtitle' => 'We now offer finance in our treatments',
         'cta' => 'Call us about financing'
     ],*/
-    'banner' => [
-        'title' => 'Find Your Perfect Smile, :today',
-        'today' => 'Today!',
-        'location' => 'Nucleo Dental is located in :city, but patients visit us from the United States, Mexico and El Paso, TX.',
-        'city' => 'Juarez, Chihuahua'
-    ],
+   'banner' => [
+'title' => 'Your New Smile Starts Here',
+'today' => 'Schedule Your Consultation',
+'location' => 'Expert dental care in :city, welcoming local families and patients from El Paso and across the United States.',
+'city' => 'Ciudad Juárez, Chihuahua'
+],
+
     'banner2' => [
         'title' => '<strong>Free</strong> Transportation Service!',
         'button' => 'Make your appointment',
@@ -320,7 +324,7 @@ return [
         'subtitle' => 'Did you know that your smile is the most important thing for us? We want you to feel confident every time you smile. Let us help you recover, offer the best treatments and personalized attention.',
         'hero' => [
             'title' => 'OUR DENTAL SERVICES',
-            'description' => "Your teeth are one of a kind. A bright, beautiful smile can speak a thousand words, but unhealthy teeth speak volumes as well. If your teeth make you feel uncomfortable or self conscious, it's time to visit Nucleo Dental, today. Our team is adept at treating the entire spectrum of oral health issues and we will gladly help you achieve your dream smile.\nThe mouth constantly faces barrages of bacteria, plaque, and other negative elements. It is our team's goal to protect your oral landscape from all issues it may face. No matter the extent of your oral health issues, Nucleo Dental is ready to help."
+            'description' => "Every smile is unique, and your dental care should be too. Whether you need routine preventive care, want to improve the appearance of your smile, or require complex restorative treatment, Núcleo Dental is here to help.\n\nOur experienced team of specialists provides comprehensive dental care under one roof—from pediatric dentistry and orthodontics to periodontics, oral surgery, dental implants, and full-mouth reconstruction. Using advanced technology and personalized treatment planning, we address every level of dental need with precision and care.\n\nNo matter where you are in your dental journey, our goal is to restore your oral health, comfort, function, and confidence with results designed to last.",
         ]
     ],
     'about' => [
@@ -477,22 +481,24 @@ return [
             'phone_cta' => '📞 Call now to schedule your consultation',
             'xrays_cta' => '💬 Or send us your X-rays for a personalized treatment plan',
         ],
-        'homepage_highlights' => [
-            'title' => 'Modern Dental Technology for Better Results',
-            'items' => [
-                '3D CT Scans for precise diagnosis',
-                'Digital Smile Design (see results before treatment)',
-                'Same-day crowns with CEREC',
-                'No messy impressions',
-            ],
-            'tagline' => 'Advanced care. Faster treatment. Better outcomes.'
-        ]
+       'homepage_highlights' => [
+'title' => 'Advanced Technology. Personalized Care.',
+'items' => [
+'3D Imaging for detailed diagnosis and implant planning',
+'Digital Smile Planning for a balanced, natural-looking smile',
+'Digital Crown Planning with CEREC Primescan',
+'Comfortable digital scans instead of traditional impressions',
+],
+'tagline' => 'Thoughtful planning. Precise treatment. Care built around you.'
+],
+
     ],
-    'resume' => [
-        'title' => 'Complete Dental Care Under One Roof',
-        'description' => '<p>Núcleo Dental provides comprehensive dental care in one convenient location. Our experienced team of specialists uses advanced technology and premium materials to create personalized treatment plans for every level of dental need.</p><p>We welcome new patients, accept most major credit cards, and assist U.S. patients with submitting out-of-country insurance claims for reimbursement directly from their insurance provider. Please note that CareCredit cannot be accepted in Mexico.</p><p>Conveniently located in Ciudad Juárez, we make high-quality dental care comfortable, coordinated, and easy to access.</p>',
-        'view_gallery' => 'View Smile Gallery'
-    ],
+   'resume' => [
+'title' => 'Complete Dental Care Under One Roof',
+'description' => '<p>Núcleo Dental provides comprehensive dental care in one convenient location. Our experienced team of specialists uses advanced technology and premium materials to create personalized treatment plans for every level of dental need.</p><p>We welcome new patients, accept most major credit cards, and assist U.S. patients with submitting out-of-country insurance claims for reimbursement directly from their insurance provider. Please note that CareCredit cannot be accepted in Mexico.</p><p>Conveniently located in Ciudad Juárez, we make high-quality dental care comfortable, coordinated, and easy to access.</p>',
+'view_gallery' => 'View Smile Gallery'
+],
+
     'services_banner' => [
         'contact_us' => 'Contact us for more information',
         'specialized_title' => 'Specialized & Advanced Care'
@@ -510,7 +516,7 @@ return [
     ],
     'services_hero' => [
         'title' => 'OUR DENTAL SERVICES',
-        'description' => "Your teeth are one of a kind. A bright, beautiful smile can speak a thousand words, but unhealthy teeth speak volumes as well. If your teeth make you feel uncomfortable or self conscious, it's time to visit Nucleo Dental, today. Our team is adept at treating the entire spectrum of oral health issues and we will gladly help you achieve your dream smile.\nThe mouth constantly faces barrages of bacteria, plaque, and other negative elements. It is our team's goal to protect your oral landscape from all issues it may face. No matter the extent of your oral health issues, Nucleo Dental is ready to help."
+        'description' => "Every smile is unique, and your dental care should be too. Whether you need routine preventive care, want to improve the appearance of your smile, or require complex restorative treatment, Núcleo Dental is here to help.<br><br>Our experienced team of specialists provides comprehensive dental care under one roof—from pediatric dentistry and orthodontics to periodontics, oral surgery, dental implants, and full-mouth reconstruction. Using advanced technology and personalized treatment planning, we address every level of dental need with precision and care.<br><br>No matter where you are in your dental journey, our goal is to restore your oral health, comfort, function, and confidence with results designed to last.",
     ],
     'preventive' => [
         'title' => 'Preventive Dentistry',
@@ -600,13 +606,20 @@ return [
 ],
     'cosmetic' => [
         'title' => 'Cosmetic Dentistry',
-        'description1' => 'Transform your smile with our cosmetic dentistry services. We offer a range of treatments to enhance the appearance of your teeth and give you the confidence to show off your smile.',
-        'description2' => 'Our cosmetic treatments are designed to improve the aesthetics of your smile while maintaining optimal oral health. We use the latest techniques and materials to ensure natural-looking, long-lasting results.',
-        'description3' => "Whether you're looking for a complete smile makeover or subtle enhancements, our team will work with you to create a personalized treatment plan that meets your goals and fits your lifestyle.",
+'description1' => 'Transform your smile with personalized cosmetic dentistry designed to look natural, feel comfortable, and last.',
+
+'description2' => 'Whether you want to correct discoloration, chipped or worn teeth, uneven spacing, or several concerns at once, our experienced team will create a treatment plan tailored to your smile, goals, and lifestyle.',
+
+'description3' => 'From subtle enhancements to a complete smile makeover, we combine advanced technology, high-quality materials, and precise treatment planning to improve your smile while protecting your long-term oral health.',
+
+'description4' => 'Our cosmetic services include teeth whitening, veneers, tooth-colored fillings, zirconia crowns, and complete smile makeovers. At Núcleo Dental, your new smile is created specifically for you—beautiful, balanced, and confidently yours.',
+
+
         'services' => [
             'veneers' => [
                 'title' => 'Porcelain Veneers',
-                'description' => 'Custom porcelain veneers designed to transform the shape, color, and symmetry of your smile.'
+                'description' => 'Custom porcelain veneers can enhance the shape, color, size, and symmetry of your
+teeth, creating a beautifully balanced and natural-looking smile.'
             ],
             'whitening' => [
                 'title' => 'Teeth Whitening',
@@ -862,17 +875,19 @@ return [
         'title' => 'Restorative Dentistry',
         'treatments' => [
             'dental_implants' => [
-                'title' => 'Dental Implants',
-                'description' => 'Dental implants are artificial substitutes for missing teeth. Through a short surgical procedure, replacement teeth are put into the bone and gums to replace the root portion of the missing tooth, thereby enhancing a natural look.'
-            ],
-            'crowns' => [
-                'title' => 'Crowns',
-                'description' => 'Crowns are used to protect weak teeth from fractures or to restore teeth that have already fractured. They can also cover teeth that have undergone root canal treatment.'
-            ],
-            'dentures' => [
-                'title' => 'Dentures',
-                'description' => "Unlike dental implants, dentures are easily removable and won't require invasive surgery. Implants come in two varieties, total or partial, to perfectly suit your exact needs."
-            ]
+    'title' => 'Dental Implants',
+    'description' => 'Dental implants are a strong, natural-looking solution for replacing missing teeth. During a carefully planned surgical procedure, a small implant is placed in the jawbone to function like the root of a natural tooth. Once healed, it supports a custom-made crown, bridge, or denture designed to restore your smile.<br><br>Dental implants can improve your ability to eat and speak comfortably, help preserve the jawbone, and provide long-lasting stability and confidence.'
+],
+
+'crowns' => [
+    'title' => 'Dental Crowns',
+    'description' => 'Dental crowns restore and protect teeth that are weakened, cracked, badly worn, or extensively damaged by decay. They are also commonly used to strengthen teeth following root canal treatment or to complete a dental implant.<br><br>Each crown is custom-designed to restore the tooth’s strength, function, shape, and natural appearance—helping you eat, speak, and smile with confidence.'
+],
+
+'dentures' => [
+    'title' => 'Dentures and Full-Arch Solutions',
+    'description' => 'We offer several solutions for replacing multiple missing teeth or a complete arch, depending on your needs, bone health, lifestyle, and budget.<br><br><strong>Traditional dentures:</strong> Removable full or partial dentures that rest on the gums and do not require dental implants.<br><br><strong>Snap-on overdentures:</strong> Removable dentures that attach securely to dental implants for greater stability while eating and speaking.<br><br><strong>Fixed full-arch teeth:</strong> A non-removable restoration supported by dental implants, such as an All-on-4 or All-on-6 solution, designed to feel and function more like natural teeth.<br><br>Our specialists will evaluate your oral health and explain which option can provide the best combination of comfort, function, appearance, and long-term stability.'
+],
         ]
     ],
     'faq' => [
@@ -1308,7 +1323,7 @@ return [
         ],
     ],
 
-    'killer' => 'Advanced dentistry—without borders or barriers.',
+    'killer' => 'World-class dental care, just across the border.',
 
     'cta_primary' => 'Schedule Your Consultation',
     'cta_secondary' => 'Request a Quote',
@@ -1319,38 +1334,37 @@ return [
     'card_text' => 'Advanced dentistry with every detail of your journey coordinated.',
 ],
 'technology' => [
-    'label' => 'Technology & Precision',
-    'title' => 'Precision Behind Every Smile Transformation',
-    'description_1' => 'Advanced implant treatment begins with a clear, detailed plan. Using 3D CBCT imaging and digital treatment planning, Dr. Moran and Dr. Nevarez can evaluate complex anatomy, plan every stage of care, and perform treatment with greater accuracy and predictability.',
-    'description_2' => '',
+'label' => 'Technology & Precision',
+'title' => 'Precision Behind Every Smile Transformation',
+'description_1' => 'Advanced implant treatment begins with a clear, detailed plan. Using 3D CBCT imaging and digital treatment planning, Dr. Moran and Dr. Nevarez can evaluate complex anatomy, plan every stage of care, and perform treatment with greater accuracy and predictability.',
+'description_2' => '',
+'point_1' => 'Comprehensive 3D diagnostics',
+'point_2' => 'Digitally planned implant placement',
+'point_3' => 'Greater precision for complex and full-mouth cases',
+'point_4' => 'Safer, more efficient procedures',
+'point_5' => 'Predictable, long-lasting results',
 
-    'point_1' => 'Comprehensive 3D diagnostics',
-    'point_2' => 'Digitally planned implant placement',
-    'point_3' => 'Greater precision for complex and full-mouth cases',
-    'point_4' => 'Safer, more efficient procedures',
-    'point_5' => 'Predictable, long-lasting results',
-
-    'killer' => 'Every detail planned. Every step delivered with precision.',
+'killer' => 'Every detail planned. Every step delivered with precision.',
 
 ],
+
 'social_proof' => [
-    'label' => 'Trusted Results',
-    'title' => 'Trusted by Patients Across the U.S. and Mexico',
-    'description_1' => 'Patients choose Núcleo Dental for more than affordability. They come to us for advanced care, experienced specialists, personalized attention, and results designed to last.',
-    'description_2' => "From routine dental care and children's dentistry to orthodontics, oral surgery, dental implants, and complex full-mouth reconstruction, our coordinated team provides comprehensive treatment under one roof. Our patients return—and refer their friends and family—because they trust the care they receive.",
+'label' => 'Trusted Results',
+'title' => 'Trusted by Patients Across the U.S. and Mexico',
+'description_1' => 'Patients choose Núcleo Dental for more than affordability. They come to us for advanced care, experienced specialists, personalized attention, and results designed to last.',
+'description_2' => "From routine dental care and children's dentistry to orthodontics, oral surgery, dental implants, and complex full-mouth reconstruction, our coordinated team provides comprehensive treatment under one roof. Our patients return—and refer their friends and family—because they trust the care they receive.",
+'point_1' => 'Comprehensive care for patients of all ages',
+'point_2' => 'Experienced specialists working together',
+'point_3' => 'Personalized treatment and attentive service',
+'point_4' => 'Lasting results that restore health, function, and confidence',
 
-    'point_1' => 'Comprehensive care for patients of all ages',
-    'point_2' => 'Experienced specialists working together',
-    'point_3' => 'Personalized treatment and attentive service',
-    'point_4' => 'Lasting results that restore health, function, and confidence',
-
-    'killer' => 'Trust is earned through exceptional care and lasting results.',
-
+'killer' => 'Trust is earned through exceptional care and lasting results.',
 ],
+
 'cta_final' => [
     'label' => 'Ready to Begin?',
     'title' => 'Start Your Treatment with Confidence',
-    'description' => '<strong>Whether you need preventive care, orthodontics, a single dental implant, or a complete full-mouth restoration, our team is here to guide you through every step—from your initial consultation to your final result.</strong><br><br><strong>Contact us today to schedule your evaluation and discover the right treatment plan for your needs.</strong>',
+    'description' => 'Whether you need preventive care, orthodontics, a single dental implant, or a complete full-mouth restoration, our team is here to guide you through every step—from your initial consultation to your final result.<br><br>Contact us today to schedule your evaluation and discover the right treatment plan for your needs.',
     'cta_primary' => 'Schedule Your Consultation',
     'cta_secondary' => 'Request a Personalized Treatment Plan',
 ],
@@ -2054,15 +2068,22 @@ experienced treatment at a fraction of the cost without compromising results.',
         ],
         'porcelain_veneers' => [
             'title' => 'Porcelain Veneers',
-            'description' => 'Custom porcelain veneers designed to transform the shape, color, and symmetry of your smile.',
-            'full_description' => 'Porcelain veneers are thin, high-quality restorations bonded to the front of the teeth to enhance color, shape, size, and alignment. Each case is meticulously designed to create a balanced, elegant, and natural-looking smile tailored to the patient’s features.',
-            'killer_line' => 'A refined, polished smile designed with artistry and precision.',
-            'who_is_for' => [
-                'Patients wanting a dramatic smile transformation',
-                'Patients with chipped, worn, or uneven teeth',
-                'Patients with discoloration that cannot be whitened',
-                'Patients seeking a long-lasting cosmetic solution'
-            ],
+            'description' => 'Custom porcelain veneers can enhance the shape, color, size, and symmetry of your
+teeth, creating a beautifully balanced and natural-looking smile.',
+            'full_description' => 'Porcelain veneers are thin, custom-made restorations bonded to the front of the teeth
+to improve their color, shape, size, spacing, and overall symmetry. Each smile is
+carefully designed to complement your facial features and create a balanced, elegant,
+and natural-looking result.',
+            'killer_line' => 'A refined, confident smile designed with artistry, precision, and careful attention to
+every detail.',
+'who_is_for' => [
+    'Patients seeking a noticeable smile transformation',
+    'Chipped, worn, uneven, or misshapen teeth',
+    'Stubborn discoloration that does not respond to whitening',
+    'Small gaps or minor alignment concerns',
+    'Patients looking for a durable, long-lasting cosmetic solution',
+],
+
             'why_choose_us' => [
                 'Custom-designed veneers for natural aesthetics',
                 'High-quality porcelain for durability and appearance',
@@ -2385,114 +2406,130 @@ experienced treatment at a fraction of the cost without compromising results.',
 
     'what_to_expect' => [
         'title' => 'What to Expect',
-        'subtitle' => 'From your first contact to your final results, we make your experience simple, organized, and stress-free.',
-        'steps' => [
-            [
-                'title' => 'Initial Consultation',
-                'description' => 'Share your photos, X-rays, or concerns with our team. We will review your case and provide a clear treatment recommendation.'
-            ],
-            [
-                'title' => 'Personalized Treatment Plan',
-                'description' => 'You will receive a detailed plan outlining your treatment options, timeline, and what to expect at every stage.'
-            ],
-            [
-                'title' => 'Travel Coordination',
-                'description' => 'Our team helps you plan your visit to Ciudad Juárez, including flight guidance, hotel recommendations, and scheduling.'
-            ],
-            [
-                'title' => 'Free Pickup in El Paso',
-                'description' => 'We provide safe and reliable transportation from El Paso directly to our clinic at no cost to you.'
-            ],
-            [
-                'title' => 'Treatment at Núcleo Dental',
-                'description' => 'All treatment is completed in one place by experienced doctors using advanced technology and high-quality materials.'
-            ],
-            [
-                'title' => 'Follow-Up & Support',
-                'description' => 'We stay connected after your visit to monitor healing, answer questions, and guide you through every step.'
-            ]
-        ]
+        'subtitle' => 'From your first conversation to your final results, our team makes the entire
+experience simple, organized, and comfortable.',
+'steps' => [
+    [
+        'title' => 'Initial Consultation',
+        'description' => 'Share your photos, X-rays, and concerns with our team. We will review your case and explain the treatment options that may be right for you.',
+    ],
+    [
+        'title' => 'Personalized Treatment Plan',
+        'description' => 'You will receive a clear, detailed plan outlining your recommended treatment, estimated cost, timeline, and what to expect at each stage.',
+    ],
+    [
+        'title' => 'Travel Coordination',
+        'description' => 'Our team will help coordinate your visit to Ciudad Juárez, including appointment scheduling, travel guidance, and hotel recommendations in El Paso.',
+    ],
+    [
+        'title' => 'Complimentary Transportation',
+        'description' => 'We provide safe, reliable transportation from El Paso to our clinic in Ciudad Juárez and back—at no additional cost.',
+    ],
+    [
+        'title' => 'Treatment at Núcleo Dental',
+        'description' => 'Your care is completed in one convenient location by experienced doctors using advanced technology and high-quality materials.',
+    ],
+    [
+        'title' => 'Follow-Up and Support',
+        'description' => 'Our care continues after your appointment. We remain available to monitor your progress, answer questions, and support you throughout your recovery.',
+    ],
+],
+
+
     ],
 
     'travel_experience' => [
         'title' => 'Travel Experience: From El Paso to Núcleo Dental',
-        'subtitle' => 'We specialize in treating patients from the United States and have created a smooth, safe, and comfortable cross-border experience.',
+        'subtitle' => 'We regularly welcome patients from across the United States and have created a safe,
+comfortable, and well-coordinated cross-border experience.',
         'sections' => [
             'getting_here' => [
                 'title' => 'Getting to El Paso',
-                'description' => 'Most patients either fly into El Paso International Airport or drive from nearby cities.'
+                'description' => 'Most out-of-town patients fly into El Paso International Airport or drive to El Paso
+from surrounding cities'
             ],
             'stay' => [
                 'title' => 'Where to Stay',
-                'description' => 'We recommend staying near the airport or downtown El Paso for convenience. Our team can suggest trusted hotel options.',
-                'list' => [
-                    'Hotels near the airport',
-                    'Downtown El Paso hotels',
-                    'Recommended options from our team'
-                ]
+'description' => 'For convenience, we recommend staying near El Paso International Airport or in downtown El Paso. Our team can also provide hotel suggestions based on your travel plans.',
+
+'list' => [
+    'Hotels near El Paso International Airport',
+    'Downtown El Paso accommodations',
+    'Recommendations from our patient care team',
+],
+
             ],
             'pickup' => [
-                'title' => 'Pickup & Transportation',
-                'description' => 'Our driver will meet you at a designated location in El Paso and transport you directly to our clinic in Ciudad Juárez.',
-                'list' => [
-                    'Safe and reliable service',
-                    'No cost to our patients',
-                    'Clear meeting instructions provided in advance'
-                ]
+'title' => 'Complimentary Transportation',
+'description' => 'We provide safe, reliable transportation between El Paso and Núcleo Dental at no additional cost. Depending on your location and schedule, our driver may pick you up from your hotel or meet you at a convenient, designated location.<br>You will receive clear pickup times, meeting instructions, and contact information before your appointment.',
+
+
+
+
             ],
             'appointment_day' => [
                 'title' => 'Your Appointment Day',
-                'description' => 'You will be welcomed by our team and your treatment will be completed in a modern, fully equipped clinic.'
+                'description' => 'Upon arrival, you will be welcomed by our English-speaking patient care team. Your
+consultation and treatment will take place in our modern, fully equipped clinic, where
+all dental specialties are available in one location.'
             ],
             'return' => [
                 'title' => 'Return to El Paso',
-                'description' => 'After your visit, we will guide you back to El Paso. Many patients choose to walk across the bridge, which usually takes about 10 minutes.'
+                'description' => 'After your appointment, our transportation team will assist you with your return to El
+Paso. Return arrangements may include transportation to the international bridge and
+guidance throughout the crossing process.
+'
+            ],
+             'smoth' => [
+                'title' => 'A Smooth, Well-Coordinated Experience',
+                'description' => 'Our team coordinates your appointments and transportation details so you can focus
+on your care, comfort, and recover'
             ]
         ]
     ],
 
     'why_choose_global' => [
         'title' => 'Why Patients Travel to Núcleo Dental',
-        'subtitle' => 'Patients choose Núcleo Dental not only for affordability, but for quality, experience, and results.',
-        'items' => [
-            'Experienced doctors placing and restoring implants in-house',
-            'Advanced technology and precise treatment planning',
-            'Premium implant systems (Straumann, Nobel Biocare, BioHorizons)',
-            '4-year warranty on all dental work',
-            'Safe, complimentary transportation from El Paso',
-            'Personalized care and clear communication',
-            'Trusted by patients from both the U.S. and Mexico'
-        ]
+'subtitle' => 'Patients choose Núcleo Dental for more than affordable treatment. They come to us for specialized care, advanced technology, honest communication, and results they can trust.',
+
+'items' => [
+    'Experienced specialists providing complete implant and restorative care in-house',
+    'Advanced technology and precise digital treatment planning',
+    'Premium implant systems, including Straumann, Nobel Biocare, and BioHorizons',
+    'A 4-year warranty on qualifying dental work',
+    'Safe, reliable, and complimentary transportation from El Paso',
+    'Personalized care with clear communication throughout treatment',
+    'Trusted by patients from across the United States and Mexico',
+],
+
     ],
 
     'why_choose_us_global' => [
         'title' => 'Why Patients Choose Núcleo Dental',
-        'items' => [
-            'Experienced implant and restorative specialists',
-            'Premium materials and advanced technology',
-            'All treatment completed in one location',
-            'Transparent, honest treatment planning',
-            '4-year warranty on all dental work',
-            'Trusted by patients from the U.S. and Mexico',
-            'Safe, reliable, complimentary transportation from El Paso'
-        ]
+        'items' => [ 'Experienced cosmetic, implant, and restorative specialists', 'Premium materials and advanced dental technology', 'All specialties and treatment conveniently available in one location', 'Personalized, transparent, and honest treatment planning', 'A 4-year warranty on qualifying dental work', 'Trusted by patients throughout the United States and Mexico', 'Safe, reliable, complimentary transportation from El Paso to our clinic and back', ],
     ],
 
     'sedation_callout' => [
         'title' => 'Your Comfort Matters',
-        'description' => 'We understand that dental treatmentespecially complex procedures can feel overwhelming. <br><br>That’s why we offer IV sedation dentistry, administered by a licensed anesthesiologist, to help you feel relaxed and comfortable throughout your treatment.',
-        'ideal_for' => 'This option is ideal for:',
-        'points' => [
-            'Dental implants',
-            'Full mouth restoration',
-            'Oral surgery',
-            'Patients with dental anxiety'
-        ]
+        
+'description' => 'We understand that dental treatment—especially complex procedures—can feel overwhelming. That’s why we offer IV sedation administered and monitored by a licensed anesthesiologist, helping you remain relaxed and comfortable throughout your procedure.<br><br>Advanced care. Greater comfort. A calmer dental experience.',
+
+'ideal_for' => 'IV sedation may be an e xcellent option for:',
+
+'points' => [
+    'Dental implant procedures',
+    'Full-mouth restoration',
+    'Oral surgery',
+    'Patients with dental anxiety',
+],
+
     ],
 
     'plan_visit' => [
         'title' => 'Plan Your Visit',
-        'description' => 'Our team is here to guide you every step of the way from your first question to your final result. <br><br> We are committed to making your experience smooth, safe, and comfortable while delivering dentistry you can trust.',
+        
+'description' => 'Our team is here to guide you every step of the way—from your first question to your final result.<br><br>We are committed to making your experience smooth, safe, and comfortable while providing high-quality dental care you can trust.',
+
         'cta_consultation' => 'Request Your Consultation',
         'cta_xrays' => 'Send Us Your X-Rays'
     ]
