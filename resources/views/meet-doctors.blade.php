@@ -58,16 +58,17 @@
             {{ __('messages.meet_doctors.higher_standard.content_3') }}
         </p>
 
-        <div class="grid md:grid-cols-2 gap-5 mb-10">
-            @foreach(['point_1','point_2','point_3','point_4'] as $p)
-                <div class="flex items-center gap-3 p-5 shadow-sm border border-gray-100 rounded-xl text-left">
-                    <span class="w-7 h-7 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0">
-                        <i class="fas fa-check text-xs"></i>
-                    </span>
-                    <span class="text-gray-700 font-medium">{{ __("messages.meet_doctors.higher_standard.$p") }}</span>
-                </div>
-            @endforeach
+       <div class="grid md:grid-cols-2 gap-5 mb-10">
+    @foreach(['point_1','point_2','point_3','point_4','point_5'] as $p)
+        <div class="flex items-center gap-3 p-5 shadow-sm border border-gray-100 rounded-xl text-left
+            {{ $p === 'point_5' ? 'md:col-span-2 md:w-1/2 md:justify-self-center' : '' }}">
+            <span class="w-7 h-7 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-check text-xs"></i>
+            </span>
+            <span class="text-gray-700 font-medium">{{ __("messages.meet_doctors.higher_standard.$p") }}</span>
         </div>
+    @endforeach
+</div>
 
         <p class="text-2xl font-bold text-indigo-700">
             {{ __('messages.meet_doctors.higher_standard.killer') }}

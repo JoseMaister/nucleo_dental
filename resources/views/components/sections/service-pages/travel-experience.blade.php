@@ -29,7 +29,7 @@
                             </div>
                             <div>
                                 <h3 class="text-xl font-bold mb-3">{{ $section['title'] }}</h3>
-                                <p class="text-slate-400 mb-4">{{ $section['description'] }}</p>
+<p class="text-slate-400 mb-4">{!! $section['description'] !!}</p>
                                 @if(isset($section['list']))
                                     <ul class="space-y-2">
                                         @foreach($section['list'] as $item)

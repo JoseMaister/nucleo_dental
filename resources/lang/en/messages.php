@@ -112,12 +112,13 @@ return [
                 ]
             ]
         ],
-        'adriana_armendariz' => [
-            'name' => 'Dra. Adriana Armendáriz',
-            'adriana_armendariz_summary' => 'General dentist at Núcleo Dental providing comprehensive care focused on maintaining oral health, restoring dental function, and helping patients feel comfortable and informed throughout their treatment.',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dra. Adriana Armendáriz earned her dental degree from the Autonomous University of Ciudad Juárez and completed additional postgraduate training with a Diploma in Implantology.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>As a general dentist at Núcleo Dental, she provides comprehensive care focused on maintaining oral health, restoring dental function, and helping patients feel comfortable and informed throughout their treatment.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Care</p><ul class='list-disc pl-5 mt-1'><li>General Dentistry</li><li>Preventive Dental Care</li><li>Restorative Treatment</li><li>Patient Education</li><li>Implantology Training</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Personalized dental care focused on health, comfort, and lasting results.&rdquo;</p>",
-            'sections' => []
-        ],
+       
+'adriana_armendariz' => [
+    'name' => 'Dra. Adriana Armendáriz',
+    'adriana_armendariz_summary' => 'General dentist at Núcleo Dental providing comprehensive care focused on maintaining oral health, restoring dental function, and helping patients feel comfortable and informed throughout their treatment.',
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dra. Adriana Armendáriz earned her dental degree from the Autonomous University of Ciudad Juárez and completed additional postgraduate training with a Diploma in Implantology.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>As a general dentist at Núcleo Dental, she provides comprehensive care focused on maintaining oral health, restoring dental function, and helping patients feel comfortable and informed throughout their treatment.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Care</p><ul class='list-disc pl-5 mt-1'><li>General Dentistry</li><li>Preventive Dental Care</li><li>Restorative Treatment</li><li>Patient Education</li><li>Implantology Training</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Personalized dental care focused on health, comfort, and lasting results.&rdquo;</p>",
+    'sections' => []
+],
         'adriana_escalante' => [
             'name' => 'Dra. Adriana Escalante',
                     'adriana_escalante_summary' => "• Graduate of Autonomous University of Ciudad Juárez\n• Specialized in general and preventive dentistry\n• Focus on patient-centered care",
@@ -134,80 +135,73 @@ return [
                 ]
             ]
         ],
-        'mario' => [
-            'name' => 'Dr. Mario Torres',
-            'mario_summary' => 'Endodontist focused on diagnosing dental pain, treating infection, and preserving natural teeth whenever possible. Dr. Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused his practice on endodontics since 2008.',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Root canal treatment at Núcleo Dental is performed by Dr. Mario Torres, an experienced endodontist focused on diagnosing dental pain, treating infection, and preserving natural teeth whenever possible.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused his practice on endodontics since 2008. His approach combines careful diagnosis, modern imaging, and precise treatment planning to relieve discomfort and restore the health and function of affected teeth.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>He remains committed to continuing education and has completed advanced training in complex endodontic problem-solving, the use of tomography in endodontic diagnosis, implant rehabilitation, and oral and maxillofacial implantology.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Root Canal Treatment</li><li>Diagnosis of Dental Pain</li><li>Treatment of Dental Infection</li><li>Preservation of Natural Teeth</li><li>Tomography-Assisted Endodontic Diagnosis</li><li>Management of Complex Endodontic Cases</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Precise endodontic care focused on relieving pain, treating infection, and preserving your natural smile.&rdquo;</p>",
-            'sections' => [
-                'associations' => [
-                    'title' => 'Professional Associations',
-                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Member of the College of Dental Surgeons of Ciudad Juárez, Chihuahua</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Member of the Chihuahua State Dental Association (ADM)</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Member of the Health and Medical Tourism Cluster of Ciudad Juárez</li>
-                    </ul>"
-                ],
-                'courses' => [
-                    'title' => 'Courses',
-                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Course: Problem solving in Endodontics and Management of Tomography in Endodontics July 2022</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Implant Rehabilitation Course June 2022</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Basic Diploma in Oral and Maxillofacial Implantology A.C. September 2021 - February 2022</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Dental Certificate of Province May 2022 Monterrey N.L.</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Cloudcroft Certificate New.Mex September 2022</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>ADM AMIC Congress Certificate November 2022</li>
-                    </ul>"
-                ]
-            ]
+       'mario' => [
+    'name' => 'Dr. Mario Torres',
+    'mario_summary' => 'Endodontist focused on diagnosing dental pain, treating infection, and preserving natural teeth whenever possible. Dr. Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused his practice on endodontics since 2008.',
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Root canal treatment at Núcleo Dental is performed by Dr. Mario Torres, an experienced endodontist focused on diagnosing dental pain, treating infection, and preserving natural teeth whenever possible.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused his practice on endodontics since 2008. His approach combines careful diagnosis, modern imaging, and precise treatment planning to relieve discomfort and restore the health and function of affected teeth.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>He remains committed to continuing education and has completed advanced training in complex endodontic problem-solving, the use of tomography in endodontic diagnosis, implant rehabilitation, and oral and maxillofacial implantology. He also regularly participates in professional dental courses and congresses in Mexico and the United States.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Professional Associations</p><ul class='list-disc pl-5 mt-1'><li>Member of the College of Dental Surgeons of Ciudad Juárez, Chihuahua</li><li>Member of the Chihuahua State Dental Association (ADM)</li><li>Member of the Health and Medical Tourism Cluster of Ciudad Juárez</li></ul><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Root Canal Treatment</li><li>Diagnosis of Dental Pain</li><li>Treatment of Dental Infection</li><li>Preservation of Natural Teeth</li><li>Tomography-Assisted Endodontic Diagnosis</li><li>Management of Complex Endodontic Cases</li></ul><p class='mt-3 italic text-indigo-700'>Precise endodontic care focused on relieving pain, treating infection, and preserving your natural smile.</p>",
+    'sections' => [
+        'associations' => [
+            'title' => 'Professional Associations',
+            'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>Member of the College of Dental Surgeons of Ciudad Juárez, Chihuahua</li><li class='text-gray-600 text-[15px] leading-snug'>Member of the Chihuahua State Dental Association (ADM)</li><li class='text-gray-600 text-[15px] leading-snug'>Member of the Health and Medical Tourism Cluster of Ciudad Juárez</li></ul>"
         ],
+        'courses' => [
+            'title' => 'Courses',
+            'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>Course: Problem solving in Endodontics and Management of Tomography in Endodontics July 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Implant Rehabilitation Course June 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Basic Diploma in Oral and Maxillofacial Implantology A.C. September 2021 - February 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Dental Certificate of Province May 2022 Monterrey N.L.</li><li class='text-gray-600 text-[15px] leading-snug'>Cloudcroft Certificate New.Mex September 2022</li><li class='text-gray-600 text-[15px] leading-snug'>ADM AMIC Congress Certificate November 2022</li></ul>"
+        ]
+    ]
+],
 
 
-        'paloma' => [
-            'name' => 'Dra. Paloma Eguiarte',
-            'paloma_summary' => 'Orthodontist providing personalized care for children, teenagers, and adults at Núcleo Dental, focused on improving the alignment of the teeth and bite while creating healthy, balanced smiles.',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dra. Paloma Eguiarte provides personalized orthodontic care for children, teenagers, and adults at Núcleo Dental. She focuses on improving the alignment of the teeth and bite while creating healthy, balanced smiles designed for long-term function and confidence.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Each treatment plan is carefully developed around the patient's individual needs, lifestyle, and goals. Dra. Eguiarte offers traditional braces and clear aligner options, guiding patients through every stage of treatment with clear communication, attentive care, and regular progress evaluations.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Orthodontics for Children, Teens, and Adults</li><li>Traditional Braces</li><li>Clear Aligner Treatment</li><li>Bite and Dental Alignment</li><li>Orthodontic Evaluations</li><li>Personalized Treatment Planning</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Personalized orthodontic care for a healthier bite and a confident, beautifully aligned smile.&rdquo;</p>",
-            'sections' => []
-        ],
+      'paloma' => [
+    'name' => 'Dra. Paloma Eguiarte',
+    'paloma_summary' => 'Orthodontist providing personalized care for children, teenagers, and adults at Núcleo Dental, focused on improving the alignment of the teeth and bite while creating healthy, balanced smiles.',
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dra. Paloma Eguiarte provides personalized orthodontic care for children, teenagers, and adults at Núcleo Dental.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>She focuses on improving the alignment of the teeth and bite while creating healthy, balanced smiles designed for long-term function and confidence. Each treatment plan is carefully developed around the patient's individual needs, lifestyle, and goals.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dra. Eguiarte offers traditional braces and clear aligner options, guiding patients through every stage of treatment with clear communication, attentive care, and regular progress evaluations.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Orthodontics for Children, Teens, and Adults</li><li>Traditional Braces</li><li>Clear Aligner Treatment</li><li>Bite and Dental Alignment</li><li>Orthodontic Evaluations</li><li>Personalized Treatment Planning</li></ul><p class='mt-3 italic text-indigo-700'>Personalized orthodontic care for a healthier bite and a confident, beautifully aligned smile.</p>",
+    'sections' => []
+],
 
-        'jose' => [
-            'name' => 'Dr. José Luis Trejo',
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. José Luis Trejo is an Oral and Maxillofacial Surgeon certified by the Mexican Board of Oral and Maxillofacial Surgery, with active experience in both public and private healthcare.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>He earned his dental degree from the Autonomous University of Ciudad Juárez and completed his specialty training in Oral and Maxillofacial Surgery at the \"20 de Noviembre\" National Medical Center (ISSSTE). His specialty training was endorsed by the National Autonomous University of Mexico (UNAM), where he also served as Chief Resident.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Trejo has extensive experience in diagnosing and treating complex conditions affecting the mouth, jaw, face, and craniofacial structures. He currently practices at the Center for Medical Specialties and the Mexican Institute of Social Security (IMSS).</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Trejo is an active member of national and international oral and maxillofacial surgery associations and frequently lectures at academic forums.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Oral and Maxillofacial Surgery</li><li>Orthognathic and Corrective Jaw Surgery</li><li>Facial Trauma and Reconstruction</li><li>Craniofacial Pathology and Deformities</li><li>Complex Surgical Procedures</li><li>Maxillofacial Emergency Care</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Advanced surgical expertise focused on safety, precision, function, and comprehensive patient care.&rdquo;</p>"
-        ],
-        'sandra' => [
-            'name' => 'Dr. Sandra Luz Torres Guevara',
-            'specialties' => [
-                'pediatric_dentist'
-            ],
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Sandra Luz Torres Guevara has more than 20 years of experience providing compassionate, comprehensive dental care for children and adolescents.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>She earned her dental degree and completed her specialty training in Pediatric Dentistry at the Autonomous University of Ciudad Juárez. Her approach focuses on prevention, gentle behavior management, and creating a comfortable environment where young patients can feel safe and develop positive lifelong dental habits.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Torres has also completed postgraduate studies in Dentofacial Orthopedics and specialized training in Orthodontics certified by the Mexican Association for Education and Research (AOMEI). She continues to expand her expertise through advanced education in Pediatric Dentistry, reflecting her commitment to clinical excellence and modern patient care.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>In addition to her clinical work, Dr. Torres has served as a postgraduate faculty member at the Autonomous University of Ciudad Juárez, helping educate and prepare future dental professionals.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Preventive and Restorative Dentistry for Children</li><li>Pediatric Behavior Management</li><li>Dental Care for Anxious Young Patients</li><li>Pediatric Pain Management and Sedation</li><li>Dentofacial Orthopedics</li><li>Orthodontic Evaluation and Treatment</li><li>Dental Care for Children and Adolescents</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Gentle, specialized dental care designed to help every child feel safe, comfortable, and confident.&rdquo;</p>"
-        ],
-        'valeria' => [
-            'name' => 'Dr. Valeria Assiram Trimmer Duarte',
-            'specialties' => [
-                'periodontist',
-                'implantologist'
-            ],
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Valeria Assiram Trimmer Duarte is a board-certified periodontist and implantologist dedicated to restoring and maintaining the health of the gums, bone, and supporting structures of the teeth.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>She earned her dental degree from the Autonomous University of Ciudad Juárez and completed a Master\'s Degree in Dental Sciences with a concentration in Periodontics at the Autonomous University of Coahuila.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Trimmer\'s advanced training includes periodontology, dental implant treatment, peri-implant therapy, biomaterials, and mucogingival surgery. Certified by the Mexican Board of Periodontology, she remains actively involved in professional dental associations and continuing education programs in Mexico and internationally. She has also contributed to scientific publications, clinical case presentations, and international dental congresses.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Periodontal Disease Diagnosis and Treatment</li><li>Dental Implant Placement</li><li>Peri-Implant Therapy</li><li>Gum and Bone Health</li><li>Mucogingival Surgery</li><li>Periodontal Regeneration and Biomaterials</li><li>Long-Term Periodontal Maintenance</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Evidence-based periodontal and implant care focused on health, stability, and lasting results.&rdquo;</p>"
-        ],
+    
+'jose' => [
+    'name' => 'Dr. José Luis Trejo',
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. José Luis Trejo is an Oral and Maxillofacial Surgeon certified by the Mexican Board of Oral and Maxillofacial Surgery, with active experience in both public and private healthcare.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>He earned his dental degree from the Autonomous University of Ciudad Juárez and completed his specialty training in Oral and Maxillofacial Surgery at the \"20 de Noviembre\" National Medical Center (ISSSTE). His specialty training was endorsed by the National Autonomous University of Mexico (UNAM), where he also served as Chief Resident.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Trejo has extensive experience in diagnosing and treating complex conditions affecting the mouth, jaw, face, and craniofacial structures. His surgical expertise includes reconstructive procedures, orthognathic surgery, facial trauma management, craniofacial pathology, deformities, and maxillofacial emergencies.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>He currently practices at the Center for Medical Specialties and the Mexican Institute of Social Security (IMSS), bringing hospital-level surgical knowledge and experience to the care of his patients.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Trejo is an active member of national and international oral and maxillofacial surgery associations. He frequently lectures at academic forums and remains committed to continuing education through advanced courses, professional congresses, and specialized training in Mexico and abroad.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Oral and Maxillofacial Surgery</li><li>Orthognathic and Corrective Jaw Surgery</li><li>Facial Trauma and Reconstruction</li><li>Craniofacial Pathology and Deformities</li><li>Complex Surgical Procedures</li><li>Maxillofacial Emergency Care</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Advanced surgical expertise focused on safety, precision, function, and comprehensive patient care.&rdquo;</p>"
+],
+'sandra' => [
+    'name' => 'Dr. Sandra Luz Torres Guevara',
+    'specialties' => [
+        'pediatric_dentist'
+    ],
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Sandra Luz Torres Guevara has more than 20 years of experience providing compassionate, comprehensive dental care for children and adolescents.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>She earned her dental degree and completed her specialty training in Pediatric Dentistry at the Autonomous University of Ciudad Juárez. Her approach focuses on prevention, gentle behavior management, and creating a comfortable environment where young patients can feel safe and develop positive lifelong dental habits.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Torres has also completed postgraduate studies in Dentofacial Orthopedics and specialized training in Orthodontics certified by the Mexican Association for Education and Research (AOMEI). She continues to expand her expertise through advanced education in Pediatric Dentistry, reflecting her commitment to clinical excellence and modern patient care.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>In addition to her clinical work, Dr. Torres has served as a postgraduate faculty member at the Autonomous University of Ciudad Juárez, helping educate and prepare future dental professionals.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Her care combines specialized pediatric dentistry with modern pain-management and sedation techniques when appropriate, allowing children with different needs and levels of dental anxiety to receive safe, patient-centered treatment.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Preventive and Restorative Dentistry for Children</li><li>Pediatric Behavior Management</li><li>Dental Care for Anxious Young Patients</li><li>Pediatric Pain Management and Sedation</li><li>Dentofacial Orthopedics</li><li>Orthodontic Evaluation and Treatment</li><li>Dental Care for Children and Adolescents</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Gentle, specialized dental care designed to help every child feel safe, comfortable, and confident.&rdquo;</p>"  
+],
+
+      'valeria' => [
+    'name' => 'Dr. Valeria Assiram Trimmer Duarte',
+    'specialties' => [
+        'periodontist',
+        'implantologist'
+    ],
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Valeria Assiram Trimmer Duarte is a board-certified periodontist and implantologist dedicated to restoring and maintaining the health of the gums, bone, and supporting structures of the teeth.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>She earned her dental degree from the Autonomous University of Ciudad Juárez and completed a Master's Degree in Dental Sciences with a concentration in Periodontics at the Autonomous University of Coahuila. During her professional training, she also gained valuable clinical experience assisting in postgraduate dental clinics.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Trimmer provides specialized care in periodontics and oral implantology at Núcleo Dental and in private practice in Ciudad Juárez. Her advanced training includes periodontology, dental implant treatment, peri-implant therapy, biomaterials, and mucogingival surgery.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Certified by the Mexican Board of Periodontology, Dr. Trimmer remains actively involved in professional dental associations and continuing education programs in Mexico and internationally. She has also contributed to scientific publications, clinical case presentations, and international dental congresses.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Her approach is grounded in evidence-based dentistry, continuous education, and personalized treatment designed to support lasting periodontal health and successful long-term outcomes.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Periodontal Disease Diagnosis and Treatment</li><li>Dental Implant Placement</li><li>Peri-Implant Therapy</li><li>Gum and Bone Health</li><li>Mucogingival Surgery</li><li>Periodontal Regeneration and Biomaterials</li><li>Long-Term Periodontal Maintenance</li></ul><p class='mt-3 italic text-indigo-700'>Evidence-based periodontal and implant care focused on health, stability, and lasting results.</p>"
+],
         'hugo' => [
             'name' => 'Hugo',
             'specialties' => [
                 'informatic_responsible'
             ],
         ],
-        'liliana' => [
-            'name' => 'Dr. Liliana Estrada',
-            'specialties' => [
-                'pediatric_dentist'
-            ],
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Liliana Estrada is a pediatric dentist dedicated to protecting the oral health of children and adolescents while helping them feel safe, comfortable, and confident during dental visits.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>At Núcleo Dental, she provides personalized pediatric care based on each child\'s age, dental needs, comfort level, and stage of development. Her approach combines modern pediatric dentistry with patience, gentle communication, and careful attention to the individual needs of every young patient.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Estrada understands that early dental experiences can shape how children feel about oral healthcare throughout their lives. She works closely with parents and caregivers to explain treatment, encourage healthy habits, and create positive experiences that build lasting trust.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Pediatric Dental Evaluations</li><li>Preventive Dentistry for Children</li><li>Restorative Pediatric Care</li><li>Dental Care for Children and Adolescents</li><li>Gentle Behavior Guidance</li><li>Parent and Patient Education</li><li>Development of Healthy Dental Habits</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Gentle, personalized dental care that helps children build healthy smiles and positive experiences from an early age.&rdquo;</p>"
-        ],
-        'lori' => [
-            'name' => 'Lori Shapiro',
-            'specialties' => [
-                'dental_concierge'
-            ],
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Lori Shapiro serves as the Dental Concierge at Núcleo Dental, guiding patients through every step of their experience—from their first questions and appointment planning to treatment, follow-up care, and their return home.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>For patients traveling from the United States, she coordinates appointments and transportation, provides hotel and travel guidance, and makes sure each patient receives clear information before arriving. Throughout treatment, Lori remains available to answer questions, communicate with the dental team, and help patients understand what to expect next.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Her goal is to make every visit feel organized, comfortable, and personal so patients can focus on their treatment and recovery while knowing they have someone they can depend on.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Support</p><ul class='list-disc pl-5 mt-1'><li>Appointment and Treatment Coordination</li><li>Transportation Arrangements</li><li>Hotel and Travel Guidance</li><li>Insurance Reimbursement Assistance</li><li>Ongoing Patient Communication</li><li>Follow-Up Care Coordination</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;From your first call through your final visit, I\'m here to make sure you feel informed, supported, and cared for.&rdquo;</p>"
-        ]        
+       'liliana' => [
+    'name' => 'Dr. Liliana Estrada',
+    'specialties' => [
+        'pediatric_dentist'
+    ],
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dr. Liliana Estrada is a pediatric dentist dedicated to protecting the oral health of children and adolescents while helping them feel safe, comfortable, and confident during dental visits.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>At Núcleo Dental, she provides personalized pediatric care based on each child's age, dental needs, comfort level, and stage of development. Her approach combines modern pediatric dentistry with patience, gentle communication, and careful attention to the individual needs of every young patient.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Dr. Estrada understands that early dental experiences can shape how children feel about oral healthcare throughout their lives. She works closely with parents and caregivers to explain treatment, encourage healthy habits, and create positive experiences that build lasting trust.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>As part of Núcleo Dental's pediatric team, she provides specialized care for local families as well as children traveling from the United States for treatment.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p><ul class='list-disc pl-5 mt-1'><li>Pediatric Dental Evaluations</li><li>Preventive Dentistry for Children</li><li>Restorative Pediatric Care</li><li>Dental Care for Children and Adolescents</li><li>Gentle Behavior Guidance</li><li>Parent and Patient Education</li><li>Development of Healthy Dental Habits</li></ul><p class='mt-3 italic text-indigo-700'>Gentle, personalized dental care that helps children build healthy smiles and positive experiences from an early age.</p>"
+],
+
+'lori' => [
+    'name' => 'Lori Shapiro',
+    'specialties' => [
+        'dental_concierge'
+    ],
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Lori Shapiro serves as the Dental Concierge at Núcleo Dental, guiding patients through every step of their experience—from their first questions and appointment planning to treatment, follow-up care, and their return home.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>For patients traveling from the United States, she coordinates appointments and transportation, provides hotel and travel guidance, and makes sure each patient receives clear information before arriving. Throughout treatment, Lori remains available to answer questions, communicate with the dental team, and help patients understand what to expect next.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>Her goal is to make every visit feel organized, comfortable, and personal so patients can focus on their treatment and recovery while knowing they have someone they can depend on.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Support</p><ul class='list-disc pl-5 mt-1'><li>Appointment and Treatment Coordination</li><li>Transportation Arrangements</li><li>Hotel and Travel Guidance</li><li>Insurance Reimbursement Assistance</li><li>Ongoing Patient Communication</li><li>Follow-Up Care Coordination</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;From your first call through your final visit, I&rsquo;m here to make sure you feel informed, supported, and cared for.&rdquo;</p>"
+],
+
     ],
     
     'site' => [
@@ -1389,69 +1383,72 @@ Our specialists will evaluate your oral health and explain which option can prov
 
         // INTRO
         'intro_title' => 'Why Patients Choose <strong>Núcleo Dental</strong>',
-        'intro_text_1' => 'At Núcleo Dental, we are more than a dental clinic  we are a destination for patients seeking precision, experience, and long-term results.',
-        'intro_text_2' => 'Located in Ciudad Juárez, Mexico, just minutes from El Paso, Texas, we proudly serve both U.S. and Mexican patients with a full spectrum of advanced dental treatments.From single implants to full-mouth restorations, every treatment is performed with meticulous planning, premium materials, and a commitment to excellence.',
-        'intro_text_3' => 'Our team combines decades of experience with modern technology to deliver care that meets  
-and often exceeds international standards.',
+        'intro_text_1' => 'At Núcleo Dental, we are more than a dental clinic—we are a destination for patients seeking precision, experience, and long-lasting results.',
+        'intro_text_2' => 'Located in Ciudad Juárez, Mexico, just minutes from El Paso, Texas, we proudly serve
+patients from both the United States and Mexico with a complete range of dental services, from preventive and family dentistry to dental implants and complex full-mouth restorations.
+',
+        'intro_text_3' => 'Every treatment is carefully planned and performed using advanced technology, premium materials, and meticulous attention to detail. By combining decades of experience with a commitment to excellence, our team delivers personalized care designed to meet the highest standards of modern dentistry.',
 
         // CARDS
-        'why_title' => 'Why Patients Choose <strong>Núcleo Dental</strong>',
-        'why_subtitle' => 'Modern dentistry focused on quality, comfort, and predictable long-term results.',
+        'card_1_title' => 'Specialized Implant Care',
+'card_1_text' => 'Our implant specialists coordinate both the surgical and restorative phases of treatment, providing continuity of care from planning through your final restoration.',
 
-        'card_1_title' => 'Elite Implant Expertise',
-        'card_1_text' => 'Both of our doctors place and restore implants, ensuring fully coordinated care from start to finish.',
+'card_2_title' => 'Premium Materials',
+'card_2_text' => 'We use globally recognized implant systems, including Straumann, Nobel Biocare, and BioHorizons, selected for their quality and proven performance.',
 
-        'card_2_title' => 'High-End Materials',
-        'card_2_text' => 'We use globally recognized implant systems like Straumann, Nobel Biocare, and BioHorizons.',
+'card_3_title' => 'Advanced Technology',
+'card_3_text' => '3D imaging, digital treatment planning, and precision-guided techniques allow us to diagnose thoroughly and plan treatment with greater accuracy.',
 
-        'card_3_title' => 'Advanced Technology',
-        'card_3_text' => '3D imaging, digital planning, and precision-guided procedures.',
+'card_4_title' => 'Clear, Transparent Care',
+'card_4_text' => 'You will receive a detailed treatment plan, straightforward communication, and a clear explanation of each stage before treatment begins.',
 
-        'card_4_title' => 'Transparent Process',
-        'card_4_text' => 'Clear treatment plans, no surprises, no shortcuts.',
+'card_5_title' => '4-Year Warranty',
+'card_5_text' => 'Our warranty reflects the confidence we have in the quality of our work and our commitment to your long-term results.',
 
-        'card_5_title' => '4-Year Warranty',
-        'card_5_text' => 'Confidence in our work and your long-term results.',
 
-        'highlight_box' => 'Conveniently located minutes from El Paso with bilingual support and seamless patient coordination.',
+        'highlight_box' =>  'Conveniently located in Ciudad Juárez, just minutes from El Paso, Núcleo Dental provides bilingual assistance and personalized coordination to make every step of your visit easier.',
 
         // US TOURISM
         'us_tourism_title' => 'Designed for U.S. Dental Tourism Patients',
-        'us_tourism_subtitle' => 'We understand that traveling for dental care can feel overwhelming so we’ve built a system that makes it simple, safe, and seamless.',
-        'us_tourism_points' => [
-            [
-                'icon' => 'car',
-                'text' => 'Complimentary transportation between El Paso and our clinic',
-            ],
-            [
-                'icon' => 'calendar-check',
-                'text' => 'Assistance coordinating your visit from start to finish',
-            ],
-            [
-                'icon' => 'file-medical',
-                'text' => 'Experience working with U.S. dental insurance (out-of-network reimbursement)',
-            ],
-            [
-                'icon' => 'language',
-                'text' => 'English-speaking team dedicated to your comfort and clarity',
-            ],
-        ],
-        'us_tourism_footer' => 'From the moment you arrive, everything is handled with professionalism and care so you can focus on your treatment not the logistics.',
+        'us_tourism_subtitle' => 'Traveling to another country for dental care can feel overwhelming. That is why we have created a coordinated experience designed to make every step simple, comfortable, and stress-free.',
 
+'us_tourism_points' => [
+    [
+        'icon' => 'car',
+        'text' => 'Complimentary transportation from El Paso to our clinic',
+    ],
+    [
+        'icon' => 'calendar-check',
+        'text' => 'Personalized assistance coordinating your appointments and visit',
+    ],
+    [
+        'icon' => 'file-medical',
+        'text' => 'Support with out-of-country dental insurance claims and reimbursement paperwork',
+    ],
+    [
+        'icon' => 'language',
+        'text' => 'A bilingual team committed to clear communication and your comfort',
+    ],
+],
+
+'us_tourism_footer' => 'From the moment you arrive, our team handles the details with professionalism and care—so you can focus on your treatment, not the logistics.',
         // MX PATIENTS
-        'mx_patients_title' => 'Care for Our Mexican Patients',
-        'mx_patients_body_1' => 'We are equally committed to providing high-quality, accessible dental care for our local community.',
-        'mx_patients_body_2' => 'Our patients in Mexico receive the same level of advanced treatment, technology, and attention to detail because exceptional dentistry should never be limited by location.',
+  'mx_patients_title' => 'Advanced Dental Care for Our Mexican Patients',
 
+'mx_patients_body_1' => 'Núcleo Dental is proud to serve patients from Ciudad Juárez and communities throughout Mexico with high-quality, accessible dental care.',
+
+'mx_patients_body_2' => 'From routine dentistry to specialized and complex treatments, every patient benefits from the same advanced technology, experienced doctors, premium materials, and careful attention to detail. Exceptional dentistry should be available close to home.',
         // PHILOSOPHY
         'philosophy_title' => 'Our Philosophy',
-        'philosophy_text_1' => 'We don’t believe in quick fixes or one-size-fits-all dentistry.',
-        'philosophy_text_2' => 'Every patient receives a carefully designed treatment plan based on their unique needs, long-term oral health, and desired outcome. Whether you’re restoring a single tooth or rebuilding your entire smile, our goal is always the same:',
-        'philosophy_text_3' => 'Deliver results that look natural, function flawlessly, and last.',
+  'philosophy_text_1' => 'We do not believe in quick fixes or one-size-fits-all dentistry.',
+
+'philosophy_text_2' => 'Every patient receives a carefully designed treatment plan based on their individual needs, long-term oral health, and desired outcome. Whether you are restoring a single tooth or rebuilding your entire smile, our goal remains the same:',
+
+'philosophy_text_3' => 'To create results that look natural, function comfortably, and are designed to last.',
 
         // CTA
         'cta_title' => 'Choose More Than Affordability',
-        'cta_text' => 'At Núcleo Dental, you’re not just choosing a more affordable option you’re choosing a higher standard of care.',
+        'cta_text' => 'At Núcleo Dental, choosing dental care in Mexico is about more than saving money. It is an opportunity to receive advanced, personalized treatment from experienced specialists using modern technology and premium materials—without compromising the quality of your care',
         'cta_button' => 'Book Your Consultation',
     ],
 ],
@@ -2548,24 +2545,24 @@ on your care, comfort, and recover'
 'meet_doctors' => [
     'page' => [
         'overline' => 'Meet Our Team',
-        'title_line_1' => 'Meet the Experts Behind Your Smile Transformation',
-        'title_line_2' => 'Advanced, Coordinated Dental Care',
-        'subtitle' => 'At Núcleo Dental, your care is led by highly experienced implant specialists who handle every phase of treatment in-house—from surgery to final restoration—ensuring precision, safety, and long-term success.',
-        'trust_line' => 'Serving patients from across the U.S. and Mexico with advanced, coordinated dental care.',
-        'cta_button' => 'Schedule Your Consultation',
+'title_line_1' => 'Meet the Specialists Behind Your Care',
+'title_line_2' => 'At Núcleo Dental, your care is supported by a multidisciplinary team of experienced dental professionals who work together to provide comprehensive, coordinated treatment in one location.',
+'subtitle' => 'From preventive and pediatric dentistry to orthodontics, oral surgery, dental implants, and full-mouth restoration, each treatment is carefully planned around your individual needs. For complex implant cases, our specialists coordinate every phase—from surgical placement through the final restoration—to provide greater continuity, precision, and confidence throughout your care.',
+'trust_line' => 'Proudly serving patients from across the United States and Mexico with advanced dentistry and a genuinely personalized experience.',
+'cta_button' => 'Schedule Your Consultation',
     ],
-
-    'higher_standard' => [
-        'title' => 'A Higher Standard of Care',
-        'content' => 'What sets Núcleo Dental apart is simple: your entire treatment is completed by a coordinated team of experienced specialists under one roof.',
-        'content_2' => 'Unlike many clinics where procedures are split between multiple providers or locations, our doctors both place and restore dental implants in-house, ensuring complete control over every detail of your outcome.',
-        'content_3' => 'This approach leads to:',
-        'point_1' => 'Greater precision and long-term success',
-        'point_2' => 'Fewer complications and delays',
-        'point_3' => 'A more comfortable, streamlined experience',
-        'point_4' => 'Better aesthetic and functional results',
-        'killer' => 'One team. One plan. One standard of excellence.',
-    ],
+'higher_standard' => [
+    'title' => 'A Higher Standard of Coordinated Care',
+    'content' => 'What sets Núcleo Dental apart is the way our experienced specialists work together under one roof, following one carefully coordinated treatment plan.',
+    'content_2' => 'For dental implant cases, the surgical and restorative phases are managed within our clinic. This allows our doctors to collaborate closely, communicate clearly, and consider every detail—from implant placement and function to the appearance of your final restoration.',
+    'content_3' => 'This coordinated approach provides:',
+    'point_1' => 'Consistent planning throughout every phase of treatment',
+    'point_2' => 'Fewer handoffs between unrelated providers or locations',
+    'point_3' => 'Clearer communication and greater continuity of care',
+    'point_4' => 'A more comfortable and streamlined patient experience',
+    'point_5' => 'Restorations designed for natural appearance, function, and long-term durability',
+    'killer' => 'One team. One plan. One standard of excellence.',
+],
 
     'working_together' => [
         'title' => 'Surgical + Restorative Expertise, Fully Coordinated',
@@ -2579,22 +2576,22 @@ on your care, comfort, and recover'
         'killer' => 'Your entire smile, planned and completed by one expert team.',
     ],
     'ernesto_spotlight' => [
-        'experience_tagline' => 'Over 40 Years of Clinical Experience',
-        'short_intro' => 'Dr. Ernesto Moran is one of the most experienced implantologists in the region, with decades of clinical, academic, and leadership experience in periodontics and oral implantology.',
-        'bio_1' => 'Dr. Moran has been in private practice in Ciudad Juárez since 1979 and is widely recognized for his expertise in advanced implant procedures and complex surgical cases.',
-        'bio_2' => 'He previously served as Director of the School of Dentistry and Director of the Institute of Biomedical Sciences at UACJ, where he trained future specialists in implantology, periodontics, and maxillofacial disciplines.',
-        'bio_3' => 'In addition to his clinical work, Dr. Moran has coordinated and taught postgraduate programs in oral implantology and continues to contribute to the advancement of dental implant techniques through education and professional collaboration.',
-        'bio_4' => 'At Núcleo Dental, Dr. Moran leads the surgical phase of treatment, including implant placement, bone grafting, sinus lifts, and advanced full-arch procedures.',
-        'expertise_title' => 'Key Expertise',
-        'expertise_items' => [
-            'Advanced Dental Implant Surgery',
-            'Bone Grafting & Sinus Lifts',
-            'Full Arch Restoration (All-on-4 / All-on-X)',
-            'Periodontal Surgery',
-            'Complex Case Management',
-        ],
-        'killer' => 'Decades of surgical expertise delivering precision, stability, and long-term implant success.',
+    'experience_tagline' => 'Over 40 Years of Clinical Experience',
+    'short_intro' => 'Dr. Ernesto Moran is one of the region’s most experienced implant specialists, with decades of clinical, academic, and leadership experience in periodontics and oral implantology.',
+    'bio_1' => 'In private practice in Ciudad Juárez since 1979, Dr. Moran is widely respected for his expertise in advanced implant surgery and the management of complex dental cases.',
+    'bio_2' => 'His distinguished academic career at the Autonomous University of Ciudad Juárez (UACJ) includes serving as Director of the School of Dentistry and Director of the Institute of Biomedical Sciences. Throughout his career, he has helped educate and train generations of dental professionals in implantology, periodontics, and related maxillofacial disciplines.',
+    'bio_3' => 'Dr. Moran has also coordinated and taught postgraduate programs in oral implantology and continues to advance the field through professional education, collaboration, and clinical practice.',
+    'bio_4' => 'At Núcleo Dental, Dr. Moran leads the surgical phase of complex treatment, including implant placement, bone grafting, sinus elevation, periodontal surgery, and advanced full-arch implant procedures.',
+    'expertise_title' => 'Key Areas of Expertise',
+    'expertise_items' => [
+        'Advanced Dental Implant Surgery',
+        'Bone Grafting and Sinus Elevation',
+        'Full-Arch Implant Surgery (All-on-4 and All-on-X)',
+        'Periodontal Surgery',
+        'Complex Surgical Case Management',
     ],
+    'killer' => 'Decades of surgical experience. Meticulous planning. A strong foundation for lasting results.',
+],
     'julio_spotlight' => [
         'experience_tagline' => 'Over 25 Years of Advanced Clinical Experience',
         'short_intro' => 'Dr. Julio Nevárez specializes in restoring smiles with precision, aesthetics, and long-term function through advanced prosthodontics and implant dentistry.',
@@ -2613,27 +2610,27 @@ on your care, comfort, and recover'
         'killer' => 'Precision-crafted restorations designed for beauty, function, and lasting confidence.',
     ],
     'technology' => [
-        'title' => 'Advanced Technology. Proven Standards.',
-        'description_1' => 'Our doctors utilize advanced imaging, digital planning, and high-quality implant systems to ensure accuracy and long-term success.',
-        'description_2' => 'We follow strict sterilization and clinical protocols in compliance with Mexican health regulations, providing a safe and professional environment for every patient.',
-        'item_1' => '3D CT Scan Technology',
-        'item_2' => 'Digital Treatment Planning',
-        'item_3' => 'Premium Implant Systems',
-        'item_4' => 'Sterilization & Safety Protocols',
-        'item_5' => 'Sedation Dentistry Available',
-        'item_6' => 'Long-Term Success',
-    ],
-    'trust' => [
-        'title' => 'Trusted by Patients Across the U.S. and Mexico',
-        'content' => 'Patients travel to Núcleo Dental for high-quality care, experienced doctors, and a seamless treatment experience.<br><br> From your first consultation to your final results, our team ensures you feel informed, comfortable, and confident every step of the way. <br><br> We also provide safe, reliable, and complimentary transportation between El Paso and our clinic in Ciudad Juárez, making your visit simple and stress-free.',
-    ],
-    'cta' => [
-        'title' => 'Start Your Journey to a Healthier Smile',
-        'content' => 'Whether you need routine dental care, orthodontics, a single implant, or a complete full-mouth restoration, our experienced team is here to help you achieve long-lasting, natural-looking results.',
-        'button' => 'Request an Evaluation',
-        'button_secondary' => 'Contact Our Team',
-        'reassurance' => 'No pressure. Clear answers. Expert guidance.',
-    ],
+    'title' => 'Advanced Technology. Proven Standards.',
+    'description_1' => 'Our doctors use advanced diagnostics, digital treatment planning, and premium implant systems to improve precision and support successful long-term outcomes.',
+    'description_2' => 'Núcleo Dental follows strict sterilization, infection-control, and clinical safety protocols in compliance with Mexican health regulations, providing a professional and well-controlled environment for every patient.',
+    'item_1' => '3D CBCT Imaging',
+    'item_2' => 'Digital Treatment Planning',
+    'item_3' => 'Premium Implant Systems',
+    'item_4' => 'Strict Sterilization and Safety Protocols',
+    'item_5' => 'IV Sedation Available',
+    'item_6' => 'Advanced Technology. Precise Planning. Dentistry You Can Trust.',
+],
+'trust' => [
+    'title' => 'Trusted by Patients Across the U.S. and Mexico',
+    'content' => 'Patients choose Núcleo Dental for experienced specialists, advanced treatment, personalized attention, and results designed to last.<br><br>From your initial evaluation through your final restoration, our bilingual patient care team keeps you informed, comfortable, and supported at every stage of treatment.<br><br>For patients traveling from the United States, we also coordinate safe, reliable, and complimentary transportation from El Paso to our clinic in Ciudad Juárez, making cross-border dental care easier and less stressful.<br><br>Exceptional dental care—closer than you think.',
+],
+   'cta' => [
+    'title' => 'Start Your Journey to a Healthier Smile',
+    'content' => 'Whether you need routine dental care, orthodontics, a single implant, or a complete full-mouth restoration, our experienced team is here to help you achieve healthy, natural-looking results designed to last.',
+    'button' => 'Request an Evaluation',
+    'button_secondary' => 'Contact Our Team',
+    'reassurance' => 'No pressure. Clear answers. Expert guidance.',
+],
 ],
 'meet_dr_moran' => [
     'meta_title' => 'Meet Dr. Ernesto Moran | Founder & Chief Periodontist',
