@@ -114,7 +114,6 @@
             <!-- Content -->
             <div class="lg:w-7/12">
                 <div class="inline-flex items-center gap-2 text-indigo-600 text-xs font-bold uppercase tracking-widest mb-4">
-                    <span class="w-8 h-px bg-indigo-400"></span>
                     Chief Periodontist • Implantologist
                 </div>
                 <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
@@ -229,12 +228,12 @@
             <!-- Content -->
             <div class="lg:w-7/12">
                 <div class="inline-flex items-center gap-2 text-indigo-600 text-xs font-bold uppercase tracking-widest mb-4">
-                    <span class="w-8 h-px bg-indigo-400"></span>
-                    Prosthodontist • Cosmetic Dentist • Implantologist
-                </div>
-                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-                    Dr. Julio Nevárez
-                </h2>
+    {{ __('messages.meet_doctors.julio_spotlight.specialties') }}
+</div>
+
+<h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+    {{ __('messages.meet_doctors.julio_spotlight.name') }}
+</h2>
                 <p class="text-lg text-indigo-700 font-semibold mb-6">
                     {{ __('messages.meet_doctors.julio_spotlight.short_intro') }}
                 </p>
@@ -243,7 +242,7 @@
                     <p>{{ __('messages.meet_doctors.julio_spotlight.bio_1') }}</p>
                     <p>{{ __('messages.meet_doctors.julio_spotlight.bio_2') }}</p>
                     <p>{{ __('messages.meet_doctors.julio_spotlight.bio_3') }}</p>
-                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_4') }}</p>
+                    
                 </div>
 
                 <!-- Expertise -->
@@ -315,15 +314,15 @@
         </div>
 
         <div class="grid md:grid-cols-2 gap-5 mb-10 max-w-3xl mx-auto">
-            @foreach(['item_1','item_2','item_3','item_4'] as $item)
-                <div class="flex items-center gap-4 bg-white/10 border border-white/10 rounded-xl p-5 text-left">
-                    <span class="w-7 h-7 rounded-full bg-indigo-400/30 text-indigo-200 flex items-center justify-center flex-shrink-0">
-                        <i class="fas fa-check text-xs"></i>
-                    </span>
-                    <span class="text-indigo-100 font-medium">{{ __("messages.meet_doctors.working_together.$item") }}</span>
-                </div>
-            @endforeach
+    @foreach(['item_1','item_2','item_3','item_4','item_5'] as $index => $item)
+        <div class="flex items-center gap-4 bg-white/10 border border-white/10 rounded-xl p-5 text-left {{ $index === 4 ? 'md:col-span-2 md:max-w-[calc(50%-0.625rem)] md:mx-auto md:w-full' : '' }}">
+            <span class="w-7 h-7 rounded-full bg-indigo-400/30 text-indigo-200 flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-check text-xs"></i>
+            </span>
+            <span class="text-indigo-100 font-medium">{{ __("messages.meet_doctors.working_together.$item") }}</span>
         </div>
+    @endforeach
+</div>
 
         <p class="text-2xl font-bold text-indigo-200">
             {{ __('messages.meet_doctors.working_together.killer') }}
@@ -364,6 +363,10 @@
         <p class="text-lg text-gray-600 max-w-4xl mx-auto">
             {!! __('messages.meet_doctors.trust.content') !!}
         </p>
+                        <p class="text-xl font-bold text-slate-900 italic leading-snug">
+                                        {!! __('messages.meet_doctors.trust.killer_line') !!}
+        </p>
+
     </div>
 </section>
 <!-- CTA -->
@@ -464,12 +467,9 @@ $marioContent = __('messages.root_canal.doctor.content');
 $marioSections = [
     [
         'title' => __('messages.team.mario.sections.associations.title'),
-        'icon' => '<i class="fa-solid fa-id-card text-indigo-600 text-xl"></i>',
         'content' => __('messages.team.mario.sections.associations.content')
     ],
     [
-        'title' => __('messages.team.mario.sections.courses.title'),
-        'icon' => '<i class="fa-solid fa-graduation-cap text-indigo-600 text-xl"></i>',
         'content' => __('messages.team.mario.sections.courses.content')
     ]
 ];

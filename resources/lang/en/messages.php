@@ -144,9 +144,11 @@ return [
             'title' => 'Professional Associations',
             'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>Member of the College of Dental Surgeons of Ciudad Juárez, Chihuahua</li><li class='text-gray-600 text-[15px] leading-snug'>Member of the Chihuahua State Dental Association (ADM)</li><li class='text-gray-600 text-[15px] leading-snug'>Member of the Health and Medical Tourism Cluster of Ciudad Juárez</li></ul>"
         ],
+        
         'courses' => [
-            'title' => 'Courses',
-            'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>Course: Problem solving in Endodontics and Management of Tomography in Endodontics July 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Implant Rehabilitation Course June 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Basic Diploma in Oral and Maxillofacial Implantology A.C. September 2021 - February 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Dental Certificate of Province May 2022 Monterrey N.L.</li><li class='text-gray-600 text-[15px] leading-snug'>Cloudcroft Certificate New.Mex September 2022</li><li class='text-gray-600 text-[15px] leading-snug'>ADM AMIC Congress Certificate November 2022</li></ul>"
+            'title' => 'Key Areas of Support',
+           'content' => "<p class='text-gray-600 text-[16px] leading-tight'>KEY AREAS OF EXPERTISE</p><ul class='list-disc pl-5 mt-1'><li>Root Canal Treatment</li><li>Diagnosis of Dental Pain</li><li>Treatment of Dental Infection</li><li>Preservation of Natural Teeth</li><li>Tomography-Assisted Endodontic Diagnosis</li><li>Management of Complex Endodontic Cases</li></ul><p class='mt-3 italic text-indigo-700'>Precise endodontic care focused on relieving pain, treating infection, and preserving your natural smile.</p>",
+            //'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>Course: Problem solving in Endodontics and Management of Tomography in Endodontics July 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Implant Rehabilitation Course June 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Basic Diploma in Oral and Maxillofacial Implantology A.C. September 2021 - February 2022</li><li class='text-gray-600 text-[15px] leading-snug'>Dental Certificate of Province May 2022 Monterrey N.L.</li><li class='text-gray-600 text-[15px] leading-snug'>Cloudcroft Certificate New.Mex September 2022</li><li class='text-gray-600 text-[15px] leading-snug'>ADM AMIC Congress Certificate November 2022</li></ul>"
         ]
     ]
 ],
@@ -1390,6 +1392,8 @@ patients from both the United States and Mexico with a complete range of dental 
         'intro_text_3' => 'Every treatment is carefully planned and performed using advanced technology, premium materials, and meticulous attention to detail. By combining decades of experience with a commitment to excellence, our team delivers personalized care designed to meet the highest standards of modern dentistry.',
 
         // CARDS
+        'why_title' => 'Why Patients Choose <strong>Núcleo Dental</strong>',
+'why_subtitle' => 'Modern dentistry centered on quality, comfort, and dependable long-term results.',
         'card_1_title' => 'Specialized Implant Care',
 'card_1_text' => 'Our implant specialists coordinate both the surgical and restorative phases of treatment, providing continuity of care from planning through your final restoration.',
 
@@ -1823,7 +1827,7 @@ experienced treatment at a fraction of the cost without compromising results.',
         ],
         'doctor' => [
             'title' => 'Meet Your Endodontist',
-            'content' => 'Root canal treatment at Núcleo Dental is performed by Dr. Mario Torres, an experienced endodontist focused on diagnosing pain, treating infection, and preserving natural teeth with precision.',
+            'content' => 'Root canal treatment at Núcleo Dental is performed by Dr. Mario Torres, an experienced endodontist focused on diagnosing dental pain, treating infection, and preserving natural teeth whenever possible.<br><br>Dr. Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused his practice on endodontics since 2008. His approach combines careful diagnosis, modern imaging, and precise treatment planning to relieve discomfort and restore the health and function of affected teeth.<br><br>He remains committed to continuing education and has completed advanced training in complex endodontic problem-solving, the use of tomography in endodontic diagnosis, implant rehabilitation, and oral and maxillofacial implantology. He also regularly participates in professional dental courses and congresses in Mexico and the United States.',
             'cta' => 'Learn More About Dr. Mario Torres',
         ],
         'pricing' => [
@@ -2565,16 +2569,17 @@ on your care, comfort, and recover'
 ],
 
     'working_together' => [
-        'title' => 'Surgical + Restorative Expertise, Fully Coordinated',
-        'content_1' => 'At many clinics, implant surgery and restoration are handled by different providers often in different locations.',
-        'content_2' => 'At Núcleo Dental, Dr. Ernesto Moran and Dr. Julio Nevárez work together on every case, combining surgical expertise with advanced restorative design.',
-        'content_3' => 'This collaboration ensures:',
-        'item_1' => 'Precise implant placement aligned with final restoration',
-        'item_2' => 'Better aesthetics and bite function',
-        'item_3' => 'Reduced treatment time and fewer complications',
-        'item_4' => 'A more predictable, long-lasting result',
-        'killer' => 'Your entire smile, planned and completed by one expert team.',
-    ],
+    'title' => 'Surgical and Restorative Expertise—Fully Coordinated',
+    'content_1' => 'At many dental clinics, implant surgery and the final restoration are handled by different providers, sometimes in separate locations.',
+    'content_2' => 'At Núcleo Dental, Dr. Ernesto Moran and Dr. Julio Nevárez work together throughout each implant case, combining advanced surgical expertise with precise restorative planning. Both doctors place and restore implants, allowing every stage of treatment to be carefully coordinated under one roof.',
+    'content_3' => 'This collaborative approach provides:',
+    'item_1' => 'Precise implant placement planned around the final restoration',
+    'item_2' => 'Natural-looking aesthetics and proper bite function',
+    'item_3' => 'Better communication with fewer handoffs between providers',
+    'item_4' => 'Efficient, well-coordinated treatment',
+    'item_5' => 'Predictable results designed for long-term success',
+    'killer' => 'Your entire smile—carefully planned and completed by one experienced team.',
+],
     'ernesto_spotlight' => [
     'experience_tagline' => 'Over 40 Years of Clinical Experience',
     'short_intro' => 'Dr. Ernesto Moran is one of the region’s most experienced implant specialists, with decades of clinical, academic, and leadership experience in periodontics and oral implantology.',
@@ -2593,22 +2598,23 @@ on your care, comfort, and recover'
     'killer' => 'Decades of surgical experience. Meticulous planning. A strong foundation for lasting results.',
 ],
     'julio_spotlight' => [
-        'experience_tagline' => 'Over 25 Years of Advanced Clinical Experience',
-        'short_intro' => 'Dr. Julio Nevárez specializes in restoring smiles with precision, aesthetics, and long-term function through advanced prosthodontics and implant dentistry.',
-        'bio_1' => 'With over 25 years of experience, Dr. Nevárez focuses on full-mouth rehabilitation, cosmetic dentistry, and implant restorations.',
-        'bio_2' => "He earned his degree from UACJ and completed a Master's Degree in Oral Implantology at ITAV in Monterrey, followed by advanced specialization in fixed and removable prosthodontics.",
-        'bio_3' => 'At Núcleo Dental, Dr. Nevárez works alongside Dr. Moran to both place and restore implants, ensuring a seamless treatment process from surgery through final restoration.',
-        'bio_4' => 'His work is centered on delivering natural-looking, highly functional results tailored to each patient.',
-        'expertise_title' => 'Key Expertise',
-        'expertise_items' => [
-            'Implant Restoration',
-            'Full Mouth Reconstruction',
-            'Cosmetic Smile Design',
-            'Fixed & Removable Prosthetics',
-            'All-on-4 / Full Arch Rehabilitation',
-        ],
-        'killer' => 'Precision-crafted restorations designed for beauty, function, and lasting confidence.',
+    'specialties' => 'PROSTHODONTIST • IMPLANTOLOGIST • COSMETIC DENTIST',
+    'name' => 'Dr. Julio Nevárez',
+    'experience_tagline' => '18 Years of Advanced Clinical Experience',
+    'short_intro' => 'Dr. Julio Nevárez combines advanced prosthodontics, implant dentistry, and cosmetic expertise to restore smiles with precision, natural aesthetics, and long-term function.',
+    'bio_1' => 'With 18 years of experience, Dr. Nevárez specializes in full-mouth rehabilitation, cosmetic smile design, and implant-supported restorations. He earned his dental degree from UACJ, completed a Master’s Degree in Oral Implantology at ITAV in Monterrey, and pursued advanced specialty training in fixed and removable prosthodontics.',
+    'bio_2' => 'At Núcleo Dental, Dr. Nevárez works closely with Dr. Moran throughout every stage of implant treatment. Both doctors place and restore dental implants, providing coordinated care from surgical planning and implant placement through the final restoration.',
+    'bio_3' => 'Every treatment is carefully designed to complement the patient’s facial features while restoring comfort, strength, and natural function.',
+    'expertise_title' => 'Key Areas of Expertise',
+    'expertise_items' => [
+        'Dental Implant Placement and Restoration',
+        'Full-Mouth Reconstruction',
+        'Cosmetic Smile Design',
+        'Fixed and Removable Prosthodontics',
+        'All-on-4 and Full-Arch Rehabilitation',
     ],
+    'killer' => 'Precision-crafted restorations designed for beauty, function, and lasting confidence.',
+],
     'technology' => [
     'title' => 'Advanced Technology. Proven Standards.',
     'description_1' => 'Our doctors use advanced diagnostics, digital treatment planning, and premium implant systems to improve precision and support successful long-term outcomes.',
@@ -2622,7 +2628,8 @@ on your care, comfort, and recover'
 ],
 'trust' => [
     'title' => 'Trusted by Patients Across the U.S. and Mexico',
-    'content' => 'Patients choose Núcleo Dental for experienced specialists, advanced treatment, personalized attention, and results designed to last.<br><br>From your initial evaluation through your final restoration, our bilingual patient care team keeps you informed, comfortable, and supported at every stage of treatment.<br><br>For patients traveling from the United States, we also coordinate safe, reliable, and complimentary transportation from El Paso to our clinic in Ciudad Juárez, making cross-border dental care easier and less stressful.<br><br>Exceptional dental care—closer than you think.',
+'content' => 'Patients choose Núcleo Dental for experienced specialists, advanced treatment, personalized attention, and results designed to last.<br><br>From your initial evaluation through your final restoration, our bilingual patient care team keeps you informed, comfortable, and supported at every stage of treatment.<br><br>For patients traveling from the United States, we also coordinate safe, reliable, and complimentary transportation from El Paso to our clinic in Ciudad Juárez, making cross-border dental care easier and less stressful.<br><br>',
+'killer_line' => 'Exceptional dental care—closer than you think.',
 ],
    'cta' => [
     'title' => 'Start Your Journey to a Healthier Smile',
@@ -2640,60 +2647,94 @@ on your care, comfort, and recover'
     'trust_line' => 'The experience behind every treatment. The standard behind every result.',
     'cta_consultation' => 'Schedule Your Consultation',
     'cta_video' => 'Watch Video',
-    'authority_snapshot_title' => 'Why Patients Choose Núcleo Dental — Led by Dr. Moran',
-    'authority_snapshot_items' => [
-        'Founder and Clinical Director of Núcleo Dental',
-        '40+ years of experience in periodontics and implantology',
-        'Former Director of the School of Dentistry — UACJ',
-        'Former Director of the Institute of Biomedical Sciences — UACJ',
-        'Educator and mentor to postgraduate dental specialists',
-        'National and international lecturer in implant dentistry',
-        'Advisor to leading dental implant companies',
-        'Oversees and plans complex implant and full-mouth cases'
-    ],
-    'authority_snapshot_killer_line' => 'When you choose Núcleo Dental, you’re choosing the experience behind it.',
-    'about_title' => 'The Vision Behind Núcleo Dental',
-    'about_paragraphs' => [
-        'Dr. Ernesto Moran is the founder and clinical director of Núcleo Dental, bringing over four decades of experience in periodontics and oral implantology.',
-        'Since establishing his private practice in Ciudad Juárez in 1979, Dr. Moran has built a reputation for excellence in advanced implant dentistry and complex full-mouth rehabilitation. His leadership and vision are the foundation of the clinic’s commitment to precision, quality, and long-term patient outcomes.',
-        'Beyond clinical practice, Dr. Moran has played a key role in shaping dental education in Mexico. He has served as Director of the School of Dentistry and Director of the Institute of Biomedical Sciences at UACJ, while also training postgraduate specialists in implantology, prosthodontics, and maxillofacial rehabilitation.',
-        'At Núcleo Dental, every treatment plan reflects his standards. From initial diagnosis to final restoration, Dr. Moran oversees complex cases and ensures each patient receives expert, coordinated care alongside Dr. Julio Nevárez and the clinical team.'
-    ],
+   'authority_snapshot_title' => 'Why Patients Choose Núcleo Dental Under Dr. Moran’s Leadership',
+
+'authority_snapshot_items' => [
+    'Founder and Clinical Director of Núcleo Dental',
+    'More than 40 years of experience in periodontics and implantology',
+    'Former Director of the School of Dentistry at UACJ',
+    'Former Director of the Institute of Biomedical Sciences at UACJ',
+    'Educator and mentor to postgraduate dental specialists',
+    'National and international lecturer in implant dentistry',
+    'Advisor to leading dental implant companies',
+    'Experienced in planning and overseeing complex implant and full-mouth cases'
+],
+
+'authority_snapshot_killer_line' => 'When you choose Núcleo Dental, you are choosing the experience and standards behind it.',
+
+   'about_title' => 'The Vision Behind Núcleo Dental',
+
+'about_paragraphs' => [
+    'Dr. Ernesto Moran is the founder and clinical director of Núcleo Dental, bringing more than four decades of experience in periodontics and oral implantology.',
+
+    'Since establishing his private practice in Ciudad Juárez in 1979, Dr. Moran has built a distinguished career focused on advanced implant surgery, periodontal care, and the management of complex cases. His leadership and vision are the foundation of Núcleo Dental’s commitment to precise planning, high-quality treatment, and lasting patient care.',
+
+    'Beyond his clinical practice, Dr. Moran has played an important role in dental education in Mexico. He served as Director of the School of Dentistry and Director of the Institute of Biomedical Sciences at the Autonomous University of Ciudad Juárez (UACJ). He has also trained postgraduate dental professionals in implantology, periodontics, prosthodontics, and maxillofacial rehabilitation.',
+
+    'At Núcleo Dental, Dr. Moran leads the diagnosis and surgical planning of complex implant cases. He works closely with Dr. Julio Nevárez and the clinical team to coordinate each phase of care, from the initial evaluation and implant placement to the design and completion of the final restoration.'
+],
     'education_title' => 'A Career Defined by Leadership and Impact',
-    'education_experience_label' => 'Clinical Experience',
-    'education_experience_val' => 'Private Practice in Ciudad Juárez since 1979',
-    'education_leadership_label' => 'Leadership Roles',
-    'education_leadership_items' => [
-        'Former Director — School of Dentistry, UACJ',
-        'Former Director — Institute of Biomedical Sciences, UACJ'
-    ],
-    'education_academic_label' => 'Academic & Teaching Contributions',
-    'education_academic_items' => [
-        'Led implantology training for postgraduate programs in Periodontics, Prosthodontics, and Maxillofacial Rehabilitation',
-        'Former Coordinator & Professor: Master’s Program in Oral Implantology — ITAV Monterrey'
-    ],
-    'recognition_title' => 'Recognition & Professional Affiliations',
-    'recognition_items' => [
-        'Founding Member — College of Periodontists of Chihuahua',
-        'Member — Academy of Osseointegration',
-        'Active participant in national and international implant organizations',
-        'Speaker and lecturer at advanced dental congresses'
-    ],
+
+'education_experience_label' => 'Clinical Experience',
+
+'education_experience_val' => [
+    'Private practice in Ciudad Juárez since 1979',
+    'More than four decades of experience in periodontics and oral implantology',
+    'Extensive experience managing advanced surgical and multidisciplinary cases'
+],
+
+'education_leadership_label' => 'Leadership Roles',
+
+'education_leadership_items' => [
+    'Former Director of the School of Dentistry at UACJ',
+    'Former Director of the Institute of Biomedical Sciences at UACJ',
+    'Founder and Clinical Director of Núcleo Dental'
+],
+'patient_trust_title' => 'Patient Trust',
+
+'patient_trust_paragraphs' => [
+    'Dr. Moran believes trust begins with an accurate diagnosis, a clearly explained treatment plan, and honest communication.',
+    'Every complex case is approached with careful planning, close coordination, and respect for the patient’s individual needs.'
+],
+
+'patient_trust_killer_line' => 'Decades of experience. Advanced solutions. Care built around you.',
+
+'education_academic_label' => 'Academic and Teaching Contributions',
+
+'education_academic_items' => [
+    'Led implantology training for postgraduate programs in periodontics, prosthodontics, and maxillofacial rehabilitation',
+    'Former Coordinator and Professor of the Master’s Program in Oral Implantology at ITAV Monterrey',
+    'National and international lecturer on implant dentistry and advanced surgical techniques'
+],
+    'recognition_title' => 'Recognition and Professional Affiliations',
+
+'recognition_items' => [
+    'Founding Member of the College of Periodontists of Chihuahua',
+    'Member of the Academy of Osseointegration',
+    'Member of national and international implant and periodontal organizations',
+    'Lecturer at advanced dental conferences and professional congresses',
+    'Advisor to leading dental implant companies'
+],
     'expertise_title' => 'Advanced Areas of Expertise',
-    'expertise_items' => [
-        'Complex Dental Implant Cases',
-        'Full Arch Rehabilitation (All-on-4 / All-on-X)',
-        'Bone Grafting & Sinus Lift Procedures',
-        'Severe Bone Loss Solutions',
-        'Zygomatic Implants',
-        'Full Mouth Reconstruction'
-    ],
-    'confidence_title' => 'Confidence Comes From Experience',
-    'confidence_paragraphs' => [
-        'Patients travel from across the United States and Mexico to receive care under Dr. Moran’s leadership. His experience allows him to diagnose and treat even the most complex cases with clarity and precision.',
-        'For patients who have been told they are not candidates for implants, Dr. Moran provides advanced solutions and a second opinion backed by decades of expertise.',
-        'Sedation dentistry is available for patients who want a more comfortable and relaxed experience throughout treatment.'
-    ],
+
+'expertise_items' => [
+    'Complex Dental Implant Surgery',
+    'Full-Arch Implant Treatment (All-on-4 and All-on-X)',
+    'Bone Grafting and Sinus Elevation',
+    'Treatment Planning for Severe Bone Loss',
+    'Zygomatic Implants',
+    'Periodontal Surgery',
+    'Full-Mouth Reconstruction Planning'
+],
+    'confidence_title' => 'Confidence Built on Experience',
+
+'confidence_paragraphs' => [
+    'Patients from throughout the United States and Mexico seek care at Núcleo Dental for Dr. Moran’s experience, thoughtful diagnosis, and ability to manage complex dental conditions with precision and clarity.',
+
+    'Patients who have previously been told that they may not qualify for traditional dental implants can receive a comprehensive evaluation and second opinion. When appropriate, Dr. Moran may recommend advanced options for severe bone loss, including bone grafting, sinus elevation, full-arch treatment, or zygomatic implants.',
+
+    'IV sedation, administered by a licensed anesthesiologist, is also available for qualifying patients who would like a more relaxed and comfortable treatment experience.'
+],
     'final_cta_title' => 'Start Your Treatment With a Team Led by Experience',
     'final_cta_body' => 'At Núcleo Dental, your care is guided by decades of expertise, advanced training, and a commitment to long-term results.',
     'final_cta_primary' => 'Book Your Consultation',

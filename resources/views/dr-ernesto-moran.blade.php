@@ -92,22 +92,21 @@
     </section>
 
     <!-- About Dr. Moran Section -->
-    <section class="py-20 bg-slate-900 text-white">
-        <div class="container mx-auto px-4 max-w-5xl">
-            <div class="flex flex-col lg:flex-row gap-16 items-start">
-                <div class="lg:w-1/3">
-                    <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-white mb-6 sticky top-24">
-                        {{ __('messages.meet_dr_moran.about_title') }}
-                    </h2>
-                </div>
-                <div class="lg:w-2/3 space-y-6 text-slate-300 text-lg leading-relaxed">
-                    @foreach(__('messages.meet_dr_moran.about_paragraphs') as $paragraph)
-                        <p>{{ $paragraph }}</p>
-                    @endforeach
-                </div>
+   <section class="py-20 bg-slate-900 text-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-white mb-8">
+                {{ __('messages.meet_dr_moran.about_title') }}
+            </h2>
+
+            <div class="space-y-6 text-slate-300 text-lg leading-relaxed">
+                @foreach(__('messages.meet_dr_moran.about_paragraphs') as $paragraph)
+                    <p>{{ $paragraph }}</p>
+                @endforeach
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Education, Leadership & Affiliations Grid -->
     <section class="py-24 bg-white">
@@ -124,10 +123,17 @@
                             {{ __('messages.meet_dr_moran.education_experience_label') }}
                         </h3>
                         <div class="flex items-center gap-4 mb-8">
-                            <span class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl flex-shrink-0">
-                                <i class="fas fa-history"></i>
-                            </span>
-                            <p class="text-lg font-bold text-slate-800">{{ __('messages.meet_dr_moran.education_experience_val') }}</p>
+                           
+                            <ul class="space-y-2 text-slate-700">
+    @foreach(__('messages.meet_dr_moran.education_experience_val') as $item)
+        <li class="flex items-start gap-3">
+            <span class="text-blue-500 mt-1">
+                <i class="fas fa-check-circle"></i>
+            </span>
+            <span class="font-medium">{{ $item }}</span>
+        </li>
+    @endforeach
+</ul>
                         </div>
 
                         <h3 class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-6">
@@ -229,6 +235,34 @@
             </div>
         </div>
     </section>
+
+
+     <section class="py-20 -mt-10 relative z-30">
+    <div class="container mx-auto px-4">
+        <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100 max-w-5xl mx-auto">
+
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+                {{ __('messages.meet_dr_moran.patient_trust_title') }}
+            </h2>
+
+            <div class="max-w-3xl mx-auto text-center space-y-6 mb-10">
+                @foreach(__('messages.meet_dr_moran.patient_trust_paragraphs') as $paragraph)
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        {{ $paragraph }}
+                    </p>
+                @endforeach
+            </div>
+
+            <div class="border-t border-slate-100 pt-8 text-center">
+                <p class="text-xl md:text-2xl font-bold text-blue-800">
+                    {{ __('messages.meet_dr_moran.patient_trust_killer_line') }}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
     <!-- Final CTA -->
     <section class="py-20 bg-slate-900 relative overflow-hidden">
