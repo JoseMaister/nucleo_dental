@@ -1419,7 +1419,7 @@ patients from both the United States and Mexico with a complete range of dental 
 'us_tourism_points' => [
     [
         'icon' => 'car',
-        'text' => 'Complimentary transportation from El Paso to our clinic',
+        'text' => 'Complimentary transportation from El Paso to our clinic and back',
     ],
     [
         'icon' => 'calendar-check',
@@ -2486,7 +2486,7 @@ consultation and treatment will take place in our modern, fully equipped clinic,
 all dental specialties are available in one location.'
             ],
             'return' => [
-                'title' => 'Return to El Paso',
+                'title' => 'Returning to El Paso',
                 'description' => 'After your appointment, our transportation team will assist you with your return to El
 Paso. Return arrangements may include transportation to the international bridge and
 guidance throughout the crossing process.
@@ -2495,7 +2495,7 @@ guidance throughout the crossing process.
              'smoth' => [
                 'title' => 'A Smooth, Well-Coordinated Experience',
                 'description' => 'Our team coordinates your appointments and transportation details so you can focus
-on your care, comfort, and recover'
+on your care, comfort, and recovery'
             ]
         ]
     ],
@@ -2509,7 +2509,7 @@ on your care, comfort, and recover'
     'Advanced technology and precise digital treatment planning',
     'Premium implant systems, including Straumann, Nobel Biocare, and BioHorizons',
     'A 4-year warranty on qualifying dental work',
-    'Safe, reliable, and complimentary transportation from El Paso',
+    'Safe, reliable, and complimentary transportation from El Paso and back',
     'Personalized care with clear communication throughout treatment',
     'Trusted by patients from across the United States and Mexico',
 ],
