@@ -300,9 +300,15 @@
     </div>
 </div>
 
+@php
+    $marioName = __('messages.team.mario.name');
+    $marioSummary = __('messages.team.mario.mario_summary');
+    $marioSpecialties = [__('messages.specialties.endodontist')];
+    $marioContent = __('messages.team.mario.content');
+@endphp
 
-<!-- DR. NEW DOCTOR SPOTLIGHT -->
-<section id="dr-new-doctor" class="py-20 bg-white border-t border-gray-100">
+<!-- DR. MARIO TORRES SPOTLIGHT -->
+<section id="dr-mario-torres" class="py-20 bg-white border-t border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex flex-col lg:flex-row gap-14 items-start">
 
@@ -310,23 +316,16 @@
             <div class="lg:w-5/12 flex-shrink-0">
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] w-full max-w-md mx-auto lg:mx-0">
 
-                    <img src="{{ asset('images/DOCTOR_IMAGE.webp') }}"
-                         alt="Dr. Doctor Name"
+                    <img src="{{ asset('images/IMG_100191.webp') }}"
+                         alt="{{ $marioName }}"
                          class="w-full h-full object-cover object-top">
 
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
 
-                    <div class="absolute top-6 left-6 right-6">
-                        <span class="inline-block bg-white/30 backdrop-blur text-black text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
-                            EXPERIENCE TAGLINE
-                        </span>
-                    </div>
-
-                    <!-- Video Button -->
                     <div class="absolute bottom-4 inset-x-0 flex justify-center z-50">
                         <button
                             type="button"
-                            onclick="openDoctorVideo('new-doctor-spotlight')"
+                            onclick="openDoctorVideo('mario-spotlight')"
                             class="flex items-center gap-2 px-5 py-3 rounded-full bg-white text-blue-700 font-medium shadow-lg">
 
                             <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600">
@@ -347,68 +346,62 @@
             <!-- Content -->
             <div class="lg:w-7/12">
 
-                <!-- Specialties -->
+                <!-- Specialty -->
                 <div class="inline-flex items-center gap-2 text-indigo-600 text-xs font-bold uppercase tracking-widest mb-4">
-                    SPECIALTY • SPECIALTY
+                    {{ implode(' • ', $marioSpecialties) }}
                 </div>
 
                 <!-- Name -->
                 <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-                    Dr. Doctor Name
+                    {{ $marioName }}
                 </h2>
 
                 <!-- Short Introduction -->
                 <p class="text-lg text-indigo-700 font-semibold mb-6">
-                    SHORT PROFESSIONAL INTRODUCTION
+                    {{ $marioSummary }}
                 </p>
 
-                <!-- Biography -->
+                <!-- Biography, Associations and Areas of Expertise -->
                 <div class="space-y-4 text-gray-600 text-base leading-relaxed mb-8">
-                    <p>Biography paragraph 1.</p>
-                    <p>Biography paragraph 2.</p>
-                    <p>Biography paragraph 3.</p>
-                    <p>Biography paragraph 4.</p>
-                </div>
-
-                <!-- Expertise -->
-                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
-                    Areas of Expertise
-                </p>
-
-                <ul class="space-y-2 mb-8">
-                    <li class="flex items-center gap-3 text-slate-700 font-medium">
-                        <span class="w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0 text-xs">
-                            <i class="fas fa-check"></i>
-                        </span>
-                        Expertise item 1
-                    </li>
-
-                    <li class="flex items-center gap-3 text-slate-700 font-medium">
-                        <span class="w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0 text-xs">
-                            <i class="fas fa-check"></i>
-                        </span>
-                        Expertise item 2
-                    </li>
-
-                    <li class="flex items-center gap-3 text-slate-700 font-medium">
-                        <span class="w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center flex-shrink-0 text-xs">
-                            <i class="fas fa-check"></i>
-                        </span>
-                        Expertise item 3
-                    </li>
-                </ul>
-
-                <!-- Featured Quote -->
-                <div class="border-l-4 border-indigo-500 pl-5">
-                    <p class="text-xl font-bold text-slate-900 italic leading-snug">
-                        "DOCTOR'S KEY MESSAGE OR PROFESSIONAL PHILOSOPHY"
-                    </p>
+                    {!! $marioContent !!}
                 </div>
 
             </div>
         </div>
     </div>
 </section>
+
+{{-- Mario Torres Spotlight Video Modal --}}
+<div
+    id="modal-mario-spotlight"
+    class="fixed inset-0 bg-black/80 z-[999] hidden flex items-center justify-center p-2 sm:p-4 md:p-6">
+
+    <div class="relative bg-black rounded-lg overflow-hidden w-full h-full sm:h-auto sm:w-[90%] md:w-[85%] lg:w-[80%] xl:max-w-5xl sm:aspect-video max-w-[95vw]">
+
+        <button
+            onclick="closeDoctorVideo('mario-spotlight')"
+            class="absolute top-2 right-2 sm:top-3 sm:right-3 z-30 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-black/70 text-white text-lg sm:text-xl">
+            ✕
+        </button>
+
+        <div class="swiper h-full w-full" id="swiper-mario-spotlight">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex items-center justify-center bg-black">
+                    <video
+                        class="w-full h-full object-contain max-w-full max-h-full"
+                        playsinline
+                        preload="auto"
+                        muted
+                        controls>
+                        <source src="{{ asset('images/videos/mario_endodoncia.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
 
 {{-- New Doctor Spotlight Video Modal --}}
 <div
@@ -442,7 +435,7 @@
 
             </div>
 
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>   
         </div>
     </div>
 </div>
@@ -635,6 +628,18 @@ $valeriaSpecialties = [
 ];
 $valeriaContent = __('messages.team.valeria.content');
 $valeriaSections = [];
+
+// Adriana Escalante
+$adrianaEscalanteName = __('messages.team.adriana_escalante.name');
+$adrianaEscalanteSummary = __('messages.team.adriana_escalante.adriana_escalante_summary');
+$adrianaEscalanteSpecialties = [__('messages.specialties.general_dentist')];
+$adrianaEscalanteContent = __('messages.team.adriana_escalante.content');
+$adrianaEscalanteSections = [
+    [
+        'title' => __('messages.team.adriana_escalante.sections.training.title'),
+        'content' => __('messages.team.adriana_escalante.sections.training.content')
+    ]
+];
 @endphp
 
 
@@ -678,18 +683,7 @@ $valeriaSections = [];
     :sections="[]"
 />
 
-<div id="dr-mario-torres" class="scroll-mt-24"></div>
-<x-doctor-profile 
-    :imageUrl="asset('images/IMG_100191.webp')"
-    :name="$marioName"
-    :specialties="$marioSpecialties"
-    :content="$marioContent"
-    :sections="$marioSections"
-    :showVideo="true"
-    :videos="[
-        asset('images/videos/mario_endodoncia.mp4')
-    ]"
-/>
+
 
 <x-doctor-profile 
     :imageUrl="asset('images/IMG_100181.webp')"
@@ -709,6 +703,13 @@ $valeriaSections = [];
     :specialties="$valeriaSpecialties"
     :content="$valeriaContent"
     :sections="$valeriaSections"
+/>
+<x-doctor-profile 
+    :imageUrl="asset('images/IMG_100198.webp')"
+    :name="$adrianaEscalanteName"
+    :specialties="$adrianaEscalanteSpecialties"
+    :content="$adrianaEscalanteContent"
+    :sections="$adrianaEscalanteSections"
 />
 
 <section class="py-24 bg-indigo-900 text-white text-center">

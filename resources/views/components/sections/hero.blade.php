@@ -1,8 +1,26 @@
 <section class="relative min-h-[600px] md:min-h-[500px] flex items-start">
-    <img src="images/IMG_100199.webp"
-         class="absolute inset-0 w-full h-full object-cover"
-         alt="Modern dental clinic near El Paso with patient and dentist consultation">
+    <!-- Background Image Carousel -->
+    <div class="absolute inset-0 overflow-hidden" id="hero-carousel">
+        <img src="{{ asset('images/IMG_100199.webp') }}"
+             class="hero-slide absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-1000"
+             alt="Modern dental clinic">
+
+        <img src="{{ asset('images/IMG_1001995.webp') }}"
+             class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000"
+             alt="Dental care">
+
+        <img src="{{ asset('images/IMG_1001996.webp') }}"
+             class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000"
+             alt="Dental specialist">
+
+        <img src="{{ asset('images/IMG_1001997.webp') }}"
+             class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000"
+             alt="Dental treatment">
+    </div>
+
+    <!-- Dark Overlay -->
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
 
     <div class="relative z-10 w-full px-6 md:px-10 pt-10 pb-10 text-white max-w-4xl">
 
@@ -93,3 +111,23 @@
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const slides = document.querySelectorAll('#hero-carousel .hero-slide');
+
+    if (slides.length < 2) return;
+
+    let currentSlide = 0;
+
+    setInterval(() => {
+        slides[currentSlide].classList.remove('opacity-100');
+        slides[currentSlide].classList.add('opacity-0');
+
+        currentSlide = (currentSlide + 1) % slides.length;
+
+        slides[currentSlide].classList.remove('opacity-0');
+        slides[currentSlide].classList.add('opacity-100');
+    }, 5000);
+});
+</script>
