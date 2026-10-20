@@ -119,22 +119,36 @@ return [
     'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dra. Adriana Armendáriz earned her dental degree from the Autonomous University of Ciudad Juárez and completed additional postgraduate training with a Diploma in Implantology.</p><p class='text-gray-600 text-[16px] leading-tight mt-3'>As a general dentist at Núcleo Dental, she provides comprehensive care focused on maintaining oral health, restoring dental function, and helping patients feel comfortable and informed throughout their treatment.</p><p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Care</p><ul class='list-disc pl-5 mt-1'><li>General Dentistry</li><li>Preventive Dental Care</li><li>Restorative Treatment</li><li>Patient Education</li><li>Implantology Training</li></ul><p class='mt-3 italic text-indigo-700'>&ldquo;Personalized dental care focused on health, comfort, and lasting results.&rdquo;</p>",
     'sections' => []
 ],
-        'adriana_escalante' => [
-            'name' => 'Dra. Adriana Escalante',
-                    'adriana_escalante_summary' => "• Graduate of Autonomous University of Ciudad Juárez\n• Specialized in general and preventive dentistry\n• Focus on patient-centered care",
+        
+'adriana_escalante' => [
+    'name' => 'Dra. Adriana Escalante',
 
-            'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Graduated from the Autonomous University of Ciudad Juárez, Chihuahua</p>",
-            'sections' => [
-                'training' => [
-                    'title' => 'Training',
-                    'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Basic dental procedures and patient care</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Dental hygiene and preventive care</li>
-                        <li class='text-gray-600 text-[15px] leading-snug'>Restorative dentistry techniques</li>
-                    </ul>"
-                ]
-            ]
-        ],
+    'adriana_escalante_summary' => "• Over 22 years of clinical experience\n• Graduate of the Autonomous University of Ciudad Juárez (UACJ)\n• Specialized in general and restorative dentistry",
+
+    'content' => "<p class='text-gray-600 text-[16px] leading-tight'>Dra. Adriana Escalante brings over 22 years of clinical experience in general and restorative dentistry to Núcleo Dental. A graduate of the Autonomous University of Ciudad Juárez (UACJ), she has dedicated her career to providing comprehensive dental care with an emphasis on quality, precision, and patient comfort.</p>
+
+    <p class='text-gray-600 text-[16px] leading-tight mt-3'>Throughout her professional career, Dra. Escalante has worked closely alongside Dr. Ernesto Moran, founder and clinical director of Núcleo Dental, serving as his trusted clinical associate and an integral part of his dental team. Their longstanding professional collaboration reflects a shared commitment to clinical excellence, attention to detail, and personalized patient care.</p>
+
+    <p class='text-gray-600 text-[16px] leading-tight mt-3'>Her expertise includes restorative treatments such as fillings, crowns, and bridges, as well as preventive dentistry, professional cleanings, and extractions.</p>
+
+    <p class='text-gray-600 text-[16px] leading-tight mt-3'>Known for her dedication and compassionate approach, Dra. Escalante takes pride in helping patients feel comfortable and confident throughout their treatment. Her experience, professionalism, and commitment to maintaining healthy, functional smiles make her a valued member of the Núcleo Dental team.</p>
+
+    <p class='text-gray-600 text-[16px] leading-tight mt-3 font-semibold'>Key Areas of Expertise</p>
+
+    <ul class='list-disc pl-5 mt-1'>
+        <li>General and Restorative Dentistry</li>
+        <li>Dental Fillings</li>
+        <li>Crowns and Bridges</li>
+        <li>Preventive Dentistry</li>
+        <li>Professional Dental Cleanings</li>
+        <li>Dental Extractions</li>
+    </ul>
+
+    <p class='mt-3 italic text-indigo-700'>Comprehensive dental care focused on precision, prevention, and lasting oral health.</p>"
+],
+
+
+
        'mario' => [
     'name' => 'Dr. Mario Torres',
     'mario_summary' => 'Endodontist focused on diagnosing dental pain, treating infection, and preserving natural teeth whenever possible. Dr. Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused his practice on endodontics since 2008.',
@@ -1803,17 +1817,33 @@ experienced treatment at a fraction of the cost without compromising results.',
             ],
             'supporting' => 'Most root canal treatments can be completed in one or two visits.',
         ],
-        'why' => [
-            'title' => 'Why Choose Núcleo Dental for Root Canal Treatment',
-            'items' => [
-                'Treatment performed by a dedicated endodontist',
-                'Advanced diagnostic imaging and precision techniques',
-                'Focus on saving natural teeth whenever possible',
-                'Coordinated care with implant and restorative specialists',
-                'Comfortable, patient-centered experience',
-                'Convenient access for U.S. and Mexican patients',
-            ],
-        ],
+       
+'why' => [
+    'title' => 'Why Choose Núcleo Dental for Root Canal Treatment?',
+    'subtitle' => 'Advanced Root Canal Treatment with Laser Technology',
+    'tagline' => 'Precision. Advanced Disinfection. A Commitment to Saving Your Natural Teeth.',
+    'intro' => 'At Núcleo Dental, root canal treatment goes beyond traditional techniques. Our approach combines the expertise of a dedicated endodontist with advanced diagnostic technology and laser-assisted disinfection to provide precise, thorough treatment focused on preserving your natural teeth.',
+    'items' => [
+        'Advanced Laser-Assisted Disinfection — Laser technology is used as an additional step to help reduce bacteria within the root canal system, including areas that may be difficult to reach with conventional instruments.',
+        'Care by a Dedicated Endodontist — Root canal procedures are performed by a dental specialist trained in diagnosing and treating infections inside the tooth.',
+        'Advanced Diagnostic Technology — Detailed imaging and precise techniques help us evaluate each tooth and develop an individualized treatment plan.',
+        'Focused on Saving Your Natural Teeth — Our priority is to preserve your natural teeth whenever they can be predictably restored.',
+        'Comprehensive Specialist Collaboration — When additional treatment is needed, our endodontic, restorative, and implant teams work together to coordinate your care.',
+        'Comfortable, Personalized Treatment — We prioritize patient comfort, clear communication, and a positive treatment experience.',
+        'Convenient Care for U.S. and Mexican Patients — Receive specialized dental care in Ciudad Juárez, with complimentary transportation options from El Paso.',
+    ],
+    'closing_title' => 'Your Natural Teeth Are Worth Saving.',
+    'closing_text' => 'Discover how advanced endodontic treatment and laser-assisted technology can help us preserve your smile.',
+    'cta' => 'Schedule Your Root Canal Consultation',
+],
+
+'faq_cta' => [
+    'headline' => 'Have Questions About Root Canal Treatment?',
+    'description' => 'Our team is here to help you understand your treatment options and determine the best way to protect your natural teeth.',
+    'cta_primary' => 'Schedule Your Consultation',
+    'cta_secondary' => 'Contact Us',
+],
+
         'tourism' => [
             'title' => 'Traveling from the U.S.? We Make It Easy',
             'content' => 'Many of our patients travel from the United States for root canal treatment and other dental care. We make the process simple, safe, and stress-free.',
@@ -2597,14 +2627,16 @@ on your care, comfort, and recovery'
     ],
     'killer' => 'Decades of surgical experience. Meticulous planning. A strong foundation for lasting results.',
 ],
-    'julio_spotlight' => [
-    'specialties' => 'PROSTHODONTIST • IMPLANTOLOGIST • COSMETIC DENTIST',
+  
+
+'julio_spotlight' => [
+    'specialties' => 'Implantology • Full-Mouth Rehabilitation • Cosmetic & Restorative Dentistry',
     'name' => 'Dr. Julio Nevárez',
     'experience_tagline' => '18 Years of Advanced Clinical Experience',
-    'short_intro' => 'Dr. Julio Nevárez combines advanced prosthodontics, implant dentistry, and cosmetic expertise to restore smiles with precision, natural aesthetics, and long-term function.',
-    'bio_1' => 'With 18 years of experience, Dr. Nevárez specializes in full-mouth rehabilitation, cosmetic smile design, and implant-supported restorations. He earned his dental degree from UACJ, completed a Master’s Degree in Oral Implantology at ITAV in Monterrey, and pursued advanced specialty training in fixed and removable prosthodontics.',
-    'bio_2' => 'At Núcleo Dental, Dr. Nevárez works closely with Dr. Moran throughout every stage of implant treatment. Both doctors place and restore dental implants, providing coordinated care from surgical planning and implant placement through the final restoration.',
-    'bio_3' => 'Every treatment is carefully designed to complement the patient’s facial features while restoring comfort, strength, and natural function.',
+    'short_intro' => 'Dr. Julio Nevárez brings 18 years of clinical experience in dental implantology, full-mouth rehabilitation, and cosmetic and restorative dentistry.',
+    'bio_1' => 'He earned his dental degree from the Universidad Autónoma de Ciudad Juárez (UACJ), completed a Master’s Degree in Oral Implantology at ITAV in Monterrey, and pursued specialized training in fixed and removable prosthodontics.',
+    'bio_2' => 'His expertise includes dental implant surgery, implant-supported restorations, complex full-mouth reconstruction, and personalized smile design. <br>What distinguishes Dr. Nevárez is his ability to combine surgical expertise with a strong understanding of dental aesthetics and function. By performing both implant placement and the restorative phase of treatment, he provides a comprehensive approach to patient care—from initial diagnosis and treatment planning to the final restoration.',
+    'bio_3' => 'Dr. Nevárez is committed to providing individualized treatment that goes beyond improving a smile. His goal is to restore oral health, natural aesthetics, lasting function, and the confidence that comes with a healthy, beautiful smile.',
     'expertise_title' => 'Key Areas of Expertise',
     'expertise_items' => [
         'Dental Implant Placement and Restoration',
@@ -2615,6 +2647,8 @@ on your care, comfort, and recovery'
     ],
     'killer' => 'Precision-crafted restorations designed for beauty, function, and lasting confidence.',
 ],
+
+
     'technology' => [
     'title' => 'Advanced Technology. Proven Standards.',
     'description_1' => 'Our doctors use advanced diagnostics, digital treatment planning, and premium implant systems to improve precision and support successful long-term outcomes.',

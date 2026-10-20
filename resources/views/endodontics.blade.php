@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="{{ asset('images/100313.webp') }}" 
+                    <img src="{{ asset('images/100343.jpg') }}" 
                          alt="Root Canal Procedure" 
                          class="rounded-3xl shadow-2xl">
                     <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl shadow-lg hidden md:block">
@@ -186,36 +186,77 @@
     </section>
 
 
-    <!-- WHY CHOOSE NUCLEO DENTAL -->
-    <section class="py-20 px-6 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="bg-indigo-800 rounded-[50px] p-10 md:p-20 text-white shadow-2xl relative overflow-hidden">
-                
-                <div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -mr-32 -mt-32"></div>
-                
-                <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center">
-                    {{ __('messages.root_canal.why.title') }}
+   
+<!-- WHY CHOOSE NUCLEO DENTAL -->
+<section class="py-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+        <div class="bg-indigo-800 rounded-[50px] p-10 md:p-20 text-white shadow-2xl relative overflow-hidden">
+
+            <div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -mr-32 -mt-32"></div>
+
+            <div class="relative z-10">
+
+                <!-- 1. Main Title -->
+                <h2 class="text-3xl md:text-5xl font-bold mb-6 text-center">
+                    {{ __('messages.root_canal.why.subtitle') }}
                 </h2>
 
+                <!-- 2. Tagline -->
+                <p class="text-xl md:text-2xl font-semibold text-center text-indigo-100 mb-8">
+                    {{ __('messages.root_canal.why.tagline') }}
+                </p>
+
+                <!-- 3. Introduction -->
+                <p class="text-base md:text-lg leading-relaxed text-indigo-100 max-w-4xl mx-auto mb-12">
+                    {{ __('messages.root_canal.why.intro') }}
+                </p>
+
+                <!-- 4. Benefits Heading -->
+                <h3 class="text-2xl md:text-3xl font-bold mb-8">
+                    {{ __('messages.root_canal.why.title') }}
+                </h3>
+
+                <!-- 5. Benefits List -->
                 <div class="grid md:grid-cols-2 gap-8">
 
                     @foreach(__('messages.root_canal.why.items') as $item)
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
 
-                    <div class="flex items-start">
-                        <div class="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center mr-4">
-                            <i class="fa-solid fa-check text-white"></i>
+                            <p class="text-base md:text-lg leading-relaxed font-medium">
+                                {{ $item }}
+                            </p>
                         </div>
-                        <p class="text-xl font-medium">
-                            {{ $item }}
-                        </p>
-                    </div>
-
                     @endforeach
 
                 </div>
+
+                <!-- 6. Closing Title -->
+                <h3 class="text-2xl md:text-3xl font-bold text-center mt-14 mb-4">
+                    {{ __('messages.root_canal.why.closing_title') }}
+                </h3>
+
+                <!-- 7. Closing Text -->
+                <p class="text-indigo-100 text-base md:text-lg leading-relaxed max-w-3xl mx-auto text-center mb-8">
+                    {{ __('messages.root_canal.why.closing_text') }}
+                </p>
+
+                <!-- 8. Call to Action -->
+                <div class="text-center">
+                    <a href="{{ route('contact') }}"
+                       class="inline-flex items-center justify-center gap-3 bg-white text-indigo-800 font-bold px-8 py-4 rounded-full hover:bg-indigo-100 transition duration-300 shadow-lg">
+                        {{ __('messages.root_canal.why.cta') }}
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
     <!-- DENTAL TOURISM -->

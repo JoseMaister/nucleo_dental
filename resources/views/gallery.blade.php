@@ -73,7 +73,7 @@
                     </div>
                     <div class="relative">
                         <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-                            <img src="{{ asset('images/100312.webp') }}" loading="lazy" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/199512.jpg') }}" loading="lazy" class="w-full h-full object-cover">
                         </div>
                         <!-- Floating Badge -->
                         <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-2xl border border-gray-50 flex items-center gap-4 max-w-xs">

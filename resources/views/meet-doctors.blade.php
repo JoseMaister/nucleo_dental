@@ -239,9 +239,9 @@
                 </p>
 
                 <div class="space-y-4 text-gray-600 text-base leading-relaxed mb-8">
-                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_1') }}</p>
-                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_2') }}</p>
-                    <p>{{ __('messages.meet_doctors.julio_spotlight.bio_3') }}</p>
+                    <p>{{!! __('messages.meet_doctors.julio_spotlight.bio_1') !!}}</p>
+                    <p>{{!! __('messages.meet_doctors.julio_spotlight.bio_2') !!}}</p>
+                    <p>{{!! __('messages.meet_doctors.julio_spotlight.bio_3') !!}}</p>
                     
                 </div>
 
@@ -634,12 +634,7 @@ $adrianaEscalanteName = __('messages.team.adriana_escalante.name');
 $adrianaEscalanteSummary = __('messages.team.adriana_escalante.adriana_escalante_summary');
 $adrianaEscalanteSpecialties = [__('messages.specialties.general_dentist')];
 $adrianaEscalanteContent = __('messages.team.adriana_escalante.content');
-$adrianaEscalanteSections = [
-    [
-        'title' => __('messages.team.adriana_escalante.sections.training.title'),
-        'content' => __('messages.team.adriana_escalante.sections.training.content')
-    ]
-];
+
 @endphp
 
 
@@ -709,7 +704,6 @@ $adrianaEscalanteSections = [
     :name="$adrianaEscalanteName"
     :specialties="$adrianaEscalanteSpecialties"
     :content="$adrianaEscalanteContent"
-    :sections="$adrianaEscalanteSections"
 />
 
 <section class="py-24 bg-indigo-900 text-white text-center">
