@@ -8,7 +8,7 @@
         <div class="z-10 flex shrink-0 items-center justify-center rounded-full border-4 border-indigo-700 bg-white p-5">
             <svg style="width: 160px; height: 160px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126.84 197.09">
                 <defs><style>.cls-1{fill:#293275;}</style></defs>
-                <title>Dental Implants</title>
+                <title>{{ __('messages.services_detail.dental_implants.title') }}</title>
                 <g id="Capa_2" data-name="Capa 2">
                     <g id="Capa_1-2" data-name="Capa 1">
                         <g id="VGPGtV">

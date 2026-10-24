@@ -103,7 +103,7 @@
     <div class="relative z-5 w-full h-64 lg:h-80 bg-gray-200 overflow-hidden rounded-lg">
     <img 
         src="{{ $imageUrl }}" 
-        alt="Dental Technology"
+        alt="{{ __('messages.technology.title') }}"
         class="w-full h-full object-cover {{ $style }}"
     >
 </div>

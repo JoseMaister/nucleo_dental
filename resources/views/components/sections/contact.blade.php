@@ -29,9 +29,9 @@
                 <div class="flex items-start space-x-3">
                     <i class="fas fa-phone mt-1 text-indigo-300"></i>
                     <div>
-                        <h3 class="font-semibold">USA</h3>
+                        <h3 class="font-semibold">{{ __('messages.ui_labels.usa') }}</h3>
                         <p>+1 (915) 308 0101</p>
-                        <h3 class="font-semibold">MEX</h3>
+                        <h3 class="font-semibold">{{ __('messages.ui_labels.mex') }}</h3>
                         <p>+52 (656) 625 9250</p>
                     </div>
                 </div>
@@ -64,9 +64,8 @@
                 style="border:0;" 
                 allowfullscreen="" 
                 loading="lazy"
-                title="Núcleo Dental Location"></iframe>
+                title="{{ __('messages.ui_labels.dental_office_location') }}"></iframe>
             </div>
         </div>
     </div>
 </div>
-

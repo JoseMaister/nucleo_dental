@@ -10,7 +10,7 @@
                 style="border:0;" 
                 allowfullscreen="" 
                 loading="lazy"
-                title="Núcleo Dental Location"></iframe>
+                title="{{ __('messages.ui_labels.dental_office_location') }}"></iframe>
                 </div>
             </div>
             <!-- Contact Information -->
@@ -61,8 +61,8 @@
                                     </svg>
                             </div>
                             <div>
-                                <p class="text-gray-600"><span class="font-semibold">US:</span> +1 (915) 308 0101</p>
-                                <p class="text-gray-600"><span class="font-semibold">México:</span> +52 (656) 625 9250</p>
+                                <p class="text-gray-600"><span class="font-semibold">{{ __('messages.ui_labels.usa') }}:</span> +1 (915) 308 0101</p>
+                                <p class="text-gray-600"><span class="font-semibold">{{ __('messages.ui_labels.mex') }}:</span> +52 (656) 625 9250</p>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@
         <div class="absolute inset-0 bg-indigo-900/90 z-10"></div>
         <img 
             src="{{ asset('images/100338.webp') }}" 
-            alt="Dental Office"
+            alt="{{ __('messages.ui_labels.dental_office') }}"
             class="absolute inset-0 w-full h-full object-cover"
             style="object-position: center center; object-fit: cover; transform: scale(1.6); transform-origin: center center;"
         >
@@ -23,7 +23,7 @@
                 <p class="font-medium">{{ session('success') }}</p>
             </div>
             <button type="button" class="ml-4 text-green-700 hover:text-green-900" onclick="document.getElementById('successAlert').remove()">
-                <span class="sr-only">Close</span>
+                <span class="sr-only">{{ __('messages.ui_labels.close') }}</span>
                 <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>

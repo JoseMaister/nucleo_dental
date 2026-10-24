@@ -1,6 +1,6 @@
 <?php
 
-return [
+$messages = [
     'specialties' => [
         'periodontist' => 'Periodontist',
         'implantologist' => 'Implantologist',
@@ -237,6 +237,24 @@ return [
         'technology' => 'Technology',
         'financing' => 'Financing',
         'contact' => 'Contact',
+    ],
+    'ui_labels' => [
+        'consultation' => 'Consultation',
+        'free_assessment' => 'Free Assessment',
+        'advanced_technology' => 'Advanced Technology',
+        'savings' => 'Up to 70% Less Than U.S. Prices',
+        'materials_warranty' => 'Premium Materials & Warranty',
+        'close' => 'Close',
+        'working_hours' => 'Working Hours',
+        'stress_free_logistics' => 'Stress-Free Logistics',
+        'concierge_service' => 'Concierge Service',
+        'verified_results' => 'Verified Results',
+        'call' => 'Call :phone',
+        'now' => 'now',
+        'luxury_dental_care' => 'Luxury dental care',
+        'image_background' => 'Decorative background',
+        'root_canal_procedure' => 'Root canal procedure',
+        'travel_to_mexico' => 'Travel to Mexico',
         'safety' => 'Safety',
         'more' => 'More',
         'all_services' => 'All Services',
@@ -2875,6 +2893,7 @@ on your care, comfort, and recovery'
         'footer_2' => 'It’s about finally feeling confident in your decision.',
     ],
     'cta' => [
+        'step_label' => 'Step :number',
         'title' => 'Ready to Take the First Step?',
         'intro' => 'Whether you’re exploring options or ready to move forward, we’re here to make the process simple.',
         'items' => [
@@ -2884,3 +2903,188 @@ on your care, comfort, and recovery'
         'footer' => 'Núcleo Dental — Where quality care meets a better experience',
     ],
 ]];
+
+return array_replace_recursive($messages, [
+    'team' => [
+        'ernesto' => [
+            'sections' => [
+                'recognition' => [
+                    'title' => 'Recognition and Professional Affiliations',
+                    'content' => '<ul><li>Founding Member of the College of Periodontists of Chihuahua</li><li>Member of the Academy of Osseointegration</li><li>Member of national and international implant and periodontal organizations</li><li>Lecturer at advanced dental conferences and professional congresses</li><li>Advisor to leading dental implant companies</li></ul>',
+                ],
+            ],
+        ],
+        'adriana_armendariz' => [
+            'sections' => [
+                'training' => [
+                    'title' => 'Professional Training',
+                    'content' => '<ul><li>Basic dental implant training, May 1998</li><li>Scientific conferences in endodontics, May 1999</li><li>National and international congress, March 1999</li><li>National meeting of the Mexican Association of Endodontics, September 2000</li><li>Dental seminar on adhesive restorations, January 2006</li><li>Congress of Dentistry, August 2012</li><li>Diploma in aesthetic and restorative dentistry, 2016–2017</li><li>Smile design and veneer courses, 2018</li></ul>',
+                ],
+            ],
+        ],
+        'adriana_escalante' => [
+            'sections' => [
+                'training' => [
+                    'title' => 'Professional Training',
+                    'content' => '<p>Graduate of the Autonomous University of Ciudad Juárez, Chihuahua.</p>',
+                ],
+            ],
+        ],
+        'mario' => [
+            'content' => 'Dr. Mario Torres has practiced general dentistry in Ciudad Juárez since 2004 and has focused on endodontics since 2008. He specializes in diagnosing dental pain, treating infections, and preserving natural teeth whenever possible.',
+        ],
+        'paloma' => [
+            'content' => 'Dr. Paloma Eguiarte provides personalized orthodontic care to help patients achieve healthy, balanced smiles.',
+            'sections' => [
+                'applied_studies' => ['title' => 'Applied Studies', 'content' => '<p>Dental degree from UACJ, Ciudad Juárez, Chihuahua (2006–2011).</p>'],
+                'professional_experience' => ['title' => 'Professional Experience', 'content' => '<p>Professional and community service in dental health in Ciudad Juárez.</p>'],
+                'courses' => ['title' => 'Courses', 'content' => '<p>Continuing education in dentistry and oral health.</p>'],
+            ],
+        ],
+        'monica' => [
+            'name' => 'Dr. Monica Limas',
+            'content' => 'Dr. Monica Limas provides pediatric orthodontic care focused on comfortable, functional, and confident smiles.',
+            'sections' => [
+                'applied_studies' => ['title' => 'Applied Studies', 'content' => '<p>Graduate of the Autonomous University of Ciudad Juárez, Chihuahua; specialist in orthodontics.</p>'],
+            ],
+        ],
+    ],
+    'financing' => ['pay_later' => 'Pay later!'],
+    'banner2' => ['free' => 'Free'],
+    'nav' => [
+        'all_services' => 'All Services',
+        'meet_doctors' => 'Meet the Doctors',
+        'more' => 'More',
+        'safety' => 'Clinical Safety',
+    ],
+    'blog_educativo' => [
+        'cta' => [
+            'title' => 'Need Help Choosing a Treatment?',
+            'description' => 'Our team can review your case and guide you with a personalized recommendation.',
+            'button' => 'Request Guidance',
+        ],
+    ],
+    'root_canal' => [
+        'faq' => ['intro' => 'Answers to common questions about root canal treatment.'],
+    ],
+    'cta_final' => ['image' => 'Patients receiving dental care at Núcleo Dental'],
+    'testimonials' => ['testimonial1' => ['author' => 'Núcleo Dental Patient']],
+    'ui_labels' => [
+        'usa' => 'United States',
+        'mex' => 'Mexico',
+        'dental_office' => 'Dental office',
+        'dental_consultation' => 'Dental consultation',
+        'patient_trust' => 'Patient trust',
+        'verified_quote' => 'The quality of care exceeded my expectations.',
+        'stress_free_logistics' => 'Stress-Free Logistics',
+        'stress_free_logistics_description' => 'Our dedicated team handles the details of your arrival and transportation, so you can focus entirely on your treatment and recovery.',
+        'concierge_service' => 'Concierge Service',
+        'call_phone' => 'Call :phone',
+        'step' => 'Step :number',
+        'sedation_dentistry' => 'Sedation dentistry',
+        'travel_to_mexico' => 'Travel to Mexico',
+        'dental_clinic_patient_care' => 'Dental clinic patient care',
+        'clinic_team' => 'Clinic team',
+        'modern_dental_clinic' => 'Modern dental clinic',
+        'dental_care' => 'Dental care',
+        'patient_care' => 'Patient care',
+        'dental_specialist' => 'Dental specialist',
+        'dental_treatment' => 'Dental treatment',
+        'dental_office_location' => 'Núcleo Dental location',
+        'trusted_patients' => 'Trusted patients',
+    ],
+    'services_popup' => [
+        'view_full_details' => 'View Full Details',
+        'dental_implants' => [
+            'title' => 'Dental Implants',
+            'description' => 'Dental implants are titanium posts surgically positioned into the jawbone beneath your gums. They serve as a permanent, strong, and natural-looking replacement for missing teeth.',
+            'how_it_works' => [
+                'Consultation and planning with 3D CT imaging',
+                'Surgical placement of titanium implant',
+                'Healing period (3-6 months) for osseointegration',
+                'Abutment placement and final crown attachment',
+            ],
+            'benefits' => [
+                'Permanent solution for missing teeth',
+                'Natural look and feel',
+                'Preserves jawbone and facial structure',
+                'No impact on adjacent teeth',
+                '95-98% success rate',
+            ],
+            'duration' => '3-6 months for complete restoration',
+            'cost' => 'Starting from $650 per implant',
+        ],
+        'full_mouth_restoration' => [
+            'title' => 'Full Mouth Restoration',
+            'description' => 'Complete smile reconstruction designed for patients with extensive dental needs, combining implants, crowns, and advanced treatment planning to restore function and aesthetics.',
+            'how_it_works' => [
+                'Comprehensive dental analysis and 3D diagnostics',
+                'Customized multi-disciplinary treatment design',
+                'Surgical placement of implants and preparatory work',
+                'Fabrication and placement of final crowns or bridges',
+            ],
+            'benefits' => [
+                'Restores complete chewing function and bite alignment',
+                'Complete smile transformation',
+                'Premium materials for natural, long-lasting results',
+                'Coordinated care under one roof',
+            ],
+            'duration' => '2-4 weeks active treatment',
+            'cost' => 'Request a personalized treatment plan',
+        ],
+        'zygomatic_implants' => [
+            'title' => 'Zygomatic Implants',
+            'description' => 'A highly advanced solution for patients with severe bone loss in the upper jaw, anchoring implants directly in the cheekbone (zygoma) to avoid complex bone grafting.',
+            'how_it_works' => [
+                'Advanced 3D CBCT imaging for surgical mapping',
+                'Precise guided implant placement in zygomatic bone',
+                'Immediate temporary prosthesis attachment',
+                'Healing phase followed by final permanent restoration',
+            ],
+            'benefits' => [
+                'Eliminates the need for long bone graft procedures',
+                'Provides solutions when others have said no',
+                'Faster overall recovery and teeth-in-a-day option',
+                'Highly predictable outcomes for severe bone loss',
+            ],
+            'duration' => '1-3 sessions (varies per patient)',
+            'cost' => 'Contact us for a detailed evaluation',
+        ],
+        'cosmetic_dentistry' => [
+            'title' => 'Cosmetic Dentistry',
+            'description' => 'Enhance the beauty of your smile with veneers, crowns, and aesthetic treatments custom-designed for natural, beautiful, and confident results.',
+            'how_it_works' => [
+                'Smile analysis and personalized design planning',
+                'Preparation of teeth for veneers/crowns (if needed)',
+                'Digital impressions and lab fabrication',
+                'Bonding, placement, and bite refinement',
+            ],
+            'benefits' => [
+                'Corrects chips, gaps, and severe discoloration',
+                'Refined, natural look made to look effortless',
+                'Boosts self-esteem and smile confidence',
+                'Long-lasting durable restorations',
+            ],
+            'duration' => '1-2 weeks',
+            'cost' => 'Starting from $250 per tooth',
+        ],
+        'sedation' => [
+            'title' => 'Sedation Dentistry',
+            'description' => 'Relaxed, comfortable treatment options for patients who want a stress-free experience. Administered by a certified anesthesiologist for maximum safety.',
+            'how_it_works' => [
+                'Medical history evaluation and consultation',
+                'Administration of conscious or IV sedation',
+                'Continuous monitoring of vital signs during treatment',
+                'Safe recovery phase under professional supervision',
+            ],
+            'benefits' => [
+                'Completely eliminates dental anxiety and fear',
+                'Allows complex treatments to be finished in fewer visits',
+                'No memory of the sounds or discomfort of the procedure',
+                'Highly safe and supervised by specialists',
+            ],
+            'duration' => 'Coincides with procedure duration',
+            'cost' => 'Varies based on session length',
+        ],
+    ],
+]);

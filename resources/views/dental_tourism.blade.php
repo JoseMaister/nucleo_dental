@@ -9,7 +9,7 @@
         <div class="absolute inset-0 z-0">
             <!-- You can change this image to a luxury clinic image -->
             <img src="{{ asset('images/IMG_100225.webp') }}" 
-                 alt="Luxury Dental Care" class="w-full h-full object-cover opacity-30">
+                 alt="{{ __('messages.ui_labels.luxury_dental_care') }}" class="w-full h-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent"></div>
         </div>
 
@@ -75,7 +75,7 @@
             @if($data['side'] === 'left')
                 <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition-all duration-300">
                     <div class="text-indigo-600 font-bold text-lg mb-2">
-                        Step {{ $stepCount }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}
+                        {{ __('messages.dental_tourism_new.cta.step_label', ['number' => $stepCount]) }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}
                     </div>
                     <div class="text-slate-600 leading-relaxed text-lg">
                         {!! __("messages.dental_tourism_new.journey.steps.{$key}.description") !!}
@@ -94,7 +94,7 @@
             @if($data['side'] === 'right')
                 <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition-all duration-300">
                     <div class="text-indigo-600 font-bold text-lg mb-2">
-                        Step {{ $stepCount }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}
+                        {{ __('messages.dental_tourism_new.cta.step_label', ['number' => $stepCount]) }} — {{ __("messages.dental_tourism_new.journey.steps.{$key}.title") }}
                     </div>
                     <div class="text-slate-600 leading-relaxed text-lg">
                         {!! __("messages.dental_tourism_new.journey.steps.{$key}.description") !!}
@@ -159,7 +159,7 @@
     <!-- LUXURY EXPERIENCE -->
     <section class="py-24 bg-slate-900 text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-10">
-            <img src="{{ asset('images/100318.webp') }}" alt="Background" class="w-full h-full object-cover">
+            <img src="{{ asset('images/100318.webp') }}" alt="{{ __('messages.ui_labels.image_background') }}" class="w-full h-full object-cover">
         </div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

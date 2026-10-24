@@ -50,17 +50,17 @@
                 <div class="sticky top-32 space-y-8">
                     <div class="bg-blue-600 p-10 rounded-3xl shadow-2xl relative overflow-hidden group text-left">
                         <div class="absolute bottom-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-700"></div>
-                        <h3 class="text-2xl font-bold mb-6 relative z-10">Stress-Free Logistics</h3>
+                        <h3 class="text-2xl font-bold mb-6 relative z-10">{{ __('messages.ui_labels.stress_free_logistics') }}</h3>
                         <p class="text-blue-100 text-lg mb-8 leading-relaxed relative z-10">
-                            Our dedicated team handles the details of your arrival and transportation, so you can focus entirely on your treatment and recovery.
+                            {{ __('messages.ui_labels.stress_free_logistics_description') }}
                         </p>
                         <div class="flex items-center gap-4 bg-white/10 p-4 rounded-xl relative z-10">
                             <div class="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-blue-600">
                                 <i class="fas fa-phone-alt"></i>
                             </div>
                             <div>
-                                <span class="block text-xs uppercase tracking-widest text-blue-200">Concierge Service</span>
-                                <span class="font-bold">+1 (915) 308 - 0101</span>
+                                <span class="block text-xs uppercase tracking-widest text-blue-200">{{ __('messages.ui_labels.concierge_service') }}</span>
+                                <span class="font-bold">{{ __('messages.ui_labels.call_phone', ['phone' => '+1 (915) 308 - 0101']) }}</span>
                             </div>
                         </div>
                     </div>

@@ -197,7 +197,7 @@
             <!-- Call Button -->
             <a href="tel:+19153080101" class="hidden sm:flex bg-indigo-700 hover:bg-indigo-800 text-white px-5 py-2 rounded-full transition text-sm font-bold items-center gap-2">
                 <i class="fas fa-phone-alt"></i>
-                <span>Call +1 (915) 308-0101</span>
+                <span>{{ __('messages.ui_labels.call_phone', ['phone' => '+1 (915) 308-0101']) }}</span>
             </a>
             
             <!-- Language switcher -->
@@ -342,7 +342,7 @@
                     <div class="flex items-start mb-3 sm:mb-4">
                         <div class="bg-white p-3 rounded-lg shadow-sm max-w-[90%] sm:max-w-[80%]">
                             <p class="text-xs sm:text-sm text-gray-700 leading-relaxed">{{ __('messages.whatsapp.welcome_message') }}</p>
-                            <p class="text-[10px] sm:text-xs text-gray-400 text-right mt-1" id="message-time">now</p>
+                            <p class="text-[10px] sm:text-xs text-gray-400 text-right mt-1" id="message-time">{{ __('messages.ui_labels.now') }}</p>
                         </div>
                     </div>
                 </div>

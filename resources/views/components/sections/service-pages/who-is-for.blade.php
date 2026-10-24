@@ -40,16 +40,16 @@
             </div>
             <div class="lg:w-1/2 relative">
                 <div class="absolute inset-0 bg-blue-600 rounded-[40px] rotate-3 scale-95 opacity-10"></div>
-                <img src="{{ asset($image) }}" class="relative z-10 rounded-[40px] shadow-2xl w-full object-cover aspect-video" alt="Patient Care">
+                <img src="{{ asset($image) }}" class="relative z-10 rounded-[40px] shadow-2xl w-full object-cover aspect-video" alt="{{ __('messages.ui_labels.patient_care') }}">
                 <!-- Trust Badge -->
                 <div class="absolute -bottom-10 -right-10 z-20 bg-white p-8 rounded-3xl shadow-2xl max-w-[240px] hidden md:block border border-slate-100">
                     <div class="flex items-center gap-3 mb-4">
                         <div class="flex text-orange-400">
                             @for($i=0; $i<5; $i++) <i class="fas fa-star text-xs"></i> @endfor
                         </div>
-                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Verified Results</span>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">{{ __('messages.ui_labels.verified_results') }}</span>
                     </div>
-                    <p class="text-slate-900 font-bold leading-tight">"The quality of care exceeded my expectations."</p>
+                    <p class="text-slate-900 font-bold leading-tight">"{{ __('messages.ui_labels.verified_quote') }}"</p>
                 </div>
             </div>
         </div>

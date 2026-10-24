@@ -3,19 +3,19 @@
     <div class="absolute inset-0 overflow-hidden" id="hero-carousel">
         <img src="{{ asset('images/IMG_100199.webp') }}"
              class="hero-slide absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-1000"
-             alt="Modern dental clinic">
+             alt="{{ __('messages.ui_labels.modern_dental_clinic') }}">
 
         <img src="{{ asset('images/IMG_1001995.webp') }}"
              class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000"
-             alt="Dental care">
+             alt="{{ __('messages.ui_labels.dental_care') }}">
 
         <img src="{{ asset('images/IMG_1001996.webp') }}"
              class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000"
-             alt="Dental specialist">
+             alt="{{ __('messages.ui_labels.dental_specialist') }}">
 
         <img src="{{ asset('images/IMG_1001997.webp') }}"
              class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000"
-             alt="Dental treatment">
+             alt="{{ __('messages.ui_labels.dental_treatment') }}">
     </div>
 
     <!-- Dark Overlay -->
@@ -51,14 +51,14 @@
             <div class="flex items-center p-3 rounded-xl bg-white bg-opacity-10 border border-white border-opacity-20">
                 <i class="fa-solid fa-phone mr-3 opacity-70"></i>
                 <div>
-                    <p class="text-[10px] uppercase tracking-widest opacity-60">United States</p>
+                    <p class="text-[10px] uppercase tracking-widest opacity-60">{{ __('messages.ui_labels.usa') }}</p>
                     <p class="text-base font-semibold">{{ __('messages.hero.phone.us') }}</p>
                 </div>
             </div>
             <div class="flex items-center p-3 rounded-xl bg-white bg-opacity-10 border border-white border-opacity-20">
                 <i class="fa-solid fa-phone mr-3 opacity-70"></i>
                 <div>
-                    <p class="text-[10px] uppercase tracking-widest opacity-60">México</p>
+                    <p class="text-[10px] uppercase tracking-widest opacity-60">{{ __('messages.ui_labels.mex') }}</p>
                     <p class="text-base font-semibold">{{ __('messages.hero.phone.mx') }}</p>
                 </div>
             </div>

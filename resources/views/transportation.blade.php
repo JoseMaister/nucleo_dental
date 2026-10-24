@@ -8,7 +8,7 @@
     <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-slate-900">
         <div class="absolute inset-0 z-0">
             <img src="{{ asset('images/IMG_100225.webp') }}" 
-                 alt="Dental clinic patient care" class="w-full h-full object-cover opacity-30">
+                 alt="{{ __('messages.ui_labels.dental_clinic_patient_care') }}" class="w-full h-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent"></div>
         </div>
 
@@ -143,7 +143,7 @@
                 
                 <div class="relative">
                     <img src="{{ asset('images/100318.webp') }}" 
-                         alt="Clinic Team" class="rounded-3xl shadow-2xl z-10 relative">
+                         alt="{{ __('messages.ui_labels.clinic_team') }}" class="rounded-3xl shadow-2xl z-10 relative">
                     
                     <!-- Safety Box overlaid on image -->
                     <div class="absolute -bottom-10 -left-10 right-10 bg-slate-900 text-white p-8 rounded-3xl shadow-2xl z-20 border border-slate-700">

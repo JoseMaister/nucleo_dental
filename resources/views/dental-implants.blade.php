@@ -368,8 +368,8 @@
     <!-- Sticky Mobile CTA -->
     <div class="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 p-4 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] flex items-center justify-between sm:hidden">
         <div class="flex flex-col">
-            <span class="text-xs text-gray-500 uppercase font-semibold tracking-wider">Consultation</span>
-            <span class="text-sm font-bold text-indigo-800">Free Assessment</span>
+            <span class="text-xs text-gray-500 uppercase font-semibold tracking-wider">{{ __('messages.ui_labels.consultation') }}</span>
+            <span class="text-sm font-bold text-indigo-800">{{ __('messages.ui_labels.free_assessment') }}</span>
         </div>
         <a href="#hero_name" class="bg-indigo-700 hover:bg-indigo-800 text-white font-bold px-6 py-2.5 rounded-full text-sm transition">
             {{ __('messages.dental_implants.hero.cta_primary') }}

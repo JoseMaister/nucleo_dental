@@ -8,7 +8,7 @@
     $fullDescription = __(
         'messages.services_detail.maxillofacial_surgery.full_description',
         [
-            'sedation_link' => '<a href="' . route('sedation-dentistry') . '" class="text-blue-600 underline hover:text-blue-800">Sedation dentistry</a>',
+            'sedation_link' => '<a href="' . route('sedation-dentistry') . '" class="text-blue-600 underline hover:text-blue-800">' . __('messages.ui_labels.sedation_dentistry') . '</a>',
         ]
     );
 @endphp

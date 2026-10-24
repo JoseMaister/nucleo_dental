@@ -136,11 +136,6 @@
                                  // If image is missing or empty, use local asset
                                  $imgUrl = (!empty($media['img'])) ? $media['img'] : asset('images/100310.webp');
                             @endphp
-                            {{-- DEBUG: Show article title and resolved image URL --}}
-                            <div style="display:none">
-                                <strong>DEBUG:</strong> {{ $article['title'] }}<br>
-                                <strong>IMG:</strong> {{ $imgUrl }}
-                            </div>
                         <article class="bg-gradient-to-br from-indigo-50 to-white border-2 border-indigo-200 rounded-xl p-7 hover:shadow-lg transition-all duration-300">
                                 <img src="{{ $imgUrl }}" alt="{{ $article['title'] }}" class="rounded-lg mb-4 w-full h-40 object-cover">
                             <h3 class="text-xl font-bold text-indigo-800 mb-3">{{ $article['title'] }}</h3>

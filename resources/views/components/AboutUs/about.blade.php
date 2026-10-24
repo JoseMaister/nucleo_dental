@@ -1,131 +1,4 @@
 @php
-$content = "
-    <p class='text-gray-600 text-[16px] leading-tight'>
-        Exercising in private practice since 1979, mainly doing 
-        Periodontology and Oral Implantology in Cd. Juárez.
-    </p>
-    <p class='text-gray-600 text-[16px] leading-tight'>
-        He was also Director of the School of Dentistry and Director of 
-        the Institute of Biomedical Sciences of the Autonomous 
-        University of Ciudad Juárez. He is currently a full-time professor 
-        and holder of the Oral Implantology Course in the postgraduate 
-        courses of: Prosthesis, Periodontics and Maxillofacial Surgery at 
-        the U.A.C.J. He serves as coordinator and professor in the 
-        Master of Oral Implantology at the Institute of Advanced 
-        Technology (ITAV) in Monterey N.L
-    </p>
-    <p class='text-gray-600 text-[16px] leading-tight'>
-        He is currently an Advisor to various Implant companies in the 
-        State of Chihuahua. He is a lecturer on Oral Implantology in 
-        National forums and abroad. He is a founding member of the 
-        College of Periodontists of the State of Chihuahua and currently 
-        an active member of different dental colleges and associations 
-        such as: American Academy of Implantology, Fellow of the 
-        International College of Oral Implantology, Academy of Bone 
-        Integration, Mexican Association of Periodontology, College of 
-        Periodontists of Chihuahua, and from the National College of 
-        Dental Surgeons in the Ciudad Juárez section
-    </p>";
-$sectionsJulio = [
-    [
-        'title' => ' Applied Studies',
-        'content' => "<p>Professional: UACJ Cd. Juárez Chihuahua</p>
-<p> 2008-2010 / Degree: Master's Degree in Oral Implantology at ITAV 
-Monterrey, Nuevo León</p>
-<p> 2011-2013 / Specialty: Fixed and Removable Oral Prosthesis - 
-UACJ Cd. Juárez, Chihuahua</p>",
-    ],
-    [
-        'title' => ' Professional Update Courses',
-        'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>I X NATIONAL AND INTERNATIONAL CONGRESS 2003</li>
-<li class='text-gray-600 text-[15px] leading-snug'>IX NATIONAL AND INTERNATIONAL CONGRESS 2005</li>
-<li class='text-gray-600 text-[15px] leading-snug'>XI IBEROAMERICAN CONGRESS OF DENTISTRY 2006</li>
-<li class='text-gray-600 text-[15px] leading-snug'>CD BASIC SEMINAR ON ORAL IMPLANTOLOGY 2010</li>
-<li class='text-gray-600 text-[15px] leading-snug'>THE 11TH ANNUAL SYMPOSIUM ON PROSTHETIC IMPLANTS</li>
-<li class='text-gray-600 text-[15px] leading-snug'>XII ANNUAL SYMPOSIUM OF PROSTHETIC IMPLANTS 2009</li>
-<li class='text-gray-600 text-[15px] leading-snug'>MINI RESIDENCE IN BONE GRAFTING AND IMPLANTS 2010</li>
-<li class='text-gray-600 text-[15px] leading-snug'>CD INTERMEDIATE AND ADVANCED SEMINAR IN ORAL IMPLANTOLOGY 2011.</li>
-<li class='text-gray-600 text-[15px] leading-snug'>XIX ALODYB DENTAL BIOMATERIALS CONGRESS 2010</li>
-<li class='text-gray-600 text-[15px] leading-snug'>IMMEDIATE RESTORATION OF THE COMPLETE ARCH \"TECNICA DE ALL IN FOUR\" 2012</li></ul>",
-    ]
-];
-$contentJulio = "<p> Over 25 years of experience</p>";
-
-$contentAdriana = "<p>  Graduated from the Autonomous University of Ciudad Juárez, 
-Chihuahua and Diploma In Implantology</p>";
-$sectionsAdriana = [
-    [
-                'title' => ' Training',
-        'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'>Basic dental implant training May 1998</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Scientific conferences in endodontics May 1999</li>
-<li class='text-gray-600 text-[15px] leading-snug'>National and international congress March 1999</li>
-<li class='text-gray-600 text-[15px] leading-snug'>National meeting of the Mexican association of endodontics 
-September 2000</li>
-<li class='text-gray-600 text-[15px] leading-snug'>Dental seminar adhesive restorations: invisible dentistry 
-January 2006</li>
-<li class='text-gray-600 text-[15px] leading-snug'>Dental seminar adhesive restorations: invisible dentistry 
-hands-on workshop January 2006</li>
-<li class='text-gray-600 text-[15px] leading-snug'>Dentistry Congress August 2012</li>
-<li class='text-gray-600 text-[15px] leading-snug'>Diploma in aesthetic and restorative dentistry April 2016 to 
-January 2017</li>
-<li class='text-gray-600 text-[15px] leading-snug'>Veneers course October 2018</li>
-<li class='text-gray-600 text-[15px] leading-snug'>Smile Design Course & veneers November 2018</li>
-<li class='text-gray-600 text-[15px] leading-snug'>AMODYB International Congress October 2018</li></ul>",
-    ]
-];
-
-$sectionsMario = [
-    [
-        'title' => ' Professional Associations',
-        'content' => "<ul class='list-disc pl-5 space-y-0.5'><li class='text-gray-600 text-[15px] leading-snug'> Miembro del Colegio de Cirujanos Dentistas de Cd. Juárez, 
-Chih.</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Miembro de la Asociación Estatal A.D.M. Chih.</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Socio del Clúster de Salud y Turismo Médico de Cd Juárez</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Actividad profesional</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Práctica general desde 2004 en Cd. Juárez, Chih.</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Practica en Endodoncia desde 2008</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Curso: Solución de problemas en Endodoncia y Manejo de 
-Tomografía en la Endodoncia          
-Julio 2022</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Curso de Rehabilitación Sobre Implantes      junio 2022</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Diplomado Básico de Implantología Bucal y Maxilofacial A.C. 
-septiembre 2021 febrero 2022</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Constancia Dental de Provincia Mayo 2022  Monterrey N. l.</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Constancia Cloudcroft  New.Mex Septiembre 2022</li>
-<li class='text-gray-600 text-[15px] leading-snug'> Constancia Congreso ADM AMIC Noviembre 2022</li></ul>",
-    ]
-];
-
-$contentJose = "";
-$sectionsJose = [];
-
-$contentPaloma = "";
-$sectionsPaloma = [
-    [
-        'title' => ' Applied Studies',
-        'content' => "<p>Professional: UACJ Cd. Juárez Chihuahua</p>
-        <p> 2006-2011</p>"
-    ],
-    [
-        'title' => 'Professional Experience',
-        'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-                    <li class='text-gray-600 text-[15px] leading-snug'>PARTICIPACION EN LA PROMOCION EDUCACION Y ATENCION A LA SALUD DURANTE EL EVENTO DIA DE LA SALUD, EFECTUADO EN EL INSTITUTO DE CIENCIAS BIOMEDICAS. EL DIA 8 DE ABRIL DEL 2008</li>
-        <li class='text-gray-600 text-[15px] leading-snug'>RECONOCIMIENTO POR PARTICIPACION EN LAS INTERVENCIONES QUIRURGICAS DEL 'PROGRAMA MIL SONRISAS' DIRIGIDO A PERSONAS CON PROBLEMA DE LABIO LEPORINO Y/O PALAR HENDIDO, LLEVADO A CABO DEL 24 AL 26 DE ABRIL DEL 2008, EN CIUDAD JUAREZ, CHIH.,MEXICO</li>
-        <li class='text-gray-600 text-[15px] leading-snug'>CONSEJERO TECNICO PROPIETARIO DEL INSTITUTO DE CIENCIAS BIOMEDICAS DE LA UNIVERSIDAD AUTONOMA DE CIUDAD JUAREZ ODONTOLOGIA. ENERO DEL 2008 A ENERO DEL 2009</li>
-        <li class='text-gray-600 text-[15px] leading-snug'>CONSEJERO TECNICO SUPLENTE DEL INSTITUTO DE CIENCIAS BIOMEDICAS DE LA UNIVERSIDAD AUTONOMA DE CIUDAD JUAREZ ODONTOLOGIA. ENERO- DICIEMBRE DEL 2010</li>
-    
-        </ul>"
-    ],
-    [
-        'title' => 'Courses',
-        'content' => "<ul class='list-disc pl-5 space-y-0.5'>
-            <li class='text-gray-600 text-[15px] leading-snug'>ASISTENCIA V SEMANA DE ODONTOLOGIA, REALIZADA EN CIUDAD JUAREZ, CHIH., 3, 4 Y 5 DE MARZO DE 2008 CENTRO CULTURAL UNIVERSITARIO</li>
-        </ul>"
-    ]
-];
-
-$palomaSpecialties = [__('messages.specialties.orthodontist')];
-
 //Ernesto
     $ernestoName = __('messages.team.ernesto.name');
     $ernestoSpecialties = [__('messages.specialties.chief_periodontist'), __('messages.specialties.implantologist')];
@@ -260,10 +133,10 @@ try {
 
 } catch (Exception $e) {
     // Fallback to default content if translation fails
-    $ernestoContent = "Ejercicio en la práctica privada desde 1979, principalmente en Periodoncia e Implantología Oral en Cd. Juárez.";
-    $julioContent = "Más de 25 años de experiencia";
-    $adrianaArmendarizContent = "Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua y Diplomado en Implantología";
-    $adrianaEscalanteContent = "Egresada de la Universidad Autónoma de Ciudad Juárez, Chihuahua";
+    $ernestoContent = "Ejercicio en la prÃ¡ctica privada desde 1979, principalmente en Periodoncia e ImplantologÃ­a Oral en Cd. JuÃ¡rez.";
+    $julioContent = "MÃ¡s de 25 aÃ±os de experiencia";
+    $adrianaArmendarizContent = "Egresada de la Universidad AutÃ³noma de Ciudad JuÃ¡rez, Chihuahua y Diplomado en ImplantologÃ­a";
+    $adrianaEscalanteContent = "Egresada de la Universidad AutÃ³noma de Ciudad JuÃ¡rez, Chihuahua";
     $palomaContent = "Especialista en Ortodoncia";
 }
 @endphp

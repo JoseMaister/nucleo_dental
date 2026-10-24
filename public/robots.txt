@@ -1,2 +1,12 @@
+# ==========================================
+# Robots.txt - Núcleo Dental
+# ==========================================
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Desautorizar rastreo de utilidades o rutas dinámicas no indexables (si aplica)
+# Disallow: /api/
+
+# Ubicación del Sitemap (reemplazar con el dominio de producción)
+Sitemap: https://nucleodental.com/sitemap.xml

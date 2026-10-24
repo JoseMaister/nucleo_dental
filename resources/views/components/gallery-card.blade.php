@@ -10,13 +10,13 @@
         <!-- Side by Side Layout -->
         <div class="flex h-full w-full">
             <div class="relative w-1/2 h-full overflow-hidden border-r border-white/20">
-                <img src="{{ $case['before_image'] }}" alt="Before" loading="lazy" class="absolute inset-0 w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500">
+                <img src="{{ $case['before_image'] }}" alt="{{ __('messages.gallery.case_detail.before_label') }}" loading="lazy" class="absolute inset-0 w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500">
                 <div class="absolute bottom-2 left-2 bg-black/50 backdrop-blur-md text-white text-[10px] px-2 py-0.5 rounded uppercase tracking-wider font-bold">
                     {{ __('messages.gallery.case_detail.before_label') }}
                 </div>
             </div>
             <div class="relative w-1/2 h-full overflow-hidden">
-                <img src="{{ $case['after_image'] }}" alt="After" loading="lazy" class="absolute inset-0 w-full h-full object-cover">
+                <img src="{{ $case['after_image'] }}" alt="{{ __('messages.gallery.case_detail.after_label') }}" loading="lazy" class="absolute inset-0 w-full h-full object-cover">
                 <div class="absolute bottom-2 right-2 bg-indigo-600/90 backdrop-blur-md text-white text-[10px] px-2 py-0.5 rounded uppercase tracking-wider font-bold">
                     {{ __('messages.gallery.case_detail.after_label') }}
                 </div>

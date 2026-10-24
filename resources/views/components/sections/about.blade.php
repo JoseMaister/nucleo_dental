@@ -279,7 +279,7 @@
             {{-- Imagen --}}
             <div>
                 <img src="{{ asset('images/100338.jpg') }}"
-                     alt="Trusted Patients"
+                     alt="{{ __('messages.ui_labels.trusted_patients') }}"
                      class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
             </div>
 
@@ -293,7 +293,7 @@
             <div class="absolute inset-0">
                 <img src="{{ __('messages.cta_final.image') }}"
                      class="w-full h-full object-cover opacity-20"
-                     alt="Dental Consultation">
+                     alt="{{ __('messages.ui_labels.dental_consultation') }}">
             </div>
 
             <div class="relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center p-10 md:p-16">

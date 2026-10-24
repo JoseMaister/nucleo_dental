@@ -96,10 +96,10 @@
                 </div>
                 <div class="relative">
                     <img src="{{ asset('images/100343.jpg') }}" 
-                         alt="Root Canal Procedure" 
+                         alt="{{ __('messages.ui_labels.root_canal_procedure') }}"
                          class="rounded-3xl shadow-2xl">
                     <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl shadow-lg hidden md:block">
-                        <p class="text-indigo-800 font-bold">Advanced Technology</p>
+                        <p class="text-indigo-800 font-bold">{{ __('messages.ui_labels.advanced_technology') }}</p>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                     <div class="w-16 h-16 bg-white text-indigo-800 rounded-full shadow-md flex items-center justify-center mb-4 z-10">
                         <i class="fa-solid fa-{{ $stepIcons[$index] ?? 'check' }} text-xl"></i>
                     </div>
-                    <h3 class="font-bold text-gray-900 mb-2">Step {{ $index + 1 }}</h3>
+                    <h3 class="font-bold text-gray-900 mb-2">{{ __('messages.ui_labels.step', ['number' => $index + 1]) }}</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">
                         {{ $step }}
                     </p>
@@ -265,7 +265,7 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
                     <img src="{{ asset('images/100336.webp') }}" 
-                         alt="Travel to Mexico" 
+                         alt="{{ __('messages.ui_labels.travel_to_mexico') }}"
                          class="rounded-[50px] shadow-2xl">
                 </div>
                 <div class="order-1 md:order-2">
@@ -340,11 +340,11 @@
             <div class="mt-12 flex flex-wrap justify-center gap-4">
                 <div class="bg-white p-6 rounded-3xl shadow-md border border-indigo-100 flex items-center">
                     <i class="fa-solid fa-tag text-indigo-600 text-2xl mr-4"></i>
-                    <span class="text-gray-800 font-bold">Up to 70% Less Than U.S. Prices</span>
+                    <span class="text-gray-800 font-bold">{{ __('messages.ui_labels.savings') }}</span>
                 </div>
                 <div class="bg-white p-6 rounded-3xl shadow-md border border-indigo-100 flex items-center">
                     <i class="fa-solid fa-shield-halved text-indigo-600 text-2xl mr-4"></i>
-                    <span class="text-gray-800 font-bold">Premium Materials & Warranty</span>
+                    <span class="text-gray-800 font-bold">{{ __('messages.ui_labels.materials_warranty') }}</span>
                 </div>
             </div>
 
